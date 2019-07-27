@@ -8553,6 +8553,10 @@
     </LookupList>
   </GSUB>
 
+  <gasp>
+    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="10"/>
+  </gasp>
+
   <STAT>
     <Version value="0x00010001"/>
     <DesignAxisRecordSize value="8"/>
