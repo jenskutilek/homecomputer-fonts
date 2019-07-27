@@ -1,10 +1,10 @@
 def replace_in_layer(layer, components):
-    print(layer.parent.name)
+    # print(layer.parent.name)
     new = []
     delete_paths = []
     for i, path in enumerate(layer.paths):
         b = path.bounds
-        print(i, path, b)
+        # print(i, path, b)
         for c in components:
             if c.bounds.size == b.size:
                 delete_paths.append(i)
