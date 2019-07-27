@@ -8,7 +8,13 @@ def replace_in_layer(layer, components):
         for c in components:
             if c.bounds.size == b.size:
                 delete_paths.append(i)
-                new.append((c.parent.name, b.origin))
+                new.append((
+                    c.parent.name,
+                    (
+                        b.origin.x - c.bounds.origin.x,
+                        b.origin.y - c.bounds.origin.y
+                    )
+                ))
     delete_paths.sort(reverse=True)
     for i in delete_paths:
         del layer.paths[i]
