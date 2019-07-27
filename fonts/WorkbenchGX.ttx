@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.34">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.43">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0xcfbf47bd"/>
+    <checkSumAdjustment value="0xc05d49c3"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Sun Sep  7 06:16:00 2008"/>
-    <modified value="Sat Jul 27 16:00:14 2019"/>
+    <modified value="Sat Jul 27 23:18:36 2019"/>
     <xMin value="-5"/>
     <yMin value="-202"/>
     <xMax value="517"/>
@@ -543,8 +543,8 @@
     <mtx name="questiondown" width="512" lsb="59"/>
     <mtx name="quotedbl" width="512" lsb="59"/>
     <mtx name="quotedblbase" width="512" lsb="59"/>
-    <mtx name="quotedblleft" width="512" lsb="0"/>
-    <mtx name="quotedblright" width="512" lsb="0"/>
+    <mtx name="quotedblleft" width="512" lsb="59"/>
+    <mtx name="quotedblright" width="512" lsb="59"/>
     <mtx name="quoteleft" width="512" lsb="187"/>
     <mtx name="quoteright" width="512" lsb="123"/>
     <mtx name="quotesinglbase" width="512" lsb="123"/>
@@ -2868,9 +2868,13 @@
       <component glyphName="quotedbl" x="0" y="-768" flags="0x4"/>
     </TTGlyph>
 
-    <TTGlyph name="quotedblleft"/><!-- contains no outline data -->
+    <TTGlyph name="quotedblleft" xMin="59" yMin="694" xMax="389" yMax="842">
+      <component glyphName="quotedbl" x="0" y="0" flags="0x0"/>
+    </TTGlyph>
 
-    <TTGlyph name="quotedblright"/><!-- contains no outline data -->
+    <TTGlyph name="quotedblright" xMin="59" yMin="694" xMax="389" yMax="842">
+      <component glyphName="quotedbl" x="0" y="0" flags="0x0"/>
+    </TTGlyph>
 
     <TTGlyph name="quoteleft" xMin="187" yMin="566" xMax="389" yMax="842">
       <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
@@ -3275,36 +3279,6 @@
   </glyf>
 
   <name>
-    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Copyright (c) 2008-2019 by Jens Kutilek. All rights reserved.
-    </namerecord>
-    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench
-    </namerecord>
-    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Regular
-    </namerecord>
-    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      2.000;UKWN;Workbench
-    </namerecord>
-    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench
-    </namerecord>
-    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 2.000
-    </namerecord>
-    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench
-    </namerecord>
-    <namerecord nameID="8" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Jens Kutilek
-    </namerecord>
-    <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Jens Kutilek
-    </namerecord>
-    <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      https://www.kutilek.de/
-    </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
       Copyright (c) 2008-2019 by Jens Kutilek. All rights reserved.
     </namerecord>
@@ -3342,36 +3316,84 @@
       Width
     </namerecord>
     <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
-      Light
+      Thin
     </namerecord>
     <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
-      Regular
+      ExtraLight
     </namerecord>
     <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
-      Bold
+      Light
     </namerecord>
     <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
-      Semi Wide Light
+      Regular
     </namerecord>
     <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
-      Semi Wide Regular
+      Medium
     </namerecord>
     <namerecord nameID="263" platformID="3" platEncID="1" langID="0x409">
-      Semi Wide Bold
+      Bold
     </namerecord>
     <namerecord nameID="264" platformID="3" platEncID="1" langID="0x409">
-      Wide Light
+      ExtraBold
     </namerecord>
     <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
-      Wide Regular
+      Black
     </namerecord>
     <namerecord nameID="266" platformID="3" platEncID="1" langID="0x409">
-      Wide Bold
+      Semi Wide Thin
     </namerecord>
     <namerecord nameID="267" platformID="3" platEncID="1" langID="0x409">
-      Semi Wide
+      Semi Wide ExtraLight
     </namerecord>
     <namerecord nameID="268" platformID="3" platEncID="1" langID="0x409">
+      Semi Wide Light
+    </namerecord>
+    <namerecord nameID="269" platformID="3" platEncID="1" langID="0x409">
+      Semi Wide Regular
+    </namerecord>
+    <namerecord nameID="270" platformID="3" platEncID="1" langID="0x409">
+      Semi Wide Medium
+    </namerecord>
+    <namerecord nameID="271" platformID="3" platEncID="1" langID="0x409">
+      Semi Wide Bold
+    </namerecord>
+    <namerecord nameID="272" platformID="3" platEncID="1" langID="0x409">
+      Semi Wide ExtraBold
+    </namerecord>
+    <namerecord nameID="273" platformID="3" platEncID="1" langID="0x409">
+      Semi Wide Black
+    </namerecord>
+    <namerecord nameID="274" platformID="3" platEncID="1" langID="0x409">
+      Wide Thin
+    </namerecord>
+    <namerecord nameID="275" platformID="3" platEncID="1" langID="0x409">
+      Wide ExtraLight
+    </namerecord>
+    <namerecord nameID="276" platformID="3" platEncID="1" langID="0x409">
+      Wide Light
+    </namerecord>
+    <namerecord nameID="277" platformID="3" platEncID="1" langID="0x409">
+      Wide Regular
+    </namerecord>
+    <namerecord nameID="278" platformID="3" platEncID="1" langID="0x409">
+      Wide Medium
+    </namerecord>
+    <namerecord nameID="279" platformID="3" platEncID="1" langID="0x409">
+      Wide Bold
+    </namerecord>
+    <namerecord nameID="280" platformID="3" platEncID="1" langID="0x409">
+      Wide ExtraBold
+    </namerecord>
+    <namerecord nameID="281" platformID="3" platEncID="1" langID="0x409">
+      Wide Black
+    </namerecord>
+    <namerecord nameID="282" platformID="3" platEncID="1" langID="0x409">
+      Semi Wide
+    </namerecord>
+    <namerecord nameID="283" platformID="3" platEncID="1" langID="0x409">
+      Wide
+    </namerecord>
+    <namerecord nameID="284" platformID="3" platEncID="1" langID="0x409">
       Italic
     </namerecord>
   </name>
@@ -3433,6 +3455,10 @@
     <Version value="0x00010000"/>
   </GSUB>
 
+  <gasp>
+    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="10"/>
+  </gasp>
+
   <STAT>
     <Version value="0x00010001"/>
     <DesignAxisRecordSize value="8"/>
@@ -3450,56 +3476,86 @@
       </Axis>
       <Axis index="2">
         <AxisTag value="ital"/>
-        <AxisNameID value="268"/>  <!-- Italic -->
+        <AxisNameID value="284"/>  <!-- Italic -->
         <AxisOrdering value="2"/>
       </Axis>
     </DesignAxisRecord>
-    <!-- AxisValueCount=7 -->
+    <!-- AxisValueCount=14 -->
     <AxisValueArray>
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="258"/>  <!-- Light -->
-        <Value value="20.0"/>
-      </AxisValue>
-      <AxisValue index="1" Format="1">
-        <AxisIndex value="1"/>
-        <Flags value="0"/>
-        <ValueNameID value="258"/>  <!-- Light -->
-        <Value value="0.0"/>
+        <ValueNameID value="258"/>  <!-- Thin -->
+        <Value value="200.0"/>
       </AxisValue>
       <AxisValue index="2" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="267"/>  <!-- Semi Wide -->
-        <Value value="90.0"/>
-      </AxisValue>
-      <AxisValue index="3" Format="1">
-        <AxisIndex value="1"/>
-        <Flags value="0"/>
-        <ValueNameID value="267"/>  <!-- Semi Wide -->
-        <Value value="40.0"/>
+        <ValueNameID value="259"/>  <!-- ExtraLight -->
+        <Value value="236.52173"/>
       </AxisValue>
       <AxisValue index="4" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="266"/>  <!-- Wide Bold -->
-        <Value value="250.0"/>
+        <ValueNameID value="260"/>  <!-- Light -->
+        <Value value="321.73912"/>
       </AxisValue>
       <AxisValue index="5" Format="1">
-        <AxisIndex value="1"/>
+        <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="266"/>  <!-- Wide Bold -->
-        <Value value="100.0"/>
+        <ValueNameID value="261"/>  <!-- Regular -->
+        <Value value="400.0"/>
       </AxisValue>
       <AxisValue index="6" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="262"/>  <!-- Medium -->
+        <Value value="510.43477"/>
+      </AxisValue>
+      <AxisValue index="7" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="263"/>  <!-- Bold -->
+        <Value value="613.91304"/>
+      </AxisValue>
+      <AxisValue index="8" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="264"/>  <!-- ExtraBold -->
+        <Value value="747.82608"/>
+      </AxisValue>
+      <AxisValue index="9" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="265"/>  <!-- Black -->
+        <Value value="900.0"/>
+      </AxisValue>
+      <AxisValue index="1" Format="1">
+        <AxisIndex value="1"/>
+        <Flags value="0"/>
+        <ValueNameID value="261"/>  <!-- Regular -->
+        <Value value="100.0"/>
+      </AxisValue>
+      <AxisValue index="10" Format="1">
+        <AxisIndex value="1"/>
+        <Flags value="0"/>
+        <ValueNameID value="282"/>  <!-- Semi Wide -->
+        <Value value="140.0"/>
+      </AxisValue>
+      <AxisValue index="12" Format="1">
+        <AxisIndex value="1"/>
+        <Flags value="0"/>
+        <ValueNameID value="283"/>  <!-- Wide -->
+        <Value value="200.0"/>
+      </AxisValue>
+      <AxisValue index="13" Format="1">
         <AxisIndex value="2"/>
         <Flags value="2"/>
-        <ValueNameID value="2"/>  <!-- Regular -->
+        <ValueNameID value="261"/>  <!-- Regular -->
         <Value value="0.0"/>
       </AxisValue>
     </AxisValueArray>
-    <ElidedFallbackNameID value="259"/>  <!-- Regular -->
+    <ElidedFallbackNameID value="261"/>  <!-- Regular -->
   </STAT>
 
   <fvar>
@@ -3524,56 +3580,146 @@
       <AxisNameID>257</AxisNameID>
     </Axis>
 
-    <!-- Light -->
+    <!-- Thin -->
     <NamedInstance flags="0x0" subfamilyNameID="258">
       <coord axis="wght" value="200.0"/>
       <coord axis="wdth" value="100.0"/>
     </NamedInstance>
 
-    <!-- Regular -->
+    <!-- ExtraLight -->
     <NamedInstance flags="0x0" subfamilyNameID="259">
-      <coord axis="wght" value="413.04347"/>
+      <coord axis="wght" value="236.52173"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="260">
+      <coord axis="wght" value="321.73912"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Regular -->
+    <NamedInstance flags="0x0" subfamilyNameID="261">
+      <coord axis="wght" value="400.0"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="262">
+      <coord axis="wght" value="510.43477"/>
       <coord axis="wdth" value="100.0"/>
     </NamedInstance>
 
     <!-- Bold -->
-    <NamedInstance flags="0x0" subfamilyNameID="260">
+    <NamedInstance flags="0x0" subfamilyNameID="263">
+      <coord axis="wght" value="613.91304"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="264">
+      <coord axis="wght" value="747.82608"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="265">
       <coord axis="wght" value="900.0"/>
       <coord axis="wdth" value="100.0"/>
     </NamedInstance>
 
-    <!-- Semi Wide Light -->
-    <NamedInstance flags="0x0" subfamilyNameID="261">
+    <!-- Semi Wide Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="266">
       <coord axis="wght" value="200.0"/>
+      <coord axis="wdth" value="140.0"/>
+    </NamedInstance>
+
+    <!-- Semi Wide ExtraLight -->
+    <NamedInstance flags="0x0" subfamilyNameID="267">
+      <coord axis="wght" value="236.52173"/>
+      <coord axis="wdth" value="140.0"/>
+    </NamedInstance>
+
+    <!-- Semi Wide Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="268">
+      <coord axis="wght" value="321.73912"/>
       <coord axis="wdth" value="140.0"/>
     </NamedInstance>
 
     <!-- Semi Wide Regular -->
-    <NamedInstance flags="0x0" subfamilyNameID="262">
-      <coord axis="wght" value="413.04347"/>
+    <NamedInstance flags="0x0" subfamilyNameID="269">
+      <coord axis="wght" value="400.0"/>
+      <coord axis="wdth" value="140.0"/>
+    </NamedInstance>
+
+    <!-- Semi Wide Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="270">
+      <coord axis="wght" value="510.43477"/>
       <coord axis="wdth" value="140.0"/>
     </NamedInstance>
 
     <!-- Semi Wide Bold -->
-    <NamedInstance flags="0x0" subfamilyNameID="263">
+    <NamedInstance flags="0x0" subfamilyNameID="271">
+      <coord axis="wght" value="613.91304"/>
+      <coord axis="wdth" value="140.0"/>
+    </NamedInstance>
+
+    <!-- Semi Wide ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="272">
+      <coord axis="wght" value="747.82608"/>
+      <coord axis="wdth" value="140.0"/>
+    </NamedInstance>
+
+    <!-- Semi Wide Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="273">
       <coord axis="wght" value="900.0"/>
       <coord axis="wdth" value="140.0"/>
     </NamedInstance>
 
-    <!-- Wide Light -->
-    <NamedInstance flags="0x0" subfamilyNameID="264">
+    <!-- Wide Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="274">
       <coord axis="wght" value="200.0"/>
       <coord axis="wdth" value="200.0"/>
     </NamedInstance>
 
+    <!-- Wide ExtraLight -->
+    <NamedInstance flags="0x0" subfamilyNameID="275">
+      <coord axis="wght" value="236.52173"/>
+      <coord axis="wdth" value="200.0"/>
+    </NamedInstance>
+
+    <!-- Wide Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="276">
+      <coord axis="wght" value="321.73912"/>
+      <coord axis="wdth" value="200.0"/>
+    </NamedInstance>
+
     <!-- Wide Regular -->
-    <NamedInstance flags="0x0" subfamilyNameID="265">
-      <coord axis="wght" value="413.04347"/>
+    <NamedInstance flags="0x0" subfamilyNameID="277">
+      <coord axis="wght" value="400.0"/>
+      <coord axis="wdth" value="200.0"/>
+    </NamedInstance>
+
+    <!-- Wide Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="278">
+      <coord axis="wght" value="510.43477"/>
       <coord axis="wdth" value="200.0"/>
     </NamedInstance>
 
     <!-- Wide Bold -->
-    <NamedInstance flags="0x0" subfamilyNameID="266">
+    <NamedInstance flags="0x0" subfamilyNameID="279">
+      <coord axis="wght" value="613.91304"/>
+      <coord axis="wdth" value="200.0"/>
+    </NamedInstance>
+
+    <!-- Wide ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="280">
+      <coord axis="wght" value="747.82608"/>
+      <coord axis="wdth" value="200.0"/>
+    </NamedInstance>
+
+    <!-- Wide Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="281">
       <coord axis="wght" value="900.0"/>
       <coord axis="wdth" value="200.0"/>
     </NamedInstance>
