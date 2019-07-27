@@ -95861,7 +95861,7 @@ unicode = 003B;
 {
 color = 3;
 glyphname = ellipsis;
-lastChange = "2019-07-27 12:32:26 +0000";
+lastChange = "2019-07-27 13:01:00 +0000";
 layers = (
 {
 background = {
@@ -95895,17 +95895,6 @@ nodes = (
 }
 );
 };
-components = (
-{
-name = period;
-},
-{
-name = period;
-},
-{
-name = period;
-}
-);
 layerId = master01;
 paths = (
 {
