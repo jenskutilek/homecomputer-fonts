@@ -121,6 +121,23 @@ value = 128;
 {
 name = underlinePosition;
 value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = "0";
+},
+{
+Axis = Width;
+Location = "100";
+},
+{
+Axis = Production;
+Location = "50";
+}
+);
 }
 );
 descender = -128;
@@ -176,6 +193,23 @@ value = 128;
 {
 name = underlinePosition;
 value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = "200";
+},
+{
+Axis = Width;
+Location = "100";
+},
+{
+Axis = Production;
+Location = "100";
+}
+);
 }
 );
 descender = -128;
@@ -233,6 +267,23 @@ value = 128;
 {
 name = underlinePosition;
 value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = "900";
+},
+{
+Axis = Width;
+Location = "100";
+},
+{
+Axis = Production;
+Location = "100";
+}
+);
 }
 );
 descender = -128;
@@ -291,6 +342,23 @@ value = 128;
 {
 name = underlinePosition;
 value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = "200";
+},
+{
+Axis = Width;
+Location = "200";
+},
+{
+Axis = Production;
+Location = "100";
+}
+);
 }
 );
 descender = -128;
@@ -349,6 +417,23 @@ value = 128;
 {
 name = underlinePosition;
 value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = "900";
+},
+{
+Axis = Width;
+Location = "200";
+},
+{
+Axis = Production;
+Location = "100";
+}
+);
 }
 );
 descender = -128;
@@ -363,6 +448,10 @@ ascender = 896;
 capHeight = 896;
 custom = Pixel;
 customParameters = (
+{
+name = "Link Metrics With First Master";
+value = 1;
+},
 {
 name = typoAscender;
 value = 896;
@@ -404,8 +493,21 @@ name = underlinePosition;
 value = -128;
 },
 {
-name = "Link Metrics With First Master";
-value = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = "0";
+},
+{
+Axis = Width;
+Location = "100";
+},
+{
+Axis = Production;
+Location = "0";
+}
+);
 }
 );
 descender = -128;
@@ -136725,7 +136827,30 @@ interpolationWidth = 0;
 instanceInterpolations = {
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 1;
 };
+name = Thin;
+weightClass = Thin;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 32;
+interpolationWidth = 0;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.05217;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.94783;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 0;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.17391;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.82609;
+};
 name = Light;
+weightClass = Light;
 },
 {
 interpolationCustom = 100;
@@ -136739,12 +136864,46 @@ name = Regular;
 },
 {
 interpolationCustom = 100;
+interpolationWeight = 122;
+interpolationWidth = 0;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.44348;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.55652;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 156;
+interpolationWidth = 0;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.5913;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.4087;
+};
+name = Bold;
+weightClass = Bold;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 200;
+interpolationWidth = 0;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.78261;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.21739;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+},
+{
+interpolationCustom = 100;
 interpolationWeight = 250;
 interpolationWidth = 0;
 instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 1;
 };
-name = Bold;
+name = Black;
+weightClass = Black;
 },
 {
 interpolationCustom = 100;
@@ -136754,7 +136913,36 @@ instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.4;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.6;
 };
+name = "Semi Wide Thin";
+weightClass = Thin;
+widthClass = "Semi Expanded";
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 32;
+interpolationWidth = 40;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.03016;
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.02201;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.37799;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.56984;
+};
+name = "Semi Wide ExtraLight";
+weightClass = ExtraLight;
+widthClass = "Semi Expanded";
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 40;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.10417;
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.06974;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.33026;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.49583;
+};
 name = "Semi Wide Light";
+weightClass = Light;
 widthClass = "Semi Expanded";
 },
 {
@@ -136772,13 +136960,56 @@ widthClass = "Semi Expanded";
 },
 {
 interpolationCustom = 100;
+interpolationWeight = 122;
+interpolationWidth = 40;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.25231;
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.19116;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.20884;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.34769;
+};
+name = "Semi Wide Medium";
+weightClass = Medium;
+widthClass = "Semi Expanded";
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 156;
+interpolationWidth = 40;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.39045;
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.20086;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.19914;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.20955;
+};
+name = "Semi Wide Bold";
+weightClass = Bold;
+widthClass = "Semi Expanded";
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 200;
+interpolationWidth = 40;
+instanceInterpolations = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.44753;
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.33508;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.06492;
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.15247;
+};
+name = "Semi Wide ExtraBold";
+weightClass = ExtraBold;
+widthClass = "Semi Expanded";
+},
+{
+interpolationCustom = 100;
 interpolationWeight = 250;
 interpolationWidth = 40;
 instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.6;
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.4;
 };
-name = "Semi Wide Bold";
+name = "Semi Wide Black";
+weightClass = Black;
 widthClass = "Semi Expanded";
 },
 {
@@ -136787,7 +137018,30 @@ interpolationWeight = 20;
 instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 1;
 };
+name = "Wide Thin";
+weightClass = Thin;
+widthClass = Expanded;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 32;
+instanceInterpolations = {
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.05217;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.94783;
+};
+name = "Wide ExtraLight";
+weightClass = ExtraLight;
+widthClass = Expanded;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 60;
+instanceInterpolations = {
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.17391;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.82609;
+};
 name = "Wide Light";
+weightClass = Light;
 widthClass = Expanded;
 },
 {
@@ -136802,11 +137056,45 @@ widthClass = Expanded;
 },
 {
 interpolationCustom = 100;
+interpolationWeight = 122;
+instanceInterpolations = {
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.44348;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.55652;
+};
+name = "Wide Medium";
+weightClass = Medium;
+widthClass = Expanded;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 156;
+instanceInterpolations = {
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.5913;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.4087;
+};
+name = "Wide Bold";
+weightClass = Bold;
+widthClass = Expanded;
+},
+{
+interpolationCustom = 100;
+interpolationWeight = 200;
+instanceInterpolations = {
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.78261;
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.21739;
+};
+name = "Wide ExtraBold";
+weightClass = ExtraBold;
+widthClass = Expanded;
+},
+{
+interpolationCustom = 100;
 interpolationWeight = 250;
 instanceInterpolations = {
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 1;
 };
-name = "Wide Bold";
+name = "Wide Black";
+weightClass = Black;
 widthClass = Expanded;
 }
 );
