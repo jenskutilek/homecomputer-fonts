@@ -1041,61 +1041,61 @@
          will be recalculated by the compiler. -->
 
     <TTGlyph name=".notdef" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="pixel.8" x="0" y="-128" flags="0x4"/>
+      <component glyphName="pixel.8" x="0" y="-128" flags="0x0"/>
       <component glyphName="pixel.1" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.3" x="192" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="448" y="0" flags="0x0"/>
-      <component glyphName="pixel.3" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="640" flags="0x4"/>
-      <component glyphName="pixel.8" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.3" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="640" flags="0x0"/>
+      <component glyphName="pixel.8" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="A" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="A.case" xMin="-5" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="AE" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.4" x="256" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.5" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.5" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Aacute" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -1111,15 +1111,15 @@
     <TTGlyph name="Adieresis" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Agrave" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -1130,15 +1130,15 @@
     <TTGlyph name="Aring" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Atilde" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -1148,76 +1148,76 @@
 
     <TTGlyph name="B" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.6" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="C" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Ccedilla" xMin="-5" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="128" y="-128" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="-128" flags="0x0"/>
       <component glyphName="pixel.1" x="256" y="0" flags="0x0"/>
-      <component glyphName="pixel.4" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="D" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.5" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.5" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.5" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="E" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.7" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="E.case" xMin="-5" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.7" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Eacute" xMin="-5" yMin="54" xMax="453" yMax="842">
@@ -1242,88 +1242,88 @@
 
     <TTGlyph name="Eth" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.5" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.5" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.5" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Euro" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="F" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="G" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.5" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="H" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="I" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="I.case" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Iacute" xMin="59" yMin="54" xMax="453" yMax="842">
@@ -1348,89 +1348,89 @@
 
     <TTGlyph name="J" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="K" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.3" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="L" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.7" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="M" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="N" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="N.case" xMin="-5" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="NULL"/><!-- contains no outline data -->
@@ -1442,43 +1442,43 @@
 
     <TTGlyph name="O" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="O.case" xMin="-5" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="OE" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.6" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Oacute" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -1493,17 +1493,17 @@
 
     <TTGlyph name="Odieresis" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Ograve" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -1514,19 +1514,19 @@
     <TTGlyph name="Oslash" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.1" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Otilde" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -1536,110 +1536,110 @@
 
     <TTGlyph name="P" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Q" xMin="-5" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="320" y="-128" flags="0x4"/>
+      <component glyphName="pixel.2" x="320" y="-128" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="R" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.3" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="S" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="T" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Thorn" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="pixel.4" x="0" y="-128" flags="0x4"/>
+      <component glyphName="pixel.4" x="0" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.6" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="384" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.6" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="384" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="U" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.5" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="U.case" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.5" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Uacute" xMin="59" yMin="54" xMax="453" yMax="842">
@@ -1664,70 +1664,70 @@
 
     <TTGlyph name="V" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.4" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="W" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.3" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="768" flags="0x4"/>
+      <component glyphName="pixel.3" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="X" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Y" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Y.case" xMin="-5" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Yacute" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -1737,26 +1737,26 @@
 
     <TTGlyph name="Z" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.7" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="a" xMin="59" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="aacute" xMin="59" yMin="54" xMax="517" yMax="842">
@@ -1770,8 +1770,8 @@
     </TTGlyph>
 
     <TTGlyph name="acute" xMin="123" yMin="694" xMax="325" yMax="842">
-      <component glyphName="pixel.1" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="adieresis" xMin="59" yMin="54" xMax="517" yMax="842">
@@ -1782,12 +1782,12 @@
     <TTGlyph name="ae" xMin="-5" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.3" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.3" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.7" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="384" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.7" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="384" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="agrave" xMin="59" yMin="54" xMax="517" yMax="842">
@@ -1798,70 +1798,70 @@
     <TTGlyph name="ampersand" xMin="59" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="aring" xMin="59" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="asciicircum" xMin="-5" yMin="438" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="asciitilde" xMin="-5" yMin="694" xMax="453" yMax="842">
-      <component glyphName="pixel.1" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="768" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="768" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="asterisk" xMin="-5" yMin="182" xMax="517" yMax="714">
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.8" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.8" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="at" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.5" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="atilde" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -1871,238 +1871,238 @@
 
     <TTGlyph name="b" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="backslash" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="bar" xMin="187" yMin="54" xMax="325" yMax="842">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="braceleft" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.3" x="256" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="braceright" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.3" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="bracketleft" xMin="123" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="bracketright" xMin="123" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="brokenbar" xMin="187" yMin="54" xMax="325" yMax="842">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="bullet" xMin="-5" yMin="310" xMax="517" yMax="714">
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.8" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.8" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="640" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.8" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.8" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="c" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ccedilla" xMin="59" yMin="-74" xMax="453" yMax="586">
-      <component glyphName="pixel.1" x="192" y="-128" flags="0x4"/>
+      <component glyphName="pixel.1" x="192" y="-128" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="cedilla" xMin="123" yMin="-74" xMax="325" yMax="74">
-      <component glyphName="pixel.2" x="128" y="-128" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="-128" flags="0x0"/>
       <component glyphName="pixel.1" x="256" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="cent" xMin="59" yMin="182" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.5" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.5" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="circumflex" xMin="123" yMin="694" xMax="389" yMax="842">
-      <component glyphName="pixel.1" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="colon" xMin="187" yMin="54" xMax="325" yMax="714">
-      <component glyphName="period" x="0" y="512" flags="0x4"/>
+      <component glyphName="period" x="0" y="512" flags="0x0"/>
       <component glyphName="period" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="comma" xMin="123" yMin="-74" xMax="325" yMax="202">
-      <component glyphName="pixel.2" x="128" y="-128" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="copyright" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="pixel.6" x="64" y="-128" flags="0x4"/>
+      <component glyphName="pixel.6" x="64" y="-128" flags="0x0"/>
       <component glyphName="pixel.1" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="448" y="0" flags="0x0"/>
-      <component glyphName="pixel.1" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="currency" xMin="59" yMin="310" xMax="453" yMax="842">
-      <component glyphName="pixel.1" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="64" y="768" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="64" y="768" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="d" xMin="59" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="degree" xMin="59" yMin="566" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dieresis" xMin="59" yMin="822" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="64" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="divide" xMin="59" yMin="182" xMax="453" yMax="714">
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dollar" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.5" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.5" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.5" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dotlessi" xMin="123" yMin="54" xMax="389" yMax="586">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="e" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="eacute" xMin="59" yMin="54" xMax="453" yMax="842">
@@ -2127,25 +2127,25 @@
 
     <TTGlyph name="eight" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ellipsis" xMin="59" yMin="54" xMax="389" yMax="202">
       <component glyphName="pixel.1" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="192" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.1" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="320" y="128" flags="0x4"/>
+      <component glyphName="pixel.1" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="320" y="128" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="emdash" xMin="59" yMin="438" xMax="453" yMax="458">
@@ -2157,133 +2157,133 @@
     </TTGlyph>
 
     <TTGlyph name="equal" xMin="59" yMin="182" xMax="453" yMax="586">
-      <component glyphName="pixel.6" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="512" flags="0x4"/>
+      <component glyphName="pixel.6" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="eth" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.5" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.6" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.6" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="exclam" xMin="123" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="exclamdown" xMin="123" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.4" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="f" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="five" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="four" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="four.dnom" xMin="123" yMin="-74" xMax="325" yMax="330">
-      <component glyphName="pixel.1" x="256" y="-128" flags="0x4"/>
+      <component glyphName="pixel.1" x="256" y="-128" flags="0x0"/>
       <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="256" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="256" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="fraction" xMin="59" yMin="54" xMax="517" yMax="714">
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="640" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="g" xMin="-5" yMin="-74" xMax="517" yMax="586">
-      <component glyphName="pixel.5" x="64" y="-128" flags="0x4"/>
+      <component glyphName="pixel.5" x="64" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.4" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="512" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="germandbls" xMin="59" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="64" y="-128" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="grave" xMin="187" yMin="694" xMax="389" yMax="842">
-      <component glyphName="pixel.1" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="greater" xMin="123" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="guillemotleft" xMin="-5" yMin="182" xMax="517" yMax="714">
@@ -2297,47 +2297,47 @@
     </TTGlyph>
 
     <TTGlyph name="guilsinglleft" xMin="123" yMin="182" xMax="389" yMax="714">
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="guilsinglright" xMin="123" yMin="182" xMax="389" yMax="714">
-      <component glyphName="pixel.2" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="640" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="h" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.3" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="hyphen" xMin="59" yMin="438" xMax="453" yMax="458">
-      <component glyphName="pixel.6" x="64" y="384" flags="0x4"/>
+      <component glyphName="pixel.6" x="64" y="384" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="i" xMin="123" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="iacute" xMin="123" yMin="54" xMax="389" yMax="842">
@@ -2361,71 +2361,71 @@
     </TTGlyph>
 
     <TTGlyph name="j" xMin="59" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="128" y="-128" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="k" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.3" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="l" xMin="123" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="less" xMin="59" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.2" x="256" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="logicalnot" xMin="123" yMin="694" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.5" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="m" xMin="59" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="macron" xMin="59" yMin="822" xMax="453" yMax="842">
-      <component glyphName="pixel.6" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.6" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="minus" xMin="59" yMin="438" xMax="453" yMax="458">
@@ -2433,39 +2433,39 @@
     </TTGlyph>
 
     <TTGlyph name="multiply" xMin="59" yMin="182" xMax="517" yMax="714">
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="640" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="n" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="nine" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.5" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="nonmarkingreturn"/><!-- contains no outline data -->
@@ -2478,27 +2478,27 @@
     <TTGlyph name="numbersign" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.7" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="o" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="oacute" xMin="59" yMin="54" xMax="453" yMax="842">
@@ -2518,14 +2518,14 @@
 
     <TTGlyph name="oe" xMin="-5" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.5" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="384" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.5" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="384" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ograve" xMin="59" yMin="54" xMax="453" yMax="842">
@@ -2535,65 +2535,65 @@
 
     <TTGlyph name="one" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="one.dnom" xMin="122" yMin="-74" xMax="260" yMax="330">
-      <component glyphName="pixel.1" x="191" y="-128" flags="0x4"/>
+      <component glyphName="pixel.1" x="191" y="-128" flags="0x0"/>
       <component glyphName="pixel.1" x="191" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="127" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="191" y="256" flags="0x4"/>
+      <component glyphName="pixel.2" x="127" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="191" y="256" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="onehalf" xMin="59" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="one.dnom" x="-63" y="512" flags="0x4"/>
+      <component glyphName="one.dnom" x="-63" y="512" flags="0x0"/>
       <component glyphName="fraction" x="0" y="0" flags="0x0"/>
       <component glyphName="two.dnom" x="192" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="onequarter" xMin="59" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="one.dnom" x="-63" y="512" flags="0x4"/>
+      <component glyphName="one.dnom" x="-63" y="512" flags="0x0"/>
       <component glyphName="fraction" x="0" y="0" flags="0x0"/>
       <component glyphName="four.dnom" x="192" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ordfeminine" xMin="-5" yMin="182" xMax="389" yMax="842">
-      <component glyphName="pixel.6" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.5" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.6" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.5" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ordmasculine" xMin="-5" yMin="182" xMax="325" yMax="842">
-      <component glyphName="pixel.5" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.5" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="oslash" xMin="59" yMin="-74" xMax="517" yMax="714">
-      <component glyphName="pixel.1" x="64" y="-128" flags="0x4"/>
+      <component glyphName="pixel.1" x="64" y="-128" flags="0x0"/>
       <component glyphName="pixel.5" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.3" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.5" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="640" flags="0x4"/>
+      <component glyphName="pixel.3" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="otilde" xMin="-5" yMin="54" xMax="517" yMax="842">
@@ -2602,66 +2602,66 @@
     </TTGlyph>
 
     <TTGlyph name="p" xMin="-5" yMin="-74" xMax="453" yMax="586">
-      <component glyphName="pixel.4" x="0" y="-128" flags="0x4"/>
+      <component glyphName="pixel.4" x="0" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.5" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="512" flags="0x4"/>
+      <component glyphName="pixel.5" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="paragraph" xMin="-5" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.1" x="192" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.1" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="parenleft" xMin="123" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.2" x="256" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="parenright" xMin="123" yMin="54" xMax="389" yMax="842">
       <component glyphName="pixel.2" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="percent" xMin="-5" yMin="54" xMax="453" yMax="714">
       <component glyphName="fraction" x="-64" y="0" flags="0x0"/>
-      <component glyphName="period" x="-192" y="512" flags="0x4"/>
+      <component glyphName="period" x="-192" y="512" flags="0x0"/>
       <component glyphName="period" x="128" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="period" xMin="187" yMin="54" xMax="325" yMax="202">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="periodcentered" xMin="187" yMin="438" xMax="325" yMax="586">
-      <component glyphName="period" x="0" y="384" flags="0x4"/>
+      <component glyphName="period" x="0" y="384" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="pixel.1" xMin="-5" yMin="54" xMax="69" yMax="74">
@@ -2809,63 +2809,63 @@
     </TTGlyph>
 
     <TTGlyph name="plus" xMin="59" yMin="182" xMax="453" yMax="714">
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="plusminus" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="q" xMin="59" yMin="-74" xMax="517" yMax="586">
-      <component glyphName="pixel.4" x="256" y="-128" flags="0x4"/>
+      <component glyphName="pixel.4" x="256" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.5" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="512" flags="0x4"/>
+      <component glyphName="pixel.5" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="question" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="questiondown" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="quotedbl" xMin="59" yMin="694" xMax="389" yMax="842">
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="quotedblbase" xMin="59" yMin="-74" xMax="389" yMax="74">
-      <component glyphName="quotedbl" x="0" y="-768" flags="0x4"/>
+      <component glyphName="quotedbl" x="0" y="-768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="quotedblleft" xMin="59" yMin="694" xMax="389" yMax="842">
@@ -2877,13 +2877,13 @@
     </TTGlyph>
 
     <TTGlyph name="quoteleft" xMin="187" yMin="566" xMax="389" yMax="842">
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="quoteright" xMin="123" yMin="566" xMax="325" yMax="842">
-      <component glyphName="comma" x="0" y="640" flags="0x4"/>
+      <component glyphName="comma" x="0" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="quotesinglbase" xMin="123" yMin="-74" xMax="325" yMax="202">
@@ -2891,206 +2891,206 @@
     </TTGlyph>
 
     <TTGlyph name="quotesingle" xMin="123" yMin="566" xMax="325" yMax="842">
-      <component glyphName="comma" x="0" y="640" flags="0x4"/>
+      <component glyphName="comma" x="0" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="r" xMin="-5" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.4" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="registered" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="pixel.6" x="64" y="-128" flags="0x4"/>
+      <component glyphName="pixel.6" x="64" y="-128" flags="0x0"/>
       <component glyphName="pixel.1" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="448" y="0" flags="0x0"/>
-      <component glyphName="pixel.1" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ring" xMin="59" yMin="566" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="s" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.5" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.5" x="128" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="section" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.1" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.1" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.1" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="semicolon" xMin="123" yMin="-74" xMax="325" yMax="714">
       <component glyphName="comma" x="0" y="0" flags="0x0"/>
-      <component glyphName="period" x="0" y="512" flags="0x4"/>
+      <component glyphName="period" x="0" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="seven" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="six" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="slash" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="space"/><!-- contains no outline data -->
 
     <TTGlyph name="sterling" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.4" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="t" xMin="123" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.2" x="256" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.5" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="thorn" xMin="-5" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="0" y="-128" flags="0x4"/>
+      <component glyphName="pixel.4" x="0" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.5" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.5" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.5" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="three" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="three.dnom" xMin="123" yMin="-202" xMax="325" yMax="330">
-      <component glyphName="pixel.2" x="128" y="-256" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="-128" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="-256" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.1" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
+      <component glyphName="pixel.1" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="threequarters" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="three.dnom" x="-128" y="512" flags="0x4"/>
+      <component glyphName="three.dnom" x="-128" y="512" flags="0x0"/>
       <component glyphName="fraction" x="0" y="0" flags="0x0"/>
       <component glyphName="four.dnom" x="192" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="tilde" xMin="-5" yMin="694" xMax="517" yMax="842">
-      <component glyphName="pixel.1" x="0" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="640" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="768" flags="0x4"/>
-      <component glyphName="pixel.1" x="448" y="768" flags="0x4"/>
+      <component glyphName="pixel.1" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="640" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="768" flags="0x0"/>
+      <component glyphName="pixel.1" x="448" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="two" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="two.dnom" xMin="123" yMin="-74" xMax="325" yMax="330">
-      <component glyphName="pixel.3" x="128" y="-128" flags="0x4"/>
+      <component glyphName="pixel.3" x="128" y="-128" flags="0x0"/>
       <component glyphName="pixel.1" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.1" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
+      <component glyphName="pixel.1" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="u" xMin="59" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uacute" xMin="59" yMin="54" xMax="517" yMax="842">
@@ -3114,120 +3114,120 @@
     </TTGlyph>
 
     <TTGlyph name="underscore" xMin="-5" yMin="-74" xMax="453" yMax="-54">
-      <component glyphName="pixel.7" x="0" y="-128" flags="0x4"/>
+      <component glyphName="pixel.7" x="0" y="-128" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni00A0"/><!-- contains no outline data -->
 
     <TTGlyph name="uni00AD" xMin="59" yMin="438" xMax="453" yMax="586">
-      <component glyphName="pixel.6" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="512" flags="0x4"/>
+      <component glyphName="pixel.6" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni00B2" xMin="-5" yMin="310" xMax="325" yMax="842">
-      <component glyphName="pixel.5" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.5" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni00B3" xMin="-5" yMin="310" xMax="325" yMax="842">
-      <component glyphName="pixel.4" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="0" y="768" flags="0x4"/>
+      <component glyphName="pixel.4" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni00B5" xMin="-5" yMin="-74" xMax="453" yMax="586">
-      <component glyphName="pixel.2" x="0" y="-128" flags="0x4"/>
+      <component glyphName="pixel.2" x="0" y="-128" flags="0x0"/>
       <component glyphName="pixel.5" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.3" x="0" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
+      <component glyphName="pixel.3" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni00B9" xMin="59" yMin="310" xMax="261" yMax="842">
-      <component glyphName="pixel.2" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni2074" xMin="-5" yMin="310" xMax="389" yMax="842">
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.6" x="0" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="128" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.6" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni2215" xMin="-5" yMin="54" xMax="453" yMax="714">
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="v" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.4" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="w" xMin="59" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.2" x="128" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.1" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.1" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="x" xMin="59" yMin="54" xMax="517" yMax="586">
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="128" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="y" xMin="59" yMin="-74" xMax="453" yMax="586">
-      <component glyphName="pixel.3" x="64" y="-128" flags="0x4"/>
+      <component glyphName="pixel.3" x="64" y="-128" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
-      <component glyphName="pixel.4" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="512" flags="0x4"/>
+      <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="yacute" xMin="59" yMin="-74" xMax="453" yMax="842">
@@ -3242,38 +3242,38 @@
 
     <TTGlyph name="yen" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="192" y="128" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="384" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="0" y="768" flags="0x4"/>
-      <component glyphName="pixel.2" x="384" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="768" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="z" xMin="59" yMin="54" xMax="453" yMax="586">
       <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="128" y="128" flags="0x4"/>
-      <component glyphName="pixel.1" x="384" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="192" y="256" flags="0x4"/>
-      <component glyphName="pixel.1" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="256" y="384" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="512" flags="0x4"/>
+      <component glyphName="pixel.2" x="128" y="128" flags="0x0"/>
+      <component glyphName="pixel.1" x="384" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.1" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="256" y="384" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="512" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="zero" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
-      <component glyphName="pixel.2" x="64" y="128" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="128" flags="0x4"/>
-      <component glyphName="pixel.3" x="64" y="256" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="256" flags="0x4"/>
-      <component glyphName="pixel.6" x="64" y="384" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="512" flags="0x4"/>
-      <component glyphName="pixel.3" x="256" y="512" flags="0x4"/>
-      <component glyphName="pixel.2" x="64" y="640" flags="0x4"/>
-      <component glyphName="pixel.2" x="320" y="640" flags="0x4"/>
-      <component glyphName="pixel.4" x="128" y="768" flags="0x4"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
+      <component glyphName="pixel.3" x="256" y="512" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="640" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="640" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="768" flags="0x0"/>
     </TTGlyph>
 
   </glyf>
