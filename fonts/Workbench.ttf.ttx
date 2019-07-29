@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0xc05d49c3"/>
+    <checkSumAdjustment value="0xc057fa3b"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Sun Sep  7 06:16:00 2008"/>
-    <modified value="Sat Jul 27 23:18:36 2019"/>
+    <modified value="Mon Jul 29 21:47:19 2019"/>
     <xMin value="-5"/>
     <yMin value="-202"/>
     <xMax value="517"/>
@@ -279,7 +279,7 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="2"/>
+    <numberOfHMetrics value="1"/>
   </hhea>
 
   <maxp>
@@ -1041,7 +1041,7 @@
          will be recalculated by the compiler. -->
 
     <TTGlyph name=".notdef" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="pixel.8" x="0" y="-128" flags="0x0"/>
+      <component glyphName="pixel.8" x="0" y="-128" flags="0x200"/>
       <component glyphName="pixel.1" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.3" x="192" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="448" y="0" flags="0x0"/>
@@ -1062,7 +1062,7 @@
     </TTGlyph>
 
     <TTGlyph name="A" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
@@ -1075,7 +1075,7 @@
     </TTGlyph>
 
     <TTGlyph name="A.case" xMin="-5" yMin="54" xMax="517" yMax="586">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
@@ -1086,7 +1086,7 @@
     </TTGlyph>
 
     <TTGlyph name="AE" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.4" x="256" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
@@ -1099,17 +1099,17 @@
     </TTGlyph>
 
     <TTGlyph name="Aacute" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="A.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="A.case" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Acircumflex" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="A.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="A.case" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Adieresis" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
@@ -1123,12 +1123,12 @@
     </TTGlyph>
 
     <TTGlyph name="Agrave" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="A.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="A.case" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Aring" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="384" y="128" flags="0x0"/>
@@ -1142,12 +1142,12 @@
     </TTGlyph>
 
     <TTGlyph name="Atilde" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="A.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="A.case" x="0" y="0" flags="0x200"/>
       <component glyphName="tilde" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="B" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.6" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.6" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -1161,7 +1161,7 @@
     </TTGlyph>
 
     <TTGlyph name="C" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
@@ -1173,7 +1173,7 @@
     </TTGlyph>
 
     <TTGlyph name="Ccedilla" xMin="-5" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="128" y="-128" flags="0x0"/>
+      <component glyphName="pixel.2" x="128" y="-128" flags="0x200"/>
       <component glyphName="pixel.1" x="256" y="0" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -1186,7 +1186,7 @@
     </TTGlyph>
 
     <TTGlyph name="D" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.5" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.5" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -1201,7 +1201,7 @@
     </TTGlyph>
 
     <TTGlyph name="E" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.7" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -1213,7 +1213,7 @@
     </TTGlyph>
 
     <TTGlyph name="E.case" xMin="-5" yMin="54" xMax="453" yMax="586">
-      <component glyphName="pixel.7" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.4" x="64" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
@@ -1221,27 +1221,27 @@
     </TTGlyph>
 
     <TTGlyph name="Eacute" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="E.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="E.case" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Ecircumflex" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="E.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="E.case" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Edieresis" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="E.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="E.case" x="0" y="0" flags="0x200"/>
       <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Egrave" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="E.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="E.case" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-128" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Eth" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.5" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.5" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -1256,7 +1256,7 @@
     </TTGlyph>
 
     <TTGlyph name="Euro" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.4" x="0" y="256" flags="0x0"/>
@@ -1268,7 +1268,7 @@
     </TTGlyph>
 
     <TTGlyph name="F" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
       <component glyphName="pixel.4" x="64" y="384" flags="0x0"/>
@@ -1279,7 +1279,7 @@
     </TTGlyph>
 
     <TTGlyph name="G" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.5" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.5" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
@@ -1327,22 +1327,22 @@
     </TTGlyph>
 
     <TTGlyph name="Iacute" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="I.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="I.case" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Icircumflex" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="I.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="I.case" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Idieresis" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="I.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="I.case" x="0" y="0" flags="0x200"/>
       <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Igrave" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="I.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="I.case" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -1359,7 +1359,7 @@
     </TTGlyph>
 
     <TTGlyph name="K" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.3" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
@@ -1375,7 +1375,7 @@
     </TTGlyph>
 
     <TTGlyph name="L" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.7" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -1387,7 +1387,7 @@
     </TTGlyph>
 
     <TTGlyph name="M" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
@@ -1404,7 +1404,7 @@
     </TTGlyph>
 
     <TTGlyph name="N" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
@@ -1421,7 +1421,7 @@
     </TTGlyph>
 
     <TTGlyph name="N.case" xMin="-5" yMin="54" xMax="453" yMax="586">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.3" x="256" y="128" flags="0x0"/>
@@ -1436,12 +1436,12 @@
     <TTGlyph name="NULL"/><!-- contains no outline data -->
 
     <TTGlyph name="Ntilde" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="N.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="N.case" x="0" y="0" flags="0x200"/>
       <component glyphName="tilde" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="O" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.3" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.3" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
@@ -1456,7 +1456,7 @@
     </TTGlyph>
 
     <TTGlyph name="O.case" xMin="-5" yMin="54" xMax="517" yMax="586">
-      <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
@@ -1467,7 +1467,7 @@
     </TTGlyph>
 
     <TTGlyph name="OE" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.6" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.6" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
@@ -1482,17 +1482,17 @@
     </TTGlyph>
 
     <TTGlyph name="Oacute" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="O.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="O.case" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Ocircumflex" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="O.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="O.case" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Odieresis" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
@@ -1507,12 +1507,12 @@
     </TTGlyph>
 
     <TTGlyph name="Ograve" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="O.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="O.case" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Oslash" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.1" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
@@ -1530,12 +1530,12 @@
     </TTGlyph>
 
     <TTGlyph name="Otilde" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="O.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="O.case" x="0" y="0" flags="0x200"/>
       <component glyphName="tilde" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="P" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
       <component glyphName="pixel.5" x="64" y="384" flags="0x0"/>
@@ -1547,7 +1547,7 @@
     </TTGlyph>
 
     <TTGlyph name="Q" xMin="-5" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="320" y="-128" flags="0x0"/>
+      <component glyphName="pixel.2" x="320" y="-128" flags="0x200"/>
       <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
@@ -1563,7 +1563,7 @@
     </TTGlyph>
 
     <TTGlyph name="R" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.3" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
@@ -1602,7 +1602,7 @@
     </TTGlyph>
 
     <TTGlyph name="Thorn" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="pixel.4" x="0" y="-128" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="-128" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.6" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -1643,27 +1643,27 @@
     </TTGlyph>
 
     <TTGlyph name="Uacute" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="U.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="U.case" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Ucircumflex" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="U.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="U.case" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Udieresis" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="U.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="U.case" x="0" y="0" flags="0x200"/>
       <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Ugrave" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="U.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="U.case" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="V" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.2" x="192" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="0" flags="0x200"/>
       <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
@@ -1677,7 +1677,7 @@
     </TTGlyph>
 
     <TTGlyph name="W" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.3" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.3" x="256" y="128" flags="0x0"/>
@@ -1694,7 +1694,7 @@
     </TTGlyph>
 
     <TTGlyph name="X" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
@@ -1708,7 +1708,7 @@
     </TTGlyph>
 
     <TTGlyph name="Y" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="384" flags="0x0"/>
@@ -1721,7 +1721,7 @@
     </TTGlyph>
 
     <TTGlyph name="Y.case" xMin="-5" yMin="54" xMax="517" yMax="586">
-      <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
@@ -1731,12 +1731,12 @@
     </TTGlyph>
 
     <TTGlyph name="Yacute" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="Y.case" x="0" y="0" flags="0x0"/>
+      <component glyphName="Y.case" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="128" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Z" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.7" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
@@ -1760,12 +1760,12 @@
     </TTGlyph>
 
     <TTGlyph name="aacute" xMin="59" yMin="54" xMax="517" yMax="842">
-      <component glyphName="a" x="0" y="0" flags="0x0"/>
+      <component glyphName="a" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="acircumflex" xMin="59" yMin="54" xMax="517" yMax="842">
-      <component glyphName="a" x="0" y="0" flags="0x0"/>
+      <component glyphName="a" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -1775,12 +1775,12 @@
     </TTGlyph>
 
     <TTGlyph name="adieresis" xMin="59" yMin="54" xMax="517" yMax="842">
-      <component glyphName="a" x="0" y="0" flags="0x0"/>
+      <component glyphName="a" x="0" y="0" flags="0x200"/>
       <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ae" xMin="-5" yMin="54" xMax="517" yMax="586">
-      <component glyphName="pixel.3" x="64" y="0" flags="0x0"/>
+      <component glyphName="pixel.3" x="64" y="0" flags="0x200"/>
       <component glyphName="pixel.3" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
@@ -1791,7 +1791,7 @@
     </TTGlyph>
 
     <TTGlyph name="agrave" xMin="59" yMin="54" xMax="517" yMax="842">
-      <component glyphName="a" x="0" y="0" flags="0x0"/>
+      <component glyphName="a" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -1825,7 +1825,7 @@
     </TTGlyph>
 
     <TTGlyph name="asciicircum" xMin="-5" yMin="438" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="384" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="384" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="512" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="512" flags="0x0"/>
@@ -1834,14 +1834,14 @@
     </TTGlyph>
 
     <TTGlyph name="asciitilde" xMin="-5" yMin="694" xMax="453" yMax="842">
-      <component glyphName="pixel.1" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="640" flags="0x200"/>
       <component glyphName="pixel.3" x="192" y="640" flags="0x0"/>
       <component glyphName="pixel.3" x="64" y="768" flags="0x0"/>
       <component glyphName="pixel.1" x="384" y="768" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="asterisk" xMin="-5" yMin="182" xMax="517" yMax="714">
-      <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="128" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
       <component glyphName="pixel.8" x="0" y="384" flags="0x0"/>
@@ -1851,7 +1851,7 @@
     </TTGlyph>
 
     <TTGlyph name="at" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.5" x="64" y="0" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
       <component glyphName="pixel.4" x="192" y="256" flags="0x0"/>
@@ -1866,11 +1866,11 @@
 
     <TTGlyph name="atilde" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="a" x="0" y="0" flags="0x0"/>
-      <component glyphName="tilde" x="0" y="0" flags="0x0"/>
+      <component glyphName="tilde" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="b" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -1884,7 +1884,7 @@
     </TTGlyph>
 
     <TTGlyph name="backslash" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.2" x="384" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="384" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
@@ -1953,7 +1953,7 @@
     </TTGlyph>
 
     <TTGlyph name="bullet" xMin="-5" yMin="310" xMax="517" yMax="714">
-      <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="256" flags="0x200"/>
       <component glyphName="pixel.8" x="0" y="384" flags="0x0"/>
       <component glyphName="pixel.8" x="0" y="512" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="640" flags="0x0"/>
@@ -2003,7 +2003,7 @@
     </TTGlyph>
 
     <TTGlyph name="colon" xMin="187" yMin="54" xMax="325" yMax="714">
-      <component glyphName="period" x="0" y="512" flags="0x0"/>
+      <component glyphName="period" x="0" y="512" flags="0x200"/>
       <component glyphName="period" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -2014,7 +2014,7 @@
     </TTGlyph>
 
     <TTGlyph name="copyright" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="pixel.6" x="64" y="-128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="-128" flags="0x200"/>
       <component glyphName="pixel.1" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="448" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="0" y="128" flags="0x0"/>
@@ -2106,22 +2106,22 @@
     </TTGlyph>
 
     <TTGlyph name="eacute" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="e" x="0" y="0" flags="0x0"/>
+      <component glyphName="e" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ecircumflex" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="e" x="0" y="0" flags="0x0"/>
+      <component glyphName="e" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="edieresis" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="e" x="0" y="0" flags="0x0"/>
+      <component glyphName="e" x="0" y="0" flags="0x200"/>
       <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="egrave" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="e" x="0" y="0" flags="0x0"/>
+      <component glyphName="e" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -2149,11 +2149,11 @@
     </TTGlyph>
 
     <TTGlyph name="emdash" xMin="59" yMin="438" xMax="453" yMax="458">
-      <component glyphName="hyphen" x="0" y="0" flags="0x0"/>
+      <component glyphName="hyphen" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="endash" xMin="59" yMin="438" xMax="453" yMax="458">
-      <component glyphName="hyphen" x="0" y="0" flags="0x0"/>
+      <component glyphName="hyphen" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="equal" xMin="59" yMin="182" xMax="453" yMax="586">
@@ -2162,7 +2162,7 @@
     </TTGlyph>
 
     <TTGlyph name="eth" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.5" x="64" y="0" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
@@ -2214,7 +2214,7 @@
     </TTGlyph>
 
     <TTGlyph name="four" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="192" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="192" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
       <component glyphName="pixel.7" x="0" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="384" flags="0x0"/>
@@ -2242,7 +2242,7 @@
     </TTGlyph>
 
     <TTGlyph name="g" xMin="-5" yMin="-74" xMax="517" yMax="586">
-      <component glyphName="pixel.5" x="64" y="-128" flags="0x0"/>
+      <component glyphName="pixel.5" x="64" y="-128" flags="0x200"/>
       <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="128" flags="0x0"/>
@@ -2313,7 +2313,7 @@
     </TTGlyph>
 
     <TTGlyph name="h" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.3" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="128" flags="0x0"/>
@@ -2341,22 +2341,22 @@
     </TTGlyph>
 
     <TTGlyph name="iacute" xMin="123" yMin="54" xMax="389" yMax="842">
-      <component glyphName="dotlessi" x="0" y="0" flags="0x0"/>
+      <component glyphName="dotlessi" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="icircumflex" xMin="123" yMin="54" xMax="389" yMax="842">
-      <component glyphName="dotlessi" x="0" y="0" flags="0x0"/>
+      <component glyphName="dotlessi" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="idieresis" xMin="59" yMin="54" xMax="453" yMax="842">
       <component glyphName="dotlessi" x="0" y="0" flags="0x0"/>
-      <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
+      <component glyphName="dieresis" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="igrave" xMin="123" yMin="54" xMax="389" yMax="842">
-      <component glyphName="dotlessi" x="0" y="0" flags="0x0"/>
+      <component glyphName="dotlessi" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -2372,7 +2372,7 @@
     </TTGlyph>
 
     <TTGlyph name="k" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.3" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.3" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
@@ -2429,7 +2429,7 @@
     </TTGlyph>
 
     <TTGlyph name="minus" xMin="59" yMin="438" xMax="453" yMax="458">
-      <component glyphName="hyphen" x="0" y="0" flags="0x0"/>
+      <component glyphName="hyphen" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="multiply" xMin="59" yMin="182" xMax="517" yMax="714">
@@ -2472,11 +2472,11 @@
 
     <TTGlyph name="ntilde" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="n" x="0" y="0" flags="0x0"/>
-      <component glyphName="tilde" x="0" y="0" flags="0x0"/>
+      <component glyphName="tilde" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="numbersign" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="64" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="256" y="0" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="256" y="128" flags="0x0"/>
@@ -2502,22 +2502,22 @@
     </TTGlyph>
 
     <TTGlyph name="oacute" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="o" x="0" y="0" flags="0x0"/>
+      <component glyphName="o" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ocircumflex" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="o" x="0" y="0" flags="0x0"/>
+      <component glyphName="o" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="odieresis" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="o" x="0" y="0" flags="0x0"/>
+      <component glyphName="o" x="0" y="0" flags="0x200"/>
       <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="oe" xMin="-5" yMin="54" xMax="517" yMax="586">
-      <component glyphName="pixel.6" x="64" y="0" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="0" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="0" y="256" flags="0x0"/>
@@ -2529,7 +2529,7 @@
     </TTGlyph>
 
     <TTGlyph name="ograve" xMin="59" yMin="54" xMax="453" yMax="842">
-      <component glyphName="o" x="0" y="0" flags="0x0"/>
+      <component glyphName="o" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
@@ -2552,18 +2552,18 @@
 
     <TTGlyph name="onehalf" xMin="59" yMin="-74" xMax="517" yMax="842">
       <component glyphName="one.dnom" x="-63" y="512" flags="0x0"/>
-      <component glyphName="fraction" x="0" y="0" flags="0x0"/>
+      <component glyphName="fraction" x="0" y="0" flags="0x200"/>
       <component glyphName="two.dnom" x="192" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="onequarter" xMin="59" yMin="-74" xMax="517" yMax="842">
       <component glyphName="one.dnom" x="-63" y="512" flags="0x0"/>
-      <component glyphName="fraction" x="0" y="0" flags="0x0"/>
+      <component glyphName="fraction" x="0" y="0" flags="0x200"/>
       <component glyphName="four.dnom" x="192" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ordfeminine" xMin="-5" yMin="182" xMax="389" yMax="842">
-      <component glyphName="pixel.6" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.6" x="0" y="128" flags="0x200"/>
       <component glyphName="pixel.5" x="0" y="384" flags="0x0"/>
       <component glyphName="pixel.1" x="0" y="512" flags="0x0"/>
       <component glyphName="pixel.1" x="256" y="512" flags="0x0"/>
@@ -2573,7 +2573,7 @@
     </TTGlyph>
 
     <TTGlyph name="ordmasculine" xMin="-5" yMin="182" xMax="325" yMax="842">
-      <component glyphName="pixel.5" x="0" y="128" flags="0x0"/>
+      <component glyphName="pixel.5" x="0" y="128" flags="0x200"/>
       <component glyphName="pixel.3" x="64" y="384" flags="0x0"/>
       <component glyphName="pixel.1" x="0" y="512" flags="0x0"/>
       <component glyphName="pixel.1" x="256" y="512" flags="0x0"/>
@@ -2598,11 +2598,11 @@
 
     <TTGlyph name="otilde" xMin="-5" yMin="54" xMax="517" yMax="842">
       <component glyphName="o" x="0" y="0" flags="0x0"/>
-      <component glyphName="tilde" x="0" y="0" flags="0x0"/>
+      <component glyphName="tilde" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="p" xMin="-5" yMin="-74" xMax="453" yMax="586">
-      <component glyphName="pixel.4" x="0" y="-128" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="-128" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.5" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -2614,7 +2614,7 @@
     </TTGlyph>
 
     <TTGlyph name="paragraph" xMin="-5" yMin="54" xMax="453" yMax="842">
-      <component glyphName="pixel.1" x="192" y="0" flags="0x0"/>
+      <component glyphName="pixel.1" x="192" y="0" flags="0x200"/>
       <component glyphName="pixel.1" x="320" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="192" y="128" flags="0x0"/>
       <component glyphName="pixel.1" x="320" y="128" flags="0x0"/>
@@ -2661,7 +2661,7 @@
     </TTGlyph>
 
     <TTGlyph name="periodcentered" xMin="187" yMin="438" xMax="325" yMax="586">
-      <component glyphName="period" x="0" y="384" flags="0x0"/>
+      <component glyphName="period" x="0" y="384" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="pixel.1" xMin="-5" yMin="54" xMax="69" yMax="74">
@@ -2865,15 +2865,15 @@
     </TTGlyph>
 
     <TTGlyph name="quotedblbase" xMin="59" yMin="-74" xMax="389" yMax="74">
-      <component glyphName="quotedbl" x="0" y="-768" flags="0x0"/>
+      <component glyphName="quotedbl" x="0" y="-768" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="quotedblleft" xMin="59" yMin="694" xMax="389" yMax="842">
-      <component glyphName="quotedbl" x="0" y="0" flags="0x0"/>
+      <component glyphName="quotedbl" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="quotedblright" xMin="59" yMin="694" xMax="389" yMax="842">
-      <component glyphName="quotedbl" x="0" y="0" flags="0x0"/>
+      <component glyphName="quotedbl" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="quoteleft" xMin="187" yMin="566" xMax="389" yMax="842">
@@ -2883,19 +2883,19 @@
     </TTGlyph>
 
     <TTGlyph name="quoteright" xMin="123" yMin="566" xMax="325" yMax="842">
-      <component glyphName="comma" x="0" y="640" flags="0x0"/>
+      <component glyphName="comma" x="0" y="640" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="quotesinglbase" xMin="123" yMin="-74" xMax="325" yMax="202">
-      <component glyphName="comma" x="0" y="0" flags="0x0"/>
+      <component glyphName="comma" x="0" y="0" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="quotesingle" xMin="123" yMin="566" xMax="325" yMax="842">
-      <component glyphName="comma" x="0" y="640" flags="0x0"/>
+      <component glyphName="comma" x="0" y="640" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="r" xMin="-5" yMin="54" xMax="453" yMax="586">
-      <component glyphName="pixel.4" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="320" y="256" flags="0x0"/>
@@ -2906,7 +2906,7 @@
     </TTGlyph>
 
     <TTGlyph name="registered" xMin="-5" yMin="-74" xMax="517" yMax="842">
-      <component glyphName="pixel.6" x="64" y="-128" flags="0x0"/>
+      <component glyphName="pixel.6" x="64" y="-128" flags="0x200"/>
       <component glyphName="pixel.1" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="448" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="0" y="128" flags="0x0"/>
@@ -2954,7 +2954,7 @@
     </TTGlyph>
 
     <TTGlyph name="semicolon" xMin="123" yMin="-74" xMax="325" yMax="714">
-      <component glyphName="comma" x="0" y="0" flags="0x0"/>
+      <component glyphName="comma" x="0" y="0" flags="0x200"/>
       <component glyphName="period" x="0" y="512" flags="0x0"/>
     </TTGlyph>
 
@@ -2982,7 +2982,7 @@
     </TTGlyph>
 
     <TTGlyph name="slash" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
@@ -3016,7 +3016,7 @@
     </TTGlyph>
 
     <TTGlyph name="thorn" xMin="-5" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="pixel.4" x="0" y="-128" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="-128" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="0" flags="0x0"/>
       <component glyphName="pixel.5" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="64" y="256" flags="0x0"/>
@@ -3055,7 +3055,7 @@
     </TTGlyph>
 
     <TTGlyph name="tilde" xMin="-5" yMin="694" xMax="517" yMax="842">
-      <component glyphName="pixel.1" x="0" y="640" flags="0x0"/>
+      <component glyphName="pixel.1" x="0" y="640" flags="0x200"/>
       <component glyphName="pixel.3" x="256" y="640" flags="0x0"/>
       <component glyphName="pixel.3" x="64" y="768" flags="0x0"/>
       <component glyphName="pixel.1" x="448" y="768" flags="0x0"/>
@@ -3094,27 +3094,27 @@
     </TTGlyph>
 
     <TTGlyph name="uacute" xMin="59" yMin="54" xMax="517" yMax="842">
-      <component glyphName="u" x="0" y="0" flags="0x0"/>
+      <component glyphName="u" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ucircumflex" xMin="59" yMin="54" xMax="517" yMax="842">
-      <component glyphName="u" x="0" y="0" flags="0x0"/>
+      <component glyphName="u" x="0" y="0" flags="0x200"/>
       <component glyphName="circumflex" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="udieresis" xMin="59" yMin="54" xMax="517" yMax="842">
-      <component glyphName="u" x="0" y="0" flags="0x0"/>
+      <component glyphName="u" x="0" y="0" flags="0x200"/>
       <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ugrave" xMin="59" yMin="54" xMax="517" yMax="842">
-      <component glyphName="u" x="0" y="0" flags="0x0"/>
+      <component glyphName="u" x="0" y="0" flags="0x200"/>
       <component glyphName="grave" x="-64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="underscore" xMin="-5" yMin="-74" xMax="453" yMax="-54">
-      <component glyphName="pixel.7" x="0" y="-128" flags="0x0"/>
+      <component glyphName="pixel.7" x="0" y="-128" flags="0x200"/>
     </TTGlyph>
 
     <TTGlyph name="uni00A0"/><!-- contains no outline data -->
@@ -3125,7 +3125,7 @@
     </TTGlyph>
 
     <TTGlyph name="uni00B2" xMin="-5" yMin="310" xMax="325" yMax="842">
-      <component glyphName="pixel.5" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.5" x="0" y="256" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="384" flags="0x0"/>
       <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
@@ -3133,7 +3133,7 @@
     </TTGlyph>
 
     <TTGlyph name="uni00B3" xMin="-5" yMin="310" xMax="325" yMax="842">
-      <component glyphName="pixel.4" x="0" y="256" flags="0x0"/>
+      <component glyphName="pixel.4" x="0" y="256" flags="0x200"/>
       <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
       <component glyphName="pixel.2" x="128" y="512" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="640" flags="0x0"/>
@@ -3141,7 +3141,7 @@
     </TTGlyph>
 
     <TTGlyph name="uni00B5" xMin="-5" yMin="-74" xMax="453" yMax="586">
-      <component glyphName="pixel.2" x="0" y="-128" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="-128" flags="0x200"/>
       <component glyphName="pixel.5" x="0" y="0" flags="0x0"/>
       <component glyphName="pixel.1" x="384" y="0" flags="0x0"/>
       <component glyphName="pixel.3" x="0" y="128" flags="0x0"/>
@@ -3163,7 +3163,7 @@
     </TTGlyph>
 
     <TTGlyph name="uni2074" xMin="-5" yMin="310" xMax="389" yMax="842">
-      <component glyphName="pixel.2" x="192" y="256" flags="0x0"/>
+      <component glyphName="pixel.2" x="192" y="256" flags="0x200"/>
       <component glyphName="pixel.6" x="0" y="384" flags="0x0"/>
       <component glyphName="pixel.1" x="64" y="512" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="512" flags="0x0"/>
@@ -3172,7 +3172,7 @@
     </TTGlyph>
 
     <TTGlyph name="uni2215" xMin="-5" yMin="54" xMax="453" yMax="714">
-      <component glyphName="pixel.2" x="0" y="0" flags="0x0"/>
+      <component glyphName="pixel.2" x="0" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="64" y="128" flags="0x0"/>
       <component glyphName="pixel.2" x="128" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
@@ -3231,17 +3231,17 @@
     </TTGlyph>
 
     <TTGlyph name="yacute" xMin="59" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="y" x="0" y="0" flags="0x0"/>
+      <component glyphName="y" x="0" y="0" flags="0x200"/>
       <component glyphName="acute" x="64" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="ydieresis" xMin="59" yMin="-74" xMax="453" yMax="842">
-      <component glyphName="y" x="0" y="0" flags="0x0"/>
+      <component glyphName="y" x="0" y="0" flags="0x200"/>
       <component glyphName="dieresis" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="yen" xMin="-5" yMin="54" xMax="517" yMax="842">
-      <component glyphName="pixel.4" x="128" y="0" flags="0x0"/>
+      <component glyphName="pixel.4" x="128" y="0" flags="0x200"/>
       <component glyphName="pixel.2" x="192" y="128" flags="0x0"/>
       <component glyphName="pixel.4" x="128" y="256" flags="0x0"/>
       <component glyphName="pixel.2" x="192" y="384" flags="0x0"/>
@@ -3280,7 +3280,7 @@
 
   <name>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
-      Copyright (c) 2008-2019 by Jens Kutilek. All rights reserved.
+      Font Copyright 2008-2019 by Jens Kutilek. Based on the Amiga 500 Workbench 1.3 character set.
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
       Workbench
@@ -3289,7 +3289,7 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      2.000;UKWN;Workbench
+      2.000;JENS;Workbench
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Workbench
@@ -3451,18 +3451,17 @@
     </extraNames>
   </post>
 
-  <GSUB>
-    <Version value="0x00010000"/>
-  </GSUB>
-
   <gasp>
     <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="10"/>
   </gasp>
 
+  <GSUB>
+    <Version value="0x00010000"/>
+  </GSUB>
+
   <STAT>
     <Version value="0x00010001"/>
     <DesignAxisRecordSize value="8"/>
-    <!-- DesignAxisCount=3 -->
     <DesignAxisRecord>
       <Axis index="0">
         <AxisTag value="wght"/>
@@ -3480,7 +3479,6 @@
         <AxisOrdering value="2"/>
       </Axis>
     </DesignAxisRecord>
-    <!-- AxisValueCount=14 -->
     <AxisValueArray>
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
@@ -3488,67 +3486,67 @@
         <ValueNameID value="258"/>  <!-- Thin -->
         <Value value="200.0"/>
       </AxisValue>
-      <AxisValue index="2" Format="1">
+      <AxisValue index="1" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="259"/>  <!-- ExtraLight -->
         <Value value="236.52173"/>
       </AxisValue>
-      <AxisValue index="4" Format="1">
+      <AxisValue index="2" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="260"/>  <!-- Light -->
         <Value value="321.73912"/>
       </AxisValue>
-      <AxisValue index="5" Format="1">
+      <AxisValue index="3" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="261"/>  <!-- Regular -->
         <Value value="400.0"/>
       </AxisValue>
-      <AxisValue index="6" Format="1">
+      <AxisValue index="4" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="262"/>  <!-- Medium -->
         <Value value="510.43477"/>
       </AxisValue>
-      <AxisValue index="7" Format="1">
+      <AxisValue index="5" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="263"/>  <!-- Bold -->
         <Value value="613.91304"/>
       </AxisValue>
-      <AxisValue index="8" Format="1">
+      <AxisValue index="6" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="264"/>  <!-- ExtraBold -->
         <Value value="747.82608"/>
       </AxisValue>
-      <AxisValue index="9" Format="1">
+      <AxisValue index="7" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="265"/>  <!-- Black -->
         <Value value="900.0"/>
       </AxisValue>
-      <AxisValue index="1" Format="1">
+      <AxisValue index="8" Format="1">
         <AxisIndex value="1"/>
         <Flags value="0"/>
         <ValueNameID value="261"/>  <!-- Regular -->
         <Value value="100.0"/>
       </AxisValue>
-      <AxisValue index="10" Format="1">
+      <AxisValue index="9" Format="1">
         <AxisIndex value="1"/>
         <Flags value="0"/>
         <ValueNameID value="282"/>  <!-- Semi Wide -->
         <Value value="140.0"/>
       </AxisValue>
-      <AxisValue index="12" Format="1">
+      <AxisValue index="10" Format="1">
         <AxisIndex value="1"/>
         <Flags value="0"/>
         <ValueNameID value="283"/>  <!-- Wide -->
         <Value value="200.0"/>
       </AxisValue>
-      <AxisValue index="13" Format="1">
+      <AxisValue index="11" Format="1">
         <AxisIndex value="2"/>
         <Flags value="2"/>
         <ValueNameID value="261"/>  <!-- Regular -->
@@ -3600,7 +3598,7 @@
 
     <!-- Regular -->
     <NamedInstance flags="0x0" subfamilyNameID="261">
-      <coord axis="wght" value="400.0"/>
+      <coord axis="wght" value="400.86955"/>
       <coord axis="wdth" value="100.0"/>
     </NamedInstance>
 
@@ -3648,7 +3646,7 @@
 
     <!-- Semi Wide Regular -->
     <NamedInstance flags="0x0" subfamilyNameID="269">
-      <coord axis="wght" value="400.0"/>
+      <coord axis="wght" value="400.86955"/>
       <coord axis="wdth" value="140.0"/>
     </NamedInstance>
 
@@ -3696,7 +3694,7 @@
 
     <!-- Wide Regular -->
     <NamedInstance flags="0x0" subfamilyNameID="277">
-      <coord axis="wght" value="400.0"/>
+      <coord axis="wght" value="400.86955"/>
       <coord axis="wdth" value="200.0"/>
     </NamedInstance>
 

@@ -37,8 +37,8 @@ def fix_font(path, outpath, name0, name1, name3):
     name.setName(name0, 0, 3, 1, 0x409)
     name.setName(name1, 1, 3, 1, 0x409)
     name.setName(name3, 3, 3, 1, 0x409)
-    name.setName(name3, 4, 3, 1, 0x409)
-    name.setName(name3, 6, 3, 1, 0x409)
+    name.setName(name1, 4, 3, 1, 0x409)
+    name.setName(name1, 6, 3, 1, 0x409)
     f["name"] = name
 
     # Copy gasp and STAT tables
