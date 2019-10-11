@@ -55,7 +55,7 @@ def fix_font(path, outpath, name0, name1, name3):
 
 fix_font(
     "../fonts/SixtyfourGX.ttf",
-    "../fonts/Sixtyfour.ttf",
+    "../fonts/Sixtyfour[wdth,wght].ttf",
     u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Commodore 64 character set.",
     u"Sixtyfour",
     u"2.000;jens;Sixtyfour",
@@ -63,7 +63,7 @@ fix_font(
 
 fix_font(
     "../fonts/WorkbenchGX.ttf",
-    "../fonts/Workbench.ttf",
+    "../fonts/Workbench[wdth,wght].ttf",
     u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Amiga 500 Workbench 1.3 character set.",
     u"Workbench",
     u"2.000;jens;Workbench",
