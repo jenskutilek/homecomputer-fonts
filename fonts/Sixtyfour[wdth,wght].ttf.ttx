@@ -496,12 +496,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0x75a9671"/>
+    <checkSumAdjustment value="0x75c90a9"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Fri Sep  5 18:17:00 2008"/>
-    <modified value="Fri Oct 11 08:02:23 2019"/>
+    <modified value="Fri Oct 11 08:06:19 2019"/>
     <xMin value="-5"/>
     <yMin value="-74"/>
     <xMax value="1029"/>
@@ -559,7 +559,7 @@
     <xAvgCharWidth value="1024"/>
     <usWeightClass value="250"/>
     <usWidthClass value="5"/>
-    <fsType value="00000000 00000001"/>
+    <fsType value="00000000 00000000"/>
     <ySubscriptXSize value="665"/>
     <ySubscriptYSize value="614"/>
     <ySubscriptXOffset value="0"/>
