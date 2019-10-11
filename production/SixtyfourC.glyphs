@@ -1,5 +1,5 @@
 {
-.appVersion = "1247";
+.appVersion = "1268";
 DisplayStrings = (
 "³"
 );
@@ -24,18 +24,6 @@ name = rev_alphanum_target;
 copyright = "Font Copyright 2008-2019 by Jens Kutilek. Based on the Commodore 64 character set.";
 customParameters = (
 {
-name = vendorID;
-value = jens;
-},
-{
-name = postscriptIsFixedPitch;
-value = 1;
-},
-{
-name = "Disable Last Change";
-value = 1;
-},
-{
 name = Axes;
 value = (
 {
@@ -47,6 +35,28 @@ Name = Width;
 Tag = wdth;
 }
 );
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = fsType;
+value = (
+0
+);
+},
+{
+name = postscriptIsFixedPitch;
+value = 1;
+},
+{
+name = vendorID;
+value = jens;
+},
+{
+name = "Variable Font Origin";
+value = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
 }
 );
 date = "2008-09-05 18:17:00 +0000";

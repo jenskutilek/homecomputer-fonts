@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.43">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.0">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -496,12 +496,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0x80e494b"/>
+    <checkSumAdjustment value="0x75a9671"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Fri Sep  5 18:17:00 2008"/>
-    <modified value="Mon Jul 29 21:47:18 2019"/>
+    <modified value="Fri Oct 11 07:59:29 2019"/>
     <xMin value="-5"/>
     <yMin value="-74"/>
     <xMax value="1029"/>
@@ -557,9 +557,9 @@
          will be recalculated by the compiler -->
     <version value="3"/>
     <xAvgCharWidth value="1024"/>
-    <usWeightClass value="400"/>
+    <usWeightClass value="250"/>
     <usWidthClass value="5"/>
-    <fsType value="00000000 00001000"/>
+    <fsType value="00000000 00000001"/>
     <ySubscriptXSize value="665"/>
     <ySubscriptYSize value="614"/>
     <ySubscriptXOffset value="0"/>
@@ -2036,6 +2036,17 @@
       <map code="0xe09d" name="uniE09D"/><!-- ???? -->
     </cmap_format_4>
   </cmap>
+
+  <prep>
+    <assembly>
+      PUSHW[ ]	/* 1 value pushed */
+      511
+      SCANCTRL[ ]	/* ScanConversionControl */
+      PUSHB[ ]	/* 1 value pushed */
+      4
+      SCANTYPE[ ]	/* ScanType */
+    </assembly>
+  </prep>
 
   <loca>
     <!-- The 'loca' table will be calculated by the compiler -->
@@ -7523,7 +7534,7 @@
 
   <name>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
-      Font Copyright 2008-2019 by Jens Kutilek. Based on the Commodore 64 character set.
+      Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Commodore 64 character set.
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
       Sixtyfour
@@ -7532,7 +7543,7 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      2.000;JENS;Sixtyfour
+      2.000;jens;Sixtyfour
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sixtyfour
@@ -7551,6 +7562,12 @@
     </namerecord>
     <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
       https://www.kutilek.de/
+    </namerecord>
+    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+      Thin
+    </namerecord>
+    <namerecord nameID="19" platformID="3" platEncID="1" langID="0x409">
+      Am Heimcomputer sitz ich hier und programmier die Zukunft mir
     </namerecord>
     <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
       Weight

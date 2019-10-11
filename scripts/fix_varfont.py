@@ -41,9 +41,13 @@ def fix_font(path, outpath, name0, name1, name3):
     name.setName(name1, 6, 3, 1, 0x409)
     f["name"] = name
 
-    # Copy gasp and STAT tables
+    # Copy gasp, prep and STAT tables
     f["gasp"] = patch["gasp"]
+    f["prep"] = patch["prep"]
     f["STAT"] = patch["STAT"]
+
+    # Glyphs does not set the weight class of the default master
+    f["OS/2"].usWeightClass = 250
 
     f.save(outpath)
     f.saveXML(outpath + ".ttx")
@@ -52,15 +56,15 @@ def fix_font(path, outpath, name0, name1, name3):
 fix_font(
     "../fonts/SixtyfourGX.ttf",
     "../fonts/Sixtyfour.ttf",
-    u"Font Copyright 2008-2019 by Jens Kutilek. Based on the Commodore 64 character set.",
+    u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Commodore 64 character set.",
     u"Sixtyfour",
-    u"2.000;JENS;Sixtyfour",
+    u"2.000;jens;Sixtyfour",
 )
 
 fix_font(
     "../fonts/WorkbenchGX.ttf",
     "../fonts/Workbench.ttf",
-    u"Font Copyright 2008-2019 by Jens Kutilek. Based on the Amiga 500 Workbench 1.3 character set.",
+    u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Amiga 500 Workbench 1.3 character set.",
     u"Workbench",
-    u"2.000;JENS;Workbench",
+    u"2.000;jens;Workbench",
 )

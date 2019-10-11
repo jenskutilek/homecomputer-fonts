@@ -2,7 +2,7 @@
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.38">
     <name>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
-      Font Copyright 2008-2019 by Jens Kutilek. Based on the Commodore 64 character set.
+      Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Commodore 64 character set.
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
       Sixtyfour
@@ -30,6 +30,12 @@
     </namerecord>
     <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
       https://www.kutilek.de/
+    </namerecord>
+    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+      Thin
+    </namerecord>
+    <namerecord nameID="19" platformID="3" platEncID="1" langID="0x409">
+      Am Heimcomputer sitz ich hier und programmier die Zukunft mir
     </namerecord>
     <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
       Weight
@@ -123,6 +129,17 @@
   <gasp>
     <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="10"/>
   </gasp>
+
+  <prep>
+    <assembly>
+      PUSHW[ ]  /* 1 value pushed */
+      511
+      SCANCTRL[]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      SCANTYPE[]
+    </assembly>
+  </prep>
 
   <STAT>
     <Version value="0x00010001"/>
