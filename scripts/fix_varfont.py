@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
+import struct
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables._g_l_y_f import ROUND_XY_TO_GRID, USE_MY_METRICS
+from fontTools.ttLib.tables.DefaultTable import DefaultTable
 
 
 def fix_font(path, outpath, name0, name1, name3):
@@ -44,13 +46,26 @@ def fix_font(path, outpath, name0, name1, name3):
     # Copy gasp, prep and STAT tables
     f["gasp"] = patch["gasp"]
     f["prep"] = patch["prep"]
-    f["HVAR"] = patch["HVAR"]
     f["STAT"] = patch["STAT"]
+
+    hvar = DefaultTable("HVAR")
+    glyphs = len(f.getGlyphOrder())
+    hvar.data = struct.pack(
+        ">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+        0x0001, 0x0000, 0x0000, 0x0014, 0x0000, 0x0000, 0x0000, 0x0000,
+        0x0000, 0x0000, 0x0001, 0x0000, 0x000c, 0x0001, 0x0000, 0x0034,
+        0x0002, 0x0003, 0x0000, 0x4000, 0x4000, 0x0000, 0x0000, 0x0000,
+        0x0000, 0x0000, 0x0000, 0x0000, 0x4000, 0x4000, 0x0000, 0x4000,
+        0x4000, 0x0000, 0x4000, 0x4000, glyphs, 0x0000, 0x0000
+    )
+    f["HVAR"] = hvar
 
     # Glyphs does not set the weight class of the default master
     f["OS/2"].usWeightClass = 250
 
     f.save(outpath)
+    f.close()
+    f = TTFont(outpath)
     f.saveXML(outpath + ".ttx")
 
 
