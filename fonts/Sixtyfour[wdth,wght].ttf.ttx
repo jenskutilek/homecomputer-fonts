@@ -496,12 +496,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0x75c90a9"/>
+    <checkSumAdjustment value="0x4b598173"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Fri Sep  5 18:17:00 2008"/>
-    <modified value="Fri Oct 11 08:06:19 2019"/>
+    <modified value="Fri Oct 25 07:51:43 2019"/>
     <xMin value="-5"/>
     <yMin value="-74"/>
     <xMax value="1029"/>
@@ -8573,6 +8573,16 @@
       </Lookup>
     </LookupList>
   </GSUB>
+
+  <HVAR raw="True">
+    <hexdata>
+      00010000 00000014 00000000 00000000
+      00000000 00010000 000c0001 00000034
+      00020003 00004000 40000000 00000000
+      00000000 00000000 40004000 00004000
+      40000000 40004000 01e70000 0000
+    </hexdata>
+  </HVAR>
 
   <STAT>
     <Version value="0x00010001"/>

@@ -44,6 +44,7 @@ def fix_font(path, outpath, name0, name1, name3):
     # Copy gasp, prep and STAT tables
     f["gasp"] = patch["gasp"]
     f["prep"] = patch["prep"]
+    f["HVAR"] = patch["HVAR"]
     f["STAT"] = patch["STAT"]
 
     # Glyphs does not set the weight class of the default master
