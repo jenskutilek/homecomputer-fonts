@@ -707,71 +707,93 @@
     </DesignAxisRecord>
     <!-- AxisValueCount=14 -->
     <AxisValueArray>
-      <AxisValue index="0" Format="1">
+      <AxisValue index="0" Format="2">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="258"/>  <!-- Thin -->
-        <Value value="200.0"/>
+        <NominalValue value="200.0"/>
+        <RangeMinValue value="200.0"/>
+        <RangeMaxValue value="225.0"/>
       </AxisValue>
-      <AxisValue index="2" Format="1">
+      <AxisValue index="2" Format="2">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="259"/>  <!-- ExtraLight -->
-        <Value value="236.52173"/>
+        <NominalValue value="250.0"/>
+        <RangeMinValue value="225.0"/>
+        <RangeMaxValue value="288.0"/>
       </AxisValue>
-      <AxisValue index="4" Format="1">
+      <AxisValue index="4" Format="2">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="260"/>  <!-- Light -->
-        <Value value="321.73912"/>
+        <NominalValue value="325.0"/>
+        <RangeMinValue value="288.0"/>
+        <RangeMaxValue value="362.0"/>
       </AxisValue>
-      <AxisValue index="5" Format="1">
+      <AxisValue index="5" Format="2">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="261"/>  <!-- Regular -->
-        <Value value="400.0"/>
+        <NominalValue value="400.0"/>
+        <RangeMinValue value="362.0"/>
+        <RangeMaxValue value="450.0"/>
       </AxisValue>
-      <AxisValue index="6" Format="1">
+      <AxisValue index="6" Format="2">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="262"/>  <!-- Medium -->
-        <Value value="510.43477"/>
+        <NominalValue value="500.0"/>
+        <RangeMinValue value="450.0"/>
+        <RangeMaxValue value="550.0"/>
       </AxisValue>
-      <AxisValue index="7" Format="1">
+      <AxisValue index="7" Format="2">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="263"/>  <!-- Bold -->
-        <Value value="613.91304"/>
+        <NominalValue value="600.0"/>
+        <RangeMinValue value="550.0"/>
+        <RangeMaxValue value="675.0"/>
       </AxisValue>
-      <AxisValue index="8" Format="1">
+      <AxisValue index="8" Format="2">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="264"/>  <!-- ExtraBold -->
-        <Value value="747.82608"/>
+        <NominalValue value="750.0"/>
+        <RangeMinValue value="675.0"/>
+        <RangeMaxValue value="825.0"/>
       </AxisValue>
-      <AxisValue index="9" Format="1">
+      <AxisValue index="9" Format="2">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="265"/>  <!-- Black -->
-        <Value value="900.0"/>
+        <NominalValue value="900.0"/>
+        <RangeMinValue value="825.0"/>
+        <RangeMaxValue value="900.0"/>
       </AxisValue>
-      <AxisValue index="1" Format="1">
+      <AxisValue index="1" Format="2">
         <AxisIndex value="1"/>
         <Flags value="0"/>
         <ValueNameID value="261"/>  <!-- Regular -->
-        <Value value="100.0"/>
+        <NominalValue value="100.0"/>
+        <RangeMinValue value="100.0"/>
+        <RangeMaxValue value="120.0"/>
       </AxisValue>
-      <AxisValue index="10" Format="1">
+      <AxisValue index="10" Format="2">
         <AxisIndex value="1"/>
         <Flags value="0"/>
         <ValueNameID value="282"/>  <!-- Semi Wide -->
-        <Value value="140.0"/>
+        <NominalValue value="140.0"/>
+        <RangeMinValue value="120.0"/>
+        <RangeMaxValue value="170.0"/>
       </AxisValue>
-      <AxisValue index="12" Format="1">
+      <AxisValue index="12" Format="2">
         <AxisIndex value="1"/>
         <Flags value="0"/>
         <ValueNameID value="283"/>  <!-- Wide -->
-        <Value value="200.0"/>
+        <NominalValue value="200.0"/>
+        <RangeMinValue value="170.0"/>
+        <RangeMaxValue value="200.0"/>
       </AxisValue>
       <AxisValue index="13" Format="1">
         <AxisIndex value="2"/>
