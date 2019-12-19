@@ -32,7 +32,7 @@ def fix_font(path, outpath, name0, name1, name3):
     # Merge STAT, gasp and name tables
 
     patch = TTFont()
-    patch.importXML("../patch/patch.ttx")
+    patch.importXML("patch/patch.ttx")
 
     # Copy and patch name table
     name = patch["name"]
@@ -48,20 +48,21 @@ def fix_font(path, outpath, name0, name1, name3):
     f["prep"] = patch["prep"]
     f["STAT"] = patch["STAT"]
 
-    hvar = DefaultTable("HVAR")
-    glyphs = len(f.getGlyphOrder())
-    hvar.data = struct.pack(
-        ">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
-        0x0001, 0x0000, 0x0000, 0x0014, 0x0000, 0x0000, 0x0000, 0x0000,
-        0x0000, 0x0000, 0x0001, 0x0000, 0x000c, 0x0001, 0x0000, 0x0034,
-        0x0002, 0x0003, 0x0000, 0x4000, 0x4000, 0x0000, 0x0000, 0x0000,
-        0x0000, 0x0000, 0x0000, 0x0000, 0x4000, 0x4000, 0x0000, 0x4000,
-        0x4000, 0x0000, 0x4000, 0x4000, glyphs, 0x0000, 0x0000
-    )
-    f["HVAR"] = hvar
+    # The HVAR patch is not needed for building with fontmake
+    # hvar = DefaultTable("HVAR")
+    # glyphs = len(f.getGlyphOrder())
+    # hvar.data = struct.pack(
+    #     ">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+    #     0x0001, 0x0000, 0x0000, 0x0014, 0x0000, 0x0000, 0x0000, 0x0000,
+    #     0x0000, 0x0000, 0x0001, 0x0000, 0x000c, 0x0001, 0x0000, 0x0034,
+    #     0x0002, 0x0003, 0x0000, 0x4000, 0x4000, 0x0000, 0x0000, 0x0000,
+    #     0x0000, 0x0000, 0x0000, 0x0000, 0x4000, 0x4000, 0x0000, 0x4000,
+    #     0x4000, 0x0000, 0x4000, 0x4000, glyphs, 0x0000, 0x0000
+    # )
+    # f["HVAR"] = hvar
 
     # Glyphs does not set the weight class of the default master
-    f["OS/2"].usWeightClass = 200
+    # f["OS/2"].usWeightClass = 200
 
     f.save(outpath)
     f.close()
@@ -70,16 +71,16 @@ def fix_font(path, outpath, name0, name1, name3):
 
 
 fix_font(
-    "../fonts/SixtyfourGX.ttf",
-    "../fonts/Sixtyfour[wdth,wght].ttf",
+    "temp_out/Sixtyfour-VF.ttf",
+    "fonts/Sixtyfour[wdth,wght].ttf",
     u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Commodore 64 character set.",
     u"Sixtyfour",
     u"2.000;jens;Sixtyfour",
 )
 
 fix_font(
-    "../fonts/WorkbenchGX.ttf",
-    "../fonts/Workbench[wdth,wght].ttf",
+    "temp_out/Workbench-VF.ttf",
+    "fonts/Workbench[wdth,wght].ttf",
     u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Amiga 500 Workbench 1.3 character set.",
     u"Workbench",
     u"2.000;jens;Workbench",
