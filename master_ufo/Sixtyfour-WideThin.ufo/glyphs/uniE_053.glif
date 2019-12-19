@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniE053" format="2">
+  <advance width="1024"/>
+  <unicode hex="E053"/>
+  <outline>
+    <component base="pixel.8" yOffset="-128"/>
+    <component base="pixel.8"/>
+    <component base="pixel.8" yOffset="128"/>
+    <component base="pixel.8" yOffset="512"/>
+    <component base="pixel.8" yOffset="640"/>
+    <component base="pixel.8" yOffset="768"/>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="R" format="2">
+  <advance width="1024"/>
+  <unicode hex="0052"/>
+  <outline>
+    <component base="pixel.2" xOffset="128"/>
+    <component base="pixel.2" xOffset="640"/>
+    <component base="pixel.2" xOffset="128" yOffset="128"/>
+    <component base="pixel.2" xOffset="512" yOffset="128"/>
+    <component base="pixel.4" xOffset="128" yOffset="256"/>
+    <component base="pixel.5" xOffset="128" yOffset="384"/>
+    <component base="pixel.2" xOffset="128" yOffset="512"/>
+    <component base="pixel.2" xOffset="640" yOffset="512"/>
+    <component base="pixel.2" xOffset="128" yOffset="640"/>
+    <component base="pixel.2" xOffset="640" yOffset="640"/>
+    <component base="pixel.5" xOffset="128" yOffset="768"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

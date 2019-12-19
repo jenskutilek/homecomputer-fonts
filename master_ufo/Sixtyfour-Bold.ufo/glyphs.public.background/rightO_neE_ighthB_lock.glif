@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightOneEighthBlock" format="2">
+  <outline>
+    <contour>
+      <point x="765" y="899" type="line"/>
+      <point x="765" y="-131" type="line"/>
+      <point x="1027" y="-131" type="line"/>
+      <point x="1027" y="899" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.0</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

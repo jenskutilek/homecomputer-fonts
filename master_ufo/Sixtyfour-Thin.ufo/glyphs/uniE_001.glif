@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniE001" format="2">
+  <advance width="1024"/>
+  <unicode hex="E001"/>
+  <outline>
+    <component base="boxHeavyHorizontal" yOffset="128"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

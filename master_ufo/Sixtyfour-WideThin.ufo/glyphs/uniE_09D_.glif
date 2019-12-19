@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniE09D" format="2">
+  <advance width="1024"/>
+  <unicode hex="E09D"/>
+  <outline>
+    <component base="pixel.3" yOffset="-128"/>
+    <component base="pixel.3" xOffset="640" yOffset="-128"/>
+    <component base="pixel.2"/>
+    <component base="pixel.2" xOffset="768"/>
+    <component base="pixel.1" yOffset="128"/>
+    <component base="pixel.1" xOffset="896" yOffset="128"/>
+    <component base="pixel.3" yOffset="256"/>
+    <component base="pixel.3" xOffset="640" yOffset="256"/>
+    <component base="pixel.3" yOffset="384"/>
+    <component base="pixel.3" xOffset="640" yOffset="384"/>
+    <component base="pixel.3" yOffset="512"/>
+    <component base="pixel.3" xOffset="640" yOffset="512"/>
+    <component base="pixel.3" yOffset="640"/>
+    <component base="pixel.3" xOffset="640" yOffset="640"/>
+    <component base="pixel.8" yOffset="768"/>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterequal" format="2">
+  <advance width="1024"/>
+  <unicode hex="2265"/>
+  <outline>
+    <component base="pixel.5" xOffset="128"/>
+    <component base="pixel.2" xOffset="256" yOffset="256"/>
+    <component base="pixel.2" xOffset="384" yOffset="384"/>
+    <component base="pixel.2" xOffset="512" yOffset="512"/>
+    <component base="pixel.2" xOffset="384" yOffset="640"/>
+    <component base="pixel.2" xOffset="256" yOffset="768"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

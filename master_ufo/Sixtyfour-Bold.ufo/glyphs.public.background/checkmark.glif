@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="checkmark" format="2">
+  <outline>
+    <contour>
+      <point x="899" y="509" type="line"/>
+      <point x="899" y="637" type="line"/>
+      <point x="1027" y="637" type="line"/>
+      <point x="1027" y="899" type="line"/>
+      <point x="893" y="899" type="line"/>
+      <point x="893" y="771" type="line"/>
+      <point x="765" y="771" type="line"/>
+      <point x="765" y="643" type="line"/>
+      <point x="637" y="643" type="line"/>
+      <point x="637" y="515" type="line"/>
+      <point x="509" y="515" type="line"/>
+      <point x="509" y="387" type="line"/>
+      <point x="387" y="387" type="line"/>
+      <point x="387" y="515" type="line"/>
+      <point x="125" y="515" type="line"/>
+      <point x="125" y="-3" type="line"/>
+      <point x="387" y="-3" type="line"/>
+      <point x="387" y="125" type="line"/>
+      <point x="515" y="125" type="line"/>
+      <point x="515" y="253" type="line"/>
+      <point x="643" y="253" type="line"/>
+      <point x="643" y="381" type="line"/>
+      <point x="771" y="381" type="line"/>
+      <point x="771" y="509" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.0</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

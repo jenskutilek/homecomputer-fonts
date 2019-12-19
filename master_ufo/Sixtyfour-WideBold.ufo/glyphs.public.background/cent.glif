@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cent" format="2">
+  <outline>
+    <contour>
+      <point x="381" y="771" type="line"/>
+      <point x="381" y="643" type="line"/>
+      <point x="253" y="643" type="line"/>
+      <point x="253" y="515" type="line"/>
+      <point x="125" y="515" type="line"/>
+      <point x="125" y="253" type="line"/>
+      <point x="253" y="253" type="line"/>
+      <point x="253" y="125" type="line"/>
+      <point x="381" y="125" type="line"/>
+      <point x="381" y="-3" type="line"/>
+      <point x="643" y="-3" type="line"/>
+      <point x="643" y="125" type="line"/>
+      <point x="771" y="125" type="line"/>
+      <point x="771" y="259" type="line"/>
+      <point x="387" y="259" type="line"/>
+      <point x="387" y="509" type="line"/>
+      <point x="771" y="509" type="line"/>
+      <point x="771" y="643" type="line"/>
+      <point x="643" y="643" type="line"/>
+      <point x="643" y="771" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.13</key>
+      <dict>
+        <key>name</key>
+        <string>hr03</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.17</key>
+      <dict>
+        <key>name</key>
+        <string>hr04</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.3</key>
+      <dict>
+        <key>name</key>
+        <string>hr01</string>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.7</key>
+      <dict>
+        <key>name</key>
+        <string>hr02</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

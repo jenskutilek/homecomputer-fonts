@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O.case" format="2">
+  <advance width="512"/>
+  <outline>
+    <component base="pixel.4" xOffset="128"/>
+    <component base="pixel.2" xOffset="64" yOffset="128"/>
+    <component base="pixel.2" xOffset="320" yOffset="128"/>
+    <component base="pixel.2" yOffset="256"/>
+    <component base="pixel.2" xOffset="384" yOffset="256"/>
+    <component base="pixel.2" xOffset="64" yOffset="384"/>
+    <component base="pixel.2" xOffset="320" yOffset="384"/>
+    <component base="pixel.4" xOffset="128" yOffset="512"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowerRightBlackTriangle" format="2">
+  <advance width="1024"/>
+  <unicode hex="25E2"/>
+  <outline>
+    <component base="pixel.7" xOffset="128" yOffset="-128"/>
+    <component base="pixel.6" xOffset="256"/>
+    <component base="pixel.5" xOffset="384" yOffset="128"/>
+    <component base="pixel.4" xOffset="512" yOffset="256"/>
+    <component base="pixel.3" xOffset="640" yOffset="384"/>
+    <component base="pixel.2" xOffset="768" yOffset="512"/>
+    <component base="pixel.1" xOffset="896" yOffset="640"/>
+  </outline>
+</glyph>

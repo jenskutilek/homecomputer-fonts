@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oe" format="2">
+  <advance width="512"/>
+  <unicode hex="0153"/>
+  <outline>
+    <component base="pixel.6" xOffset="64"/>
+    <component base="pixel.2" yOffset="128"/>
+    <component base="pixel.2" xOffset="192" yOffset="128"/>
+    <component base="pixel.2" yOffset="256"/>
+    <component base="pixel.5" xOffset="192" yOffset="256"/>
+    <component base="pixel.2" yOffset="384"/>
+    <component base="pixel.2" xOffset="192" yOffset="384"/>
+    <component base="pixel.2" xOffset="384" yOffset="384"/>
+    <component base="pixel.6" xOffset="64" yOffset="512"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

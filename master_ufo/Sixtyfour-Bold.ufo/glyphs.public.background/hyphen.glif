@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen" format="2">
+  <outline>
+    <contour>
+      <point x="183" y="387" type="line" smooth="yes"/>
+      <point x="152" y="387"/>
+      <point x="114" y="423"/>
+      <point x="114" y="473"/>
+      <point x="152" y="509"/>
+      <point x="183" y="509" type="qcurve" smooth="yes"/>
+      <point x="841" y="509" type="line" smooth="yes"/>
+      <point x="872" y="509"/>
+      <point x="910" y="473"/>
+      <point x="910" y="423"/>
+      <point x="872" y="387"/>
+      <point x="841" y="387" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

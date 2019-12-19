@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowerLeftBlock" format="2">
+  <advance width="1024"/>
+  <unicode hex="2596"/>
+  <outline>
+    <component base="pixel.4" yOffset="-128"/>
+    <component base="pixel.4"/>
+    <component base="pixel.4" yOffset="128"/>
+    <component base="pixel.4" yOffset="256"/>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threesuperior" format="2">
+  <outline>
+    <contour>
+      <point x="253" y="387" type="line"/>
+      <point x="253" y="253" type="line"/>
+      <point x="643" y="253" type="line"/>
+      <point x="643" y="381" type="line"/>
+      <point x="771" y="381" type="line"/>
+      <point x="771" y="515" type="line"/>
+      <point x="643" y="515" type="line"/>
+      <point x="643" y="637" type="line"/>
+      <point x="771" y="637" type="line"/>
+      <point x="771" y="771" type="line"/>
+      <point x="643" y="771" type="line"/>
+      <point x="643" y="899" type="line"/>
+      <point x="264" y="899" type="line"/>
+      <point x="264" y="765" type="line"/>
+      <point x="509" y="765" type="line"/>
+      <point x="509" y="643" type="line"/>
+      <point x="381" y="643" type="line"/>
+      <point x="381" y="509" type="line"/>
+      <point x="509" y="509" type="line"/>
+      <point x="509" y="387" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.0</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

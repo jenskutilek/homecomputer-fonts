@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ae" format="2">
+  <advance width="512"/>
+  <unicode hex="00E6"/>
+  <outline>
+    <component base="pixel.3" xOffset="64"/>
+    <component base="pixel.3" xOffset="320"/>
+    <component base="pixel.2" yOffset="128"/>
+    <component base="pixel.2" xOffset="192" yOffset="128"/>
+    <component base="pixel.7" xOffset="64" yOffset="256"/>
+    <component base="pixel.2" xOffset="192" yOffset="384"/>
+    <component base="pixel.2" xOffset="384" yOffset="384"/>
+    <component base="pixel.6" xOffset="64" yOffset="512"/>
+  </outline>
+</glyph>

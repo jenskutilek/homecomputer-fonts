@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="copyright" format="2">
+  <advance width="1024"/>
+  <unicode hex="00A9"/>
+  <outline>
+    <component base="pixel.3" xOffset="384"/>
+    <component base="pixel.1" xOffset="256" yOffset="128"/>
+    <component base="pixel.1" xOffset="768" yOffset="128"/>
+    <component base="pixel.1" xOffset="128" yOffset="256"/>
+    <component base="pixel.2" xOffset="512" yOffset="256"/>
+    <component base="pixel.1" xOffset="896" yOffset="256"/>
+    <component base="pixel.1" xOffset="128" yOffset="384"/>
+    <component base="pixel.1" xOffset="384" yOffset="384"/>
+    <component base="pixel.1" xOffset="896" yOffset="384"/>
+    <component base="pixel.1" xOffset="128" yOffset="512"/>
+    <component base="pixel.2" xOffset="512" yOffset="512"/>
+    <component base="pixel.1" xOffset="896" yOffset="512"/>
+    <component base="pixel.1" xOffset="256" yOffset="640"/>
+    <component base="pixel.1" xOffset="768" yOffset="640"/>
+    <component base="pixel.3" xOffset="384" yOffset="768"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
