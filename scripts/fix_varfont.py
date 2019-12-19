@@ -61,7 +61,7 @@ def fix_font(path, outpath, name0, name1, name3):
     f["HVAR"] = hvar
 
     # Glyphs does not set the weight class of the default master
-    f["OS/2"].usWeightClass = 250
+    f["OS/2"].usWeightClass = 200
 
     f.save(outpath)
     f.close()
