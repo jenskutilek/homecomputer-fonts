@@ -1,5 +1,5 @@
 {
-.appVersion = "1268";
+.appVersion = "1286";
 copyright = "Copyright (c) 2008-2019 by Jens Kutilek. All rights reserved.";
 customParameters = (
 {
@@ -30,11 +30,11 @@ value = 1;
 },
 {
 name = vendorID;
-value = jens;
+value = JENS;
 },
 {
 name = "Variable Font Origin";
-value = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+value = "EF047752-ED93-49D3-A4D1-D66A6AAE90C7";
 }
 );
 date = "2008-09-07 06:16:00 +0000";

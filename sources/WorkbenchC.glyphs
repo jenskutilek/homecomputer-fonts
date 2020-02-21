@@ -1,5 +1,5 @@
 {
-.appVersion = "1247";
+.appVersion = "1286";
 copyright = "Copyright (c) 2008-2019 by Jens Kutilek. All rights reserved.";
 customParameters = (
 {
@@ -68,6 +68,10 @@ Name = Production;
 Tag = PROD;
 }
 );
+},
+{
+name = vendorID;
+value = JENS;
 }
 );
 date = "2008-09-07 06:16:00 +0000";

@@ -1,5 +1,5 @@
 {
-.appVersion = "1270";
+.appVersion = "1286";
 classes = (
 {
 code = "upArrow\012leftArrow\012space\012boxHeavyHorizontal\012spadeBlackSuit\012boxHeavyVertical\012uniE000\012uniE001\012uniE002\012uniE003\012uniE004\012uniE005\012boxLightArcDownAndLeft\012boxLightArcUpAndRight\012boxLightArcUpAndLeft\012uniE006\012boxLightDiagonalUpperLeftToLowerRight\012boxLightDiagonalUpperRightToLowerLeft\012uniE007\012uniE008\012blackCircle\012uniE009\012heartBlackSuit\012uniE00A\012boxLightArcDownAndRight\012boxLightDiagonalCross\012whiteCircle\012clubBlackSuit\012uniE00B\012diamondBlackSuit\012boxHeavyVerticalAndHorizontal\012uniE00C\012uniE00D\012pi\012upperRightBlackTriangle\012nbspace\012leftBlock\012lowerHalfBlock\012upperOneEighthBlock\012lowerOneEighthBlock\012leftOneEighthBlock\012shadedark\012rightOneEighthBlock\012uniE00E\012upperLeftBlackTriangle\012uniE00F\012boxHeavyVerticalAndRight\012lowerRightBlock\012boxHeavyUpAndRight\012boxHeavyDownAndLeft\012lowerOneQuarterBlock\012boxHeavyDownAndRight\012boxHeavyUpAndHorizontal\012boxHeavyDownAndHorizontal\012boxHeavyVerticalAndLeft\012leftOneQuarterBlock\012leftThreeEighthsBlock\012uniE010\012uniE011\012uniE012\012lowerThreeEighthsBlock\012uniE013\012lowerLeftBlock\012upperRightBlock\012boxHeavyUpAndLeft\012upperLeftBlock\012upperLeftAndLowerRightBlock\012upperlefttolowerrightFillSquare\012upperrighttolowerleftFillSquare\012checkmark\012rightArrow\012downArrow\012";
@@ -61,7 +61,7 @@ value = 1;
 },
 {
 name = vendorID;
-value = jens;
+value = JENS;
 },
 {
 name = "Variable Font Origin";
