@@ -71,17 +71,17 @@ def fix_font(path, outpath, name0, name1, name3):
 
 
 fix_font(
-    "temp_out/Sixtyfour-VF.ttf",
-    "fonts/Sixtyfour[wdth,wght].ttf",
+    "Sixtyfour/fonts/variable/Sixtyfour[BLED,SCAN].ttf",
+    "fonts/variable/Sixtyfour[BLED,SCAN].ttf",
     u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Commodore 64 character set.",
     u"Sixtyfour",
-    u"2.000;jens;Sixtyfour",
+    u"2.000;JENS;Sixtyfour",
 )
 
 fix_font(
-    "temp_out/Workbench-VF.ttf",
-    "fonts/Workbench[wdth,wght].ttf",
+    "Workbench/fonts/variable/Workbench[BLED,SCAN].ttf",
+    "fonts/variable/Workbench[BLED,SCAN].ttf",
     u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Amiga 500 Workbench 1.3 character set.",
     u"Workbench",
-    u"2.000;jens;Workbench",
+    u"2.000;JENS;Workbench",
 )
