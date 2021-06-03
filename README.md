@@ -15,3 +15,10 @@ The names of the two axes have been translated to standard typographic terms. Th
 	<img src="images/wb.png">
 	<figcaption>Workbench, check the <a href="https://jenskutilek.github.io/homecomputer-fonts/demo-workbench.html">interactive demo page</a>.</figcaption>
 </figure>
+
+
+# Building the fonts from source
+
+To use `gftools builder`, I had to [jump through some hoops](https://www.pygit2.org/install.html#libgit2-within-a-virtual-environment) to install pygit2 on macOS.
+
+
