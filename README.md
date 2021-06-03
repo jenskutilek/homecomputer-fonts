@@ -8,10 +8,10 @@ The names of the two axes have been translated to standard typographic terms. Th
 
 <figure>
 	<img src="images/64.png">
-	<figcaption>Sixtyfour, check the <a href="demo-sixtyfour.html">interactive demo page</a>.</figcaption>
+	<figcaption>Sixtyfour, check the <a href="https://jenskutilek.github.io/homecomputer-fonts/demo-sixtyfour.html">interactive demo page</a>.</figcaption>
 </figure>
 
 <figure>
 	<img src="images/wb.png">
-	<figcaption>Workbench, check the <a href="demo-workbench.html">interactive demo page</a>.</figcaption>
+	<figcaption>Workbench, check the <a href="https://jenskutilek.github.io/homecomputer-fonts/demo-workbench.html">interactive demo page</a>.</figcaption>
 </figure>
