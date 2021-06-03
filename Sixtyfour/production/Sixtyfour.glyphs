@@ -1,5 +1,5 @@
 {
-.appVersion = "1286";
+.appVersion = "1356";
 DisplayStrings = (
 "³"
 );
@@ -35,12 +35,12 @@ customParameters = (
 name = Axes;
 value = (
 {
-Name = Weight;
-Tag = wght;
+Name = Scanlines;
+Tag = SCAN;
 },
 {
-Name = Width;
-Tag = wdth;
+Name = Bleed;
+Tag = BLED;
 }
 );
 },
@@ -135423,6 +135423,16 @@ gridLength = 128;
 gridSubDivision = 128;
 instances = (
 {
+interpolationCustom = 100;
+interpolationWidth = 0;
+instanceInterpolations = {
+"511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.34783;
+"A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.65217;
+};
+name = Regular;
+},
+{
+exports = 0;
 customParameters = (
 {
 name = weightClass;
@@ -135439,6 +135449,7 @@ name = Thin;
 weightClass = Thin;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 32;
 interpolationWidth = 0;
@@ -135450,6 +135461,7 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 60;
 interpolationWidth = 0;
@@ -135461,6 +135473,7 @@ name = Light;
 weightClass = Light;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 86;
 interpolationWidth = 0;
@@ -135471,6 +135484,7 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 122;
 interpolationWidth = 0;
@@ -135482,6 +135496,7 @@ name = Medium;
 weightClass = Medium;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 156;
 interpolationWidth = 0;
@@ -135493,6 +135508,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 200;
 interpolationWidth = 0;
@@ -135504,6 +135520,7 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 250;
 interpolationWidth = 0;
@@ -135514,6 +135531,7 @@ name = Black;
 weightClass = Black;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 20;
 interpolationWidth = 40;
@@ -135526,6 +135544,7 @@ weightClass = Thin;
 widthClass = "Semi Expanded";
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 32;
 interpolationWidth = 40;
@@ -135540,6 +135559,7 @@ weightClass = ExtraLight;
 widthClass = "Semi Expanded";
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 60;
 interpolationWidth = 40;
@@ -135554,6 +135574,7 @@ weightClass = Light;
 widthClass = "Semi Expanded";
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 86;
 interpolationWidth = 40;
@@ -135567,6 +135588,7 @@ name = "Semi Wide Regular";
 widthClass = "Semi Expanded";
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 122;
 interpolationWidth = 40;
@@ -135581,6 +135603,7 @@ weightClass = Medium;
 widthClass = "Semi Expanded";
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 156;
 interpolationWidth = 40;
@@ -135595,6 +135618,7 @@ weightClass = Bold;
 widthClass = "Semi Expanded";
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 200;
 interpolationWidth = 40;
@@ -135609,6 +135633,7 @@ weightClass = ExtraBold;
 widthClass = "Semi Expanded";
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 250;
 interpolationWidth = 40;
@@ -135621,6 +135646,7 @@ weightClass = Black;
 widthClass = "Semi Expanded";
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 20;
 instanceInterpolations = {
@@ -135631,6 +135657,7 @@ weightClass = Thin;
 widthClass = Expanded;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 32;
 instanceInterpolations = {
@@ -135642,6 +135669,7 @@ weightClass = ExtraLight;
 widthClass = Expanded;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 60;
 instanceInterpolations = {
@@ -135653,6 +135681,7 @@ weightClass = Light;
 widthClass = Expanded;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 86;
 instanceInterpolations = {
@@ -135663,6 +135692,7 @@ name = "Wide Regular";
 widthClass = Expanded;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 122;
 instanceInterpolations = {
@@ -135674,6 +135704,7 @@ weightClass = Medium;
 widthClass = Expanded;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 156;
 instanceInterpolations = {
@@ -135685,6 +135716,7 @@ weightClass = Bold;
 widthClass = Expanded;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 200;
 instanceInterpolations = {
@@ -135696,6 +135728,7 @@ weightClass = ExtraBold;
 widthClass = Expanded;
 },
 {
+exports = 0;
 interpolationCustom = 100;
 interpolationWeight = 250;
 instanceInterpolations = {
