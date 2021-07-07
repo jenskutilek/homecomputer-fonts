@@ -19,4 +19,14 @@ Inspired by the article [Raster CRT Typography (According to DEC)](https://www.m
 
 To use `gftools builder`, I had to [jump through some hoops](https://www.pygit2.org/install.html#libgit2-within-a-virtual-environment) to install pygit2 on macOS.
 
+Activate the virtual environment:
 
+```bash
+source env/bin/activate
+```
+
+When you have got it, you can just type
+
+```bash
+make
+```
