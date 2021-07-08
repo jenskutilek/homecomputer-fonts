@@ -9,7 +9,7 @@ help:
 	@echo
 
 .PHONY: build
-build: build.stamp build-64 build-wb fix-fonts
+build: build.stamp build-64 build-wb fix-fonts webfonts
 
 .PHONY: build-64
 build-64: Sixtyfour/sources/config.yaml Sixtyfour/sources/Sixtyfour.glyphs
@@ -56,3 +56,12 @@ dist-clean:
 .PHONY: fix-fonts
 fix-fonts:
 	. venv/bin/activate; python scripts/fix_varfont.py
+
+.PHONY: webfonts
+webfonts: fonts/webfonts/Sixtyfour[BLED,SCAN].woff2 fonts/webfonts/Workbench[BLED,SCAN].woff2
+
+fonts/webfonts/Sixtyfour[BLED,SCAN].woff2: build.stamp
+	. venv/bin/activate; python scripts/2woff.py fonts/variable/Sixtyfour[BLED,SCAN].ttf
+
+fonts/webfonts/Workbench[BLED,SCAN].woff2:
+	. venv/bin/activate; python scripts/2woff.py fonts/variable/Workbench[BLED,SCAN].ttf
