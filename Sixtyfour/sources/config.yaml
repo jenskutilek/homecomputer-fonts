@@ -22,3 +22,9 @@ stat:
     - name: Regular
       value: 0
       flags: 2
+  - name: Italic
+    tag: ital
+    values:
+    - name: Regular
+      value: 0
+      flags: 2
