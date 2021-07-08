@@ -26,7 +26,7 @@ code = "uniE014\012uniE015\012uniE016\012uniE017\012uniE018\012uniE019\012uniE01
 name = rev_all_target;
 }
 );
-copyright = "Copyright 2008-2021, Jens Kutilek (https://github.com/jenskutilek/homecomputer-fonts)";
+copyright = "Copyright 2021 Jens Kutilek (https://github.com/jenskutilek/homecomputer-fonts)";
 customParameters = (
 {
 name = "Disable Last Change";
@@ -125,24 +125,24 @@ code = "# C64-style quotes\012sub guillemetright  by quotedbl;\012sub guillemetl
 name = salt;
 },
 {
-code = "# C64-style quotes\012sub guillemetright  by quotedbl;\012sub guillemetleft by quotedbl;\012sub quotedblleft by quotedbl;\012sub quotedblright by quotedbl;\012sub quotedblbase by quotedbl;\012  \012sub quoteleft by quotesingle;\012sub quoteright by quotesingle;\012sub quotesinglbase by quotesingle;\012sub guilsinglleft by quotesingle;\012sub guilsinglright by quotesingle;";
+code = "featureNames {\012	name \"Dumb quotes\";\012};\012\012# C64-style quotes\012sub guillemetright  by quotedbl;\012sub guillemetleft by quotedbl;\012sub quotedblleft by quotedbl;\012sub quotedblright by quotedbl;\012sub quotedblbase by quotedbl;\012  \012sub quoteleft by quotesingle;\012sub quoteright by quotesingle;\012sub quotesinglbase by quotesingle;\012sub guilsinglleft by quotesingle;\012sub guilsinglright by quotesingle;\012";
 name = ss01;
-notes = "Name: Dumb quotesname: Dumb quotes";
+notes = "Name: Dumb quotes";
 },
 {
-code = "# invert everything\012sub @rev_all_source by @rev_all_target;\012";
+code = "featureNames {\012	name \"Inverted\";\012};\012\012sub @rev_all_source by @rev_all_target;\012";
 name = ss02;
-notes = "Name: Invert everythingname: Invert everything";
+notes = "Name: Invert everything";
 },
 {
-code = " # inverted alphanumerics\012 sub @rev_alphanum_source by @rev_alphanum_target;";
+code = " featureNames {\012	name \"Inverted alphanumerics\";\012};\012\012sub @rev_alphanum_source by @rev_alphanum_target;\012";
 name = ss03;
-notes = "Name: Invert alphanumericsname: Invert alphanumerics";
+notes = "Name: Invert alphanumerics";
 },
 {
-code = " # inverted block graphics\012 sub @rev_gfx_source by @rev_gfx_target;";
+code = "featureNames {\012	name \"Inverted block graphics\";\012};\012\012sub @rev_gfx_source by @rev_gfx_target;\012";
 name = ss04;
-notes = "Name: Invert block graphicsname: Invert block graphics";
+notes = "Name: Invert block graphics";
 },
 {
 automatic = 1;

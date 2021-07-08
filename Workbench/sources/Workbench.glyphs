@@ -1,6 +1,6 @@
 {
 .appVersion = "3091";
-copyright = "Copyright 2008-2021, Jens Kutilek (https://github.com/jenskutilek/homecomputer-fonts)";
+copyright = "Copyright 2021 Jens Kutilek (https://github.com/jenskutilek/homecomputer-fonts)";
 customParameters = (
 {
 name = "Disable Last Change";
