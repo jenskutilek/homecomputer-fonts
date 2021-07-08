@@ -1,6 +1,6 @@
 {
 .appVersion = "3091";
-copyright = "Copyright (c) 2019, Jens Kutilek (www.kutilek.de), all rights reserved.";
+copyright = "Copyright 2008-2021, Jens Kutilek (https://github.com/jenskutilek/homecomputer-fonts)";
 customParameters = (
 {
 name = "Disable Last Change";
@@ -20,16 +20,35 @@ name = "Variable Font Origin";
 value = "EF047752-ED93-49D3-A4D1-D66A6AAE90C7";
 },
 {
+name = panose;
+value = (
+2,
+0,
+0,
+9,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = vendorID;
 value = JENS;
 },
 {
 name = license;
-value = "This font is licensed under the SIL Open Font License (OFL).";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = Axes;
@@ -41,6 +60,11 @@ Tag = SCAN;
 {
 Name = Bleed;
 Tag = BLED;
+},
+{
+Hidden = 1;
+Name = Italic;
+Tag = ital;
 }
 );
 }
@@ -114,8 +138,8 @@ Location = "100";
 }
 );
 descender = -128;
+iconName = Light;
 id = "EF047752-ED93-49D3-A4D1-D66A6AAE90C7";
-weight = Light;
 weightValue = 20;
 widthValue = 0;
 xHeight = 640;
