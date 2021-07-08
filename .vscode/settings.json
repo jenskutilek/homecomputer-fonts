@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+
+    },
+    "python.pythonPath": "venv/bin/python",
+}
