@@ -6,7 +6,7 @@ axisOrder:
 familyName: Workbench
 buildOTF: false
 buildTTF: false
-outputDir: fonts
+outputDir: ../fonts
 autohintTTF: false
 flattenComponents: false
 stat:
