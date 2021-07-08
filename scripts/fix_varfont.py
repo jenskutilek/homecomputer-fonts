@@ -1,13 +1,10 @@
-#!/usr/bin/env python3
-# coding: utf-8
-
-import struct
+# import struct
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables._g_l_y_f import ROUND_XY_TO_GRID, USE_MY_METRICS
-from fontTools.ttLib.tables.DefaultTable import DefaultTable
+# from fontTools.ttLib.tables.DefaultTable import DefaultTable
 
 
-def fix_font(path, outpath, name0, name1, name3):
+def fix_font(path, outpath):
     f = TTFont(path)
     glyf_table = f["glyf"]
 
@@ -34,19 +31,9 @@ def fix_font(path, outpath, name0, name1, name3):
     patch = TTFont()
     patch.importXML("patch/patch.ttx")
 
-    # Copy and patch name table
-    name = patch["name"]
-    name.setName(name0, 0, 3, 1, 0x409)
-    name.setName(name1, 1, 3, 1, 0x409)
-    name.setName(name3, 3, 3, 1, 0x409)
-    name.setName(name1, 4, 3, 1, 0x409)
-    name.setName(name1, 6, 3, 1, 0x409)
-    f["name"] = name
-
-    # Copy gasp, prep and STAT tables
+    # Copy gasp and prep tables
     f["gasp"] = patch["gasp"]
     f["prep"] = patch["prep"]
-    f["STAT"] = patch["STAT"]
 
     # The HVAR patch is not needed for building with fontmake
     # hvar = DefaultTable("HVAR")
@@ -73,15 +60,9 @@ def fix_font(path, outpath, name0, name1, name3):
 fix_font(
     "Sixtyfour/fonts/variable/Sixtyfour[BLED,SCAN].ttf",
     "fonts/variable/Sixtyfour[BLED,SCAN].ttf",
-    u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Commodore 64 character set.",
-    u"Sixtyfour",
-    u"2.000;JENS;Sixtyfour",
 )
 
 fix_font(
     "Workbench/fonts/variable/Workbench[BLED,SCAN].ttf",
     "fonts/variable/Workbench[BLED,SCAN].ttf",
-    u"Copyright 2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Amiga 500 Workbench 1.3 character set.",
-    u"Workbench",
-    u"2.000;JENS;Workbench",
 )
