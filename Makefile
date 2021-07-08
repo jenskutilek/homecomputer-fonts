@@ -55,4 +55,4 @@ dist-clean:
 
 .PHONY: fix-fonts
 fix-fonts:
-	python3 scripts/fix_varfont.py
+	. venv/bin/activate; python scripts/fix_varfont.py
