@@ -14,8 +14,8 @@
 	--light-blue: #fff;
 	--dark-blue: #083ccf;
 
-	--bleed: 100;
-	--scan: 400;
+	--bleed: 0;
+	--scan: 100;
 }
 
 body {
@@ -113,10 +113,10 @@ und programmier’ die Zukunft mir_
 			</pre>
 		</div>
 		<div class="controls">
-			<div><input type="range" id="bleed" min="100" max="200" step="1" value="100"><label for="bleed">Bleed</label></div>
-			<div><input type="range" id="scan" min="200" max="900" step="1" value="400"><label for="scan">Scanline</label></div>
+			<div><input type="range" id="bleed" min="0" max="100" step="1" value="0"><label for="bleed">Bleed</label></div>
+			<div><input type="range" id="scan" min="20" max="250" step="1" value="100"><label for="scan">Scanline</label></div>
 			<div><input type="range" id="glow" min="0" max="0.8" step="0.01" value="0"><label for="glow">Glow</label></div>
-			<div><input type="range" id="blur" min="0" max="20" step="0.2" value="0"><label for="blur">Blur</label></div>
+			<div><input type="range" id="blur" min="0" max="5" step="0.1" value="0"><label for="blur">Blur</label></div>
 		</div>
 	</body>
 </html>
