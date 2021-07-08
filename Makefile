@@ -8,7 +8,14 @@ help:
 	@echo "  make proof: Creates HTML proof documents in the proof/ directory"
 	@echo
 
-build: build.stamp Sixtyfour/sources/config.yaml Sixtyfour/sources/Sixtyfour.glyphs Workbench/sources/config.yaml Workbench/sources/Workbench.glyphs
+.PHONY: build
+build: build.stamp build-64 build-wb fix-fonts
+
+.PHONY: build-64
+build-64: Sixtyfour/sources/config.yaml Sixtyfour/sources/Sixtyfour.glyphs
+
+.PHONY: build-wb
+build-wb: Workbench/sources/config.yaml Workbench/sources/Workbench.glyphs
 
 venv: venv/touchfile
 
@@ -21,15 +28,17 @@ venv/touchfile: requirements.txt
 	. venv/bin/activate; pip install -Ur requirements.txt
 	touch venv/touchfile
 
+.PHONY: test
 test: venv build.stamp
 	. venv/bin/activate; fontbakery check-googlefonts --html fontbakery-report.html --ghmarkdown fontbakery-report.md $(shell find fonts -type f)
 
+.PHONY: proof
 proof: venv build.stamp
 	. venv/bin/activate; gftools gen-html proof $(shell find fonts/ttf -type f) -o proof
 
 .PHONY: clean
 clean:
-	rm -f temp_out/*.ttf
+	rm -f build.stamp
 
 .PHONY: dist-clean
 dist-clean:
@@ -44,13 +53,6 @@ dist-clean:
 # 	rm -f temp_out/Sixtyfour.ttf
 # 	rm -f temp_out/Workbench.ttf
 
-.PHONY: 64
-64:
-	$(MAKE) -C Sixtyfour
-
-.PHONY: wb
-wb:
-	$(MAKE) -C Workbench
-
+.PHONY: fix-fonts
 fix-fonts:
 	python3 scripts/fix_varfont.py
