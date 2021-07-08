@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "3091";
 DisplayStrings = (
 "³"
 );
@@ -29,21 +29,8 @@ code = "uniE014\012uniE015\012uniE016\012uniE017\012uniE018\012uniE019\012uniE01
 name = rev_all_target;
 }
 );
-copyright = "Copyright 2008-2019 The Homecomputer Fonts Project Authors (https://github.com/jenskutilek/homecomputer-fonts). Based on the Commodore 64 character set.";
+copyright = "Copyright (c) 2019, Jens Kutilek (www.kutilek.de), all rights reserved.";
 customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Scanlines;
-Tag = SCAN;
-},
-{
-Name = Bleed;
-Tag = BLED;
-}
-);
-},
 {
 name = "Disable Last Change";
 value = 1;
@@ -58,16 +45,33 @@ name = postscriptIsFixedPitch;
 value = 1;
 },
 {
-name = vendorID;
-value = JENS;
-},
-{
 name = "Variable Font Origin";
 value = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
 },
 {
+name = vendorID;
+value = JENS;
+},
+{
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
+},
+{
+name = license;
+value = "This font is licensed under the SIL Open Font License (OFL).";
+},
+{
+name = Axes;
+value = (
+{
+Name = Scanlines;
+Tag = SCAN;
+},
+{
+Name = Bleed;
+Tag = BLED;
+}
+);
 }
 );
 date = "2008-09-05 18:17:00 +0000";
@@ -144,7 +148,6 @@ alignmentZones = (
 ascender = 896;
 capHeight = 896;
 custom = Thin;
-customValue = 100;
 customParameters = (
 {
 name = typoAscender;
@@ -237,7 +240,6 @@ alignmentZones = (
 );
 ascender = 896;
 capHeight = 896;
-customValue = 100;
 customParameters = (
 {
 name = typoAscender;
@@ -331,7 +333,6 @@ alignmentZones = (
 ascender = 896;
 capHeight = 896;
 custom = "Wide Thin";
-customValue = 100;
 customParameters = (
 {
 name = typoAscender;
@@ -424,7 +425,6 @@ alignmentZones = (
 ascender = 896;
 capHeight = 896;
 custom = Wide;
-customValue = 100;
 customParameters = (
 {
 name = typoAscender;
@@ -135423,7 +135423,6 @@ gridLength = 128;
 gridSubDivision = 128;
 instances = (
 {
-interpolationCustom = 100;
 interpolationWidth = 0;
 instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.34783;
@@ -135439,18 +135438,15 @@ name = weightClass;
 value = 250;
 }
 );
-interpolationCustom = 100;
 interpolationWeight = 20;
 interpolationWidth = 0;
 instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 1;
 };
 name = Thin;
-weightClass = Thin;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 32;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -135462,7 +135458,6 @@ weightClass = ExtraLight;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 60;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -135474,7 +135469,6 @@ weightClass = Light;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 86;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -135485,7 +135479,6 @@ name = Regular;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 122;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -135497,7 +135490,6 @@ weightClass = Medium;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 156;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -135509,7 +135501,6 @@ weightClass = Bold;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 200;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -135521,7 +135512,6 @@ weightClass = ExtraBold;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 250;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -135532,7 +135522,6 @@ weightClass = Black;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 20;
 interpolationWidth = 40;
 instanceInterpolations = {
@@ -135545,7 +135534,6 @@ widthClass = "Semi Expanded";
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 32;
 interpolationWidth = 40;
 instanceInterpolations = {
@@ -135560,7 +135548,6 @@ widthClass = "Semi Expanded";
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 60;
 interpolationWidth = 40;
 instanceInterpolations = {
@@ -135575,7 +135562,6 @@ widthClass = "Semi Expanded";
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 86;
 interpolationWidth = 40;
 instanceInterpolations = {
@@ -135589,7 +135575,6 @@ widthClass = "Semi Expanded";
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 122;
 interpolationWidth = 40;
 instanceInterpolations = {
@@ -135604,7 +135589,6 @@ widthClass = "Semi Expanded";
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 156;
 interpolationWidth = 40;
 instanceInterpolations = {
@@ -135619,7 +135603,6 @@ widthClass = "Semi Expanded";
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 200;
 interpolationWidth = 40;
 instanceInterpolations = {
@@ -135634,7 +135617,6 @@ widthClass = "Semi Expanded";
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 250;
 interpolationWidth = 40;
 instanceInterpolations = {
@@ -135647,7 +135629,6 @@ widthClass = "Semi Expanded";
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 20;
 instanceInterpolations = {
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 1;
@@ -135658,7 +135639,6 @@ widthClass = Expanded;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 32;
 instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.05217;
@@ -135670,7 +135650,6 @@ widthClass = Expanded;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 60;
 instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.17391;
@@ -135682,7 +135661,6 @@ widthClass = Expanded;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 86;
 instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.28696;
@@ -135693,7 +135671,6 @@ widthClass = Expanded;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 122;
 instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.44348;
@@ -135705,7 +135682,6 @@ widthClass = Expanded;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 156;
 instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.5913;
@@ -135717,7 +135693,6 @@ widthClass = Expanded;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 200;
 instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.78261;
@@ -135729,7 +135704,6 @@ widthClass = Expanded;
 },
 {
 exports = 0;
-interpolationCustom = 100;
 interpolationWeight = 250;
 instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 1;
