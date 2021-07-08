@@ -28,5 +28,7 @@ source env/bin/activate
 When you have got it, you can just type
 
 ```bash
-make
+make build
+make test
+make proof
 ```
