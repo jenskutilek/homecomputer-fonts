@@ -34,7 +34,7 @@ test: venv build.stamp
 
 .PHONY: proof
 proof: venv build.stamp
-	. venv/bin/activate; gftools gen-html proof $(shell find fonts/ttf -type f) -o proof
+	. venv/bin/activate; gftools gen-html proof $(shell find fonts/variable -type f) -o proof
 
 .PHONY: clean
 clean:
