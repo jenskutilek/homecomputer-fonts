@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="lowerOneEighthBlock" format="2">
-  <advance width="1024"/>
-  <unicode hex="2581"/>
-  <outline>
-    <component base="pixel.8" yOffset="-128"/>
-  </outline>
-</glyph>

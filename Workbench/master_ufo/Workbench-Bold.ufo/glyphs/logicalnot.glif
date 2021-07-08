@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="logicalnot" format="2">
-  <advance width="512"/>
-  <unicode hex="00AC"/>
-  <outline>
-    <component base="pixel.2" xOffset="320" yOffset="640"/>
-    <component base="pixel.5" xOffset="128" yOffset="768"/>
-  </outline>
-</glyph>
