@@ -1,4 +1,5 @@
 # import struct
+from os.path import dirname, basename, join
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables._g_l_y_f import ROUND_XY_TO_GRID, USE_MY_METRICS
 # from fontTools.ttLib.tables.DefaultTable import DefaultTable
@@ -54,7 +55,10 @@ def fix_font(path, outpath):
     f.save(outpath)
     f.close()
     f = TTFont(outpath)
-    f.saveXML(outpath + ".ttx")
+    ttx_path = join(
+        dirname(outpath), "..", "variable_ttx", f"{basename(outpath)}.ttx"
+    )
+    f.saveXML(ttx_path)
 
 
 fix_font(
