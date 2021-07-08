@@ -86,11 +86,6 @@ Tag = SCAN;
 {
 Name = Bleed;
 Tag = BLED;
-},
-{
-Hidden = 1;
-Name = Italic;
-Tag = ital;
 }
 );
 }
