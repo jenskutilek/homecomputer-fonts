@@ -8,7 +8,7 @@ buildOTF: false
 buildTTF: false
 outputDir: ../fonts
 autohintTTF: false
-flattenComponents: false
+flattenComponents: true
 stat:
   Workbench[BLED,SCAN].ttf:
   - name: Scanlines
