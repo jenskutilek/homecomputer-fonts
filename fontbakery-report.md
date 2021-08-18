@@ -193,7 +193,7 @@ field, using bits 0 and 5.</pre>
 
 * 💔 **ERROR** Failed with InvalidFileException: Invalid file
 * ⚠ **WARN** stderr output from ftxvalidator:
-b'objc[52769]: Objective-C garbage collection is no longer supported.\n' [code: stderr]
+b'objc[57669]: Objective-C garbage collection is no longer supported.\n' [code: stderr]
 
 </details>
 <details>
@@ -2622,7 +2622,7 @@ than 100 reported misalignments.</pre>
 
 * 💔 **ERROR** Failed with InvalidFileException: Invalid file
 * ⚠ **WARN** stderr output from ftxvalidator:
-b'objc[52791]: Objective-C garbage collection is no longer supported.\n' [code: stderr]
+b'objc[57678]: Objective-C garbage collection is no longer supported.\n' [code: stderr]
 
 </details>
 <details>
@@ -2721,29 +2721,6 @@ For more info, see:
 	* Agrave
 	* Aring
 	* Aring and 142 more. [code: found-nested-components]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
-<pre>--- Rationale ---
-A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
-of the name table.
-The source of truth for this check is the licensing text found on the NameID 13
-entry (LICENSE DESCRIPTION).
-The string snippets used for detecting licensing terms are:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-When in doubt, please choose OFL for new font projects.</pre>
-
-* 🍞 **PASS** Font has a valid license URL in NAME table.
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 
 </details>
 <details>
@@ -4132,6 +4109,28 @@ When in doubt, please choose OFL for new font projects.</pre>
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+<pre>--- Rationale ---
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
+The string snippets used for detecting licensing terms are:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+When in doubt, please choose OFL for new font projects.</pre>
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters.</summary>
 
 * [com.google.fonts/check/name/description_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length)
@@ -5049,5 +5048,5 @@ than 100 reported misalignments.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 12 | 3 | 202 | 13 | 167 | 0 |
+| 2 | 12 | 2 | 202 | 13 | 168 | 0 |
 | 1% | 3% | 1% | 51% | 3% | 42% | 0% |
