@@ -14,17 +14,18 @@ stat:
   - name: Scanlines
     tag: SCAN
     values:
-    - name: Regular
+    - name: Normal
       value: 100
   - name: Bleed
     tag: BLED
     values:
-    - name: Regular
+    - name: Normal
       value: 0
       flags: 2
   - name: Italic
     tag: ital
     values:
-    - name: Regular
+    - name: Roman
       value: 0
       flags: 2
+      linkedValue: 1
