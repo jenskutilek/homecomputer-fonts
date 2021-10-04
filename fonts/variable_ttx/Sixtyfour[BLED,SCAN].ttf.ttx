@@ -497,12 +497,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0x4dc0cd68"/>
+    <checkSumAdjustment value="0xdb590e40"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Fri Sep  5 18:17:00 2008"/>
-    <modified value="Mon Oct  4 20:58:00 2021"/>
+    <modified value="Mon Oct  4 21:30:17 2021"/>
     <xMin value="-5"/>
     <yMin value="-74"/>
     <xMax value="1029"/>
@@ -8391,7 +8391,7 @@
       Strong
     </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
-      Copyright 2021 Jens Kutilek (https://github.com/jenskutilek/homecomputer-fonts)
+      Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
       Sixtyfour
@@ -10168,9 +10168,9 @@
     <Axis>
       <AxisTag>SCAN</AxisTag>
       <Flags>0x0</Flags>
-      <MinValue>20.0</MinValue>
-      <DefaultValue>20.0</DefaultValue>
-      <MaxValue>250.0</MaxValue>
+      <MinValue>-80.0</MinValue>
+      <DefaultValue>-80.0</DefaultValue>
+      <MaxValue>150.0</MaxValue>
       <AxisNameID>260</AxisNameID>
     </Axis>
 
@@ -10187,168 +10187,168 @@
     <!-- Delicate -->
     <!-- PostScript: Sixtyfour-Delicate -->
     <NamedInstance flags="0x0" postscriptNameID="286" subfamilyNameID="262">
-      <coord axis="SCAN" value="20.0"/>
+      <coord axis="SCAN" value="-80.0"/>
       <coord axis="BLED" value="0.0"/>
     </NamedInstance>
 
     <!-- Slight -->
     <!-- PostScript: Sixtyfour-Slight -->
     <NamedInstance flags="0x0" postscriptNameID="287" subfamilyNameID="263">
-      <coord axis="SCAN" value="32.0"/>
+      <coord axis="SCAN" value="-68.0"/>
       <coord axis="BLED" value="0.0"/>
     </NamedInstance>
 
     <!-- Evenly -->
     <!-- PostScript: Sixtyfour-Evenly -->
     <NamedInstance flags="0x0" postscriptNameID="288" subfamilyNameID="264">
-      <coord axis="SCAN" value="60.0"/>
+      <coord axis="SCAN" value="-40.0"/>
       <coord axis="BLED" value="0.0"/>
     </NamedInstance>
 
     <!-- Normal -->
     <!-- PostScript: Sixtyfour-Normal -->
     <NamedInstance flags="0x0" postscriptNameID="289" subfamilyNameID="265">
-      <coord axis="SCAN" value="100.0"/>
+      <coord axis="SCAN" value="0.0"/>
       <coord axis="BLED" value="0.0"/>
     </NamedInstance>
 
     <!-- Touching -->
     <!-- PostScript: Sixtyfour-Touching -->
     <NamedInstance flags="0x0" postscriptNameID="290" subfamilyNameID="266">
-      <coord axis="SCAN" value="132.0"/>
+      <coord axis="SCAN" value="32.0"/>
       <coord axis="BLED" value="0.0"/>
     </NamedInstance>
 
     <!-- Overlapping -->
     <!-- PostScript: Sixtyfour-Overlapping -->
     <NamedInstance flags="0x0" postscriptNameID="291" subfamilyNameID="267">
-      <coord axis="SCAN" value="156.0"/>
+      <coord axis="SCAN" value="56.0"/>
       <coord axis="BLED" value="0.0"/>
     </NamedInstance>
 
     <!-- Overexposed -->
     <!-- PostScript: Sixtyfour-Overexposed -->
     <NamedInstance flags="0x0" postscriptNameID="292" subfamilyNameID="268">
-      <coord axis="SCAN" value="200.0"/>
+      <coord axis="SCAN" value="100.0"/>
       <coord axis="BLED" value="0.0"/>
     </NamedInstance>
 
     <!-- Maximum -->
     <!-- PostScript: Sixtyfour-Maximum -->
     <NamedInstance flags="0x0" postscriptNameID="293" subfamilyNameID="269">
-      <coord axis="SCAN" value="250.0"/>
+      <coord axis="SCAN" value="150.0"/>
       <coord axis="BLED" value="0.0"/>
     </NamedInstance>
 
     <!-- Delicate Medium -->
     <!-- PostScript: Sixtyfour-DelicateMedium -->
     <NamedInstance flags="0x0" postscriptNameID="294" subfamilyNameID="270">
-      <coord axis="SCAN" value="20.0"/>
+      <coord axis="SCAN" value="-80.0"/>
       <coord axis="BLED" value="40.0"/>
     </NamedInstance>
 
     <!-- Slight Medium -->
     <!-- PostScript: Sixtyfour-SlightMedium -->
     <NamedInstance flags="0x0" postscriptNameID="295" subfamilyNameID="271">
-      <coord axis="SCAN" value="32.0"/>
+      <coord axis="SCAN" value="-68.0"/>
       <coord axis="BLED" value="40.0"/>
     </NamedInstance>
 
     <!-- Evenly Medium -->
     <!-- PostScript: Sixtyfour-EvenlyMedium -->
     <NamedInstance flags="0x0" postscriptNameID="296" subfamilyNameID="272">
-      <coord axis="SCAN" value="60.0"/>
+      <coord axis="SCAN" value="-40.0"/>
       <coord axis="BLED" value="40.0"/>
     </NamedInstance>
 
     <!-- Normal Medium -->
     <!-- PostScript: Sixtyfour-NormalMedium -->
     <NamedInstance flags="0x0" postscriptNameID="297" subfamilyNameID="273">
-      <coord axis="SCAN" value="100.0"/>
+      <coord axis="SCAN" value="0.0"/>
       <coord axis="BLED" value="40.0"/>
     </NamedInstance>
 
     <!-- Touching Medium -->
     <!-- PostScript: Sixtyfour-TouchingMedium -->
     <NamedInstance flags="0x0" postscriptNameID="298" subfamilyNameID="274">
-      <coord axis="SCAN" value="132.0"/>
+      <coord axis="SCAN" value="32.0"/>
       <coord axis="BLED" value="40.0"/>
     </NamedInstance>
 
     <!-- Overlapping Medium -->
     <!-- PostScript: Sixtyfour-OverlappingMedium -->
     <NamedInstance flags="0x0" postscriptNameID="299" subfamilyNameID="275">
-      <coord axis="SCAN" value="156.0"/>
+      <coord axis="SCAN" value="56.0"/>
       <coord axis="BLED" value="40.0"/>
     </NamedInstance>
 
     <!-- Overexposed Medium -->
     <!-- PostScript: Sixtyfour-OverexposedMedium -->
     <NamedInstance flags="0x0" postscriptNameID="300" subfamilyNameID="276">
-      <coord axis="SCAN" value="200.0"/>
+      <coord axis="SCAN" value="100.0"/>
       <coord axis="BLED" value="40.0"/>
     </NamedInstance>
 
     <!-- Maximum Medium -->
     <!-- PostScript: Sixtyfour-MaximumMedium -->
     <NamedInstance flags="0x0" postscriptNameID="301" subfamilyNameID="277">
-      <coord axis="SCAN" value="250.0"/>
+      <coord axis="SCAN" value="150.0"/>
       <coord axis="BLED" value="40.0"/>
     </NamedInstance>
 
     <!-- Delicate Strong -->
     <!-- PostScript: Sixtyfour-DelicateStrong -->
     <NamedInstance flags="0x0" postscriptNameID="302" subfamilyNameID="278">
-      <coord axis="SCAN" value="20.0"/>
+      <coord axis="SCAN" value="-80.0"/>
       <coord axis="BLED" value="100.0"/>
     </NamedInstance>
 
     <!-- Slight Strong -->
     <!-- PostScript: Sixtyfour-SlightStrong -->
     <NamedInstance flags="0x0" postscriptNameID="303" subfamilyNameID="279">
-      <coord axis="SCAN" value="32.0"/>
+      <coord axis="SCAN" value="-68.0"/>
       <coord axis="BLED" value="100.0"/>
     </NamedInstance>
 
     <!-- Evenly Strong -->
     <!-- PostScript: Sixtyfour-EvenlyStrong -->
     <NamedInstance flags="0x0" postscriptNameID="304" subfamilyNameID="280">
-      <coord axis="SCAN" value="60.0"/>
+      <coord axis="SCAN" value="-40.0"/>
       <coord axis="BLED" value="100.0"/>
     </NamedInstance>
 
     <!-- Normal Strong -->
     <!-- PostScript: Sixtyfour-NormalStrong -->
     <NamedInstance flags="0x0" postscriptNameID="305" subfamilyNameID="281">
-      <coord axis="SCAN" value="100.0"/>
+      <coord axis="SCAN" value="0.0"/>
       <coord axis="BLED" value="100.0"/>
     </NamedInstance>
 
     <!-- Touching Strong -->
     <!-- PostScript: Sixtyfour-TouchingStrong -->
     <NamedInstance flags="0x0" postscriptNameID="306" subfamilyNameID="282">
-      <coord axis="SCAN" value="132.0"/>
+      <coord axis="SCAN" value="32.0"/>
       <coord axis="BLED" value="100.0"/>
     </NamedInstance>
 
     <!-- Overlapping Strong -->
     <!-- PostScript: Sixtyfour-OverlappingStrong -->
     <NamedInstance flags="0x0" postscriptNameID="307" subfamilyNameID="283">
-      <coord axis="SCAN" value="156.0"/>
+      <coord axis="SCAN" value="56.0"/>
       <coord axis="BLED" value="100.0"/>
     </NamedInstance>
 
     <!-- Overexposed Strong -->
     <!-- PostScript: Sixtyfour-OverexposedStrong -->
     <NamedInstance flags="0x0" postscriptNameID="308" subfamilyNameID="284">
-      <coord axis="SCAN" value="200.0"/>
+      <coord axis="SCAN" value="100.0"/>
       <coord axis="BLED" value="100.0"/>
     </NamedInstance>
 
     <!-- Maximum Strong -->
     <!-- PostScript: Sixtyfour-MaximumStrong -->
     <NamedInstance flags="0x0" postscriptNameID="309" subfamilyNameID="285">
-      <coord axis="SCAN" value="250.0"/>
+      <coord axis="SCAN" value="150.0"/>
       <coord axis="BLED" value="100.0"/>
     </NamedInstance>
   </fvar>
