@@ -62,11 +62,6 @@ def fix_font(path, outpath):
 
 
 fix_font(
-    "Sixtyfour/fonts/variable/Sixtyfour[BLED,SCAN].ttf",
     "fonts/variable/Sixtyfour[BLED,SCAN].ttf",
-)
-
-fix_font(
-    "Workbench/fonts/variable/Workbench[BLED,SCAN].ttf",
-    "fonts/variable/Workbench[BLED,SCAN].ttf",
+    "fonts/variable/Sixtyfour[BLED,SCAN].ttf",
 )
