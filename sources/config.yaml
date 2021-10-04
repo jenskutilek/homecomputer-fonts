@@ -3,7 +3,6 @@ sources:
 axisOrder:
   - SCAN
   - BLED
-  - ital
 familyName: Sixtyfour
 buildOTF: true
 buildTTF: true
@@ -42,10 +41,10 @@ stat:
       value: 40
     - name: Strong
       value: 100
-  - name: Italic
-    tag: ital
-    values:
-    - name: Roman
-      value: 0
-      flags: 2
-      linkedValue: 1
+  # - name: Italic
+  #   tag: ital
+  #   values:
+  #   - name: Roman
+  #     value: 0
+  #     flags: 2
+  #     linkedValue: 1

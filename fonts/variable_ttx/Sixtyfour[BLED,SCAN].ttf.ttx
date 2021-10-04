@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.25">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.27">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -497,12 +497,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0xfd49a9b4"/>
+    <checkSumAdjustment value="0x4dc0cd68"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Fri Sep  5 18:17:00 2008"/>
-    <modified value="Thu Aug 12 15:57:11 2021"/>
+    <modified value="Mon Oct  4 20:58:00 2021"/>
     <xMin value="-5"/>
     <yMin value="-74"/>
     <xMax value="1029"/>
@@ -538,9 +538,9 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="0x10000"/>
     <numGlyphs value="488"/>
-    <maxPoints value="12"/>
+    <maxPoints value="18"/>
     <maxContours value="1"/>
-    <maxCompositePoints value="252"/>
+    <maxCompositePoints value="378"/>
     <maxCompositeContours value="21"/>
     <maxZones value="1"/>
     <maxTwilightPoints value="0"/>
@@ -4294,17 +4294,23 @@
     <TTGlyph name="pixel.1" xMin="-5" yMin="54" xMax="133" yMax="74">
       <contour>
         <pt x="7" y="54" on="1"/>
-        <pt x="121" y="54" on="1"/>
-        <pt x="127" y="54" on="0"/>
-        <pt x="133" y="60" on="0"/>
-        <pt x="133" y="68" on="0"/>
-        <pt x="127" y="74" on="0"/>
-        <pt x="121" y="74" on="1"/>
+        <pt x="3" y="54" on="0"/>
+        <pt x="-2" y="57" on="0"/>
+        <pt x="-5" y="62" on="0"/>
+        <pt x="-5" y="64" on="1"/>
+        <pt x="-5" y="67" on="0"/>
+        <pt x="-2" y="71" on="0"/>
+        <pt x="3" y="74" on="0"/>
         <pt x="7" y="74" on="1"/>
-        <pt x="1" y="74" on="0"/>
-        <pt x="-5" y="68" on="0"/>
-        <pt x="-5" y="60" on="0"/>
-        <pt x="1" y="54" on="0"/>
+        <pt x="121" y="74" on="1"/>
+        <pt x="125" y="74" on="0"/>
+        <pt x="130" y="71" on="0"/>
+        <pt x="133" y="67" on="0"/>
+        <pt x="133" y="64" on="1"/>
+        <pt x="133" y="62" on="0"/>
+        <pt x="130" y="57" on="0"/>
+        <pt x="125" y="54" on="0"/>
+        <pt x="121" y="54" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -4312,17 +4318,23 @@
     <TTGlyph name="pixel.2" xMin="-5" yMin="54" xMax="261" yMax="74">
       <contour>
         <pt x="7" y="54" on="1"/>
-        <pt x="249" y="54" on="1"/>
-        <pt x="255" y="54" on="0"/>
-        <pt x="261" y="60" on="0"/>
-        <pt x="261" y="68" on="0"/>
-        <pt x="255" y="74" on="0"/>
-        <pt x="249" y="74" on="1"/>
+        <pt x="3" y="54" on="0"/>
+        <pt x="-2" y="57" on="0"/>
+        <pt x="-5" y="62" on="0"/>
+        <pt x="-5" y="64" on="1"/>
+        <pt x="-5" y="67" on="0"/>
+        <pt x="-2" y="71" on="0"/>
+        <pt x="3" y="74" on="0"/>
         <pt x="7" y="74" on="1"/>
-        <pt x="1" y="74" on="0"/>
-        <pt x="-5" y="68" on="0"/>
-        <pt x="-5" y="60" on="0"/>
-        <pt x="1" y="54" on="0"/>
+        <pt x="249" y="74" on="1"/>
+        <pt x="253" y="74" on="0"/>
+        <pt x="258" y="71" on="0"/>
+        <pt x="261" y="67" on="0"/>
+        <pt x="261" y="64" on="1"/>
+        <pt x="261" y="62" on="0"/>
+        <pt x="258" y="57" on="0"/>
+        <pt x="253" y="54" on="0"/>
+        <pt x="249" y="54" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -4330,17 +4342,23 @@
     <TTGlyph name="pixel.3" xMin="-5" yMin="54" xMax="389" yMax="74">
       <contour>
         <pt x="7" y="54" on="1"/>
-        <pt x="377" y="54" on="1"/>
-        <pt x="383" y="54" on="0"/>
-        <pt x="389" y="60" on="0"/>
-        <pt x="389" y="68" on="0"/>
-        <pt x="383" y="74" on="0"/>
-        <pt x="377" y="74" on="1"/>
+        <pt x="3" y="54" on="0"/>
+        <pt x="-2" y="57" on="0"/>
+        <pt x="-5" y="62" on="0"/>
+        <pt x="-5" y="64" on="1"/>
+        <pt x="-5" y="67" on="0"/>
+        <pt x="-2" y="71" on="0"/>
+        <pt x="3" y="74" on="0"/>
         <pt x="7" y="74" on="1"/>
-        <pt x="1" y="74" on="0"/>
-        <pt x="-5" y="68" on="0"/>
-        <pt x="-5" y="60" on="0"/>
-        <pt x="1" y="54" on="0"/>
+        <pt x="377" y="74" on="1"/>
+        <pt x="381" y="74" on="0"/>
+        <pt x="386" y="71" on="0"/>
+        <pt x="389" y="67" on="0"/>
+        <pt x="389" y="64" on="1"/>
+        <pt x="389" y="62" on="0"/>
+        <pt x="386" y="57" on="0"/>
+        <pt x="381" y="54" on="0"/>
+        <pt x="377" y="54" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -4348,17 +4366,23 @@
     <TTGlyph name="pixel.4" xMin="-5" yMin="54" xMax="517" yMax="74">
       <contour>
         <pt x="7" y="54" on="1"/>
-        <pt x="505" y="54" on="1"/>
-        <pt x="511" y="54" on="0"/>
-        <pt x="517" y="60" on="0"/>
-        <pt x="517" y="68" on="0"/>
-        <pt x="511" y="74" on="0"/>
-        <pt x="505" y="74" on="1"/>
+        <pt x="3" y="54" on="0"/>
+        <pt x="-2" y="57" on="0"/>
+        <pt x="-5" y="62" on="0"/>
+        <pt x="-5" y="64" on="1"/>
+        <pt x="-5" y="67" on="0"/>
+        <pt x="-2" y="71" on="0"/>
+        <pt x="3" y="74" on="0"/>
         <pt x="7" y="74" on="1"/>
-        <pt x="1" y="74" on="0"/>
-        <pt x="-5" y="68" on="0"/>
-        <pt x="-5" y="60" on="0"/>
-        <pt x="1" y="54" on="0"/>
+        <pt x="505" y="74" on="1"/>
+        <pt x="509" y="74" on="0"/>
+        <pt x="514" y="71" on="0"/>
+        <pt x="517" y="67" on="0"/>
+        <pt x="517" y="64" on="1"/>
+        <pt x="517" y="62" on="0"/>
+        <pt x="514" y="57" on="0"/>
+        <pt x="509" y="54" on="0"/>
+        <pt x="505" y="54" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -4366,17 +4390,23 @@
     <TTGlyph name="pixel.5" xMin="-5" yMin="54" xMax="645" yMax="74">
       <contour>
         <pt x="7" y="54" on="1"/>
-        <pt x="633" y="54" on="1"/>
-        <pt x="639" y="54" on="0"/>
-        <pt x="645" y="60" on="0"/>
-        <pt x="645" y="68" on="0"/>
-        <pt x="639" y="74" on="0"/>
-        <pt x="633" y="74" on="1"/>
+        <pt x="3" y="54" on="0"/>
+        <pt x="-2" y="57" on="0"/>
+        <pt x="-5" y="62" on="0"/>
+        <pt x="-5" y="64" on="1"/>
+        <pt x="-5" y="67" on="0"/>
+        <pt x="-2" y="71" on="0"/>
+        <pt x="3" y="74" on="0"/>
         <pt x="7" y="74" on="1"/>
-        <pt x="1" y="74" on="0"/>
-        <pt x="-5" y="68" on="0"/>
-        <pt x="-5" y="60" on="0"/>
-        <pt x="1" y="54" on="0"/>
+        <pt x="633" y="74" on="1"/>
+        <pt x="637" y="74" on="0"/>
+        <pt x="642" y="71" on="0"/>
+        <pt x="645" y="67" on="0"/>
+        <pt x="645" y="64" on="1"/>
+        <pt x="645" y="62" on="0"/>
+        <pt x="642" y="57" on="0"/>
+        <pt x="637" y="54" on="0"/>
+        <pt x="633" y="54" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -4384,17 +4414,23 @@
     <TTGlyph name="pixel.6" xMin="-5" yMin="54" xMax="773" yMax="74">
       <contour>
         <pt x="7" y="54" on="1"/>
-        <pt x="761" y="54" on="1"/>
-        <pt x="767" y="54" on="0"/>
-        <pt x="773" y="60" on="0"/>
-        <pt x="773" y="68" on="0"/>
-        <pt x="767" y="74" on="0"/>
-        <pt x="761" y="74" on="1"/>
+        <pt x="3" y="54" on="0"/>
+        <pt x="-2" y="57" on="0"/>
+        <pt x="-5" y="62" on="0"/>
+        <pt x="-5" y="64" on="1"/>
+        <pt x="-5" y="67" on="0"/>
+        <pt x="-2" y="71" on="0"/>
+        <pt x="3" y="74" on="0"/>
         <pt x="7" y="74" on="1"/>
-        <pt x="1" y="74" on="0"/>
-        <pt x="-5" y="68" on="0"/>
-        <pt x="-5" y="60" on="0"/>
-        <pt x="1" y="54" on="0"/>
+        <pt x="761" y="74" on="1"/>
+        <pt x="765" y="74" on="0"/>
+        <pt x="770" y="71" on="0"/>
+        <pt x="773" y="67" on="0"/>
+        <pt x="773" y="64" on="1"/>
+        <pt x="773" y="62" on="0"/>
+        <pt x="770" y="57" on="0"/>
+        <pt x="765" y="54" on="0"/>
+        <pt x="761" y="54" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -4402,17 +4438,23 @@
     <TTGlyph name="pixel.7" xMin="-5" yMin="54" xMax="901" yMax="74">
       <contour>
         <pt x="7" y="54" on="1"/>
-        <pt x="889" y="54" on="1"/>
-        <pt x="895" y="54" on="0"/>
-        <pt x="901" y="60" on="0"/>
-        <pt x="901" y="68" on="0"/>
-        <pt x="895" y="74" on="0"/>
-        <pt x="889" y="74" on="1"/>
+        <pt x="3" y="54" on="0"/>
+        <pt x="-2" y="57" on="0"/>
+        <pt x="-5" y="62" on="0"/>
+        <pt x="-5" y="64" on="1"/>
+        <pt x="-5" y="67" on="0"/>
+        <pt x="-2" y="71" on="0"/>
+        <pt x="3" y="74" on="0"/>
         <pt x="7" y="74" on="1"/>
-        <pt x="1" y="74" on="0"/>
-        <pt x="-5" y="68" on="0"/>
-        <pt x="-5" y="60" on="0"/>
-        <pt x="1" y="54" on="0"/>
+        <pt x="889" y="74" on="1"/>
+        <pt x="893" y="74" on="0"/>
+        <pt x="898" y="71" on="0"/>
+        <pt x="901" y="67" on="0"/>
+        <pt x="901" y="64" on="1"/>
+        <pt x="901" y="62" on="0"/>
+        <pt x="898" y="57" on="0"/>
+        <pt x="893" y="54" on="0"/>
+        <pt x="889" y="54" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -4420,17 +4462,23 @@
     <TTGlyph name="pixel.8" xMin="-5" yMin="54" xMax="1029" yMax="74">
       <contour>
         <pt x="7" y="54" on="1"/>
-        <pt x="1017" y="54" on="1"/>
-        <pt x="1023" y="54" on="0"/>
-        <pt x="1029" y="60" on="0"/>
-        <pt x="1029" y="68" on="0"/>
-        <pt x="1023" y="74" on="0"/>
-        <pt x="1017" y="74" on="1"/>
+        <pt x="3" y="54" on="0"/>
+        <pt x="-2" y="57" on="0"/>
+        <pt x="-5" y="62" on="0"/>
+        <pt x="-5" y="64" on="1"/>
+        <pt x="-5" y="67" on="0"/>
+        <pt x="-2" y="71" on="0"/>
+        <pt x="3" y="74" on="0"/>
         <pt x="7" y="74" on="1"/>
-        <pt x="1" y="74" on="0"/>
-        <pt x="-5" y="68" on="0"/>
-        <pt x="-5" y="60" on="0"/>
-        <pt x="1" y="54" on="0"/>
+        <pt x="1017" y="74" on="1"/>
+        <pt x="1021" y="74" on="0"/>
+        <pt x="1026" y="71" on="0"/>
+        <pt x="1029" y="67" on="0"/>
+        <pt x="1029" y="64" on="1"/>
+        <pt x="1029" y="62" on="0"/>
+        <pt x="1026" y="57" on="0"/>
+        <pt x="1021" y="54" on="0"/>
+        <pt x="1017" y="54" on="1"/>
       </contour>
       <instructions/>
     </TTGlyph>
@@ -8184,7 +8232,7 @@
 
   <name>
     <namerecord nameID="25" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      SixtyfourRegularRegularRegular
+      Sixtyfour
     </namerecord>
     <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Scanlines
@@ -8193,13 +8241,154 @@
       Bleed
     </namerecord>
     <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Regular
+      Delicate
     </namerecord>
     <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      SixtyfourRegularRegularRegular-Regular
+      Slight
     </namerecord>
     <namerecord nameID="264" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Italic
+      Evenly
+    </namerecord>
+    <namerecord nameID="265" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Normal
+    </namerecord>
+    <namerecord nameID="266" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Touching
+    </namerecord>
+    <namerecord nameID="267" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Overlapping
+    </namerecord>
+    <namerecord nameID="268" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Overexposed
+    </namerecord>
+    <namerecord nameID="269" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Maximum
+    </namerecord>
+    <namerecord nameID="270" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Delicate Medium
+    </namerecord>
+    <namerecord nameID="271" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Slight Medium
+    </namerecord>
+    <namerecord nameID="272" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Evenly Medium
+    </namerecord>
+    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Normal Medium
+    </namerecord>
+    <namerecord nameID="274" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Touching Medium
+    </namerecord>
+    <namerecord nameID="275" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Overlapping Medium
+    </namerecord>
+    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Overexposed Medium
+    </namerecord>
+    <namerecord nameID="277" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Maximum Medium
+    </namerecord>
+    <namerecord nameID="278" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Delicate Strong
+    </namerecord>
+    <namerecord nameID="279" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Slight Strong
+    </namerecord>
+    <namerecord nameID="280" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Evenly Strong
+    </namerecord>
+    <namerecord nameID="281" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Normal Strong
+    </namerecord>
+    <namerecord nameID="282" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Touching Strong
+    </namerecord>
+    <namerecord nameID="283" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Overlapping Strong
+    </namerecord>
+    <namerecord nameID="284" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Overexposed Strong
+    </namerecord>
+    <namerecord nameID="285" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Maximum Strong
+    </namerecord>
+    <namerecord nameID="286" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-Delicate
+    </namerecord>
+    <namerecord nameID="287" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-Slight
+    </namerecord>
+    <namerecord nameID="288" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-Evenly
+    </namerecord>
+    <namerecord nameID="289" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-Normal
+    </namerecord>
+    <namerecord nameID="290" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-Touching
+    </namerecord>
+    <namerecord nameID="291" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-Overlapping
+    </namerecord>
+    <namerecord nameID="292" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-Overexposed
+    </namerecord>
+    <namerecord nameID="293" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-Maximum
+    </namerecord>
+    <namerecord nameID="294" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-DelicateMedium
+    </namerecord>
+    <namerecord nameID="295" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-SlightMedium
+    </namerecord>
+    <namerecord nameID="296" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-EvenlyMedium
+    </namerecord>
+    <namerecord nameID="297" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-NormalMedium
+    </namerecord>
+    <namerecord nameID="298" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-TouchingMedium
+    </namerecord>
+    <namerecord nameID="299" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-OverlappingMedium
+    </namerecord>
+    <namerecord nameID="300" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-OverexposedMedium
+    </namerecord>
+    <namerecord nameID="301" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-MaximumMedium
+    </namerecord>
+    <namerecord nameID="302" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-DelicateStrong
+    </namerecord>
+    <namerecord nameID="303" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-SlightStrong
+    </namerecord>
+    <namerecord nameID="304" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-EvenlyStrong
+    </namerecord>
+    <namerecord nameID="305" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-NormalStrong
+    </namerecord>
+    <namerecord nameID="306" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-TouchingStrong
+    </namerecord>
+    <namerecord nameID="307" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-OverlappingStrong
+    </namerecord>
+    <namerecord nameID="308" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-OverexposedStrong
+    </namerecord>
+    <namerecord nameID="309" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Sixtyfour-MaximumStrong
+    </namerecord>
+    <namerecord nameID="310" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Medium
+    </namerecord>
+    <namerecord nameID="311" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Strong
     </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
       Copyright 2021 Jens Kutilek (https://github.com/jenskutilek/homecomputer-fonts)
@@ -8238,7 +8427,7 @@
       https://scripts.sil.org/OFL
     </namerecord>
     <namerecord nameID="25" platformID="3" platEncID="1" langID="0x409">
-      SixtyfourRegularRegularRegular
+      Sixtyfour
     </namerecord>
     <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
       Dumb quotes
@@ -8259,13 +8448,154 @@
       Bleed
     </namerecord>
     <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
-      Regular
+      Delicate
     </namerecord>
     <namerecord nameID="263" platformID="3" platEncID="1" langID="0x409">
-      SixtyfourRegularRegularRegular-Regular
+      Slight
     </namerecord>
     <namerecord nameID="264" platformID="3" platEncID="1" langID="0x409">
-      Italic
+      Evenly
+    </namerecord>
+    <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
+      Normal
+    </namerecord>
+    <namerecord nameID="266" platformID="3" platEncID="1" langID="0x409">
+      Touching
+    </namerecord>
+    <namerecord nameID="267" platformID="3" platEncID="1" langID="0x409">
+      Overlapping
+    </namerecord>
+    <namerecord nameID="268" platformID="3" platEncID="1" langID="0x409">
+      Overexposed
+    </namerecord>
+    <namerecord nameID="269" platformID="3" platEncID="1" langID="0x409">
+      Maximum
+    </namerecord>
+    <namerecord nameID="270" platformID="3" platEncID="1" langID="0x409">
+      Delicate Medium
+    </namerecord>
+    <namerecord nameID="271" platformID="3" platEncID="1" langID="0x409">
+      Slight Medium
+    </namerecord>
+    <namerecord nameID="272" platformID="3" platEncID="1" langID="0x409">
+      Evenly Medium
+    </namerecord>
+    <namerecord nameID="273" platformID="3" platEncID="1" langID="0x409">
+      Normal Medium
+    </namerecord>
+    <namerecord nameID="274" platformID="3" platEncID="1" langID="0x409">
+      Touching Medium
+    </namerecord>
+    <namerecord nameID="275" platformID="3" platEncID="1" langID="0x409">
+      Overlapping Medium
+    </namerecord>
+    <namerecord nameID="276" platformID="3" platEncID="1" langID="0x409">
+      Overexposed Medium
+    </namerecord>
+    <namerecord nameID="277" platformID="3" platEncID="1" langID="0x409">
+      Maximum Medium
+    </namerecord>
+    <namerecord nameID="278" platformID="3" platEncID="1" langID="0x409">
+      Delicate Strong
+    </namerecord>
+    <namerecord nameID="279" platformID="3" platEncID="1" langID="0x409">
+      Slight Strong
+    </namerecord>
+    <namerecord nameID="280" platformID="3" platEncID="1" langID="0x409">
+      Evenly Strong
+    </namerecord>
+    <namerecord nameID="281" platformID="3" platEncID="1" langID="0x409">
+      Normal Strong
+    </namerecord>
+    <namerecord nameID="282" platformID="3" platEncID="1" langID="0x409">
+      Touching Strong
+    </namerecord>
+    <namerecord nameID="283" platformID="3" platEncID="1" langID="0x409">
+      Overlapping Strong
+    </namerecord>
+    <namerecord nameID="284" platformID="3" platEncID="1" langID="0x409">
+      Overexposed Strong
+    </namerecord>
+    <namerecord nameID="285" platformID="3" platEncID="1" langID="0x409">
+      Maximum Strong
+    </namerecord>
+    <namerecord nameID="286" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-Delicate
+    </namerecord>
+    <namerecord nameID="287" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-Slight
+    </namerecord>
+    <namerecord nameID="288" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-Evenly
+    </namerecord>
+    <namerecord nameID="289" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-Normal
+    </namerecord>
+    <namerecord nameID="290" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-Touching
+    </namerecord>
+    <namerecord nameID="291" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-Overlapping
+    </namerecord>
+    <namerecord nameID="292" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-Overexposed
+    </namerecord>
+    <namerecord nameID="293" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-Maximum
+    </namerecord>
+    <namerecord nameID="294" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-DelicateMedium
+    </namerecord>
+    <namerecord nameID="295" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-SlightMedium
+    </namerecord>
+    <namerecord nameID="296" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-EvenlyMedium
+    </namerecord>
+    <namerecord nameID="297" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-NormalMedium
+    </namerecord>
+    <namerecord nameID="298" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-TouchingMedium
+    </namerecord>
+    <namerecord nameID="299" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-OverlappingMedium
+    </namerecord>
+    <namerecord nameID="300" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-OverexposedMedium
+    </namerecord>
+    <namerecord nameID="301" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-MaximumMedium
+    </namerecord>
+    <namerecord nameID="302" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-DelicateStrong
+    </namerecord>
+    <namerecord nameID="303" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-SlightStrong
+    </namerecord>
+    <namerecord nameID="304" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-EvenlyStrong
+    </namerecord>
+    <namerecord nameID="305" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-NormalStrong
+    </namerecord>
+    <namerecord nameID="306" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-TouchingStrong
+    </namerecord>
+    <namerecord nameID="307" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-OverlappingStrong
+    </namerecord>
+    <namerecord nameID="308" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-OverexposedStrong
+    </namerecord>
+    <namerecord nameID="309" platformID="3" platEncID="1" langID="0x409">
+      Sixtyfour-MaximumStrong
+    </namerecord>
+    <namerecord nameID="310" platformID="3" platEncID="1" langID="0x409">
+      Medium
+    </namerecord>
+    <namerecord nameID="311" platformID="3" platEncID="1" langID="0x409">
+      Strong
     </namerecord>
   </name>
 
@@ -9747,7 +10077,7 @@
   <STAT>
     <Version value="0x00010001"/>
     <DesignAxisRecordSize value="8"/>
-    <!-- DesignAxisCount=3 -->
+    <!-- DesignAxisCount=2 -->
     <DesignAxisRecord>
       <Axis index="0">
         <AxisTag value="SCAN"/>
@@ -9759,31 +10089,74 @@
         <AxisNameID value="261"/>  <!-- Bleed -->
         <AxisOrdering value="1"/>
       </Axis>
-      <Axis index="2">
-        <AxisTag value="ital"/>
-        <AxisNameID value="264"/>  <!-- Italic -->
-        <AxisOrdering value="2"/>
-      </Axis>
     </DesignAxisRecord>
-    <!-- AxisValueCount=3 -->
+    <!-- AxisValueCount=11 -->
     <AxisValueArray>
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="262"/>  <!-- Regular -->
-        <Value value="100.0"/>
+        <ValueNameID value="262"/>  <!-- Delicate -->
+        <Value value="20.0"/>
       </AxisValue>
       <AxisValue index="1" Format="1">
-        <AxisIndex value="1"/>
-        <Flags value="2"/>  <!-- ElidableAxisValueName -->
-        <ValueNameID value="262"/>  <!-- Regular -->
-        <Value value="0.0"/>
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="263"/>  <!-- Slight -->
+        <Value value="32.0"/>
       </AxisValue>
       <AxisValue index="2" Format="1">
-        <AxisIndex value="2"/>
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="264"/>  <!-- Evenly -->
+        <Value value="60.0"/>
+      </AxisValue>
+      <AxisValue index="3" Format="1">
+        <AxisIndex value="0"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
-        <ValueNameID value="262"/>  <!-- Regular -->
+        <ValueNameID value="265"/>  <!-- Normal -->
+        <Value value="100.0"/>
+      </AxisValue>
+      <AxisValue index="4" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="266"/>  <!-- Touching -->
+        <Value value="132.0"/>
+      </AxisValue>
+      <AxisValue index="5" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="267"/>  <!-- Overlapping -->
+        <Value value="156.0"/>
+      </AxisValue>
+      <AxisValue index="6" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="268"/>  <!-- Overexposed -->
+        <Value value="200.0"/>
+      </AxisValue>
+      <AxisValue index="7" Format="1">
+        <AxisIndex value="0"/>
+        <Flags value="0"/>
+        <ValueNameID value="269"/>  <!-- Maximum -->
+        <Value value="250.0"/>
+      </AxisValue>
+      <AxisValue index="8" Format="1">
+        <AxisIndex value="1"/>
+        <Flags value="2"/>  <!-- ElidableAxisValueName -->
+        <ValueNameID value="265"/>  <!-- Normal -->
         <Value value="0.0"/>
+      </AxisValue>
+      <AxisValue index="9" Format="1">
+        <AxisIndex value="1"/>
+        <Flags value="0"/>
+        <ValueNameID value="310"/>  <!-- Medium -->
+        <Value value="40.0"/>
+      </AxisValue>
+      <AxisValue index="10" Format="1">
+        <AxisIndex value="1"/>
+        <Flags value="0"/>
+        <ValueNameID value="311"/>  <!-- Strong -->
+        <Value value="100.0"/>
       </AxisValue>
     </AxisValueArray>
     <ElidedFallbackNameID value="2"/>  <!-- Regular -->
@@ -9811,11 +10184,172 @@
       <AxisNameID>261</AxisNameID>
     </Axis>
 
-    <!-- Regular -->
-    <!-- PostScript: SixtyfourRegularRegularRegular-Regular -->
-    <NamedInstance flags="0x0" postscriptNameID="263" subfamilyNameID="262">
+    <!-- Delicate -->
+    <!-- PostScript: Sixtyfour-Delicate -->
+    <NamedInstance flags="0x0" postscriptNameID="286" subfamilyNameID="262">
+      <coord axis="SCAN" value="20.0"/>
+      <coord axis="BLED" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Slight -->
+    <!-- PostScript: Sixtyfour-Slight -->
+    <NamedInstance flags="0x0" postscriptNameID="287" subfamilyNameID="263">
+      <coord axis="SCAN" value="32.0"/>
+      <coord axis="BLED" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Evenly -->
+    <!-- PostScript: Sixtyfour-Evenly -->
+    <NamedInstance flags="0x0" postscriptNameID="288" subfamilyNameID="264">
+      <coord axis="SCAN" value="60.0"/>
+      <coord axis="BLED" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Normal -->
+    <!-- PostScript: Sixtyfour-Normal -->
+    <NamedInstance flags="0x0" postscriptNameID="289" subfamilyNameID="265">
       <coord axis="SCAN" value="100.0"/>
       <coord axis="BLED" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Touching -->
+    <!-- PostScript: Sixtyfour-Touching -->
+    <NamedInstance flags="0x0" postscriptNameID="290" subfamilyNameID="266">
+      <coord axis="SCAN" value="132.0"/>
+      <coord axis="BLED" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Overlapping -->
+    <!-- PostScript: Sixtyfour-Overlapping -->
+    <NamedInstance flags="0x0" postscriptNameID="291" subfamilyNameID="267">
+      <coord axis="SCAN" value="156.0"/>
+      <coord axis="BLED" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Overexposed -->
+    <!-- PostScript: Sixtyfour-Overexposed -->
+    <NamedInstance flags="0x0" postscriptNameID="292" subfamilyNameID="268">
+      <coord axis="SCAN" value="200.0"/>
+      <coord axis="BLED" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Maximum -->
+    <!-- PostScript: Sixtyfour-Maximum -->
+    <NamedInstance flags="0x0" postscriptNameID="293" subfamilyNameID="269">
+      <coord axis="SCAN" value="250.0"/>
+      <coord axis="BLED" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Delicate Medium -->
+    <!-- PostScript: Sixtyfour-DelicateMedium -->
+    <NamedInstance flags="0x0" postscriptNameID="294" subfamilyNameID="270">
+      <coord axis="SCAN" value="20.0"/>
+      <coord axis="BLED" value="40.0"/>
+    </NamedInstance>
+
+    <!-- Slight Medium -->
+    <!-- PostScript: Sixtyfour-SlightMedium -->
+    <NamedInstance flags="0x0" postscriptNameID="295" subfamilyNameID="271">
+      <coord axis="SCAN" value="32.0"/>
+      <coord axis="BLED" value="40.0"/>
+    </NamedInstance>
+
+    <!-- Evenly Medium -->
+    <!-- PostScript: Sixtyfour-EvenlyMedium -->
+    <NamedInstance flags="0x0" postscriptNameID="296" subfamilyNameID="272">
+      <coord axis="SCAN" value="60.0"/>
+      <coord axis="BLED" value="40.0"/>
+    </NamedInstance>
+
+    <!-- Normal Medium -->
+    <!-- PostScript: Sixtyfour-NormalMedium -->
+    <NamedInstance flags="0x0" postscriptNameID="297" subfamilyNameID="273">
+      <coord axis="SCAN" value="100.0"/>
+      <coord axis="BLED" value="40.0"/>
+    </NamedInstance>
+
+    <!-- Touching Medium -->
+    <!-- PostScript: Sixtyfour-TouchingMedium -->
+    <NamedInstance flags="0x0" postscriptNameID="298" subfamilyNameID="274">
+      <coord axis="SCAN" value="132.0"/>
+      <coord axis="BLED" value="40.0"/>
+    </NamedInstance>
+
+    <!-- Overlapping Medium -->
+    <!-- PostScript: Sixtyfour-OverlappingMedium -->
+    <NamedInstance flags="0x0" postscriptNameID="299" subfamilyNameID="275">
+      <coord axis="SCAN" value="156.0"/>
+      <coord axis="BLED" value="40.0"/>
+    </NamedInstance>
+
+    <!-- Overexposed Medium -->
+    <!-- PostScript: Sixtyfour-OverexposedMedium -->
+    <NamedInstance flags="0x0" postscriptNameID="300" subfamilyNameID="276">
+      <coord axis="SCAN" value="200.0"/>
+      <coord axis="BLED" value="40.0"/>
+    </NamedInstance>
+
+    <!-- Maximum Medium -->
+    <!-- PostScript: Sixtyfour-MaximumMedium -->
+    <NamedInstance flags="0x0" postscriptNameID="301" subfamilyNameID="277">
+      <coord axis="SCAN" value="250.0"/>
+      <coord axis="BLED" value="40.0"/>
+    </NamedInstance>
+
+    <!-- Delicate Strong -->
+    <!-- PostScript: Sixtyfour-DelicateStrong -->
+    <NamedInstance flags="0x0" postscriptNameID="302" subfamilyNameID="278">
+      <coord axis="SCAN" value="20.0"/>
+      <coord axis="BLED" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Slight Strong -->
+    <!-- PostScript: Sixtyfour-SlightStrong -->
+    <NamedInstance flags="0x0" postscriptNameID="303" subfamilyNameID="279">
+      <coord axis="SCAN" value="32.0"/>
+      <coord axis="BLED" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Evenly Strong -->
+    <!-- PostScript: Sixtyfour-EvenlyStrong -->
+    <NamedInstance flags="0x0" postscriptNameID="304" subfamilyNameID="280">
+      <coord axis="SCAN" value="60.0"/>
+      <coord axis="BLED" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Normal Strong -->
+    <!-- PostScript: Sixtyfour-NormalStrong -->
+    <NamedInstance flags="0x0" postscriptNameID="305" subfamilyNameID="281">
+      <coord axis="SCAN" value="100.0"/>
+      <coord axis="BLED" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Touching Strong -->
+    <!-- PostScript: Sixtyfour-TouchingStrong -->
+    <NamedInstance flags="0x0" postscriptNameID="306" subfamilyNameID="282">
+      <coord axis="SCAN" value="132.0"/>
+      <coord axis="BLED" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Overlapping Strong -->
+    <!-- PostScript: Sixtyfour-OverlappingStrong -->
+    <NamedInstance flags="0x0" postscriptNameID="307" subfamilyNameID="283">
+      <coord axis="SCAN" value="156.0"/>
+      <coord axis="BLED" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Overexposed Strong -->
+    <!-- PostScript: Sixtyfour-OverexposedStrong -->
+    <NamedInstance flags="0x0" postscriptNameID="308" subfamilyNameID="284">
+      <coord axis="SCAN" value="200.0"/>
+      <coord axis="BLED" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Maximum Strong -->
+    <!-- PostScript: Sixtyfour-MaximumStrong -->
+    <NamedInstance flags="0x0" postscriptNameID="309" subfamilyNameID="285">
+      <coord axis="SCAN" value="250.0"/>
+      <coord axis="BLED" value="100.0"/>
     </NamedInstance>
   </fvar>
 
@@ -19519,256 +20053,304 @@
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <delta pt="0" x="55" y="-115"/>
-        <delta pt="1" x="-55" y="-115"/>
-        <delta pt="2" x="-8" y="-115"/>
-        <delta pt="3" x="58" y="-47"/>
-        <delta pt="4" x="58" y="47"/>
-        <delta pt="5" x="-8" y="115"/>
-        <delta pt="6" x="-55" y="115"/>
-        <delta pt="7" x="55" y="115"/>
-        <delta pt="8" x="8" y="115"/>
-        <delta pt="9" x="-58" y="47"/>
-        <delta pt="10" x="-58" y="-47"/>
-        <delta pt="11" x="8" y="-115"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
+        <delta pt="1" x="21" y="-115"/>
+        <delta pt="2" x="-30" y="-81"/>
+        <delta pt="3" x="-58" y="-29"/>
+        <delta pt="4" x="-58" y="0"/>
+        <delta pt="5" x="-58" y="29"/>
+        <delta pt="6" x="-30" y="82"/>
+        <delta pt="7" x="21" y="115"/>
+        <delta pt="8" x="55" y="115"/>
+        <delta pt="9" x="-55" y="115"/>
+        <delta pt="10" x="-21" y="115"/>
+        <delta pt="11" x="30" y="82"/>
+        <delta pt="12" x="58" y="29"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="58" y="-29"/>
+        <delta pt="15" x="30" y="-81"/>
+        <delta pt="16" x="-21" y="-115"/>
+        <delta pt="17" x="-55" y="-115"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="-88" y="0"/>
-        <delta pt="6" x="88" y="0"/>
+        <delta pt="8" x="-88" y="0"/>
+        <delta pt="17" x="88" y="0"/>
       </tuple>
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
-        <delta pt="6" x="-26" y="0"/>
+        <delta pt="8" x="26" y="0"/>
+        <delta pt="17" x="-26" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="pixel.2">
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <delta pt="0" x="80" y="-115"/>
-        <delta pt="1" x="-80" y="-115"/>
-        <delta pt="2" x="-16" y="-115"/>
-        <delta pt="3" x="58" y="-47"/>
-        <delta pt="4" x="58" y="47"/>
-        <delta pt="5" x="-16" y="115"/>
-        <delta pt="6" x="-80" y="115"/>
-        <delta pt="7" x="80" y="115"/>
-        <delta pt="8" x="16" y="115"/>
-        <delta pt="9" x="-58" y="47"/>
-        <delta pt="10" x="-58" y="-47"/>
-        <delta pt="11" x="16" y="-115"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
+        <delta pt="1" x="34" y="-115"/>
+        <delta pt="2" x="-28" y="-81"/>
+        <delta pt="3" x="-58" y="-29"/>
+        <delta pt="4" x="-58" y="0"/>
+        <delta pt="5" x="-58" y="29"/>
+        <delta pt="6" x="-28" y="82"/>
+        <delta pt="7" x="34" y="115"/>
+        <delta pt="8" x="80" y="115"/>
+        <delta pt="9" x="-80" y="115"/>
+        <delta pt="10" x="-33" y="115"/>
+        <delta pt="11" x="28" y="82"/>
+        <delta pt="12" x="58" y="29"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="58" y="-29"/>
+        <delta pt="15" x="28" y="-81"/>
+        <delta pt="16" x="-33" y="-115"/>
+        <delta pt="17" x="-80" y="-115"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="-88" y="0"/>
-        <delta pt="6" x="88" y="0"/>
+        <delta pt="8" x="-88" y="0"/>
+        <delta pt="17" x="88" y="0"/>
       </tuple>
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
-        <delta pt="6" x="-26" y="0"/>
+        <delta pt="8" x="26" y="0"/>
+        <delta pt="17" x="-26" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="pixel.3">
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <delta pt="0" x="80" y="-115"/>
-        <delta pt="1" x="-80" y="-115"/>
-        <delta pt="2" x="-16" y="-115"/>
-        <delta pt="3" x="58" y="-47"/>
-        <delta pt="4" x="58" y="47"/>
-        <delta pt="5" x="-16" y="115"/>
-        <delta pt="6" x="-80" y="115"/>
-        <delta pt="7" x="80" y="115"/>
-        <delta pt="8" x="16" y="115"/>
-        <delta pt="9" x="-58" y="47"/>
-        <delta pt="10" x="-58" y="-47"/>
-        <delta pt="11" x="16" y="-115"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
+        <delta pt="1" x="34" y="-115"/>
+        <delta pt="2" x="-28" y="-81"/>
+        <delta pt="3" x="-58" y="-29"/>
+        <delta pt="4" x="-58" y="0"/>
+        <delta pt="5" x="-58" y="29"/>
+        <delta pt="6" x="-28" y="82"/>
+        <delta pt="7" x="34" y="115"/>
+        <delta pt="8" x="80" y="115"/>
+        <delta pt="9" x="-80" y="115"/>
+        <delta pt="10" x="-33" y="115"/>
+        <delta pt="11" x="28" y="82"/>
+        <delta pt="12" x="58" y="29"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="58" y="-29"/>
+        <delta pt="15" x="28" y="-81"/>
+        <delta pt="16" x="-33" y="-115"/>
+        <delta pt="17" x="-80" y="-115"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="-88" y="0"/>
-        <delta pt="6" x="88" y="0"/>
+        <delta pt="8" x="-88" y="0"/>
+        <delta pt="17" x="88" y="0"/>
       </tuple>
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
-        <delta pt="6" x="-26" y="0"/>
+        <delta pt="8" x="26" y="0"/>
+        <delta pt="17" x="-26" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="pixel.4">
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <delta pt="0" x="80" y="-115"/>
-        <delta pt="1" x="-80" y="-115"/>
-        <delta pt="2" x="-16" y="-115"/>
-        <delta pt="3" x="58" y="-47"/>
-        <delta pt="4" x="58" y="47"/>
-        <delta pt="5" x="-16" y="115"/>
-        <delta pt="6" x="-80" y="115"/>
-        <delta pt="7" x="80" y="115"/>
-        <delta pt="8" x="16" y="115"/>
-        <delta pt="9" x="-58" y="47"/>
-        <delta pt="10" x="-58" y="-47"/>
-        <delta pt="11" x="16" y="-115"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
+        <delta pt="1" x="34" y="-115"/>
+        <delta pt="2" x="-28" y="-81"/>
+        <delta pt="3" x="-58" y="-29"/>
+        <delta pt="4" x="-58" y="0"/>
+        <delta pt="5" x="-58" y="29"/>
+        <delta pt="6" x="-28" y="82"/>
+        <delta pt="7" x="34" y="115"/>
+        <delta pt="8" x="80" y="115"/>
+        <delta pt="9" x="-80" y="115"/>
+        <delta pt="10" x="-33" y="115"/>
+        <delta pt="11" x="28" y="82"/>
+        <delta pt="12" x="58" y="29"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="58" y="-29"/>
+        <delta pt="15" x="28" y="-81"/>
+        <delta pt="16" x="-33" y="-115"/>
+        <delta pt="17" x="-80" y="-115"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="-88" y="0"/>
-        <delta pt="6" x="88" y="0"/>
+        <delta pt="8" x="-88" y="0"/>
+        <delta pt="17" x="88" y="0"/>
       </tuple>
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
-        <delta pt="6" x="-26" y="0"/>
+        <delta pt="8" x="26" y="0"/>
+        <delta pt="17" x="-26" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="pixel.5">
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <delta pt="0" x="80" y="-115"/>
-        <delta pt="1" x="-80" y="-115"/>
-        <delta pt="2" x="-16" y="-115"/>
-        <delta pt="3" x="58" y="-47"/>
-        <delta pt="4" x="58" y="47"/>
-        <delta pt="5" x="-16" y="115"/>
-        <delta pt="6" x="-80" y="115"/>
-        <delta pt="7" x="80" y="115"/>
-        <delta pt="8" x="16" y="115"/>
-        <delta pt="9" x="-58" y="47"/>
-        <delta pt="10" x="-58" y="-47"/>
-        <delta pt="11" x="16" y="-115"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
+        <delta pt="1" x="34" y="-115"/>
+        <delta pt="2" x="-28" y="-81"/>
+        <delta pt="3" x="-58" y="-29"/>
+        <delta pt="4" x="-58" y="0"/>
+        <delta pt="5" x="-58" y="29"/>
+        <delta pt="6" x="-28" y="82"/>
+        <delta pt="7" x="34" y="115"/>
+        <delta pt="8" x="80" y="115"/>
+        <delta pt="9" x="-80" y="115"/>
+        <delta pt="10" x="-33" y="115"/>
+        <delta pt="11" x="28" y="82"/>
+        <delta pt="12" x="58" y="29"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="58" y="-29"/>
+        <delta pt="15" x="28" y="-81"/>
+        <delta pt="16" x="-33" y="-115"/>
+        <delta pt="17" x="-80" y="-115"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="-88" y="0"/>
-        <delta pt="6" x="88" y="0"/>
+        <delta pt="8" x="-88" y="0"/>
+        <delta pt="17" x="88" y="0"/>
       </tuple>
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
-        <delta pt="6" x="-26" y="0"/>
+        <delta pt="8" x="26" y="0"/>
+        <delta pt="17" x="-26" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="pixel.6">
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <delta pt="0" x="80" y="-115"/>
-        <delta pt="1" x="-80" y="-115"/>
-        <delta pt="2" x="-16" y="-115"/>
-        <delta pt="3" x="58" y="-47"/>
-        <delta pt="4" x="58" y="47"/>
-        <delta pt="5" x="-16" y="115"/>
-        <delta pt="6" x="-80" y="115"/>
-        <delta pt="7" x="80" y="115"/>
-        <delta pt="8" x="16" y="115"/>
-        <delta pt="9" x="-58" y="47"/>
-        <delta pt="10" x="-58" y="-47"/>
-        <delta pt="11" x="16" y="-115"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
+        <delta pt="1" x="34" y="-115"/>
+        <delta pt="2" x="-28" y="-81"/>
+        <delta pt="3" x="-58" y="-29"/>
+        <delta pt="4" x="-58" y="0"/>
+        <delta pt="5" x="-58" y="29"/>
+        <delta pt="6" x="-28" y="82"/>
+        <delta pt="7" x="34" y="115"/>
+        <delta pt="8" x="80" y="115"/>
+        <delta pt="9" x="-80" y="115"/>
+        <delta pt="10" x="-33" y="115"/>
+        <delta pt="11" x="28" y="82"/>
+        <delta pt="12" x="58" y="29"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="58" y="-29"/>
+        <delta pt="15" x="28" y="-81"/>
+        <delta pt="16" x="-33" y="-115"/>
+        <delta pt="17" x="-80" y="-115"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="-88" y="0"/>
-        <delta pt="6" x="88" y="0"/>
+        <delta pt="8" x="-88" y="0"/>
+        <delta pt="17" x="88" y="0"/>
       </tuple>
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
-        <delta pt="6" x="-26" y="0"/>
+        <delta pt="8" x="26" y="0"/>
+        <delta pt="17" x="-26" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="pixel.7">
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <delta pt="0" x="80" y="-115"/>
-        <delta pt="1" x="-80" y="-115"/>
-        <delta pt="2" x="-16" y="-115"/>
-        <delta pt="3" x="58" y="-47"/>
-        <delta pt="4" x="58" y="47"/>
-        <delta pt="5" x="-16" y="115"/>
-        <delta pt="6" x="-80" y="115"/>
-        <delta pt="7" x="80" y="115"/>
-        <delta pt="8" x="16" y="115"/>
-        <delta pt="9" x="-58" y="47"/>
-        <delta pt="10" x="-58" y="-47"/>
-        <delta pt="11" x="16" y="-115"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
+        <delta pt="1" x="34" y="-115"/>
+        <delta pt="2" x="-28" y="-81"/>
+        <delta pt="3" x="-58" y="-29"/>
+        <delta pt="4" x="-58" y="0"/>
+        <delta pt="5" x="-58" y="29"/>
+        <delta pt="6" x="-28" y="82"/>
+        <delta pt="7" x="34" y="115"/>
+        <delta pt="8" x="80" y="115"/>
+        <delta pt="9" x="-80" y="115"/>
+        <delta pt="10" x="-33" y="115"/>
+        <delta pt="11" x="28" y="82"/>
+        <delta pt="12" x="58" y="29"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="58" y="-29"/>
+        <delta pt="15" x="28" y="-81"/>
+        <delta pt="16" x="-33" y="-115"/>
+        <delta pt="17" x="-80" y="-115"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="-88" y="0"/>
-        <delta pt="6" x="88" y="0"/>
+        <delta pt="8" x="-88" y="0"/>
+        <delta pt="17" x="88" y="0"/>
       </tuple>
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
-        <delta pt="6" x="-26" y="0"/>
+        <delta pt="8" x="26" y="0"/>
+        <delta pt="17" x="-26" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="pixel.8">
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <delta pt="0" x="80" y="-115"/>
-        <delta pt="1" x="-80" y="-115"/>
-        <delta pt="2" x="-16" y="-115"/>
-        <delta pt="3" x="58" y="-47"/>
-        <delta pt="4" x="58" y="47"/>
-        <delta pt="5" x="-16" y="115"/>
-        <delta pt="6" x="-80" y="115"/>
-        <delta pt="7" x="80" y="115"/>
-        <delta pt="8" x="16" y="115"/>
-        <delta pt="9" x="-58" y="47"/>
-        <delta pt="10" x="-58" y="-47"/>
-        <delta pt="11" x="16" y="-115"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
+        <delta pt="1" x="34" y="-115"/>
+        <delta pt="2" x="-28" y="-81"/>
+        <delta pt="3" x="-58" y="-29"/>
+        <delta pt="4" x="-58" y="0"/>
+        <delta pt="5" x="-58" y="29"/>
+        <delta pt="6" x="-28" y="82"/>
+        <delta pt="7" x="34" y="115"/>
+        <delta pt="8" x="80" y="115"/>
+        <delta pt="9" x="-80" y="115"/>
+        <delta pt="10" x="-33" y="115"/>
+        <delta pt="11" x="28" y="82"/>
+        <delta pt="12" x="58" y="29"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="58" y="-29"/>
+        <delta pt="15" x="28" y="-81"/>
+        <delta pt="16" x="-33" y="-115"/>
+        <delta pt="17" x="-80" y="-115"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="-88" y="0"/>
-        <delta pt="6" x="88" y="0"/>
+        <delta pt="8" x="-88" y="0"/>
+        <delta pt="17" x="88" y="0"/>
       </tuple>
       <tuple>
         <coord axis="SCAN" value="1.0"/>
         <coord axis="BLED" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
-        <delta pt="6" x="-26" y="0"/>
+        <delta pt="8" x="26" y="0"/>
+        <delta pt="17" x="-26" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="plus">
