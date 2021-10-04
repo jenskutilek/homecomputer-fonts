@@ -29,7 +29,7 @@ code = "uniE014\012uniE015\012uniE016\012uniE017\012uniE018\012uniE019\012uniE01
 name = rev_all_target;
 }
 );
-copyright = "Copyright 2021 Jens Kutilek (https://github.com/jenskutilek/homecomputer-fonts)";
+copyright = "Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)";
 customParameters = (
 {
 name = "Disable Last Change";
