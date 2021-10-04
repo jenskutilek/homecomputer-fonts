@@ -5,7 +5,7 @@ axisOrder:
   - BLED
   - ital
 familyName: Sixtyfour
-buildOTF: false
+buildOTF: true
 buildTTF: true
 outputDir: ../fonts
 autohintTTF: false
