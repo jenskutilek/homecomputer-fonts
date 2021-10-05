@@ -136321,7 +136321,7 @@ instances = (
 customParameters = (
 {
 name = "Has WWS Names";
-value = "New Value";
+value = 0;
 },
 {
 name = WWSFamilyName;
@@ -136330,6 +136330,10 @@ value = "Sixtyfour Delicate";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 20;
@@ -136352,6 +136356,10 @@ value = "Sixtyfour Slight";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 32;
@@ -136375,6 +136383,10 @@ value = "Sixtyfour Evenly";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 60;
@@ -136398,6 +136410,10 @@ value = "Sixtyfour Normal";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWidth = 0;
@@ -136420,6 +136436,10 @@ value = "Sixtyfour Touching";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 132;
@@ -136443,6 +136463,10 @@ value = "Sixtyfour Overlapping";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 156;
@@ -136466,6 +136490,10 @@ value = "Sixtyfour Overexposed";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 200;
@@ -136489,6 +136517,10 @@ value = "Sixtyfour Maximum";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 250;
@@ -136511,6 +136543,10 @@ value = "Sixtyfour Delicate Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 20;
@@ -136534,6 +136570,10 @@ value = "Sixtyfour Slight Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 32;
@@ -136559,6 +136599,10 @@ value = "Sixtyfour Evenly Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 60;
@@ -136584,6 +136628,10 @@ value = "Sixtyfour Normal Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWidth = 40;
@@ -136608,6 +136656,10 @@ value = "Sixtyfour Touching Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 132;
@@ -136633,6 +136685,10 @@ value = "Sixtyfour Overlapping Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 156;
@@ -136658,6 +136714,10 @@ value = "Sixtyfour Overexposed Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 200;
@@ -136683,6 +136743,10 @@ value = "Sixtyfour Maximum Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 250;
@@ -136706,6 +136770,10 @@ value = "Sixtyfour Delicate Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 20;
@@ -136727,6 +136795,10 @@ value = "Sixtyfour Slight Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 32;
@@ -136749,6 +136821,10 @@ value = "Sixtyfour Evenly Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 60;
@@ -136771,6 +136847,10 @@ value = "Sixtyfour Normal Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -136792,6 +136872,10 @@ value = "Sixtyfour Touching Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 132;
@@ -136814,6 +136898,10 @@ value = "Sixtyfour Overlapping Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 156;
@@ -136836,6 +136924,10 @@ value = "Sixtyfour Overexposed Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 200;
@@ -136858,6 +136950,10 @@ value = "Sixtyfour Maximum Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 250;
