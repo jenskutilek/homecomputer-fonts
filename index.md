@@ -7,6 +7,6 @@ Inspired by the article [Raster CRT Typography (According to DEC)](https://www.m
 Download the fonts and source files from the [GitHub repository](https://github.com/jenskutilek/homecomputer-fonts).
 
 <figure>
-	<img src="images/64.png">
+	<img src="docuentation/images/64.png">
 	<figcaption>Sixtyfour, check the <a href="demo-sixtyfour.html">interactive demo page</a>.</figcaption>
 </figure>
