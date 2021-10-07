@@ -1,0 +1,45 @@
+  sources:
+    - Sixtyfour.glyphs
+  axisOrder:
+    - SCAN
+    - BLED
+  familyName: Sixtyfour
+  #buildOTF: False
+  #buildTTF: False
+  #buildWebfont: False
+  outputDir: ../fonts/jens
+  #autohintTTF: false
+  #flattenComponents: true
+  stat:
+    Sixtyfour[BLED,SCAN].ttf:
+    - name: Scanlines
+      tag: SCAN
+      values:
+      - name: Delicate
+        value: 20
+      - name: Slight
+        value: 32
+      - name: Evenly
+        value: 60
+      - name: Normal
+        value: 100
+        flags: 2
+      - name: Touching
+        value: 132
+      - name: Overlapping
+        value: 156
+      - name: Overexposed
+        value: 200
+      - name: Maximum
+        value: 250
+    - name: Bleed
+      tag: BLED
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+      - name: Medium
+        value: 40
+      - name: Strong
+        value: 100
+

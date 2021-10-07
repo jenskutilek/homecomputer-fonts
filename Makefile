@@ -9,12 +9,12 @@ help:
 	@echo
 
 .PHONY: build
-build: build.stamp sources/config.yaml sources/Sixtyfour.glyphs fix-fonts webfonts
+build: build.stamp sources/build-google.yaml sources/Sixtyfour.glyphs fix-fonts webfonts
 
 venv: venv/touchfile
 
 build.stamp: venv
-	. venv/bin/activate; gftools builder sources/config.yaml && touch build.stamp
+	. venv/bin/activate; gftools builder sources/build-google.yaml && touch build.stamp
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
@@ -45,12 +45,12 @@ dist-clean:
 # 	rm -f temp_out/Sixtyfour.ttf
 # 	rm -f temp_out/Workbench.ttf
 
-.PHONY: fix-fonts
-fix-fonts:
-	. venv/bin/activate; python scripts/fix_varfont.py
+# .PHONY: fix-fonts
+# fix-fonts:
+# 	. venv/bin/activate; python scripts/fix_varfont.py
 
-.PHONY: webfonts
-webfonts: fonts/webfonts/Sixtyfour[BLED,SCAN].woff2
+# .PHONY: webfonts
+# webfonts: fonts/webfonts/Sixtyfour[BLED,SCAN].woff2
 
-fonts/webfonts/Sixtyfour[BLED,SCAN].woff2: build.stamp
-	. venv/bin/activate; python scripts/2woff.py fonts/variable/Sixtyfour[BLED,SCAN].ttf
+# fonts/webfonts/Sixtyfour[BLED,SCAN].woff2: build.stamp
+# 	. venv/bin/activate; python scripts/2woff.py fonts/variable/Sixtyfour[BLED,SCAN].ttf

@@ -1,0 +1,68 @@
+  sources:
+    - Sixtyfour.glyphs
+  axisOrder:
+    - SCAN
+    - BLED
+  familyName: Sixtyfour
+  buildOTF: False
+  #buildTTF: False
+  #buildWebfont: False
+  outputDir: ../fonts/google
+  #autohintTTF: false
+  #flattenComponents: true
+  stat:
+    Sixtyfour[BLED,SCAN].ttf:
+    - name: Scanlines
+      tag: SCAN
+      values:
+      - name: Delicate
+        value: 20
+      - name: Normal
+        value: 100
+        flags: 2
+      - name: Max
+        value: 250
+    - name: Bleed
+      tag: BLED
+      values:
+      - name: Normal
+        value: 0
+        flags: 2
+      - name: Strong
+        value: 100
+  instances:
+    Sixtyfour[BLED,SCAN].ttf:
+      - coordinates:
+          SCAN: 100
+          BLED: 0
+      - familyName: "Sixtyfour Delicate"
+        styleName: "Regular"
+        coordinates:
+          SCAN: 20
+          BLED: 0
+      - familyName: "Sixtyfour"
+        styleName: "Regular"
+        coordinates:
+          SCAN: 100
+          BLED: 0
+      - familyName: "Sixtyfour Max"
+        styleName: "Regular"
+        coordinates:
+          SCAN: 250
+          BLED: 0
+      - familyName: "Sixtyfour Delicate Strong"
+        styleName: "Regular"
+        coordinates:
+          SCAN: 20
+          BLED: 100
+      - familyName: "Sixtyfour Strong"
+        styleName: "Regular"
+        coordinates:
+          SCAN: 100
+          BLED: 100
+      - familyName: "Sixtyfour Max Strong"
+        styleName: "Regular"
+        coordinates:
+          SCAN: 250
+          BLED: 100
+
