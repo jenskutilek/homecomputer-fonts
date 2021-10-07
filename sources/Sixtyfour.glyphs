@@ -181115,6 +181115,14 @@ gridLength = 128;
 gridSubDivision = 128;
 instances = (
 {
+interpolationWidth = 0;
+instanceInterpolations = {
+"E6C7585F-7332-4AB4-B905-C2340127ECB8" = 1;
+};
+name = Regular;
+},
+{
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181137,6 +181145,7 @@ instanceInterpolations = {
 name = Delicate;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181160,6 +181169,7 @@ instanceInterpolations = {
 name = Slight;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181183,6 +181193,7 @@ instanceInterpolations = {
 name = Evenly;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181204,6 +181215,7 @@ instanceInterpolations = {
 name = Normal;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181227,6 +181239,7 @@ instanceInterpolations = {
 name = Touching;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181250,6 +181263,7 @@ instanceInterpolations = {
 name = Overlapping;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181273,6 +181287,7 @@ instanceInterpolations = {
 name = Overexposed;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181295,6 +181310,7 @@ instanceInterpolations = {
 name = Maximum;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181318,6 +181334,7 @@ instanceInterpolations = {
 name = "Delicate Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181343,6 +181360,7 @@ instanceInterpolations = {
 name = "Slight Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181368,6 +181386,7 @@ instanceInterpolations = {
 name = "Evenly Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181390,6 +181409,7 @@ instanceInterpolations = {
 name = "Normal Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181415,6 +181435,7 @@ instanceInterpolations = {
 name = "Touching Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181440,6 +181461,7 @@ instanceInterpolations = {
 name = "Overlapping Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181465,6 +181487,7 @@ instanceInterpolations = {
 name = "Overexposed Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181488,6 +181511,7 @@ instanceInterpolations = {
 name = "Maximum Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181509,6 +181533,7 @@ instanceInterpolations = {
 name = "Delicate Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181531,6 +181556,7 @@ instanceInterpolations = {
 name = "Slight Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181553,6 +181579,7 @@ instanceInterpolations = {
 name = "Evenly Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181573,6 +181600,7 @@ instanceInterpolations = {
 name = "Normal Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181595,6 +181623,7 @@ instanceInterpolations = {
 name = "Touching Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181617,6 +181646,7 @@ instanceInterpolations = {
 name = "Overlapping Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
@@ -181639,6 +181669,7 @@ instanceInterpolations = {
 name = "Overexposed Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
