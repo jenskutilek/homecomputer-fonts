@@ -4,8 +4,9 @@ axisOrder:
   - SCAN
   - BLED
 familyName: Sixtyfour
-buildOTF: true
-buildTTF: true
+buildOTF: false
+# buildTTF: false
+# buildWebfont: false
 outputDir: ../fonts
 autohintTTF: false
 flattenComponents: true
