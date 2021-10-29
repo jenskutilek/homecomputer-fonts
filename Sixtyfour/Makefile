@@ -13,21 +13,21 @@ build: build.stamp sources/config.yaml sources/Sixtyfour.glyphs fix-fonts webfon
 
 venv: venv/touchfile
 
-build.stamp: venv
-	. venv/bin/activate; gftools builder sources/config.yaml && touch build.stamp
+build.stamp: ../venv
+	. ../venv/bin/activate; gftools builder sources/config.yaml && touch build.stamp
 
-venv/touchfile: requirements.txt
-	test -d venv || python3 -m venv venv
-	. venv/bin/activate; pip install -Ur requirements.txt
-	touch venv/touchfile
+../venv/touchfile: requirements.txt
+	test -d ../venv || python3 -m venv ../venv
+	. ../venv/bin/activate; pip install -Ur requirements.txt
+	touch ../venv/touchfile
 
 .PHONY: test
-test: venv build.stamp
-	. venv/bin/activate; fontbakery check-googlefonts --html fontbakery-report.html --ghmarkdown fontbakery-report.md $(shell find fonts -type f)
+test: ../venv build.stamp
+	. ../venv/bin/activate; fontbakery check-googlefonts --html fontbakery-report.html --ghmarkdown fontbakery-report.md $(shell find fonts -type f)
 
 .PHONY: proof
-proof: venv build.stamp
-	. venv/bin/activate; gftools gen-html proof $(shell find fonts/variable -type f) -o proof
+proof: ../venv build.stamp
+	. ../venv/bin/activate; gftools gen-html proof $(shell find fonts/variable -type f) -o proof
 
 .PHONY: clean
 clean:
@@ -35,7 +35,7 @@ clean:
 
 .PHONY: dist-clean
 dist-clean:
-	rm -rf venv
+	rm -rf ../venv
 	find -iname "*.pyc" -delete
 
 # .PHONY: update-designspace
@@ -47,10 +47,10 @@ dist-clean:
 
 .PHONY: fix-fonts
 fix-fonts:
-	. venv/bin/activate; python scripts/fix_varfont.py
+	. ../venv/bin/activate; python scripts/fix_varfont.py
 
 .PHONY: webfonts
 webfonts: fonts/webfonts/Sixtyfour[BLED,SCAN].woff2
 
 fonts/webfonts/Sixtyfour[BLED,SCAN].woff2: build.stamp
-	. venv/bin/activate; python scripts/2woff.py fonts/variable/Sixtyfour[BLED,SCAN].ttf
+	. ../venv/bin/activate; python scripts/2woff.py fonts/variable/Sixtyfour[BLED,SCAN].ttf
