@@ -1,0 +1,50 @@
+sources:
+  - Workbench.glyphs
+axisOrder:
+  - SCAN
+  - BLED
+familyName: Workbench
+buildOTF: true
+buildTTF: true
+outputDir: ../fonts
+autohintTTF: false
+flattenComponents: true
+stat:
+  Workbench[BLED,SCAN].ttf:
+  - name: Scanlines
+    tag: SCAN
+    values:
+    - name: Delicate
+      value: 20
+    - name: Slight
+      value: 32
+    - name: Evenly
+      value: 60
+    - name: Normal
+      value: 100
+      flags: 2
+    - name: Touching
+      value: 132
+    - name: Overlapping
+      value: 156
+    - name: Overexposed
+      value: 200
+    - name: Maximum
+      value: 250
+  - name: Bleed
+    tag: BLED
+    values:
+    - name: Normal
+      value: 0
+      flags: 2
+    - name: Medium
+      value: 40
+    - name: Strong
+      value: 100
+  # - name: Italic
+  #   tag: ital
+  #   values:
+  #   - name: Roman
+  #     value: 0
+  #     flags: 2
+  #     linkedValue: 1
