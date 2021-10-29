@@ -9,6 +9,11 @@ Inspired by the article [Raster CRT Typography (According to DEC)](https://www.m
 	<figcaption>Sixtyfour, check the <a href="https://jenskutilek.github.io/homecomputer-fonts/demo-sixtyfour.html">interactive demo page</a>.</figcaption>
 </figure>
 
+<figure>
+	<img src="images/wb.png">
+	<figcaption>Workbench, check the <a href="https://jenskutilek.github.io/homecomputer-fonts/demo-workbench.html">interactive demo page</a>.</figcaption>
+</figure>
+
 
 # Building the fonts from source
 
