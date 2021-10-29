@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0x80bd67dd"/>
+    <checkSumAdjustment value="0xc4d0fda4"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Sun Sep  7 06:16:00 2008"/>
-    <modified value="Mon Oct  4 21:27:17 2021"/>
+    <modified value="Fri Oct 29 14:53:00 2021"/>
     <xMin value="-5"/>
     <yMin value="-202"/>
     <xMax value="517"/>
@@ -16032,10 +16032,5 @@
       </tuple>
     </glyphVariations>
   </gvar>
-
-  <DSIG>
-    <!-- note that the Digital Signature will be invalid after recompilation! -->
-    <tableHeader flag="0x0" numSigs="0" version="1"/>
-  </DSIG>
 
 </ttFont>
