@@ -9,7 +9,7 @@ help:
 	@echo
 
 .PHONY: build
-build: build.stamp sources/config.yaml sources/Workbench.glyphs fix-fonts webfonts
+build: build.stamp sources/config.yaml sources/Workbench.glyphs fix-fonts # webfonts
 
 ../venv: ../venv/touchfile
 
@@ -36,7 +36,7 @@ clean:
 .PHONY: dist-clean
 dist-clean:
 	rm -rf ../venv
-	find -iname "*.pyc" -delete
+	find ../ -iname "*.pyc" -delete
 
 # .PHONY: update-designspace
 # update-designspace:
@@ -47,10 +47,10 @@ dist-clean:
 
 .PHONY: fix-fonts
 fix-fonts:
-	. ../venv/bin/activate; python scripts/fix_varfont.py
+	. ../venv/bin/activate; cd ..; python scripts/fix_varfont.py Workbench/fonts/variable/Workbench[BLED,SCAN].ttf
 
-.PHONY: webfonts
-webfonts: fonts/webfonts/Workbench[BLED,SCAN].woff2
+# .PHONY: webfonts
+# webfonts: fonts/webfonts/Workbench[BLED,SCAN].woff2
 
-fonts/webfonts/Workbench[BLED,SCAN].woff2:
-	. ../venv/bin/activate; python scripts/2woff.py fonts/variable/Workbench[BLED,SCAN].ttf
+# fonts/webfonts/Workbench[BLED,SCAN].woff2:
+# 	. ../venv/bin/activate; python scripts/2woff.py fonts/variable/Workbench[BLED,SCAN].ttf

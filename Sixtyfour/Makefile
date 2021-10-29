@@ -9,7 +9,7 @@ help:
 	@echo
 
 .PHONY: build
-build: build.stamp sources/config.yaml sources/Sixtyfour.glyphs fix-fonts webfonts
+build: build.stamp sources/config.yaml sources/Sixtyfour.glyphs fix-fonts # webfonts
 
 ../venv: ../venv/touchfile
 
@@ -36,7 +36,7 @@ clean:
 .PHONY: dist-clean
 dist-clean:
 	rm -rf ../venv
-	find -iname "*.pyc" -delete
+	find ../ -iname "*.pyc" -delete
 
 # .PHONY: update-designspace
 # update-designspace:
@@ -47,10 +47,10 @@ dist-clean:
 
 .PHONY: fix-fonts
 fix-fonts:
-	. ../venv/bin/activate; python scripts/fix_varfont.py
+	. ../venv/bin/activate; cd ..; python scripts/fix_varfont.py Sixtyfour/fonts/variable/Sixtyfour[BLED,SCAN].ttf
 
-.PHONY: webfonts
-webfonts: fonts/webfonts/Sixtyfour[BLED,SCAN].woff2
+# .PHONY: webfonts
+# webfonts: fonts/webfonts/Sixtyfour[BLED,SCAN].woff2
 
-fonts/webfonts/Sixtyfour[BLED,SCAN].woff2: build.stamp
-	. ../venv/bin/activate; python scripts/2woff.py fonts/variable/Sixtyfour[BLED,SCAN].ttf
+# fonts/webfonts/Sixtyfour[BLED,SCAN].woff2: build.stamp
+# 	. ../venv/bin/activate; python scripts/2woff.py fonts/variable/Sixtyfour[BLED,SCAN].ttf

@@ -1,4 +1,5 @@
 # import struct
+from sys import argv
 from os.path import dirname, basename, join
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables._g_l_y_f import ROUND_XY_TO_GRID, USE_MY_METRICS
@@ -60,8 +61,5 @@ def fix_font(path, outpath):
     )
     f.saveXML(ttx_path)
 
-
-fix_font(
-    "fonts/variable/Sixtyfour[BLED,SCAN].ttf",
-    "fonts/variable/Sixtyfour[BLED,SCAN].ttf",
-)
+for arg in argv[1:]:
+    fix_font(arg, arg)
