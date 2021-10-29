@@ -11,14 +11,14 @@ help:
 .PHONY: build
 build: build.stamp sources/config.yaml sources/Sixtyfour.glyphs fix-fonts webfonts
 
-venv: venv/touchfile
+../venv: ../venv/touchfile
 
 build.stamp: ../venv
 	. ../venv/bin/activate; gftools builder sources/config.yaml && touch build.stamp
 
-../venv/touchfile: requirements.txt
+../venv/touchfile: ../requirements.txt
 	test -d ../venv || python3 -m venv ../venv
-	. ../venv/bin/activate; pip install -Ur requirements.txt
+	. ../venv/bin/activate; pip install -Ur ../requirements.txt
 	touch ../venv/touchfile
 
 .PHONY: test
