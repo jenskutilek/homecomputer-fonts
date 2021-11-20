@@ -39,6 +39,7 @@ div.controls {
 	background: #404040;
 	display: flex;
 	flex-direction: column;
+	font-variation-settings: "SCAN" 0, "BLED" 0;
 	margin: 1em 0 0 0;
 	padding: 1em;
 }
@@ -70,37 +71,75 @@ pre {
 }
 		</style>
 		<script type="text/javascript">
-const changeBleed = function (e) {
-	html.style.setProperty("--bleed", e.target.value);
-}
-
-const changeBlur = function (e) {
-	const v = e.target.value
-	const blur = "blur(" + v + "px)"
-	document.querySelector('#screen').style.filter = blur
-}
-
-const changeGlow = function (e) {
-	const v = e.target.value
-	const shadow = "0 0 " + v + "em #ffffff"
-	/*document.querySelector('#screen').style.boxShadow = shadow
-	document.querySelector('pre').style.boxShadow = shadow */
-	document.querySelector('pre').style.textShadow = shadow
-}
+// Variable font settings
 
 const changeScan = function (e) {
 	html.style.setProperty("--scan", e.target.value);
 }
+const changeBleed = function (e) {
+	html.style.setProperty("--bleed", e.target.value);
+}
 
-var html
+// Box shadow
+
+const changeGlow = function (e) {
+	const v = e.target.value
+	const shadow = "0 0 " + v + "em #68a4ff"
+	document.querySelector('#screen').style.boxShadow = shadow
+	document.querySelector('pre').style.boxShadow = shadow
+	document.querySelector('pre').style.textShadow = shadow
+}
+
+// CSS filters
+
+const changeBlur = function (e) {
+	blur = e.target.value
+	updateFilters()
+}
+
+const changeBrightness = function (e) {
+	brightness = e.target.value
+	updateFilters()
+}
+
+const changeContrast = function (e) {
+	contrast = e.target.value
+	updateFilters()
+}
+
+const changeSaturation = function (e) {
+	saturation = e.target.value
+	updateFilters()
+}
+
+const updateFilters = function () {
+	console.log("updateFilters")
+	const flt = "brightness(" + brightness + ") contrast(" + contrast + ") blur(" + blur + "px) saturate(" + saturation + ")"
+	console.log(flt)
+	document.querySelector('#screen').style.filter = flt
+}
+
+
+var html, brightness, blur, contrast, saturation
 
 document.addEventListener("DOMContentLoaded", function() {
 	html = document.querySelector('html')
-	document.querySelector('#bleed').addEventListener('input', changeBleed)
-	document.querySelector('#blur').addEventListener('input', changeBlur)
-	document.querySelector('#glow').addEventListener('input', changeGlow)
+
 	document.querySelector('#scan').addEventListener('input', changeScan)
-});
+	document.querySelector('#bleed').addEventListener('input', changeBleed)
+
+	document.querySelector('#glow').addEventListener('input', changeGlow)
+
+	brightness = document.querySelector('#brightness').value
+	blur = document.querySelector('#blur').value
+	contrast = document.querySelector('#contrast').value
+	saturation = document.querySelector('#saturation').value
+
+	document.querySelector('#blur').addEventListener('input', changeBlur)
+	document.querySelector('#brightness').addEventListener('input', changeBrightness)
+	document.querySelector('#contrast').addEventListener('input', changeContrast)
+	document.querySelector('#saturation').addEventListener('input', changeSaturation)
+})
 		</script>
 	</head>
 	<body>
@@ -113,10 +152,13 @@ und programmier’ die Zukunft mir_
 			</pre>
 		</div>
 		<div class="controls">
-			<div><input type="range" id="bleed" min="0" max="100" step="1" value="0"><label for="bleed">Bleed</label></div>
-			<div><input type="range" id="scan" min="20" max="250" step="1" value="100"><label for="scan">Scanline</label></div>
+			<div><input type="range" id="bleed" min="0" max="500" step="1" value="0"><label for="bleed">Bleed</label></div>
+			<div><input type="range" id="scan" min="-800" max="1000" step="1" value="0"><label for="scan">Scanline</label></div>
 			<div><input type="range" id="glow" min="0" max="0.8" step="0.01" value="0"><label for="glow">Glow</label></div>
-			<div><input type="range" id="blur" min="0" max="5" step="0.1" value="0"><label for="blur">Blur</label></div>
+			<div><input type="range" id="blur" min="0" max="5" step="1" value="0"><label for="blur">Blur</label></div>
+			<div><input type="range" id="brightness" min="0.2" max="2" step="0.01" value="1"><label for="brightness">Brightness</label></div>
+			<div><input type="range" id="contrast" min="0.1" max="5" step="0.01" value="1"><label for="contrast">Contrast</label></div>
+			<div><input type="range" id="saturation" min="0" max="2" step="0.01" value="1"><label for="saturation">Saturation</label></div>
 		</div>
 	</body>
 </html>
