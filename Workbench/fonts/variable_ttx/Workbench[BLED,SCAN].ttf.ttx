@@ -245,12 +245,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="2.0"/>
-    <checkSumAdjustment value="0xc4d0fda4"/>
+    <checkSumAdjustment value="0xa256a933"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Sun Sep  7 06:16:00 2008"/>
-    <modified value="Fri Oct 29 14:53:00 2021"/>
+    <modified value="Sat Nov 20 12:19:17 2021"/>
     <xMin value="-5"/>
     <yMin value="-202"/>
     <xMax value="517"/>
@@ -3791,153 +3791,18 @@
       Bleed
     </namerecord>
     <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Delicate
-    </namerecord>
-    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Slight
-    </namerecord>
-    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Evenly
-    </namerecord>
-    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Normal
     </namerecord>
-    <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Touching
-    </namerecord>
-    <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Overlapping
-    </namerecord>
-    <namerecord nameID="264" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Overexposed
-    </namerecord>
-    <namerecord nameID="265" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Maximum
-    </namerecord>
-    <namerecord nameID="266" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Delicate Medium
-    </namerecord>
-    <namerecord nameID="267" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Slight Medium
-    </namerecord>
-    <namerecord nameID="268" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Evenly Medium
-    </namerecord>
-    <namerecord nameID="269" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Normal Medium
-    </namerecord>
-    <namerecord nameID="270" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Touching Medium
-    </namerecord>
-    <namerecord nameID="271" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Overlapping Medium
-    </namerecord>
-    <namerecord nameID="272" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Overexposed Medium
-    </namerecord>
-    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Maximum Medium
-    </namerecord>
-    <namerecord nameID="274" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Delicate Strong
-    </namerecord>
-    <namerecord nameID="275" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Slight Strong
-    </namerecord>
-    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Evenly Strong
-    </namerecord>
-    <namerecord nameID="277" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Normal Strong
-    </namerecord>
-    <namerecord nameID="278" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Touching Strong
-    </namerecord>
-    <namerecord nameID="279" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Overlapping Strong
-    </namerecord>
-    <namerecord nameID="280" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Overexposed Strong
-    </namerecord>
-    <namerecord nameID="281" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Maximum Strong
-    </namerecord>
-    <namerecord nameID="282" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-Delicate
-    </namerecord>
-    <namerecord nameID="283" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-Slight
-    </namerecord>
-    <namerecord nameID="284" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-Evenly
-    </namerecord>
-    <namerecord nameID="285" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Workbench-Normal
     </namerecord>
-    <namerecord nameID="286" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-Touching
+    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Delicate
     </namerecord>
-    <namerecord nameID="287" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-Overlapping
+    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Maximum
     </namerecord>
-    <namerecord nameID="288" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-Overexposed
-    </namerecord>
-    <namerecord nameID="289" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-Maximum
-    </namerecord>
-    <namerecord nameID="290" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-DelicateMedium
-    </namerecord>
-    <namerecord nameID="291" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-SlightMedium
-    </namerecord>
-    <namerecord nameID="292" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-EvenlyMedium
-    </namerecord>
-    <namerecord nameID="293" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-NormalMedium
-    </namerecord>
-    <namerecord nameID="294" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-TouchingMedium
-    </namerecord>
-    <namerecord nameID="295" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-OverlappingMedium
-    </namerecord>
-    <namerecord nameID="296" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-OverexposedMedium
-    </namerecord>
-    <namerecord nameID="297" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-MaximumMedium
-    </namerecord>
-    <namerecord nameID="298" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-DelicateStrong
-    </namerecord>
-    <namerecord nameID="299" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-SlightStrong
-    </namerecord>
-    <namerecord nameID="300" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-EvenlyStrong
-    </namerecord>
-    <namerecord nameID="301" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-NormalStrong
-    </namerecord>
-    <namerecord nameID="302" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-TouchingStrong
-    </namerecord>
-    <namerecord nameID="303" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-OverlappingStrong
-    </namerecord>
-    <namerecord nameID="304" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-OverexposedStrong
-    </namerecord>
-    <namerecord nameID="305" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Workbench-MaximumStrong
-    </namerecord>
-    <namerecord nameID="306" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Medium
-    </namerecord>
-    <namerecord nameID="307" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Strong
     </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
@@ -3986,153 +3851,18 @@
       Bleed
     </namerecord>
     <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
-      Delicate
-    </namerecord>
-    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
-      Slight
-    </namerecord>
-    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
-      Evenly
-    </namerecord>
-    <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
       Normal
     </namerecord>
-    <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
-      Touching
-    </namerecord>
-    <namerecord nameID="263" platformID="3" platEncID="1" langID="0x409">
-      Overlapping
-    </namerecord>
-    <namerecord nameID="264" platformID="3" platEncID="1" langID="0x409">
-      Overexposed
-    </namerecord>
-    <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
-      Maximum
-    </namerecord>
-    <namerecord nameID="266" platformID="3" platEncID="1" langID="0x409">
-      Delicate Medium
-    </namerecord>
-    <namerecord nameID="267" platformID="3" platEncID="1" langID="0x409">
-      Slight Medium
-    </namerecord>
-    <namerecord nameID="268" platformID="3" platEncID="1" langID="0x409">
-      Evenly Medium
-    </namerecord>
-    <namerecord nameID="269" platformID="3" platEncID="1" langID="0x409">
-      Normal Medium
-    </namerecord>
-    <namerecord nameID="270" platformID="3" platEncID="1" langID="0x409">
-      Touching Medium
-    </namerecord>
-    <namerecord nameID="271" platformID="3" platEncID="1" langID="0x409">
-      Overlapping Medium
-    </namerecord>
-    <namerecord nameID="272" platformID="3" platEncID="1" langID="0x409">
-      Overexposed Medium
-    </namerecord>
-    <namerecord nameID="273" platformID="3" platEncID="1" langID="0x409">
-      Maximum Medium
-    </namerecord>
-    <namerecord nameID="274" platformID="3" platEncID="1" langID="0x409">
-      Delicate Strong
-    </namerecord>
-    <namerecord nameID="275" platformID="3" platEncID="1" langID="0x409">
-      Slight Strong
-    </namerecord>
-    <namerecord nameID="276" platformID="3" platEncID="1" langID="0x409">
-      Evenly Strong
-    </namerecord>
-    <namerecord nameID="277" platformID="3" platEncID="1" langID="0x409">
-      Normal Strong
-    </namerecord>
-    <namerecord nameID="278" platformID="3" platEncID="1" langID="0x409">
-      Touching Strong
-    </namerecord>
-    <namerecord nameID="279" platformID="3" platEncID="1" langID="0x409">
-      Overlapping Strong
-    </namerecord>
-    <namerecord nameID="280" platformID="3" platEncID="1" langID="0x409">
-      Overexposed Strong
-    </namerecord>
-    <namerecord nameID="281" platformID="3" platEncID="1" langID="0x409">
-      Maximum Strong
-    </namerecord>
-    <namerecord nameID="282" platformID="3" platEncID="1" langID="0x409">
-      Workbench-Delicate
-    </namerecord>
-    <namerecord nameID="283" platformID="3" platEncID="1" langID="0x409">
-      Workbench-Slight
-    </namerecord>
-    <namerecord nameID="284" platformID="3" platEncID="1" langID="0x409">
-      Workbench-Evenly
-    </namerecord>
-    <namerecord nameID="285" platformID="3" platEncID="1" langID="0x409">
+    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
       Workbench-Normal
     </namerecord>
-    <namerecord nameID="286" platformID="3" platEncID="1" langID="0x409">
-      Workbench-Touching
+    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
+      Delicate
     </namerecord>
-    <namerecord nameID="287" platformID="3" platEncID="1" langID="0x409">
-      Workbench-Overlapping
+    <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
+      Maximum
     </namerecord>
-    <namerecord nameID="288" platformID="3" platEncID="1" langID="0x409">
-      Workbench-Overexposed
-    </namerecord>
-    <namerecord nameID="289" platformID="3" platEncID="1" langID="0x409">
-      Workbench-Maximum
-    </namerecord>
-    <namerecord nameID="290" platformID="3" platEncID="1" langID="0x409">
-      Workbench-DelicateMedium
-    </namerecord>
-    <namerecord nameID="291" platformID="3" platEncID="1" langID="0x409">
-      Workbench-SlightMedium
-    </namerecord>
-    <namerecord nameID="292" platformID="3" platEncID="1" langID="0x409">
-      Workbench-EvenlyMedium
-    </namerecord>
-    <namerecord nameID="293" platformID="3" platEncID="1" langID="0x409">
-      Workbench-NormalMedium
-    </namerecord>
-    <namerecord nameID="294" platformID="3" platEncID="1" langID="0x409">
-      Workbench-TouchingMedium
-    </namerecord>
-    <namerecord nameID="295" platformID="3" platEncID="1" langID="0x409">
-      Workbench-OverlappingMedium
-    </namerecord>
-    <namerecord nameID="296" platformID="3" platEncID="1" langID="0x409">
-      Workbench-OverexposedMedium
-    </namerecord>
-    <namerecord nameID="297" platformID="3" platEncID="1" langID="0x409">
-      Workbench-MaximumMedium
-    </namerecord>
-    <namerecord nameID="298" platformID="3" platEncID="1" langID="0x409">
-      Workbench-DelicateStrong
-    </namerecord>
-    <namerecord nameID="299" platformID="3" platEncID="1" langID="0x409">
-      Workbench-SlightStrong
-    </namerecord>
-    <namerecord nameID="300" platformID="3" platEncID="1" langID="0x409">
-      Workbench-EvenlyStrong
-    </namerecord>
-    <namerecord nameID="301" platformID="3" platEncID="1" langID="0x409">
-      Workbench-NormalStrong
-    </namerecord>
-    <namerecord nameID="302" platformID="3" platEncID="1" langID="0x409">
-      Workbench-TouchingStrong
-    </namerecord>
-    <namerecord nameID="303" platformID="3" platEncID="1" langID="0x409">
-      Workbench-OverlappingStrong
-    </namerecord>
-    <namerecord nameID="304" platformID="3" platEncID="1" langID="0x409">
-      Workbench-OverexposedStrong
-    </namerecord>
-    <namerecord nameID="305" platformID="3" platEncID="1" langID="0x409">
-      Workbench-MaximumStrong
-    </namerecord>
-    <namerecord nameID="306" platformID="3" platEncID="1" langID="0x409">
-      Medium
-    </namerecord>
-    <namerecord nameID="307" platformID="3" platEncID="1" langID="0x409">
+    <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
       Strong
     </namerecord>
   </name>
@@ -4500,77 +4230,55 @@
         <AxisOrdering value="1"/>
       </Axis>
     </DesignAxisRecord>
-    <!-- AxisValueCount=11 -->
+    <!-- AxisValueCount=5 -->
     <AxisValueArray>
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="258"/>  <!-- Delicate -->
-        <Value value="20.0"/>
+        <ValueNameID value="260"/>  <!-- Delicate -->
+        <Value value="-800.0"/>
       </AxisValue>
       <AxisValue index="1" Format="1">
         <AxisIndex value="0"/>
-        <Flags value="0"/>
-        <ValueNameID value="259"/>  <!-- Slight -->
-        <Value value="32.0"/>
+        <Flags value="2"/>  <!-- ElidableAxisValueName -->
+        <ValueNameID value="258"/>  <!-- Normal -->
+        <Value value="0.0"/>
       </AxisValue>
       <AxisValue index="2" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="260"/>  <!-- Evenly -->
-        <Value value="60.0"/>
+        <ValueNameID value="261"/>  <!-- Maximum -->
+        <Value value="1000.0"/>
       </AxisValue>
       <AxisValue index="3" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="2"/>  <!-- ElidableAxisValueName -->
-        <ValueNameID value="261"/>  <!-- Normal -->
-        <Value value="100.0"/>
-      </AxisValue>
-      <AxisValue index="4" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="0"/>
-        <ValueNameID value="262"/>  <!-- Touching -->
-        <Value value="132.0"/>
-      </AxisValue>
-      <AxisValue index="5" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="0"/>
-        <ValueNameID value="263"/>  <!-- Overlapping -->
-        <Value value="156.0"/>
-      </AxisValue>
-      <AxisValue index="6" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="0"/>
-        <ValueNameID value="264"/>  <!-- Overexposed -->
-        <Value value="200.0"/>
-      </AxisValue>
-      <AxisValue index="7" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="0"/>
-        <ValueNameID value="265"/>  <!-- Maximum -->
-        <Value value="250.0"/>
-      </AxisValue>
-      <AxisValue index="8" Format="1">
         <AxisIndex value="1"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
-        <ValueNameID value="261"/>  <!-- Normal -->
+        <ValueNameID value="258"/>  <!-- Normal -->
         <Value value="0.0"/>
       </AxisValue>
-      <AxisValue index="9" Format="1">
+      <AxisValue index="4" Format="1">
         <AxisIndex value="1"/>
         <Flags value="0"/>
-        <ValueNameID value="306"/>  <!-- Medium -->
-        <Value value="40.0"/>
-      </AxisValue>
-      <AxisValue index="10" Format="1">
-        <AxisIndex value="1"/>
-        <Flags value="0"/>
-        <ValueNameID value="307"/>  <!-- Strong -->
-        <Value value="100.0"/>
+        <ValueNameID value="262"/>  <!-- Strong -->
+        <Value value="500.0"/>
       </AxisValue>
     </AxisValueArray>
     <ElidedFallbackNameID value="2"/>  <!-- Regular -->
   </STAT>
+
+  <avar>
+    <segment axis="SCAN">
+      <mapping from="-1.0" to="-1.0"/>
+      <mapping from="0.0" to="0.0"/>
+      <mapping from="0.44446" to="0.34784"/>
+      <mapping from="1.0" to="1.0"/>
+    </segment>
+    <segment axis="BLED">
+      <mapping from="-1.0" to="-1.0"/>
+      <mapping from="0.0" to="0.0"/>
+      <mapping from="1.0" to="1.0"/>
+    </segment>
+  </avar>
 
   <fvar>
 
@@ -4578,9 +4286,9 @@
     <Axis>
       <AxisTag>SCAN</AxisTag>
       <Flags>0x0</Flags>
-      <MinValue>-80.0</MinValue>
-      <DefaultValue>-80.0</DefaultValue>
-      <MaxValue>150.0</MaxValue>
+      <MinValue>-800.0</MinValue>
+      <DefaultValue>-800.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
       <AxisNameID>256</AxisNameID>
     </Axis>
 
@@ -4590,176 +4298,15 @@
       <Flags>0x0</Flags>
       <MinValue>0.0</MinValue>
       <DefaultValue>0.0</DefaultValue>
-      <MaxValue>100.0</MaxValue>
+      <MaxValue>500.0</MaxValue>
       <AxisNameID>257</AxisNameID>
     </Axis>
 
-    <!-- Delicate -->
-    <!-- PostScript: Workbench-Delicate -->
-    <NamedInstance flags="0x0" postscriptNameID="282" subfamilyNameID="258">
-      <coord axis="SCAN" value="-80.0"/>
-      <coord axis="BLED" value="0.0"/>
-    </NamedInstance>
-
-    <!-- Slight -->
-    <!-- PostScript: Workbench-Slight -->
-    <NamedInstance flags="0x0" postscriptNameID="283" subfamilyNameID="259">
-      <coord axis="SCAN" value="-68.0"/>
-      <coord axis="BLED" value="0.0"/>
-    </NamedInstance>
-
-    <!-- Evenly -->
-    <!-- PostScript: Workbench-Evenly -->
-    <NamedInstance flags="0x0" postscriptNameID="284" subfamilyNameID="260">
-      <coord axis="SCAN" value="-40.0"/>
-      <coord axis="BLED" value="0.0"/>
-    </NamedInstance>
-
     <!-- Normal -->
     <!-- PostScript: Workbench-Normal -->
-    <NamedInstance flags="0x0" postscriptNameID="285" subfamilyNameID="261">
+    <NamedInstance flags="0x0" postscriptNameID="259" subfamilyNameID="258">
       <coord axis="SCAN" value="0.0"/>
       <coord axis="BLED" value="0.0"/>
-    </NamedInstance>
-
-    <!-- Touching -->
-    <!-- PostScript: Workbench-Touching -->
-    <NamedInstance flags="0x0" postscriptNameID="286" subfamilyNameID="262">
-      <coord axis="SCAN" value="32.0"/>
-      <coord axis="BLED" value="0.0"/>
-    </NamedInstance>
-
-    <!-- Overlapping -->
-    <!-- PostScript: Workbench-Overlapping -->
-    <NamedInstance flags="0x0" postscriptNameID="287" subfamilyNameID="263">
-      <coord axis="SCAN" value="56.0"/>
-      <coord axis="BLED" value="0.0"/>
-    </NamedInstance>
-
-    <!-- Overexposed -->
-    <!-- PostScript: Workbench-Overexposed -->
-    <NamedInstance flags="0x0" postscriptNameID="288" subfamilyNameID="264">
-      <coord axis="SCAN" value="100.0"/>
-      <coord axis="BLED" value="0.0"/>
-    </NamedInstance>
-
-    <!-- Maximum -->
-    <!-- PostScript: Workbench-Maximum -->
-    <NamedInstance flags="0x0" postscriptNameID="289" subfamilyNameID="265">
-      <coord axis="SCAN" value="150.0"/>
-      <coord axis="BLED" value="0.0"/>
-    </NamedInstance>
-
-    <!-- Delicate Medium -->
-    <!-- PostScript: Workbench-DelicateMedium -->
-    <NamedInstance flags="0x0" postscriptNameID="290" subfamilyNameID="266">
-      <coord axis="SCAN" value="-80.0"/>
-      <coord axis="BLED" value="40.0"/>
-    </NamedInstance>
-
-    <!-- Slight Medium -->
-    <!-- PostScript: Workbench-SlightMedium -->
-    <NamedInstance flags="0x0" postscriptNameID="291" subfamilyNameID="267">
-      <coord axis="SCAN" value="-68.0"/>
-      <coord axis="BLED" value="40.0"/>
-    </NamedInstance>
-
-    <!-- Evenly Medium -->
-    <!-- PostScript: Workbench-EvenlyMedium -->
-    <NamedInstance flags="0x0" postscriptNameID="292" subfamilyNameID="268">
-      <coord axis="SCAN" value="-40.0"/>
-      <coord axis="BLED" value="40.0"/>
-    </NamedInstance>
-
-    <!-- Normal Medium -->
-    <!-- PostScript: Workbench-NormalMedium -->
-    <NamedInstance flags="0x0" postscriptNameID="293" subfamilyNameID="269">
-      <coord axis="SCAN" value="0.0"/>
-      <coord axis="BLED" value="40.0"/>
-    </NamedInstance>
-
-    <!-- Touching Medium -->
-    <!-- PostScript: Workbench-TouchingMedium -->
-    <NamedInstance flags="0x0" postscriptNameID="294" subfamilyNameID="270">
-      <coord axis="SCAN" value="32.0"/>
-      <coord axis="BLED" value="40.0"/>
-    </NamedInstance>
-
-    <!-- Overlapping Medium -->
-    <!-- PostScript: Workbench-OverlappingMedium -->
-    <NamedInstance flags="0x0" postscriptNameID="295" subfamilyNameID="271">
-      <coord axis="SCAN" value="56.0"/>
-      <coord axis="BLED" value="40.0"/>
-    </NamedInstance>
-
-    <!-- Overexposed Medium -->
-    <!-- PostScript: Workbench-OverexposedMedium -->
-    <NamedInstance flags="0x0" postscriptNameID="296" subfamilyNameID="272">
-      <coord axis="SCAN" value="100.0"/>
-      <coord axis="BLED" value="40.0"/>
-    </NamedInstance>
-
-    <!-- Maximum Medium -->
-    <!-- PostScript: Workbench-MaximumMedium -->
-    <NamedInstance flags="0x0" postscriptNameID="297" subfamilyNameID="273">
-      <coord axis="SCAN" value="150.0"/>
-      <coord axis="BLED" value="40.0"/>
-    </NamedInstance>
-
-    <!-- Delicate Strong -->
-    <!-- PostScript: Workbench-DelicateStrong -->
-    <NamedInstance flags="0x0" postscriptNameID="298" subfamilyNameID="274">
-      <coord axis="SCAN" value="-80.0"/>
-      <coord axis="BLED" value="100.0"/>
-    </NamedInstance>
-
-    <!-- Slight Strong -->
-    <!-- PostScript: Workbench-SlightStrong -->
-    <NamedInstance flags="0x0" postscriptNameID="299" subfamilyNameID="275">
-      <coord axis="SCAN" value="-68.0"/>
-      <coord axis="BLED" value="100.0"/>
-    </NamedInstance>
-
-    <!-- Evenly Strong -->
-    <!-- PostScript: Workbench-EvenlyStrong -->
-    <NamedInstance flags="0x0" postscriptNameID="300" subfamilyNameID="276">
-      <coord axis="SCAN" value="-40.0"/>
-      <coord axis="BLED" value="100.0"/>
-    </NamedInstance>
-
-    <!-- Normal Strong -->
-    <!-- PostScript: Workbench-NormalStrong -->
-    <NamedInstance flags="0x0" postscriptNameID="301" subfamilyNameID="277">
-      <coord axis="SCAN" value="0.0"/>
-      <coord axis="BLED" value="100.0"/>
-    </NamedInstance>
-
-    <!-- Touching Strong -->
-    <!-- PostScript: Workbench-TouchingStrong -->
-    <NamedInstance flags="0x0" postscriptNameID="302" subfamilyNameID="278">
-      <coord axis="SCAN" value="32.0"/>
-      <coord axis="BLED" value="100.0"/>
-    </NamedInstance>
-
-    <!-- Overlapping Strong -->
-    <!-- PostScript: Workbench-OverlappingStrong -->
-    <NamedInstance flags="0x0" postscriptNameID="303" subfamilyNameID="279">
-      <coord axis="SCAN" value="56.0"/>
-      <coord axis="BLED" value="100.0"/>
-    </NamedInstance>
-
-    <!-- Overexposed Strong -->
-    <!-- PostScript: Workbench-OverexposedStrong -->
-    <NamedInstance flags="0x0" postscriptNameID="304" subfamilyNameID="280">
-      <coord axis="SCAN" value="100.0"/>
-      <coord axis="BLED" value="100.0"/>
-    </NamedInstance>
-
-    <!-- Maximum Strong -->
-    <!-- PostScript: Workbench-MaximumStrong -->
-    <NamedInstance flags="0x0" postscriptNameID="305" subfamilyNameID="281">
-      <coord axis="SCAN" value="150.0"/>
-      <coord axis="BLED" value="100.0"/>
     </NamedInstance>
   </fvar>
 
