@@ -1,5 +1,5 @@
 {
-.appVersion = "1357";
+.appVersion = "3100";
 DisplayStrings = (
 b
 );
@@ -68,6 +68,20 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+name = "Axis Mappings";
+value = {
+BLED = {
+0 = 0;
+500 = 100;
+};
+SCAN = {
+-800 = 20;
+0 = 100;
+1000 = 250;
+};
+};
+},
+{
 name = vendorID;
 value = JENS;
 },
@@ -93,18 +107,8 @@ Tag = BLED;
 );
 },
 {
-name = "Axis Mappings";
-value = {
-BLED = {
-0 = 0;
-100 = 100;
-};
-SCAN = {
--80 = 20;
-0 = 100;
-150 = 250;
-};
-};
+name = variableStyleName;
+value = Delicate;
 }
 );
 date = "2008-09-05 18:17:00 +0000";
@@ -229,12 +233,12 @@ value = 1;
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 200;
+Axis = Scanlines;
+Location = -800;
 },
 {
-Axis = Width;
-Location = 100;
+Axis = Bleed;
+Location = 0;
 }
 );
 }
@@ -321,12 +325,12 @@ value = 1;
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 900;
+Axis = Scanlines;
+Location = 1000;
 },
 {
-Axis = Width;
-Location = "100";
+Axis = Bleed;
+Location = 0;
 }
 );
 }
@@ -414,12 +418,12 @@ value = 1;
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 200;
+Axis = Scanlines;
+Location = -800;
 },
 {
-Axis = Width;
-Location = 200;
+Axis = Bleed;
+Location = 500;
 }
 );
 }
@@ -506,12 +510,12 @@ value = 1;
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = "900";
+Axis = Scanlines;
+Location = 1000;
 },
 {
-Axis = Width;
-Location = 200;
+Axis = Bleed;
+Location = 500;
 }
 );
 }
@@ -136318,10 +136322,15 @@ gridLength = 128;
 gridSubDivision = 128;
 instances = (
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136330,10 +136339,6 @@ value = "Sixtyfour Delicate";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 20;
@@ -136344,10 +136349,15 @@ instanceInterpolations = {
 name = Delicate;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136356,10 +136366,6 @@ value = "Sixtyfour Slight";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 32;
@@ -136371,10 +136377,15 @@ instanceInterpolations = {
 name = Slight;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136383,10 +136394,6 @@ value = "Sixtyfour Evenly";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 60;
@@ -136404,16 +136411,30 @@ name = "Has WWS Names";
 value = 0;
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
 name = WWSFamilyName;
 value = "Sixtyfour Normal";
 },
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWidth = 0;
@@ -136424,10 +136445,15 @@ instanceInterpolations = {
 name = Normal;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136436,10 +136462,6 @@ value = "Sixtyfour Touching";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 132;
@@ -136451,10 +136473,15 @@ instanceInterpolations = {
 name = Touching;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136463,10 +136490,6 @@ value = "Sixtyfour Overlapping";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 156;
@@ -136478,10 +136501,15 @@ instanceInterpolations = {
 name = Overlapping;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136490,10 +136518,6 @@ value = "Sixtyfour Overexposed";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 200;
@@ -136505,10 +136529,15 @@ instanceInterpolations = {
 name = Overexposed;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136517,10 +136546,6 @@ value = "Sixtyfour Maximum";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 250;
@@ -136531,10 +136556,15 @@ instanceInterpolations = {
 name = Maximum;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136543,10 +136573,6 @@ value = "Sixtyfour Delicate Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 20;
@@ -136558,10 +136584,15 @@ instanceInterpolations = {
 name = "Delicate Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136570,10 +136601,6 @@ value = "Sixtyfour Slight Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 32;
@@ -136587,10 +136614,15 @@ instanceInterpolations = {
 name = "Slight Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136599,10 +136631,6 @@ value = "Sixtyfour Evenly Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 60;
@@ -136616,10 +136644,15 @@ instanceInterpolations = {
 name = "Evenly Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136628,10 +136661,6 @@ value = "Sixtyfour Normal Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWidth = 40;
@@ -136644,10 +136673,15 @@ instanceInterpolations = {
 name = "Normal Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136656,10 +136690,6 @@ value = "Sixtyfour Touching Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 132;
@@ -136673,10 +136703,15 @@ instanceInterpolations = {
 name = "Touching Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136685,10 +136720,6 @@ value = "Sixtyfour Overlapping Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 156;
@@ -136702,10 +136733,15 @@ instanceInterpolations = {
 name = "Overlapping Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136714,10 +136750,6 @@ value = "Sixtyfour Overexposed Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 200;
@@ -136731,10 +136763,15 @@ instanceInterpolations = {
 name = "Overexposed Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136743,10 +136780,6 @@ value = "Sixtyfour Maximum Medium";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 250;
@@ -136758,10 +136791,15 @@ instanceInterpolations = {
 name = "Maximum Medium";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136770,10 +136808,6 @@ value = "Sixtyfour Delicate Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 20;
@@ -136783,10 +136817,15 @@ instanceInterpolations = {
 name = "Delicate Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136795,10 +136834,6 @@ value = "Sixtyfour Slight Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 32;
@@ -136809,10 +136844,15 @@ instanceInterpolations = {
 name = "Slight Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136821,10 +136861,6 @@ value = "Sixtyfour Evenly Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 60;
@@ -136835,10 +136871,15 @@ instanceInterpolations = {
 name = "Evenly Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136847,10 +136888,6 @@ value = "Sixtyfour Normal Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 instanceInterpolations = {
@@ -136860,10 +136897,15 @@ instanceInterpolations = {
 name = "Normal Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136872,10 +136914,6 @@ value = "Sixtyfour Touching Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 132;
@@ -136886,10 +136924,15 @@ instanceInterpolations = {
 name = "Touching Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136898,10 +136941,6 @@ value = "Sixtyfour Overlapping Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 156;
@@ -136912,10 +136951,15 @@ instanceInterpolations = {
 name = "Overlapping Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136924,10 +136968,6 @@ value = "Sixtyfour Overexposed Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 200;
@@ -136938,10 +136978,15 @@ instanceInterpolations = {
 name = "Overexposed Strong";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Has WWS Names";
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = WWSFamilyName;
@@ -136950,10 +136995,6 @@ value = "Sixtyfour Maximum Strong";
 {
 name = WWSSubfamilyName;
 value = Regular;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 interpolationWeight = 250;

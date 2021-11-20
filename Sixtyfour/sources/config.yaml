@@ -16,32 +16,32 @@ stat:
     tag: SCAN
     values:
     - name: Delicate
-      value: 20
-    - name: Slight
-      value: 32
-    - name: Evenly
-      value: 60
+      value: -800
+    # - name: Slight
+    #   value: 32
+    # - name: Evenly
+    #   value: 60
     - name: Normal
-      value: 100
+      value: 0
       flags: 2
-    - name: Touching
-      value: 132
-    - name: Overlapping
-      value: 156
-    - name: Overexposed
-      value: 200
+    # - name: Touching
+    #   value: 132
+    # - name: Overlapping
+    #   value: 156
+    # - name: Overexposed
+    #   value: 200
     - name: Maximum
-      value: 250
+      value: 1000
   - name: Bleed
     tag: BLED
     values:
     - name: Normal
       value: 0
       flags: 2
-    - name: Medium
-      value: 40
+    # - name: Medium
+    #   value: 250
     - name: Strong
-      value: 100
+      value: 500
   # - name: Italic
   #   tag: ital
   #   values:
