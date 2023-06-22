@@ -1,56 +1,52 @@
+SOURCES=$(shell python3 scripts/read-config.py --sources )
+FAMILY=$(shell python3 scripts/read-config.py --family )
+DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
+DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
+
 help:
 	@echo "###"
-	@echo "# Build targets for the Homecomputer fonts"
+	@echo "# Build targets for $(FAMILY)"
 	@echo "###"
 	@echo
-	@echo "  make build: Builds the fonts and places them in the fonts/ directory"
-	@echo "  make test:  Tests the fonts with fontbakery"
-	@echo "  make proof: Creates HTML proof documents in the proof/ directory"
+	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
+	@echo "  make test:   Tests the fonts with fontbakery"
+	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
+	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo
 
-.PHONY: build
-build: build.stamp sources/config.yaml sources/Sixtyfour.glyphs fix-fonts # webfonts
+build: build.stamp
 
 ../venv: ../venv/touchfile
 
-build.stamp: ../venv
-	. ../venv/bin/activate; gftools builder sources/config.yaml && touch build.stamp
+build.stamp: ../venv .init.stamp sources/config.yaml $(SOURCES)
+	. ../venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && touch build.stamp
+
+.init.stamp: ../venv
+	. ../venv/bin/activate; python3 scripts/first-run.py
 
 ../venv/touchfile: ../requirements.txt
 	test -d ../venv || python3 -m venv ../venv
-	. ../venv/bin/activate; pip install -Ur ../requirements.txt
+	. ../venv/bin/activate; pip install -Ur requirements.txt
 	touch ../venv/touchfile
 
-.PHONY: test
 test: ../venv build.stamp
-	. ../venv/bin/activate; fontbakery check-googlefonts --html fontbakery-report.html --ghmarkdown fontbakery-report.md $(shell find fonts -type f)
+	. ../venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
-.PHONY: proof
 proof: ../venv build.stamp
-	. ../venv/bin/activate; gftools gen-html proof $(shell find fonts/variable -type f) -o proof
+	. ../venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $(shell find fonts/ttf -type f) -o out/proof
 
-.PHONY: clean
+images: ../venv build.stamp $(DRAWBOT_OUTPUT)
+	git add documentation/*.png && git commit -m "Rebuild images" documentation/*.png
+
+%.png: %.py build.stamp
+	python3 $< --output $@
+
 clean:
-	rm -f build.stamp
-
-.PHONY: dist-clean
-dist-clean:
 	rm -rf ../venv
-	find ../ -iname "*.pyc" -delete
+	find . -name "*.pyc" | xargs rm delete
 
-# .PHONY: update-designspace
-# update-designspace:
-# 	# Export a designspace + UFOs from the Glyphs file
-# 	fontmake -g production/SixtyfourC.glyphs $(FONTMAKE_OPTIONS) --designspace-path master_ufo/Sixtyfour.designspace --output-path temp_out/Sixtyfour.ttf
-# 	rm -f temp_out/Sixtyfour.ttf
-# 	rm -f temp_out/Workbench.ttf
+update-project-template:
+	npx update-template https://github.com/googlefonts/googlefonts-project-template/
 
-.PHONY: fix-fonts
-fix-fonts:
-	. ../venv/bin/activate; cd ..; python scripts/fix_varfont.py Sixtyfour/fonts/variable/Sixtyfour[BLED,SCAN].ttf
-
-# .PHONY: webfonts
-# webfonts: fonts/webfonts/Sixtyfour[BLED,SCAN].woff2
-
-# fonts/webfonts/Sixtyfour[BLED,SCAN].woff2: build.stamp
-# 	. ../venv/bin/activate; python scripts/2woff.py fonts/variable/Sixtyfour[BLED,SCAN].ttf
+update:
+	pip install --upgrade $(dependency); pip freeze > ../requirements.txt
