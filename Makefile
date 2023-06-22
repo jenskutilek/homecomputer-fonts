@@ -14,6 +14,11 @@ build:
 	$(MAKE) -C Sixtyfour $@
 	$(MAKE) -C Workbench $@
 
+.PHONY: .init.stamp
+.init.stamp:
+	$(MAKE) -C Sixtyfour $@
+	$(MAKE) -C Workbench $@
+
 .PHONY: test
 test:
 	$(MAKE) -C Sixtyfour $@
