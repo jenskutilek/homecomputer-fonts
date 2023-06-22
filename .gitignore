@@ -1,10 +1,16 @@
-libgit2-*
+*~
 venv
-
 build.stamp
 proof
+fonts
+node_modules
+package-lock.json
+package.json
+master_ufo
+instance_ufo
 
-# OS generated files
+# OS generated files #
+######################
 .DS_Store
 .DS_Store?
 ._*
@@ -12,3 +18,6 @@ proof
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Local copy of libgit2
+libgit2-*
