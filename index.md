@@ -8,10 +8,10 @@ Download the fonts and source files from the [GitHub repository](https://github.
 
 <figure>
 	<img src="images/64.png">
-	<figcaption>Sixtyfour, check the <a href="demo-sixtyfour.html">interactive demo page</a>.</figcaption>
+	<figcaption>Sixtyfour, check the <a href="/documentation/demo-sixtyfour.html">interactive demo page</a>.</figcaption>
 </figure>
 
 <figure>
 	<img src="images/wb.png">
-	<figcaption>Workbench, check the <a href="demo-workbench.html">interactive demo page</a>.</figcaption>
+	<figcaption>Workbench, check the <a href="/documentation/demo-workbench.html">interactive demo page</a>.</figcaption>
 </figure>
