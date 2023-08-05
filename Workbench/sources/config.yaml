@@ -10,6 +10,8 @@ buildOTF: false
 outputDir: ../fonts
 autohintTTF: false
 flattenComponents: true
+reverseOutlineDirection: false
+removeOutlineOverlaps: false
 stat:
   Workbench[BLED,SCAN].ttf:
   - name: Scanlines
