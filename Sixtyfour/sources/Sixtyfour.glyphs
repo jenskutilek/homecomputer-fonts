@@ -735,6 +735,19 @@ value = 1;
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 date = "2008-09-05 18:17:00 +0000";
