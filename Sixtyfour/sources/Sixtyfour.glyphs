@@ -904,11 +904,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 896;
+value = 1024;
 },
 {
 name = winDescent;
-value = 128;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -1025,11 +1025,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 896;
+value = 1024;
 },
 {
 name = winDescent;
-value = 128;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -1146,11 +1146,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 896;
+value = 1024;
 },
 {
 name = winDescent;
-value = 128;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -1267,11 +1267,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 896;
+value = 1024;
 },
 {
 name = winDescent;
-value = 128;
+value = 256;
 },
 {
 name = underlineThickness;
