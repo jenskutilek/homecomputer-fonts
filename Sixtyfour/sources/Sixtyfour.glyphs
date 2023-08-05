@@ -888,11 +888,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 896;
+value = 1024;
 },
 {
 name = typoDescender;
-value = -128;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -900,11 +900,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 896;
+value = 1024;
 },
 {
 name = hheaDescender;
-value = -128;
+value = -256;
 },
 {
 name = hheaLineGap;
@@ -912,11 +912,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1088;
+value = 1024;
 },
 {
 name = winDescent;
-value = 192;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -1009,11 +1009,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 896;
+value = 1024;
 },
 {
 name = typoDescender;
-value = -128;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -1021,11 +1021,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 896;
+value = 1024;
 },
 {
 name = hheaDescender;
-value = -128;
+value = -256;
 },
 {
 name = hheaLineGap;
@@ -1033,11 +1033,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1088;
+value = 1024;
 },
 {
 name = winDescent;
-value = 192;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -1130,11 +1130,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 896;
+value = 1024;
 },
 {
 name = typoDescender;
-value = -128;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -1142,11 +1142,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 896;
+value = 1024;
 },
 {
 name = hheaDescender;
-value = -128;
+value = -256;
 },
 {
 name = hheaLineGap;
@@ -1154,11 +1154,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1088;
+value = 1024;
 },
 {
 name = winDescent;
-value = 192;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -1251,11 +1251,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 896;
+value = 1024;
 },
 {
 name = typoDescender;
-value = -128;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -1263,11 +1263,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 896;
+value = 1024;
 },
 {
 name = hheaDescender;
-value = -128;
+value = -256;
 },
 {
 name = hheaLineGap;
@@ -1275,11 +1275,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1088;
+value = 1024;
 },
 {
 name = winDescent;
-value = 192;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -43010,75 +43010,13 @@ nodes = (
 layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
 shapes = (
 {
-pos = (0,-128);
-ref = pixel.8;
-},
-{
-ref = pixel.1;
-},
-{
-pos = (384,0);
-ref = pixel.3;
-},
-{
-pos = (896,0);
-ref = pixel.1;
-},
-{
-pos = (0,128);
-ref = pixel.3;
-},
-{
-pos = (512,128);
-ref = pixel.1;
-},
-{
-pos = (768,128);
-ref = pixel.2;
-},
-{
-pos = (0,256);
-ref = pixel.3;
-},
-{
-pos = (640,256);
-ref = pixel.3;
-},
-{
-pos = (0,384);
-ref = pixel.3;
-},
-{
-pos = (640,384);
-ref = pixel.3;
-},
-{
-pos = (0,512);
-ref = pixel.3;
-},
-{
-pos = (512,512);
-ref = pixel.1;
-},
-{
-pos = (768,512);
-ref = pixel.2;
-},
-{
-pos = (0,640);
-ref = pixel.1;
-},
-{
-pos = (512,640);
-ref = pixel.2;
-},
-{
-pos = (896,640);
-ref = pixel.1;
-},
-{
-pos = (0,768);
-ref = pixel.8;
+closed = 1;
+nodes = (
+(0,1024,l),
+(1024,1024,l),
+(1024,-256,l),
+(0,-256,l)
+);
 }
 );
 width = 1024;
@@ -43111,75 +43049,13 @@ nodes = (
 layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
 shapes = (
 {
-pos = (0,-128);
-ref = pixel.8;
-},
-{
-ref = pixel.1;
-},
-{
-pos = (384,0);
-ref = pixel.3;
-},
-{
-pos = (896,0);
-ref = pixel.1;
-},
-{
-pos = (0,128);
-ref = pixel.3;
-},
-{
-pos = (512,128);
-ref = pixel.1;
-},
-{
-pos = (768,128);
-ref = pixel.2;
-},
-{
-pos = (0,256);
-ref = pixel.3;
-},
-{
-pos = (640,256);
-ref = pixel.3;
-},
-{
-pos = (0,384);
-ref = pixel.3;
-},
-{
-pos = (640,384);
-ref = pixel.3;
-},
-{
-pos = (0,512);
-ref = pixel.3;
-},
-{
-pos = (512,512);
-ref = pixel.1;
-},
-{
-pos = (768,512);
-ref = pixel.2;
-},
-{
-pos = (0,640);
-ref = pixel.1;
-},
-{
-pos = (512,640);
-ref = pixel.2;
-},
-{
-pos = (896,640);
-ref = pixel.1;
-},
-{
-pos = (0,768);
-ref = pixel.8;
+closed = 1;
+nodes = (
+(0,1024,l),
+(1024,1024,l),
+(1024,-256,l),
+(0,-256,l)
+);
 }
 );
 width = 1024;
@@ -43212,75 +43088,13 @@ nodes = (
 layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
 shapes = (
 {
-pos = (0,-128);
-ref = pixel.8;
-},
-{
-ref = pixel.1;
-},
-{
-pos = (384,0);
-ref = pixel.3;
-},
-{
-pos = (896,0);
-ref = pixel.1;
-},
-{
-pos = (0,128);
-ref = pixel.3;
-},
-{
-pos = (512,128);
-ref = pixel.1;
-},
-{
-pos = (768,128);
-ref = pixel.2;
-},
-{
-pos = (0,256);
-ref = pixel.3;
-},
-{
-pos = (640,256);
-ref = pixel.3;
-},
-{
-pos = (0,384);
-ref = pixel.3;
-},
-{
-pos = (640,384);
-ref = pixel.3;
-},
-{
-pos = (0,512);
-ref = pixel.3;
-},
-{
-pos = (512,512);
-ref = pixel.1;
-},
-{
-pos = (768,512);
-ref = pixel.2;
-},
-{
-pos = (0,640);
-ref = pixel.1;
-},
-{
-pos = (512,640);
-ref = pixel.2;
-},
-{
-pos = (896,640);
-ref = pixel.1;
-},
-{
-pos = (0,768);
-ref = pixel.8;
+closed = 1;
+nodes = (
+(0,1024,l),
+(1024,1024,l),
+(1024,-256,l),
+(0,-256,l)
+);
 }
 );
 width = 1024;
@@ -43313,75 +43127,13 @@ nodes = (
 layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
 shapes = (
 {
-pos = (0,-128);
-ref = pixel.8;
-},
-{
-ref = pixel.1;
-},
-{
-pos = (384,0);
-ref = pixel.3;
-},
-{
-pos = (896,0);
-ref = pixel.1;
-},
-{
-pos = (0,128);
-ref = pixel.3;
-},
-{
-pos = (512,128);
-ref = pixel.1;
-},
-{
-pos = (768,128);
-ref = pixel.2;
-},
-{
-pos = (0,256);
-ref = pixel.3;
-},
-{
-pos = (640,256);
-ref = pixel.3;
-},
-{
-pos = (0,384);
-ref = pixel.3;
-},
-{
-pos = (640,384);
-ref = pixel.3;
-},
-{
-pos = (0,512);
-ref = pixel.3;
-},
-{
-pos = (512,512);
-ref = pixel.1;
-},
-{
-pos = (768,512);
-ref = pixel.2;
-},
-{
-pos = (0,640);
-ref = pixel.1;
-},
-{
-pos = (512,640);
-ref = pixel.2;
-},
-{
-pos = (896,640);
-ref = pixel.1;
-},
-{
-pos = (0,768);
-ref = pixel.8;
+closed = 1;
+nodes = (
+(0,1024,l),
+(1024,1024,l),
+(1024,-256,l),
+(0,-256,l)
+);
 }
 );
 width = 1024;

@@ -50,6 +50,19 @@ value = 1;
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 date = "2008-09-05 18:17:00 +0000";
@@ -141,11 +154,11 @@ value = 1;
 },
 {
 name = typoAscender;
-value = 896;
+value = 1024;
 },
 {
 name = typoDescender;
-value = -128;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -153,11 +166,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 896;
+value = 1024;
 },
 {
 name = hheaDescender;
-value = -128;
+value = -256;
 },
 {
 name = hheaLineGap;
@@ -165,11 +178,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1088;
+value = 1024;
 },
 {
 name = winDescent;
-value = 192;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -232,11 +245,11 @@ value = 1;
 },
 {
 name = typoAscender;
-value = 896;
+value = 1024;
 },
 {
 name = typoDescender;
-value = -128;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -244,11 +257,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 896;
+value = 1024;
 },
 {
 name = hheaDescender;
-value = -128;
+value = -256;
 },
 {
 name = hheaLineGap;
@@ -256,11 +269,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1088;
+value = 1024;
 },
 {
 name = winDescent;
-value = 192;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -328,11 +341,11 @@ value = 1;
 },
 {
 name = typoAscender;
-value = 896;
+value = 1024;
 },
 {
 name = typoDescender;
-value = -128;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -340,11 +353,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 896;
+value = 1024;
 },
 {
 name = hheaDescender;
-value = -128;
+value = -256;
 },
 {
 name = hheaLineGap;
@@ -352,11 +365,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1088;
+value = 1024;
 },
 {
 name = winDescent;
-value = 192;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -419,11 +432,11 @@ value = 1;
 },
 {
 name = typoAscender;
-value = 896;
+value = 1024;
 },
 {
 name = typoDescender;
-value = -128;
+value = -256;
 },
 {
 name = typoLineGap;
@@ -431,11 +444,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 896;
+value = 1024;
 },
 {
 name = hheaDescender;
-value = -128;
+value = -256;
 },
 {
 name = hheaLineGap;
@@ -443,11 +456,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1088;
+value = 1024;
 },
 {
 name = winDescent;
-value = 192;
+value = 256;
 },
 {
 name = underlineThickness;
@@ -24632,75 +24645,13 @@ layers = (
 layerId = "EF047752-ED93-49D3-A4D1-D66A6AAE90C7";
 shapes = (
 {
-pos = (0,-128);
-ref = pixel.8;
-},
-{
-ref = pixel.1;
-},
-{
-pos = (192,0);
-ref = pixel.3;
-},
-{
-pos = (448,0);
-ref = pixel.1;
-},
-{
-pos = (0,128);
-ref = pixel.3;
-},
-{
-pos = (256,128);
-ref = pixel.1;
-},
-{
-pos = (384,128);
-ref = pixel.2;
-},
-{
-pos = (0,256);
-ref = pixel.3;
-},
-{
-pos = (320,256);
-ref = pixel.3;
-},
-{
-pos = (0,384);
-ref = pixel.3;
-},
-{
-pos = (320,384);
-ref = pixel.3;
-},
-{
-pos = (0,512);
-ref = pixel.3;
-},
-{
-pos = (256,512);
-ref = pixel.1;
-},
-{
-pos = (384,512);
-ref = pixel.2;
-},
-{
-pos = (0,640);
-ref = pixel.1;
-},
-{
-pos = (256,640);
-ref = pixel.2;
-},
-{
-pos = (448,640);
-ref = pixel.1;
-},
-{
-pos = (0,768);
-ref = pixel.8;
+closed = 1;
+nodes = (
+(0,1024,l),
+(512,1024,l),
+(512,-256,l),
+(0,-256,l)
+);
 }
 );
 width = 512;
@@ -25019,75 +24970,13 @@ nodes = (
 layerId = "164C8123-3F0E-4C99-877D-0E85C432A9CE";
 shapes = (
 {
-pos = (0,-128);
-ref = pixel.8;
-},
-{
-ref = pixel.1;
-},
-{
-pos = (192,0);
-ref = pixel.3;
-},
-{
-pos = (448,0);
-ref = pixel.1;
-},
-{
-pos = (0,128);
-ref = pixel.3;
-},
-{
-pos = (256,128);
-ref = pixel.1;
-},
-{
-pos = (384,128);
-ref = pixel.2;
-},
-{
-pos = (0,256);
-ref = pixel.3;
-},
-{
-pos = (320,256);
-ref = pixel.3;
-},
-{
-pos = (0,384);
-ref = pixel.3;
-},
-{
-pos = (320,384);
-ref = pixel.3;
-},
-{
-pos = (0,512);
-ref = pixel.3;
-},
-{
-pos = (256,512);
-ref = pixel.1;
-},
-{
-pos = (384,512);
-ref = pixel.2;
-},
-{
-pos = (0,640);
-ref = pixel.1;
-},
-{
-pos = (256,640);
-ref = pixel.2;
-},
-{
-pos = (448,640);
-ref = pixel.1;
-},
-{
-pos = (0,768);
-ref = pixel.8;
+closed = 1;
+nodes = (
+(0,1024,l),
+(512,1024,l),
+(512,-256,l),
+(0,-256,l)
+);
 }
 );
 width = 512;
@@ -25096,75 +24985,13 @@ width = 512;
 layerId = "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A";
 shapes = (
 {
-pos = (0,-128);
-ref = pixel.8;
-},
-{
-ref = pixel.1;
-},
-{
-pos = (192,0);
-ref = pixel.3;
-},
-{
-pos = (448,0);
-ref = pixel.1;
-},
-{
-pos = (0,128);
-ref = pixel.3;
-},
-{
-pos = (256,128);
-ref = pixel.1;
-},
-{
-pos = (384,128);
-ref = pixel.2;
-},
-{
-pos = (0,256);
-ref = pixel.3;
-},
-{
-pos = (320,256);
-ref = pixel.3;
-},
-{
-pos = (0,384);
-ref = pixel.3;
-},
-{
-pos = (320,384);
-ref = pixel.3;
-},
-{
-pos = (0,512);
-ref = pixel.3;
-},
-{
-pos = (256,512);
-ref = pixel.1;
-},
-{
-pos = (384,512);
-ref = pixel.2;
-},
-{
-pos = (0,640);
-ref = pixel.1;
-},
-{
-pos = (256,640);
-ref = pixel.2;
-},
-{
-pos = (448,640);
-ref = pixel.1;
-},
-{
-pos = (0,768);
-ref = pixel.8;
+closed = 1;
+nodes = (
+(0,1024,l),
+(512,1024,l),
+(512,-256,l),
+(0,-256,l)
+);
 }
 );
 width = 512;
@@ -25173,75 +25000,13 @@ width = 512;
 layerId = "38088322-78A3-4F4F-B46E-F8355B0BCD96";
 shapes = (
 {
-pos = (0,-128);
-ref = pixel.8;
-},
-{
-ref = pixel.1;
-},
-{
-pos = (192,0);
-ref = pixel.3;
-},
-{
-pos = (448,0);
-ref = pixel.1;
-},
-{
-pos = (0,128);
-ref = pixel.3;
-},
-{
-pos = (256,128);
-ref = pixel.1;
-},
-{
-pos = (384,128);
-ref = pixel.2;
-},
-{
-pos = (0,256);
-ref = pixel.3;
-},
-{
-pos = (320,256);
-ref = pixel.3;
-},
-{
-pos = (0,384);
-ref = pixel.3;
-},
-{
-pos = (320,384);
-ref = pixel.3;
-},
-{
-pos = (0,512);
-ref = pixel.3;
-},
-{
-pos = (256,512);
-ref = pixel.1;
-},
-{
-pos = (384,512);
-ref = pixel.2;
-},
-{
-pos = (0,640);
-ref = pixel.1;
-},
-{
-pos = (256,640);
-ref = pixel.2;
-},
-{
-pos = (448,640);
-ref = pixel.1;
-},
-{
-pos = (0,768);
-ref = pixel.8;
+closed = 1;
+nodes = (
+(0,1024,l),
+(512,1024,l),
+(512,-256,l),
+(0,-256,l)
+);
 }
 );
 width = 512;
