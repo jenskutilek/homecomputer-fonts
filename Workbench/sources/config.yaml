@@ -43,7 +43,7 @@ stat:
     # - name: Medium
     #   value: 250
     - name: Strong
-      value: 500
+      value: 100
   # - name: Italic
   #   tag: ital
   #   values:
