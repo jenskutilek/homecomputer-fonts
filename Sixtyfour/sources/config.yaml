@@ -18,7 +18,7 @@ stat:
     tag: SCAN
     values:
     - name: Delicate
-      value: -800
+      value: -100
     # - name: Slight
     #   value: 32
     # - name: Evenly
@@ -33,7 +33,7 @@ stat:
     # - name: Overexposed
     #   value: 200
     - name: Maximum
-      value: 1000
+      value: 100
   - name: Bleed
     tag: BLED
     values:
