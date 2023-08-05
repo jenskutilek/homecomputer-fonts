@@ -23,7 +23,7 @@ stat:
     #   value: 32
     # - name: Evenly
     #   value: 60
-    - name: Normal
+    - name: Default
       value: 0
       flags: 2
     # - name: Touching
@@ -37,7 +37,7 @@ stat:
   - name: Bleed
     tag: BLED
     values:
-    - name: Normal
+    - name: Default
       value: 0
       flags: 2
     # - name: Medium
