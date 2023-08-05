@@ -1,6 +1,9 @@
 {
 .appVersion = "3208";
 .formatVersion = 3;
+DisplayStrings = (
+A
+);
 axes = (
 {
 name = Scanlines;
@@ -924,7 +927,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -800;
+Location = -100;
 },
 {
 Axis = Bleed;
@@ -1045,7 +1048,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = 1000;
+Location = 100;
 },
 {
 Axis = Bleed;
@@ -1166,7 +1169,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -800;
+Location = -100;
 },
 {
 Axis = Bleed;
@@ -1287,7 +1290,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = 1000;
+Location = 100;
 },
 {
 Axis = Bleed;

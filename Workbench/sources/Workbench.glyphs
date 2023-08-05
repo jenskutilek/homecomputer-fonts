@@ -103,7 +103,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -800;
+Location = -100;
 },
 {
 Axis = Bleed;
@@ -194,7 +194,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = 1000;
+Location = 100;
 },
 {
 Axis = Bleed;
@@ -290,7 +290,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -800;
+Location = -100;
 },
 {
 Axis = Bleed;
@@ -381,7 +381,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = 1000;
+Location = 100;
 },
 {
 Axis = Bleed;
