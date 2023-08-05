@@ -751,6 +751,14 @@ feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
+
+sub A from [A.case A.case.2];
+sub E from [E.case];
+sub I from [I.case I.case.2];
+sub N from [N.case];
+sub O from [O.case];
+sub U from [U.case U.case.2];
+sub Y from [Y.case];
 ";
 tag = aalt;
 },

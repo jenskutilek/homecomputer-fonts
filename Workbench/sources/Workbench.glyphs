@@ -50,6 +50,80 @@ value = 1;
 );
 date = "2008-09-05 18:17:00 +0000";
 familyName = Workbench;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+code = "sub A from [A.case];
+sub E from [E.case];
+sub I from [I.case];
+sub N from [N.case];
+sub O from [O.case];
+sub U from [U.case];
+sub Y from [Y.case];
+sub one from [one.dnom onesuperior];
+sub two from [two.dnom twosuperior];
+sub three from [three.dnom threesuperior];
+sub four from [four.dnom foursuperior];";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+";
+disabled = 1;
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+";
+disabled = 1;
+tag = dnom;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+disabled = 1;
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+disabled = 1;
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub A by A.case;
+sub E by E.case;
+sub I by I.case;
+sub N by N.case;
+sub O by O.case;
+sub U by U.case;
+sub Y by Y.case;
+";
+disabled = 1;
+tag = case;
+}
+);
 fontMaster = (
 {
 axesValues = (
