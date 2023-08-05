@@ -1,0 +1,15 @@
+# Rules
+
+rule proofing
+  command = _diffbrowsers proof $fonts -s $styles -o $out -pt $pt_size -ch $
+      "$characters" --filter-styles "$filters"
+
+# Build rules
+build out/proof/Regular: proofing
+  fonts = $
+      "/Users/kuti/Documents/Schriften/Homecomputer/Workbench/fonts/ttf/Workbench-Normal.ttf"
+  styles = instances
+  out = out/diffbrowsers
+  pt_size = 20
+  characters = .*
+  filters = Regular
