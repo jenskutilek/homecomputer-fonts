@@ -1,9 +1,6 @@
 {
 .appVersion = "3208";
 .formatVersion = 3;
-DisplayStrings = (
-A
-);
 axes = (
 {
 name = Scanlines;
@@ -47146,38 +47143,18 @@ glyphname = softhyphen;
 layers = (
 {
 layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
-shapes = (
-{
-ref = hyphen;
-}
-);
 width = 1024;
 },
 {
 layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
-shapes = (
-{
-ref = hyphen;
-}
-);
 width = 1024;
 },
 {
 layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
-shapes = (
-{
-ref = hyphen;
-}
-);
 width = 1024;
 },
 {
 layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
-shapes = (
-{
-ref = hyphen;
-}
-);
 width = 1024;
 }
 );
