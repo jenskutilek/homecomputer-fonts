@@ -1,5 +1,5 @@
 {
-.appVersion = "3208";
+.appVersion = "3214";
 .formatVersion = 3;
 DisplayStrings = (
 Aq
@@ -154,11 +154,11 @@ value = 1;
 },
 {
 name = typoAscender;
-value = 1024;
+value = 896;
 },
 {
 name = typoDescender;
-value = -256;
+value = -128;
 },
 {
 name = typoLineGap;
@@ -166,11 +166,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1024;
+value = 896;
 },
 {
 name = hheaDescender;
-value = -256;
+value = -128;
 },
 {
 name = hheaLineGap;
@@ -245,11 +245,11 @@ value = 1;
 },
 {
 name = typoAscender;
-value = 1024;
+value = 896;
 },
 {
 name = typoDescender;
-value = -256;
+value = -128;
 },
 {
 name = typoLineGap;
@@ -257,11 +257,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1024;
+value = 896;
 },
 {
 name = hheaDescender;
-value = -256;
+value = -128;
 },
 {
 name = hheaLineGap;
@@ -341,11 +341,11 @@ value = 1;
 },
 {
 name = typoAscender;
-value = 1024;
+value = 896;
 },
 {
 name = typoDescender;
-value = -256;
+value = -128;
 },
 {
 name = typoLineGap;
@@ -353,11 +353,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1024;
+value = 896;
 },
 {
 name = hheaDescender;
-value = -256;
+value = -128;
 },
 {
 name = hheaLineGap;
@@ -432,11 +432,11 @@ value = 1;
 },
 {
 name = typoAscender;
-value = 1024;
+value = 896;
 },
 {
 name = typoDescender;
-value = -256;
+value = -128;
 },
 {
 name = typoLineGap;
@@ -444,11 +444,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1024;
+value = 896;
 },
 {
 name = hheaDescender;
-value = -256;
+value = -128;
 },
 {
 name = hheaLineGap;

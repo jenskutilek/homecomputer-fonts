@@ -1,6 +1,9 @@
 {
-.appVersion = "3208";
+.appVersion = "3214";
 .formatVersion = 3;
+DisplayStrings = (
+"Hþ"
+);
 axes = (
 {
 name = Scanlines;
@@ -901,11 +904,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1024;
+value = 896;
 },
 {
 name = typoDescender;
-value = -256;
+value = -128;
 },
 {
 name = typoLineGap;
@@ -913,11 +916,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1024;
+value = 896;
 },
 {
 name = hheaDescender;
-value = -256;
+value = -128;
 },
 {
 name = hheaLineGap;
@@ -1022,11 +1025,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1024;
+value = 896;
 },
 {
 name = typoDescender;
-value = -256;
+value = -128;
 },
 {
 name = typoLineGap;
@@ -1034,11 +1037,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1024;
+value = 896;
 },
 {
 name = hheaDescender;
-value = -256;
+value = -128;
 },
 {
 name = hheaLineGap;
@@ -1143,11 +1146,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1024;
+value = 896;
 },
 {
 name = typoDescender;
-value = -256;
+value = -128;
 },
 {
 name = typoLineGap;
@@ -1155,11 +1158,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1024;
+value = 896;
 },
 {
 name = hheaDescender;
-value = -256;
+value = -128;
 },
 {
 name = hheaLineGap;
@@ -1264,11 +1267,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1024;
+value = 896;
 },
 {
 name = typoDescender;
-value = -256;
+value = -128;
 },
 {
 name = typoLineGap;
@@ -1276,11 +1279,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1024;
+value = 896;
 },
 {
 name = hheaDescender;
-value = -256;
+value = -128;
 },
 {
 name = hheaLineGap;
