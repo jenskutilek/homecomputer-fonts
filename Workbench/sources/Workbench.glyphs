@@ -1,5 +1,5 @@
 {
-.appVersion = "3214";
+.appVersion = "3175";
 .formatVersion = 3;
 DisplayStrings = (
 Aq
@@ -388,7 +388,7 @@ Location = -100;
 },
 {
 Axis = Bleed;
-Location = 500;
+Location = 100;
 }
 );
 }
@@ -479,7 +479,7 @@ Location = 100;
 },
 {
 Axis = Bleed;
-Location = 500;
+Location = 100;
 }
 );
 }
