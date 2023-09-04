@@ -19,19 +19,19 @@ stat:
     values:
     - name: Delicate
       value: -100
-    # - name: Slight
-    #   value: 32
-    # - name: Evenly
-    #   value: 60
-    - name: Default
-      value: 0
+    - name: Slight
+      value: -90
+    - name: Evenly
+      value: -65            
+    - name: Regular
+      value: -30
       flags: 2
-    # - name: Touching
-    #   value: 132
-    # - name: Overlapping
-    #   value: 156
-    # - name: Overexposed
-    #   value: 200
+    - name: Touching
+      value: -3
+    - name: Overlapping
+      value: 18
+    - name: Overexposed
+      value: 57
     - name: Maximum
       value: 100
   - name: Bleed
@@ -40,14 +40,7 @@ stat:
     - name: Default
       value: 0
       flags: 2
-    # - name: Medium
-    #   value: 250
+    - name: Moderate
+      value: 40
     - name: Strong
       value: 100
-  # - name: Italic
-  #   tag: ital
-  #   values:
-  #   - name: Roman
-  #     value: 0
-  #     flags: 2
-  #     linkedValue: 1
