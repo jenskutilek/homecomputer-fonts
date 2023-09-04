@@ -140505,9 +140505,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -100;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 1;
 };
@@ -140536,9 +140548,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -90;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.05217;
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.94783;
@@ -140568,9 +140592,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -65;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.17391;
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.82609;
@@ -140620,6 +140656,19 @@ value = (
 0,
 0
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -30;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -140641,9 +140690,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -3;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.48696;
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.51304;
@@ -140673,9 +140734,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 18;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.5913;
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.4087;
@@ -140705,9 +140778,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 57;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.78261;
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.21739;
@@ -140737,9 +140822,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -100;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 1;
 };
