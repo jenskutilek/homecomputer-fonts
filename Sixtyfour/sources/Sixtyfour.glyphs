@@ -140775,15 +140775,24 @@ instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.6;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.4;
 };
-name = "Delicate Medium";
+name = Delicate;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Delicate Medium";
+value = "Sixtyfour Moderate Delicate";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
 }
 );
 },
@@ -140809,15 +140818,24 @@ instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.5687;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.37913;
 };
-name = "Slight Medium";
+name = Slight;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Slight Medium";
+value = "Sixtyfour Moderate Slight";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
 }
 );
 },
@@ -140843,15 +140861,24 @@ instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.49565;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.33043;
 };
-name = "Evenly Medium";
+name = Evenly;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Evenly Medium";
+value = "Sixtyfour Moderate Evenly";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
 }
 );
 },
@@ -140877,15 +140904,24 @@ instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.3913;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.26087;
 };
-name = "Normal Medium";
+name = Regular;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Normal Medium";
+value = "Sixtyfour Moderate";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
 }
 );
 },
@@ -140911,15 +140947,24 @@ instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.30783;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.20522;
 };
-name = "Touching Medium";
+name = Touching;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Touching Medium";
+value = "Sixtyfour Moderate Touching";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
 }
 );
 },
@@ -140945,15 +140990,24 @@ instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.24522;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.16348;
 };
-name = "Overlapping Medium";
+name = Overlapping;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Overlapping Medium";
+value = "Sixtyfour Moderate Overlapping";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
 }
 );
 },
@@ -140979,15 +141033,24 @@ instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.13043;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.08696;
 };
-name = "Overexposed Medium";
+name = Overexposed;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Overexposed Medium";
+value = "Sixtyfour Moderate Overexposed";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
 }
 );
 },
@@ -141011,15 +141074,24 @@ instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.6;
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.4;
 };
-name = "Maximum Medium";
+name = Maximum;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Maximum Medium";
+value = "Sixtyfour Moderate Maximum ";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
 }
 );
 },
@@ -141042,15 +141114,24 @@ exports = 0;
 instanceInterpolations = {
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 1;
 };
-name = "Delicate Strong";
+name = Delicate;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Delicate Strong";
+value = "Sixtyfour Strong Delicate";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
 }
 );
 },
@@ -141074,15 +141155,24 @@ instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.05217;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.94783;
 };
-name = "Slight Strong";
+name = Slight;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Slight Strong";
+value = "Sixtyfour Strong Slight";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
 }
 );
 },
@@ -141106,15 +141196,24 @@ instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.17391;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.82609;
 };
-name = "Evenly Strong";
+name = Evenly;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Evenly Strong";
+value = "Sixtyfour Strong Evenly";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
 }
 );
 },
@@ -141138,15 +141237,24 @@ instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.34783;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.65217;
 };
-name = "Normal Strong";
+name = Regular;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Normal Strong";
+value = "Sixtyfour Strong";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
 }
 );
 },
@@ -141170,15 +141278,24 @@ instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.48696;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.51304;
 };
-name = "Touching Strong";
+name = Touching;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Touching Strong";
+value = "Sixtyfour Strong Touching";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
 }
 );
 },
@@ -141202,15 +141319,24 @@ instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.5913;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.4087;
 };
-name = "Overlapping Strong";
+name = Overlapping;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Overlapping Strong";
+value = "Sixtyfour Strong Overlapping";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
 }
 );
 },
@@ -141234,15 +141360,24 @@ instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.78261;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.21739;
 };
-name = "Overexposed Strong";
+name = Overexposed;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Overexposed Strong";
+value = "Sixtyfour Strong Overexposed";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
 }
 );
 },
@@ -141265,15 +141400,24 @@ exports = 0;
 instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 1;
 };
-name = "Maximum Strong";
+name = Maximum;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Maximum Strong";
+value = "Sixtyfour Strong Maximum";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
 }
 );
 },
