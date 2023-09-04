@@ -1,5 +1,5 @@
 {
-.appVersion = "3175";
+.appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
 Aq
@@ -37380,7 +37380,7 @@ name = Delicate;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Delicate Medium";
+value = "Workbench Moderate  Delicate";
 },
 {
 key = WWSSubfamilyName;
@@ -37423,7 +37423,7 @@ name = Slight;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Slight Medium";
+value = "Workbench Moderate Slight";
 },
 {
 key = WWSSubfamilyName;
@@ -37466,7 +37466,7 @@ name = Evenly;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Evenly Medium";
+value = "Workbench Moderate Evenly";
 },
 {
 key = WWSSubfamilyName;
@@ -37509,7 +37509,7 @@ name = Regular;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Normal Medium";
+value = "Workbench Medium";
 },
 {
 key = WWSSubfamilyName;
@@ -37552,7 +37552,7 @@ name = Touching;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Touching Medium";
+value = "Workbench Moderate Touching";
 },
 {
 key = WWSSubfamilyName;
@@ -37595,7 +37595,7 @@ name = Overlapping;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Overlapping Medium";
+value = "Workbench Moderate Overlapping";
 },
 {
 key = WWSSubfamilyName;
@@ -37638,7 +37638,7 @@ name = Overexposed;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Overexposed Medium";
+value = "Workbench Moderate Overexposed";
 },
 {
 key = WWSSubfamilyName;
@@ -37679,7 +37679,7 @@ name = Maximum;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Maximum Medium";
+value = "Workbench Moderate Maximum";
 },
 {
 key = WWSSubfamilyName;
@@ -37719,7 +37719,7 @@ name = Delicate;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Delicate Strong";
+value = "Workbench Strong Delicate";
 },
 {
 key = WWSSubfamilyName;
@@ -37760,7 +37760,7 @@ name = Slight;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Slight Strong";
+value = "Workbench Strong Slight";
 },
 {
 key = WWSSubfamilyName;
@@ -37801,7 +37801,7 @@ name = Evenly;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Evenly Strong";
+value = "Workbench Strong Evenly";
 },
 {
 key = WWSSubfamilyName;
@@ -37842,7 +37842,7 @@ name = Regular;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Normal Strong";
+value = "Workbench Strong";
 },
 {
 key = WWSSubfamilyName;
@@ -37883,7 +37883,7 @@ name = Touching;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Touching Strong";
+value = "Workbench Strong Touching";
 },
 {
 key = WWSSubfamilyName;
@@ -37924,7 +37924,7 @@ name = Overlapping;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Overlapping Strong";
+value = "Workbench Strong Overlapping";
 },
 {
 key = WWSSubfamilyName;
@@ -37965,7 +37965,7 @@ name = Overexposed;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Overexposed Strong";
+value = "Workbench Strong Overexposed";
 },
 {
 key = WWSSubfamilyName;
@@ -38005,7 +38005,7 @@ name = Maximum;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Maximum Strong";
+value = "Workbench Strong Maximum";
 },
 {
 key = WWSSubfamilyName;
@@ -38023,6 +38023,10 @@ value = "Workbench Strong";
 );
 },
 {
+axesValues = (
+0,
+0
+);
 customParameters = (
 {
 name = "Variable Font Origin";
@@ -38030,6 +38034,9 @@ value = "EF047752-ED93-49D3-A4D1-D66A6AAE90C7";
 }
 );
 exports = 0;
+instanceInterpolations = {
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 1;
+};
 name = Regular;
 type = variable;
 }
