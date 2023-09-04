@@ -140630,19 +140630,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Axis Location";
-value = (
-{
-Axis = Scanlines;
-Location = 0;
-},
-{
-Axis = Bleed;
-Location = 0;
-}
-);
-},
-{
 name = panose;
 value = (
 2,
@@ -140828,7 +140815,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -100;
+Location = 100;
 },
 {
 Axis = Bleed;
