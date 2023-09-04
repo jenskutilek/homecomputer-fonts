@@ -1,5 +1,5 @@
 {
-.appVersion = "3214";
+.appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
 "Hþ"
@@ -1197,7 +1197,7 @@ Location = -100;
 },
 {
 Axis = Bleed;
-Location = 500;
+Location = 100;
 }
 );
 }
@@ -1318,7 +1318,7 @@ Location = 100;
 },
 {
 Axis = Bleed;
-Location = 500;
+Location = 100;
 }
 );
 }
@@ -141278,12 +141278,19 @@ value = Regular;
 );
 },
 {
+axesValues = (
+0,
+0
+);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
 }
 );
+instanceInterpolations = {
+"A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 1;
+};
 name = Regular;
 type = variable;
 }
