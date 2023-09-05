@@ -140662,7 +140662,7 @@ instanceInterpolations = {
 "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = 0.34783;
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.65217;
 };
-name = Regular;
+name = Close;
 },
 {
 axesValues = (
@@ -140988,11 +140988,11 @@ instanceInterpolations = {
 "A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 0.3913;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.26087;
 };
-name = Regular;
+name = Close;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Moderate";
+value = "Sixtyfour Moderate Close";
 },
 {
 key = WWSSubfamilyName;
@@ -141321,11 +141321,11 @@ instanceInterpolations = {
 "93054D9F-9072-4363-B5A9-8BAB03B66C21" = 0.34783;
 "B2CED426-8D3E-4D4E-926E-917DB7E3651C" = 0.65217;
 };
-name = Regular;
+name = Close;
 properties = (
 {
 key = WWSFamilyName;
-value = "Sixtyfour Strong";
+value = "Sixtyfour Strong Close";
 },
 {
 key = WWSSubfamilyName;
