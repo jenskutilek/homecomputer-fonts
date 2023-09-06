@@ -67,6 +67,10 @@ tag = slng;
 {
 name = "Default Layer Width";
 value = "512";
+},
+{
+name = "Variable Font Origin";
+value = "732E3B19-9B57-4E18-B329-A7AEC5A36DAC";
 }
 );
 date = "2008-09-05 18:17:00 +0000";
