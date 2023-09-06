@@ -1,5 +1,5 @@
 {
-.appVersion = "3214";
+.appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
 Aq
@@ -388,7 +388,7 @@ Location = -100;
 },
 {
 Axis = Bleed;
-Location = 500;
+Location = 100;
 }
 );
 }
@@ -479,7 +479,7 @@ Location = 100;
 },
 {
 Axis = Bleed;
-Location = 500;
+Location = 100;
 }
 );
 }
@@ -37022,9 +37022,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -100;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 1;
 };
@@ -37053,9 +37065,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -90;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.05217;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.94783;
@@ -37085,9 +37109,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -65;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.17391;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.82609;
@@ -37115,7 +37151,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = 0;
+Location = -30;
 },
 {
 Axis = Bleed;
@@ -37143,7 +37179,7 @@ instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.34783;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.65217;
 };
-name = Regular;
+name = Close;
 },
 {
 axesValues = (
@@ -37158,9 +37194,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -3;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.48696;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.51304;
@@ -37190,9 +37238,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 18;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.5913;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.4087;
@@ -37222,9 +37282,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 57;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.78261;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.21739;
@@ -37254,9 +37326,21 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 100;
+},
+{
+Axis = Bleed;
+Location = 0;
 }
 );
-exports = 0;
+}
+);
 instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 1;
 };
@@ -37292,15 +37376,24 @@ instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.4;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.6;
 };
-name = "Delicate Medium";
+name = Delicate;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Delicate Medium";
+value = "Workbench Moderate  Delicate";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
 }
 );
 },
@@ -37326,15 +37419,24 @@ instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.37913;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.5687;
 };
-name = "Slight Medium";
+name = Slight;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Slight Medium";
+value = "Workbench Moderate Slight";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
 }
 );
 },
@@ -37360,15 +37462,24 @@ instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.33043;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.49565;
 };
-name = "Evenly Medium";
+name = Evenly;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Evenly Medium";
+value = "Workbench Moderate Evenly";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
 }
 );
 },
@@ -37394,15 +37505,24 @@ instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.26087;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.3913;
 };
-name = "Normal Medium";
+name = Close;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Normal Medium";
+value = "Workbench Medium Close";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
 }
 );
 },
@@ -37428,15 +37548,24 @@ instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.20522;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.30783;
 };
-name = "Touching Medium";
+name = Touching;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Touching Medium";
+value = "Workbench Moderate Touching";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
 }
 );
 },
@@ -37462,15 +37591,24 @@ instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.16348;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.24522;
 };
-name = "Overlapping Medium";
+name = Overlapping;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Overlapping Medium";
+value = "Workbench Moderate Overlapping";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
 }
 );
 },
@@ -37496,15 +37634,24 @@ instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.08696;
 "EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 0.13043;
 };
-name = "Overexposed Medium";
+name = Overexposed;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Overexposed Medium";
+value = "Workbench Moderate Overexposed";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
 }
 );
 },
@@ -37528,15 +37675,24 @@ instanceInterpolations = {
 "164C8123-3F0E-4C99-877D-0E85C432A9CE" = 0.6;
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.4;
 };
-name = "Maximum Medium";
+name = Maximum;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Maximum Medium";
+value = "Workbench Moderate Maximum";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
 }
 );
 },
@@ -37559,15 +37715,24 @@ exports = 0;
 instanceInterpolations = {
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 1;
 };
-name = "Delicate Strong";
+name = Delicate;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Delicate Strong";
+value = "Workbench Strong Delicate";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
 }
 );
 },
@@ -37591,15 +37756,24 @@ instanceInterpolations = {
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.05217;
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.94783;
 };
-name = "Slight Strong";
+name = Slight;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Slight Strong";
+value = "Workbench Strong Slight";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
 }
 );
 },
@@ -37623,15 +37797,24 @@ instanceInterpolations = {
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.17391;
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.82609;
 };
-name = "Evenly Strong";
+name = Evenly;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Evenly Strong";
+value = "Workbench Strong Evenly";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
 }
 );
 },
@@ -37655,15 +37838,24 @@ instanceInterpolations = {
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.34783;
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.65217;
 };
-name = "Normal Strong";
+name = Close;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Normal Strong";
+value = "Workbench Strong Close";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
 }
 );
 },
@@ -37687,15 +37879,24 @@ instanceInterpolations = {
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.48696;
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.51304;
 };
-name = "Touching Strong";
+name = Touching;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Touching Strong";
+value = "Workbench Strong Touching";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
 }
 );
 },
@@ -37719,15 +37920,24 @@ instanceInterpolations = {
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.5913;
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.4087;
 };
-name = "Overlapping Strong";
+name = Overlapping;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Overlapping Strong";
+value = "Workbench Strong Overlapping";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
 }
 );
 },
@@ -37751,15 +37961,24 @@ instanceInterpolations = {
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 0.78261;
 "EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = 0.21739;
 };
-name = "Overexposed Strong";
+name = Overexposed;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Overexposed Strong";
+value = "Workbench Strong Overexposed";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
 }
 );
 },
@@ -37782,25 +38001,42 @@ exports = 0;
 instanceInterpolations = {
 "38088322-78A3-4F4F-B46E-F8355B0BCD96" = 1;
 };
-name = "Maximum Strong";
+name = Maximum;
 properties = (
 {
 key = WWSFamilyName;
-value = "Workbench Maximum Strong";
+value = "Workbench Strong Maximum";
 },
 {
 key = WWSSubfamilyName;
 value = Regular;
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
 }
 );
 },
 {
+axesValues = (
+0,
+0
+);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = "EF047752-ED93-49D3-A4D1-D66A6AAE90C7";
 }
 );
+exports = 0;
+instanceInterpolations = {
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 1;
+};
 name = Regular;
 type = variable;
 }
