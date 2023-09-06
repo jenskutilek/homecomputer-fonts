@@ -1,9 +1,6 @@
 {
-.appVersion = "3151";
+.appVersion = "3217";
 .formatVersion = 3;
-DisplayStrings = (
-Aq
-);
 axes = (
 {
 name = Scanlines;
@@ -38023,10 +38020,6 @@ value = "Workbench Strong";
 );
 },
 {
-axesValues = (
-0,
-0
-);
 customParameters = (
 {
 name = "Variable Font Origin";
@@ -38034,9 +38027,6 @@ value = "EF047752-ED93-49D3-A4D1-D66A6AAE90C7";
 }
 );
 exports = 0;
-instanceInterpolations = {
-"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 1;
-};
 name = Regular;
 type = variable;
 }

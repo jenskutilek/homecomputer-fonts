@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3217";
 .formatVersion = 3;
 DisplayStrings = (
 "Hþ"
@@ -141506,19 +141506,12 @@ value = "Sixtyfour Strong";
 );
 },
 {
-axesValues = (
-0,
-0
-);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
 }
 );
-instanceInterpolations = {
-"A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 1;
-};
 name = Regular;
 type = variable;
 }
