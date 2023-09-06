@@ -32,15 +32,15 @@ value = 1;
 name = panose;
 value = (
 2,
-0,
+6,
 5,
 9,
-0,
-0,
-0,
-0,
-0,
-0
+7,
+7,
+2,
+4,
+5,
+7
 );
 },
 {
@@ -54468,6 +54468,21 @@ Axis = Bleed;
 Location = 0;
 }
 );
+},
+{
+name = panose;
+value = (
+2,
+6,
+2,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
 }
 );
 instanceInterpolations = {
@@ -54510,6 +54525,21 @@ Location = -90;
 Axis = Bleed;
 Location = 0;
 }
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+3,
+9,
+7,
+7,
+2,
+4,
+5,
+7
 );
 }
 );
@@ -54554,6 +54584,21 @@ Location = -65;
 Axis = Bleed;
 Location = 0;
 }
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+4,
+9,
+7,
+7,
+2,
+4,
+5,
+7
 );
 }
 );
@@ -54601,19 +54646,18 @@ Location = 0;
 );
 },
 {
-disabled = 1;
 name = panose;
 value = (
 2,
-0,
+6,
 5,
 9,
-0,
-0,
-0,
-0,
-0,
-0
+7,
+7,
+2,
+4,
+5,
+7
 );
 }
 );
@@ -54657,6 +54701,21 @@ Location = -3;
 Axis = Bleed;
 Location = 0;
 }
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+7,
+9,
+7,
+7,
+2,
+4,
+5,
+7
 );
 }
 );
@@ -54702,6 +54761,21 @@ Axis = Bleed;
 Location = 0;
 }
 );
+},
+{
+name = panose;
+value = (
+2,
+6,
+8,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
 }
 );
 instanceInterpolations = {
@@ -54746,6 +54820,21 @@ Axis = Bleed;
 Location = 0;
 }
 );
+},
+{
+name = panose;
+value = (
+2,
+6,
+9,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
 }
 );
 instanceInterpolations = {
@@ -54789,6 +54878,21 @@ Location = 100;
 Axis = Bleed;
 Location = 0;
 }
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+10,
+9,
+7,
+7,
+2,
+4,
+5,
+7
 );
 }
 );
