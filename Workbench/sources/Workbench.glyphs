@@ -54483,6 +54483,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "WorkbenchDelicate-Regular";
 }
 );
 instanceInterpolations = {
@@ -54541,6 +54545,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "WorkbenchSlight-Regular";
 }
 );
 instanceInterpolations = {
@@ -54600,6 +54608,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "WorkbenchEvenly-Regular";
 }
 );
 instanceInterpolations = {
@@ -54659,6 +54671,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "WorkbenchClose-Regular";
 }
 );
 instanceInterpolations = {
@@ -54717,6 +54733,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "WorkbenchTouching-Regular";
 }
 );
 instanceInterpolations = {
@@ -54776,6 +54796,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "WorkbenchOverlapping-Regular";
 }
 );
 instanceInterpolations = {
@@ -54835,6 +54859,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "WorkbenchOverexposed-Regular";
 }
 );
 instanceInterpolations = {
@@ -54894,6 +54922,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "WorkbenchMaximum-Regular";
 }
 );
 instanceInterpolations = {

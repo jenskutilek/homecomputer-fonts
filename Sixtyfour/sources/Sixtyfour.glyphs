@@ -185417,6 +185417,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "SixtyfourDelicate-Regular";
 }
 );
 instanceInterpolations = {
@@ -185475,6 +185479,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "SixtyfourSlight-Regular";
 }
 );
 instanceInterpolations = {
@@ -185534,6 +185542,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "SixtyfourEvenly-Regular";
 }
 );
 instanceInterpolations = {
@@ -185593,6 +185605,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "Sixtyfour-Regular";
 }
 );
 instanceInterpolations = {
@@ -185651,6 +185667,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "SixtyfourTouching-Regular";
 }
 );
 instanceInterpolations = {
@@ -185710,6 +185730,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "SixtyfourOverlapping-Regular";
 }
 );
 instanceInterpolations = {
@@ -185769,6 +185793,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "SixtyfourOverexposed-Regular";
 }
 );
 instanceInterpolations = {
@@ -185828,6 +185856,10 @@ value = (
 5,
 7
 );
+},
+{
+name = fileName;
+value = "SixtyfourMaximum-Regular";
 }
 );
 instanceInterpolations = {
@@ -186515,6 +186547,7 @@ name = "Variable Font Origin";
 value = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
 }
 );
+exports = 0;
 name = Regular;
 type = variable;
 }
