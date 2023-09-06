@@ -54684,7 +54684,7 @@ name = Close;
 properties = (
 {
 key = WWSFamilyName;
-value = Workbench;
+value = "Workbench Close";
 },
 {
 key = WWSSubfamilyName;

@@ -185608,7 +185608,7 @@ value = (
 },
 {
 name = fileName;
-value = "Sixtyfour-Regular";
+value = "SixtyfourClose-Regular";
 }
 );
 instanceInterpolations = {
@@ -185618,7 +185618,7 @@ name = Close;
 properties = (
 {
 key = WWSFamilyName;
-value = Sixtyfour;
+value = "Sixtyfour Close";
 },
 {
 key = WWSSubfamilyName;
