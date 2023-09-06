@@ -751,6 +751,10 @@ data = Latn;
 tag = slng;
 }
 );
+},
+{
+name = "Default Layer Width";
+value = "1024";
 }
 );
 date = "2008-09-05 18:17:00 +0000";
@@ -42996,6 +43000,28 @@ unicode = 13;
 },
 {
 color = 3;
+glyphname = NULL;
+layers = (
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+width = 0;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+width = 600;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+width = 600;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+width = 600;
+}
+);
+},
+{
+color = 3;
 glyphname = .notdef;
 layers = (
 {
@@ -57626,6 +57652,128 @@ com.typemytype.robofont.mark = (
 1
 );
 };
+},
+{
+color = 3;
+glyphname = minute;
+layers = (
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+pos = (384,512);
+ref = pixel.2;
+},
+{
+pos = (384,640);
+ref = pixel.2;
+},
+{
+pos = (384,768);
+ref = pixel.2;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+pos = (384,512);
+ref = pixel.2;
+},
+{
+pos = (384,640);
+ref = pixel.2;
+},
+{
+pos = (384,768);
+ref = pixel.2;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+pos = (384,512);
+ref = pixel.2;
+},
+{
+pos = (384,640);
+ref = pixel.2;
+},
+{
+pos = (384,768);
+ref = pixel.2;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+pos = (384,512);
+ref = pixel.2;
+},
+{
+pos = (384,640);
+ref = pixel.2;
+},
+{
+pos = (384,768);
+ref = pixel.2;
+}
+);
+width = 1024;
+}
+);
+unicode = 8242;
+},
+{
+color = 6;
+glyphname = second;
+layers = (
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = quotedbl;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = quotedbl;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = quotedbl;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = quotedbl;
+}
+);
+width = 1024;
+}
+);
+unicode = 8243;
 },
 {
 color = 6;
