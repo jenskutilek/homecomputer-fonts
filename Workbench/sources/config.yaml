@@ -18,20 +18,20 @@ stat:
     tag: SCAN
     values:
     - name: Delicate
-      value: -100
+      value: -53
     - name: Slight
-      value: -90
+      value: -45
     - name: Evenly
-      value: -65            
+      value: -27            
     - name: Close
-      value: -30
+      value: 0
       flags: 2
     - name: Touching
-      value: -3
+      value: 21
     - name: Overlapping
-      value: 18
+      value: 37
     - name: Overexposed
-      value: 57
+      value: 67
     - name: Maximum
       value: 100
   - name: Bleed
