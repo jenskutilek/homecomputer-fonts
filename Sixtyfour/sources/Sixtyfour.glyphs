@@ -232359,6 +232359,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = fileName;
 value = "SixtyfourDelicate-Regular";
 }
@@ -232421,6 +232422,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = fileName;
 value = "SixtyfourSlight-Regular";
 }
@@ -232484,6 +232486,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = fileName;
 value = "SixtyfourEvenly-Regular";
 }
@@ -232547,6 +232550,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = fileName;
 value = "SixtyfourClose-Regular";
 }
@@ -232609,6 +232613,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = fileName;
 value = "SixtyfourTouching-Regular";
 }
@@ -232672,6 +232677,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = fileName;
 value = "SixtyfourOverlapping-Regular";
 }
@@ -232735,6 +232741,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = fileName;
 value = "SixtyfourOverexposed-Regular";
 }
@@ -232798,6 +232805,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = fileName;
 value = "SixtyfourMaximum-Regular";
 }
@@ -233493,7 +233501,8 @@ value = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
 );
 exports = 0;
 instanceInterpolations = {
-"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+"511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = -0.08696;
+"A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 1.08696;
 };
 name = Regular;
 type = variable;

@@ -25,7 +25,7 @@ stat:
       value: -27            
     - name: Close
       value: 0
-      flags: 2
+      # flags: 2
     - name: Touching
       value: 21
     - name: Overlapping
