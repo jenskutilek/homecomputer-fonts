@@ -1,5 +1,5 @@
 {
-.appVersion = "3217";
+.appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
 FM
@@ -209,7 +209,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -30;
+Location = 0;
 },
 {
 Axis = Bleed;
@@ -352,7 +352,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -100;
+Location = -53;
 },
 {
 Axis = Bleed;
@@ -602,7 +602,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -100;
+Location = -53;
 },
 {
 Axis = Bleed;
@@ -690,7 +690,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -30;
+Location = 0;
 },
 {
 Axis = Bleed;
@@ -54461,7 +54461,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -100;
+Location = -53;
 },
 {
 Axis = Bleed;
@@ -54523,7 +54523,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -90;
+Location = -45;
 },
 {
 Axis = Bleed;
@@ -54586,7 +54586,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -65;
+Location = -27;
 },
 {
 Axis = Bleed;
@@ -54649,7 +54649,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -30;
+Location = 0;
 },
 {
 Axis = Bleed;
@@ -54711,7 +54711,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = -3;
+Location = 21;
 },
 {
 Axis = Bleed;
@@ -54774,7 +54774,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = 18;
+Location = 37;
 },
 {
 Axis = Bleed;
@@ -54837,7 +54837,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Scanlines;
-Location = 57;
+Location = 67;
 },
 {
 Axis = Bleed;
@@ -55607,6 +55607,10 @@ value = "Workbench Strong";
 );
 },
 {
+axesValues = (
+0,
+0
+);
 customParameters = (
 {
 name = "Variable Font Origin";
@@ -55614,6 +55618,9 @@ value = "732E3B19-9B57-4E18-B329-A7AEC5A36DAC";
 }
 );
 exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
 name = Regular;
 type = variable;
 }
