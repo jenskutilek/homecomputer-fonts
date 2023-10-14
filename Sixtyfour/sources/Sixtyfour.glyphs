@@ -2,7 +2,7 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"Hþ"
+"Hþ┓ "
 );
 axes = (
 {
@@ -736,10 +736,6 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Has WWS Names";
-value = 0;
-},
-{
 name = "meta Table";
 value = (
 {
@@ -1022,7 +1018,7 @@ over = -6;
 pos = -125;
 }
 );
-name = Default;
+name = Regular;
 stemValues = (
 134,
 262
@@ -232323,10 +232319,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Has WWS Names";
-value = 0;
-},
-{
 name = "Use Typo Metrics";
 value = 1;
 },
@@ -232359,9 +232351,12 @@ value = (
 );
 },
 {
-disabled = 1;
 name = fileName;
 value = "SixtyfourDelicate-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Delicate Regular";
 }
 );
 instanceInterpolations = {
@@ -232370,12 +232365,8 @@ instanceInterpolations = {
 name = Delicate;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Delicate";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
+key = postscriptFontName;
+value = "SixtyfourDelicate-Regular";
 }
 );
 },
@@ -232385,10 +232376,6 @@ axesValues = (
 0
 );
 customParameters = (
-{
-name = "Has WWS Names";
-value = 0;
-},
 {
 name = "Use Typo Metrics";
 value = 1;
@@ -232422,9 +232409,12 @@ value = (
 );
 },
 {
-disabled = 1;
 name = fileName;
 value = "SixtyfourSlight-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Slight Regular";
 }
 );
 instanceInterpolations = {
@@ -232434,12 +232424,8 @@ instanceInterpolations = {
 name = Slight;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Slight";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
+key = postscriptFontName;
+value = "SixtyfourSlight-Regular";
 }
 );
 },
@@ -232449,10 +232435,6 @@ axesValues = (
 0
 );
 customParameters = (
-{
-name = "Has WWS Names";
-value = 0;
-},
 {
 name = "Use Typo Metrics";
 value = 1;
@@ -232486,9 +232468,12 @@ value = (
 );
 },
 {
-disabled = 1;
 name = fileName;
 value = "SixtyfourEvenly-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Evenly Regular";
 }
 );
 instanceInterpolations = {
@@ -232498,12 +232483,8 @@ instanceInterpolations = {
 name = Evenly;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Evenly";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
+key = postscriptFontName;
+value = "SixtyfourEvenly-Regular";
 }
 );
 },
@@ -232513,10 +232494,6 @@ axesValues = (
 0
 );
 customParameters = (
-{
-name = "Has WWS Names";
-value = 0;
-},
 {
 name = "Use Typo Metrics";
 value = 1;
@@ -232550,23 +232527,22 @@ value = (
 );
 },
 {
-disabled = 1;
 name = fileName;
-value = "SixtyfourClose-Regular";
+value = "Sixtyfour-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Regular";
 }
 );
 instanceInterpolations = {
 "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
 };
-name = Close;
+name = Regular;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Close";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
+key = postscriptFontName;
+value = "Sixtyfour-Regular";
 }
 );
 },
@@ -232576,10 +232552,6 @@ axesValues = (
 0
 );
 customParameters = (
-{
-name = "Has WWS Names";
-value = 0;
-},
 {
 name = "Use Typo Metrics";
 value = 1;
@@ -232613,9 +232585,12 @@ value = (
 );
 },
 {
-disabled = 1;
 name = fileName;
 value = "SixtyfourTouching-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Touching Regular";
 }
 );
 instanceInterpolations = {
@@ -232625,12 +232600,8 @@ instanceInterpolations = {
 name = Touching;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Touching";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
+key = postscriptFontName;
+value = "SixtyfourTouching-Regular";
 }
 );
 },
@@ -232640,10 +232611,6 @@ axesValues = (
 0
 );
 customParameters = (
-{
-name = "Has WWS Names";
-value = 0;
-},
 {
 name = "Use Typo Metrics";
 value = 1;
@@ -232677,9 +232644,12 @@ value = (
 );
 },
 {
-disabled = 1;
 name = fileName;
 value = "SixtyfourOverlapping-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Overlapping Regular";
 }
 );
 instanceInterpolations = {
@@ -232689,12 +232659,8 @@ instanceInterpolations = {
 name = Overlapping;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Overlapping";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
+key = postscriptFontName;
+value = "SixtyfourOverlapping-Regular";
 }
 );
 },
@@ -232704,10 +232670,6 @@ axesValues = (
 0
 );
 customParameters = (
-{
-name = "Has WWS Names";
-value = 0;
-},
 {
 name = "Use Typo Metrics";
 value = 1;
@@ -232741,9 +232703,12 @@ value = (
 );
 },
 {
-disabled = 1;
 name = fileName;
 value = "SixtyfourOverexposed-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Overexposed Regular";
 }
 );
 instanceInterpolations = {
@@ -232753,12 +232718,8 @@ instanceInterpolations = {
 name = Overexposed;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Overexposed";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
+key = postscriptFontName;
+value = "SixtyfourOverexposed-Regular";
 }
 );
 },
@@ -232768,10 +232729,6 @@ axesValues = (
 0
 );
 customParameters = (
-{
-name = "Has WWS Names";
-value = 0;
-},
 {
 name = "Use Typo Metrics";
 value = 1;
@@ -232805,9 +232762,12 @@ value = (
 );
 },
 {
-disabled = 1;
 name = fileName;
 value = "SixtyfourMaximum-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Maximum Regular";
 }
 );
 instanceInterpolations = {
@@ -232816,12 +232776,8 @@ instanceInterpolations = {
 name = Maximum;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Maximum";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
+key = postscriptFontName;
+value = "SixtyfourMaximum-Regular";
 }
 );
 },
