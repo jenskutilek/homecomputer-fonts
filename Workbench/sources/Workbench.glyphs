@@ -78376,7 +78376,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2021 The Workbench Project Authors (https://github.com/jenskutilek/homecomputer-fonts-wb)";
+value = "Copyright 2021 The Workbench Project Authors (https://github.com/jenskutilek/homecomputer-fonts)";
 }
 );
 },
