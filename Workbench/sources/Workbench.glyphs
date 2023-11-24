@@ -77424,7 +77424,7 @@ value = "4; Workbench Regular";
 instanceInterpolations = {
 "732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
 };
-name = Regular;
+name = Close;
 properties = (
 {
 key = postscriptFontName;

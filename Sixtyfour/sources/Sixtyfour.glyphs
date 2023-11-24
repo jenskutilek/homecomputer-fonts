@@ -232538,7 +232538,7 @@ value = "4; Sixtyfour Regular";
 instanceInterpolations = {
 "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
 };
-name = Regular;
+name = Close;
 properties = (
 {
 key = postscriptFontName;
