@@ -23,9 +23,9 @@ stat:
       value: -45
     - name: Evenly
       value: -27            
-    - name: Close
+    - name: Default
       value: 0
-      # flags: 2
+      flags: 2
     - name: Touching
       value: 21
     - name: Overlapping
