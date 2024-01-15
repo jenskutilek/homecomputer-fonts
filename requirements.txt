@@ -32,7 +32,7 @@ fs==2.4.16
 gflanguages==0.5.7
 gftools @ git+https://github.com/googlefonts/gftools@1b710e84eb2f4e8bc860b323b568c0e8418a8eb2
 gitdb==4.0.10
-GitPython==3.1.38
+GitPython==3.1.41
 glyphsets==0.6.4
 glyphsLib==6.4.1
 h11==0.14.0
