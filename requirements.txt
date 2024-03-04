@@ -47,7 +47,7 @@ ninja==1.11.1.1
 numpy==1.26.1
 openstep-plist==0.3.1
 opentype-sanitizer==9.1.0
-orjson==3.9.9
+orjson==3.9.15
 outcome==1.2.0
 paintcompiler==0.2.0
 picosvg==0.22.1
