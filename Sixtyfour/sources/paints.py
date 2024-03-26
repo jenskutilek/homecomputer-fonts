@@ -83,5 +83,3 @@ for gname in font.getGlyphOrder():
     glyphs[gname] = PaintComposite(
         "screen", foreground, PaintComposite("screen", middle, background)
     )
-
-font["fvar"].instances = []
