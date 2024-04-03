@@ -62,7 +62,7 @@ outcome==1.2.0
 packaging==24.0
 paintcompiler==0.3.2
 picosvg==0.22.1
-pillow==10.2.0
+pillow==10.3.0
 pip-api==0.0.30
 pngquant-cli==2.17.0.post5
 protobuf==3.20.3
