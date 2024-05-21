@@ -81,7 +81,7 @@ python-bidi==0.4.2
 python-dateutil==2.8.2
 PyYAML==6.0.1
 regex==2023.10.3
-requests==2.31.0
+requests==2.32.0
 resvg-cli==0.22.0.post3
 rich==13.7.1
 selenium==4.14.0
