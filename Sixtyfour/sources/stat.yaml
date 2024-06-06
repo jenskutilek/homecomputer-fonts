@@ -1,0 +1,50 @@
+- name: Scanlines
+  tag: SCAN
+  values:
+  - name: Delicate
+    value: -53
+  - name: Slight
+    value: -45
+  - name: Evenly
+    value: -27
+  - name: Close
+    value: 0
+    # flags: 2
+  - name: Touching
+    value: 21
+  - name: Overlapping
+    value: 37
+  - name: Overexposed
+    value: 67
+  - name: Maximum
+    value: 100
+- name: Bleed
+  tag: BLED
+  values:
+  - name: Default
+    value: 0
+    flags: 2
+  - name: Moderate
+    value: 40
+  - name: Strong
+    value: 100
+- name: Horizontal Element Alignmet
+  tag: XELA
+  values:
+  - name: Default
+    value: 0
+    flags: 2
+  - name: Left
+    value: -100
+  - name: Right
+    value: -100
+- name: Vertical Element Alignmet
+  tag: YELA
+  values:
+  - name: Default
+    value: 0
+    flags: 2
+  - name: Top
+    value: -100
+  - name: Bottom
+    value: -100
