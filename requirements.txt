@@ -25,13 +25,14 @@ defcon==0.10.3
 Deprecated==1.2.14
 diffenator2==0.2.13
 drawbot-skia==0.5.0
+exceptiongroup==1.2.1
 font-v==2.1.0
 fontFeatures==1.8.0
 fontmake==3.7.1
 fontMath==0.9.3
 fontParts==0.12.1
 fontPens==0.2.4
-fonttools>=4.46.0
+fonttools==4.53.0
 freetype-py==2.4.0
 fs==2.4.16
 gflanguages==0.5.17
@@ -60,7 +61,7 @@ opentype-sanitizer==9.1.0
 orjson==3.9.15
 outcome==1.2.0
 packaging==24.0
-paintcompiler==0.3.2
+paintcompiler==0.3.4
 picosvg==0.22.1
 pillow==10.3.0
 pip-api==0.0.30
