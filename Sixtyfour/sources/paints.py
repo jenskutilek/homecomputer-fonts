@@ -9,16 +9,16 @@
 
 SetColors(
     [
-        ["#FF141DFF", "#FF120DFF"],
-        ["#FB7236FF", "#FF1812FF"],
-        ["#14FF1D77", "#00CD1D22"],
-        ["#72FB36AA", "#22CB2688"],
-        ["#141DFF77", "#001DBC22"],
-        ["#7236FBAA", "#3216BB88"],
+        ["#FF120DFF", "#FF141DFF"],
+        ["#FF1812FF", "#FB7236FF"],
+        ["#00CD1D22", "#14FF1D77"],
+        ["#22CB2688", "#72FB36AA"],
+        ["#001DBC22", "#141DFF77"],
+        ["#3216BB88", "#7236FBAA"],
     ]
 )
-SetDarkMode(0)
-SetLightMode(1)
+SetLightMode(0)
+SetDarkMode(1)
 
 RED = 0
 ORANGE = 1
