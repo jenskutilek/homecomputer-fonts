@@ -7,16 +7,26 @@
 # To understand what paint tables are available and their parameters,
 # you need to read https://github.com/googlefonts/colr-gradients-spec/blob/main/OFF_AMD2_WD.md
 
-# The paint builder will automatically set up the palettes for us;
-# we can just call "PaintSolid" and "PaintLinearGradient" etc.
-# with colour strings and it'll sort it out. We define constants here
-# to make the code tidier.
-RED = "#FF141DFF"
-ORANGE = "#FB7236FF"
-LOW_GREEN = "#14FF1D77"
-HIGH_GREEN = "#72FB36AA"
-LOW_BLUE = "#141DFF77"
-HIGH_BLUE = "#7236FBAA"
+SetColors(
+    [
+        ["#FF120DFF", "#FF141DFF"],
+        ["#FF1812FF", "#FB7236FF"],
+        ["#00CD1D22", "#14FF1D77"],
+        ["#22CB2688", "#72FB36AA"],
+        ["#001DBC22", "#141DFF77"],
+        ["#3216BB88", "#7236FBAA"],
+    ]
+)
+SetLightMode(0)
+SetDarkMode(1)
+
+RED = 0
+ORANGE = 1
+LOW_GREEN = 2
+HIGH_GREEN = 3
+LOW_BLUE = 4
+HIGH_BLUE = 5
+
 
 # A little wrapper to make defining our three gradients easier
 def grad(start, mid):
@@ -24,7 +34,7 @@ def grad(start, mid):
         (512, 0),  # Start gradient at middle, baseline
         (512, 900),  # End gradient at middle, top
         (0, 0),  # Rotate gradient 90 degrees
-        ColorLine({0: start, 0.25: mid, 1: start})
+        ColorLine({0: start, 0.25: mid, 1: start}),
         # Go from the start colour to the mid colour at 25% and
         # back to the start again
     )
@@ -33,8 +43,16 @@ def grad(start, mid):
 # And another wrapper encoding our skew constants
 def skew(paint):
     return PaintVarSkewAroundCenter(
-        {(('YELA', -100.0),): -2, (('YELA', 0.0),): 0, (('YELA', 100.0),): 2},  # X axis skew
-        {(('XELA', -100.0),): -2, (('XELA', 0.0),): 0, (('XELA', 100.0),): 2},  # Y axis skew
+        {
+            (("YELA", -100.0),): -2,
+            (("YELA", 0.0),): 0,
+            (("YELA", 100.0),): 2,
+        },  # X axis skew
+        {
+            (("XELA", -100.0),): -2,
+            (("XELA", 0.0),): 0,
+            (("XELA", 100.0),): 2,
+        },  # Y axis skew
         # "At XELA=-100, skew the Y axis -2 degrees; at XELA=100, skew
         # it 2 degrees"
         (512, 450),  # skew around the center of the glyph
@@ -52,8 +70,8 @@ for gname in font.getGlyphOrder():
     # blue gradient, skewed a few degrees, and then translated
     # according to the values of the XELA and YELA axes.
     foreground = PaintVarTranslate(
-        {(('XELA', -100.0),): 100, (('XELA', 0.0),): 0, (('XELA', 100.0),): -100},
-        {(('YELA', -100.0),): 110, (('YELA', 0.0),): 0, (('YELA', 100.0),): -110},
+        {(("XELA", -100.0),): 120, (("XELA", 0.0),): 20, (("XELA", 100.0),): -120},
+        {(("YELA", -100.0),): 120, (("YELA", 0.0),): -5, (("YELA", 100.0),): -120},
         skew(
             PaintGlyph(gname, grad(LOW_BLUE, HIGH_BLUE)),
         ),
@@ -69,8 +87,8 @@ for gname in font.getGlyphOrder():
     # green gradient, skewed, and moved in the opposite
     # direction on the XELA/YELA axes.
     background = PaintVarTranslate(
-        {(('XELA', -100.0),): -110, (('XELA', 0.0),): 0, (('XELA', 100.0),): 110},
-        {(('YELA', -100.0),): -100, (('YELA', 0.0),): 0, (('YELA', 100.0),): 100},
+        {(("XELA", -100.0),): -110, (("XELA", 0.0),): -20, (("XELA", 100.0),): 110},
+        {(("YELA", -100.0),): -100, (("YELA", 0.0),): -5, (("YELA", 100.0),): 100},
         skew(
             PaintGlyph(gname, grad(LOW_GREEN, HIGH_GREEN)),
         ),
