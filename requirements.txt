@@ -11,7 +11,7 @@ Brotli==1.1.0
 bump2version==1.0.1
 bumpfontversion==0.4.1
 cattrs==23.1.2
-certifi==2023.7.22
+certifi==2024.7.4
 cffi==1.16.0
 cffsubr==0.2.9.post1
 charset-normalizer==3.3.0
