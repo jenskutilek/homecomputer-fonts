@@ -5,3 +5,4 @@ sh>=2.0.6
 bumpfontversion>=0.4.1
 diffenator2>=0.3.8
 opentype-feature-freezer>=1.32.2
+paintcompiler>=0.3.4
