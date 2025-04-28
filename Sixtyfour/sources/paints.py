@@ -9,16 +9,16 @@
 
 SetColors(
     [
-        ["#FF141DFF", "#FF120DFF"],
-        ["#FB7236FF", "#FF3226FF"],
-        ["#14FF1D77", "#00CD1D77"],
-        ["#72FB36AA", "#22CB26AA"],
-        ["#141DFF77", "#001DBC77"],
-        ["#7236FBAA", "#3216BBAA"],
+        ["#FF120DFF", "#FF141DFF"],
+        ["#FF1812FF", "#FB7236FF"],
+        ["#00CD1D22", "#14FF1D77"],
+        ["#22CB2688", "#72FB36AA"],
+        ["#001DBC22", "#141DFF77"],
+        ["#3216BB88", "#7236FBAA"],
     ]
 )
-SetDarkMode(0)
-SetLightMode(1)
+SetLightMode(0)
+SetDarkMode(1)
 
 RED = 0
 ORANGE = 1
@@ -70,7 +70,7 @@ for gname in font.getGlyphOrder():
     # blue gradient, skewed a few degrees, and then translated
     # according to the values of the XELA and YELA axes.
     foreground = PaintVarTranslate(
-        {(("XELA", -100.0),): 120, (("XELA", 0.0),): 0, (("XELA", 100.0),): -120},
+        {(("XELA", -100.0),): 120, (("XELA", 0.0),): 20, (("XELA", 100.0),): -120},
         {(("YELA", -100.0),): 120, (("YELA", 0.0),): -5, (("YELA", 100.0),): -120},
         skew(
             PaintGlyph(gname, grad(LOW_BLUE, HIGH_BLUE)),
@@ -87,7 +87,7 @@ for gname in font.getGlyphOrder():
     # green gradient, skewed, and moved in the opposite
     # direction on the XELA/YELA axes.
     background = PaintVarTranslate(
-        {(("XELA", -100.0),): -110, (("XELA", 0.0),): 0, (("XELA", 100.0),): 110},
+        {(("XELA", -100.0),): -110, (("XELA", 0.0),): -20, (("XELA", 100.0),): 110},
         {(("YELA", -100.0),): -100, (("YELA", 0.0),): -5, (("YELA", 100.0),): 100},
         skew(
             PaintGlyph(gname, grad(LOW_GREEN, HIGH_GREEN)),
