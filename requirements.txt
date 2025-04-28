@@ -19,7 +19,7 @@ click==8.1.7
 colorlog==6.7.0
 commandlines==0.4.1
 compreffor==0.5.5
-cryptography==43.0.1
+cryptography==44.0.1
 cu2qu==1.6.7.post2
 defcon==0.10.3
 Deprecated==1.2.14
