@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3413";
 .formatVersion = 3;
 DisplayStrings = (
 "Hþ┓ "
@@ -995,7 +995,6 @@ over = -20;
 pos = -128;
 },
 {
-over = -20;
 },
 {
 over = 6;
@@ -1116,7 +1115,6 @@ over = -20;
 pos = -128;
 },
 {
-over = -20;
 },
 {
 over = 6;
@@ -1237,7 +1235,6 @@ over = -20;
 pos = -128;
 },
 {
-over = -20;
 },
 {
 over = 6;
@@ -1358,7 +1355,6 @@ over = -20;
 pos = -128;
 },
 {
-over = -20;
 },
 {
 over = 6;
@@ -1474,7 +1470,6 @@ over = -20;
 pos = -128;
 },
 {
-over = -20;
 },
 {
 over = 6;
@@ -1595,7 +1590,6 @@ over = -20;
 pos = -128;
 },
 {
-over = -20;
 },
 {
 over = 6;
@@ -107662,173 +107656,6 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-color = 6;
-glyphname = micro;
-layers = (
-{
-layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
-shapes = (
-{
-ref = mu;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 1024;
-},
-{
-layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
-shapes = (
-{
-ref = mu;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 1024;
-},
-{
-layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
-shapes = (
-{
-ref = mu;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 1024;
-},
-{
-layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
-shapes = (
-{
-ref = mu;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 1024;
-},
-{
-layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
-shapes = (
-{
-alignment = -1;
-ref = mu;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 1024;
-},
-{
-layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
-shapes = (
-{
-alignment = -1;
-ref = mu;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 1024;
-}
-);
-unicode = 181;
-userData = {
-com.typemytype.robofont.mark = (
-0.6,
-0.986,
-1,
-1
-);
-};
-},
-{
 color = 0;
 glyphname = partialdiff;
 layers = (
@@ -108322,6 +108149,173 @@ userData = {
 com.typemytype.robofont.mark = (
 0.967,
 0.6,
+1,
+1
+);
+};
+},
+{
+color = 6;
+glyphname = micro;
+layers = (
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = mu;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = mu;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = mu;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = mu;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+alignment = -1;
+ref = mu;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+alignment = -1;
+ref = mu;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+}
+);
+unicode = 181;
+userData = {
+com.typemytype.robofont.mark = (
+0.6,
+0.986,
 1,
 1
 );
@@ -232804,14 +232798,6 @@ instanceInterpolations = {
 name = Delicate;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Moderate Delicate";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -232819,6 +232805,14 @@ language = dflt;
 value = "Sixtyfour Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Delicate";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -232847,14 +232841,6 @@ instanceInterpolations = {
 name = Slight;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Moderate Slight";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -232862,6 +232848,14 @@ language = dflt;
 value = "Sixtyfour Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Slight";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -232890,14 +232884,6 @@ instanceInterpolations = {
 name = Evenly;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Moderate Evenly";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -232905,6 +232891,14 @@ language = dflt;
 value = "Sixtyfour Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Evenly";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -232931,14 +232925,6 @@ instanceInterpolations = {
 name = Close;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Moderate Close";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -232946,6 +232932,14 @@ language = dflt;
 value = "Sixtyfour Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Close";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -232974,14 +232968,6 @@ instanceInterpolations = {
 name = Touching;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Moderate Touching";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -232989,6 +232975,14 @@ language = dflt;
 value = "Sixtyfour Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Touching";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233017,14 +233011,6 @@ instanceInterpolations = {
 name = Overlapping;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Moderate Overlapping";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233032,6 +233018,14 @@ language = dflt;
 value = "Sixtyfour Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Overlapping";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233060,14 +233054,6 @@ instanceInterpolations = {
 name = Overexposed;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Moderate Overexposed";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233075,6 +233061,14 @@ language = dflt;
 value = "Sixtyfour Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Overexposed";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233101,14 +233095,6 @@ instanceInterpolations = {
 name = Maximum;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Moderate Maximum ";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233116,6 +233102,14 @@ language = dflt;
 value = "Sixtyfour Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Maximum ";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233141,14 +233135,6 @@ instanceInterpolations = {
 name = Delicate;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Strong Delicate";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233156,6 +233142,14 @@ language = dflt;
 value = "Sixtyfour Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Delicate";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233182,14 +233176,6 @@ instanceInterpolations = {
 name = Slight;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Strong Slight";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233197,6 +233183,14 @@ language = dflt;
 value = "Sixtyfour Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Slight";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233223,14 +233217,6 @@ instanceInterpolations = {
 name = Evenly;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Strong Evenly";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233238,6 +233224,14 @@ language = dflt;
 value = "Sixtyfour Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Evenly";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233263,14 +233257,6 @@ instanceInterpolations = {
 name = Close;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Strong Close";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233278,6 +233264,14 @@ language = dflt;
 value = "Sixtyfour Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Close";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233304,14 +233298,6 @@ instanceInterpolations = {
 name = Touching;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Strong Touching";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233319,6 +233305,14 @@ language = dflt;
 value = "Sixtyfour Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Touching";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233345,14 +233339,6 @@ instanceInterpolations = {
 name = Overlapping;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Strong Overlapping";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233360,6 +233346,14 @@ language = dflt;
 value = "Sixtyfour Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Overlapping";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233386,14 +233380,6 @@ instanceInterpolations = {
 name = Overexposed;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Strong Overexposed";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233401,6 +233387,14 @@ language = dflt;
 value = "Sixtyfour Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Overexposed";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -233426,14 +233420,6 @@ instanceInterpolations = {
 name = Maximum;
 properties = (
 {
-key = WWSFamilyName;
-value = "Sixtyfour Strong Maximum";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -233441,14 +233427,18 @@ language = dflt;
 value = "Sixtyfour Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Maximum";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
 {
-axesValues = (
-0,
-0
-);
 customParameters = (
 {
 name = "Variable Font Origin";
@@ -233456,10 +233446,6 @@ value = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
 }
 );
 exports = 0;
-instanceInterpolations = {
-"511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = -0.08696;
-"A1CF3A9E-1F49-4701-AF3E-F0E694793914" = 1.08696;
-};
 name = Regular;
 type = variable;
 }
@@ -233523,6 +233509,19 @@ key = designerURL;
 value = "https://www.kutilek.de/";
 },
 {
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
 key = manufacturers;
 values = (
 {
@@ -233534,19 +233533,6 @@ value = "Jens Kutilek";
 {
 key = vendorID;
 value = JENS;
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
 }
 );
 settings = {
