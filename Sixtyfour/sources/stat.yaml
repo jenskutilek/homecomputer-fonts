@@ -28,7 +28,7 @@
     value: 40
   - name: Strong
     value: 100
-- name: Horizontal Element Alignmet
+- name: Horizontal Element Alignment
   tag: XELA
   values:
   - name: Default
@@ -38,7 +38,7 @@
     value: -100
   - name: Right
     value: -100
-- name: Vertical Element Alignmet
+- name: Vertical Element Alignment
   tag: YELA
   values:
   - name: Default
