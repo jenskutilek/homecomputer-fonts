@@ -14,7 +14,7 @@ jobs:
       - name: Install sys tools/deps
         run: |
           sudo apt-get update
-          sudo apt-get install ttfautohint
+          sudo apt-get install ttfautohint libcairo2-dev pkg-config python3-dev
           sudo snap install yq
       - uses: actions/cache@v4
         with:
@@ -22,32 +22,25 @@ jobs:
           key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
           restore-keys: |
             ${{ runner.os }}-venv-
-      # - name: Do first-run script if necessary
-      #   run: make .init.stamp
-      #   if: github.repository != 'googlefonts/googlefonts-project-template'
-      # - uses: stefanzweifel/git-auto-commit-action@v4
-      #   name: First-run setup
-      #   if: github.repository != 'googlefonts/googlefonts-project-template'
-      #   with:
-      #     file_pattern: .init.stamp README.md requirements.txt OFL.txt
-      #     commit_message: "Personalize for this repo"
       - name: gen zip file name
         id: zip-name
         shell: bash
         # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
         run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
-        # If a new release is cut, use the release tag to auto-bump the source files
-      - name: Bump release
-        if: github.event_name == 'release'
-        run: |
-          . venv/bin/activate
-          SRCS=$(yq e ".sources[]" sources/config.yaml)
-          TAG_NAME=${GITHUB_REF/refs\/tags\//}
-          echo "Bumping $SRCS to $TAG_NAME"
-          for src in $SRCS
-          do
-            bumpfontversion sources/$src --new-version $TAG_NAME;
-          done
+
+      #   # If a new release is cut, use the release tag to auto-bump the source files
+      # - name: Bump release
+      #   if: github.event_name == 'release'
+      #   run: |
+      #     . venv/bin/activate
+      #     SRCS=$(yq e ".sources[]" sources/config.yaml)
+      #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
+      #     echo "Bumping $SRCS to $TAG_NAME"
+      #     for src in $SRCS
+      #     do
+      #       bumpfontversion sources/$src --new-version $TAG_NAME;
+      #     done
+
       - name: Build font
         run: make build
       - name: Check with fontbakery
@@ -58,11 +51,10 @@ jobs:
       - name: setup site
         run: mkdir out && cp scripts/index.html out/index.html && cp Sixtyfour/scripts/index.html out/index-sixtyfour.html && cp Workbench/scripts/index.html out/index-workbench.html
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+        uses: actions/upload-pages-artifact@v3.0.1
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+          path: ./out
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -72,6 +64,28 @@ jobs:
             out
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
+
+  deploy:
+    name: Deploy website to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # There are two ways a release can be created: either by pushing a tag, or by
+  # creating a release from the GitHub UI. Pushing a tag does not automatically
+  # create a release, so we have to do that ourselves. However, creating a
+  # release from the GitHub UI *does* push a tag, and we don't want to create
+  # a new release in that case because one already exists!
+
   release:
     name: Create and populate release
     needs: build
