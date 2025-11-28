@@ -1,5 +1,5 @@
 {
-.appVersion = "3413";
+.appVersion = "3506";
 .formatVersion = 3;
 DisplayStrings = (
 "Hþ┓ "
@@ -765,7 +765,7 @@ space
 );
 }
 );
-date = "2008-09-05 18:17:00 +0000";
+date = "2025-11-28 12:16:18 +0000";
 familyName = Sixtyfour;
 featurePrefixes = (
 {
@@ -236644,5 +236644,5 @@ zero = None;
 "com.hugojourdan.ColorFlow-selectedLayer-data" = "<null>";
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }

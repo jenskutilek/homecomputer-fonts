@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3506";
 .formatVersion = 3;
 DisplayStrings = (
 FM,
@@ -85,7 +85,7 @@ space
 );
 }
 );
-date = "2008-09-05 18:17:00 +0000";
+date = "2025-11-28 12:16:23 +0000";
 familyName = Workbench;
 featurePrefixes = (
 {
@@ -77690,14 +77690,6 @@ instanceInterpolations = {
 name = Delicate;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Moderate  Delicate";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -77705,6 +77697,14 @@ language = dflt;
 value = "Workbench Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate  Delicate";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -77733,14 +77733,6 @@ instanceInterpolations = {
 name = Slight;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Moderate Slight";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -77748,6 +77740,14 @@ language = dflt;
 value = "Workbench Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Slight";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -77776,14 +77776,6 @@ instanceInterpolations = {
 name = Evenly;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Moderate Evenly";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -77791,6 +77783,14 @@ language = dflt;
 value = "Workbench Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Evenly";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -77817,14 +77817,6 @@ instanceInterpolations = {
 name = Close;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Medium Close";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -77832,6 +77824,14 @@ language = dflt;
 value = "Workbench Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Medium Close";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -77860,14 +77860,6 @@ instanceInterpolations = {
 name = Touching;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Moderate Touching";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -77875,6 +77867,14 @@ language = dflt;
 value = "Workbench Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Touching";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -77903,14 +77903,6 @@ instanceInterpolations = {
 name = Overlapping;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Moderate Overlapping";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -77918,6 +77910,14 @@ language = dflt;
 value = "Workbench Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Overlapping";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -77946,14 +77946,6 @@ instanceInterpolations = {
 name = Overexposed;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Moderate Overexposed";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -77961,6 +77953,14 @@ language = dflt;
 value = "Workbench Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Overexposed";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -77987,14 +77987,6 @@ instanceInterpolations = {
 name = Maximum;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Moderate Maximum";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78002,6 +77994,14 @@ language = dflt;
 value = "Workbench Moderate";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Maximum";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -78027,14 +78027,6 @@ instanceInterpolations = {
 name = Delicate;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Strong Delicate";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78042,6 +78034,14 @@ language = dflt;
 value = "Workbench Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Delicate";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -78068,14 +78068,6 @@ instanceInterpolations = {
 name = Slight;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Strong Slight";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78083,6 +78075,14 @@ language = dflt;
 value = "Workbench Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Slight";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -78109,14 +78109,6 @@ instanceInterpolations = {
 name = Evenly;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Strong Evenly";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78124,6 +78116,14 @@ language = dflt;
 value = "Workbench Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Evenly";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -78149,14 +78149,6 @@ instanceInterpolations = {
 name = Close;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Strong Close";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78164,6 +78156,14 @@ language = dflt;
 value = "Workbench Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Close";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -78190,14 +78190,6 @@ instanceInterpolations = {
 name = Touching;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Strong Touching";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78205,6 +78197,14 @@ language = dflt;
 value = "Workbench Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Touching";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -78231,14 +78231,6 @@ instanceInterpolations = {
 name = Overlapping;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Strong Overlapping";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78246,6 +78238,14 @@ language = dflt;
 value = "Workbench Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Overlapping";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -78272,14 +78272,6 @@ instanceInterpolations = {
 name = Overexposed;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Strong Overexposed";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78287,6 +78279,14 @@ language = dflt;
 value = "Workbench Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Overexposed";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
@@ -78312,14 +78312,6 @@ instanceInterpolations = {
 name = Maximum;
 properties = (
 {
-key = WWSFamilyName;
-value = "Workbench Strong Maximum";
-},
-{
-key = WWSSubfamilyName;
-value = Regular;
-},
-{
 key = familyNames;
 values = (
 {
@@ -78327,14 +78319,18 @@ language = dflt;
 value = "Workbench Strong";
 }
 );
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Maximum";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
 }
 );
 },
 {
-axesValues = (
-0,
-0
-);
 customParameters = (
 {
 name = "Variable Font Origin";
@@ -78342,10 +78338,6 @@ value = "732E3B19-9B57-4E18-B329-A7AEC5A36DAC";
 }
 );
 exports = 0;
-instanceInterpolations = {
-"164C8123-3F0E-4C99-877D-0E85C432A9CE" = -0.08696;
-"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = 1.08696;
-};
 name = Regular;
 type = variable;
 }
@@ -78394,19 +78386,6 @@ key = designerURL;
 value = "https://www.kutilek.de/";
 },
 {
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Jens Kutilek";
-}
-);
-},
-{
-key = vendorID;
-value = JENS;
-},
-{
 key = licenses;
 values = (
 {
@@ -78418,6 +78397,19 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Jens Kutilek";
+}
+);
+},
+{
+key = vendorID;
+value = JENS;
 }
 );
 settings = {
@@ -80008,5 +80000,5 @@ zero = None;
 "com.hugojourdan.ColorFlow-selectedLayer-data" = "<null>";
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
