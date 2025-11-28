@@ -4,8 +4,6 @@
 #
 #    pip-compile requirements-test.in
 #
---extra-index-url https://gitserver.office.lucasfonts.com/pypi
-
 absl-py==2.3.1
     # via
     #   gftools
