@@ -134,6 +134,7 @@ fonttools[lxml,ufo,unicode,woff]==4.60.1
     #   fontmath
     #   fontparts
     #   fontpens
+    #   fonttools
     #   gftools
     #   glyphsets
     #   glyphslib
@@ -287,7 +288,7 @@ pygments==2.19.2
     # via rich
 pyjwt[crypto]==2.10.1
     # via pygithub
-pynacl==1.6.1
+pynacl==1.6.2
     # via pygithub
 pyparsing==3.2.5
     # via vttlib
