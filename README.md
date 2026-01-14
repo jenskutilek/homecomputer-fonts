@@ -14,7 +14,6 @@ Inspired by the article [Raster CRT Typography (According to DEC)](https://www.m
 	<figcaption>Workbench, check the <a href="https://jenskutilek.github.io/homecomputer-fonts/documentation/demo-workbench.html">interactive demo page</a>.</figcaption>
 </figure>
 
-
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
