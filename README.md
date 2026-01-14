@@ -46,4 +46,4 @@ https://scripts.sil.org/OFL
 
 ## Repository Layout
 
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+This font repository structure is based on the [Google Fonts Project Template](https://github.com/googlefonts/googlefonts-project-template).
