@@ -337,7 +337,7 @@ skia-pathops==0.9.0
     #   collidoscope
     #   gftools
     #   picosvg
-skia-python==138.0
+skia-python==144.0.post1
     # via blackrenderer
 smmap==5.0.2
     # via gitdb
