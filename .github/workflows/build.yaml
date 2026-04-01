@@ -30,7 +30,7 @@ jobs:
             ${{ runner.os }}-venv-
       - name: Install setuptools
         run: |
-          . venv/bin/activate
+          ./venv/bin/activate
           pip install setuptools
       - name: Set artifact file name
         id: zip-name
