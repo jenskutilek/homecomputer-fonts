@@ -4,7 +4,7 @@ help:
 	@echo "###"
 	@echo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
-	@echo "  make test:   Tests the fonts with fontbakery"
+	@echo "  make test:   Tests the fonts with fontspector"
 	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo
