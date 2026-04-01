@@ -28,10 +28,6 @@ jobs:
           key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
           restore-keys: |
             ${{ runner.os }}-venv-
-      - name: Install setuptools
-        run: |
-          . venv/bin/activate
-          pip install setuptools
       - name: Set artifact file name
         id: zip-name
         shell: bash
