@@ -1,5 +1,5 @@
 {
-.appVersion = "3506";
+.appVersion = "3520";
 .formatVersion = 3;
 DisplayStrings = (
 FM,
@@ -85,7 +85,7 @@ space
 );
 }
 );
-date = "2025-11-28 12:16:23 +0000";
+date = "2026-04-01 15:03:13 +0000";
 familyName = Workbench;
 featurePrefixes = (
 {
@@ -80000,5 +80000,5 @@ zero = None;
 "com.hugojourdan.ColorFlow-selectedLayer-data" = "<null>";
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
