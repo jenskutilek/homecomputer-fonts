@@ -29,11 +29,13 @@ build.stamp: ../venv sources/config.yaml $(SOURCES)
 
 ../venv/touchfile: ../requirements.txt
 	test -d ../venv || python3 -m venv ../venv
+	. ../venv/bin/activate; pip install -U setuptools
 	. ../venv/bin/activate; pip install -Ur ../requirements.txt
 	touch ../venv/touchfile
 
 ../venv-test/touchfile: ../requirements-test.txt
 	test -d ../venv-test || python3 -m venv ../venv-test
+	. ../venv/bin/activate; pip install -U setuptools
 	. ../venv-test/bin/activate; pip install -Ur ../requirements-test.txt
 	touch ../venv-test/touchfile
 
