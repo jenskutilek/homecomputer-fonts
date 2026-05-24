@@ -66,8 +66,9 @@ jobs:
         with:
           name: ${{ env.ZIP_NAME }}
           path: |
-            fonts
             out
+            Sixtyfour/fonts
+            Workbench/fonts
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
