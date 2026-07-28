@@ -225,7 +225,7 @@ paintcompiler==0.3.4
     # via -r requirements.in
 picosvg==0.22.3
     # via nanoemoji
-pillow==12.2.0
+pillow==12.3.0
     # via
     #   diffenator2
     #   gftools
