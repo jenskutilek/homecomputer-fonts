@@ -301,7 +301,7 @@ ruamel-yaml==0.19.1
     # via gftools
 selenium==4.44.0
     # via diffenator2
-sh==2.2.2
+sh==2.2.4
     # via -r requirements.in
 shaperglot==1.2.0
     # via fontbakery
