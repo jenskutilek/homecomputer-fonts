@@ -37,7 +37,7 @@
     - name: Left
       value: -100
     - name: Right
-      value: -100
+      value: 100
 - name: Vertical Element Alignment
   tag: YELA
   values:
@@ -45,6 +45,6 @@
       value: 0
       flags: 2
     - name: Top
-      value: -100
+      value: 100
     - name: Bottom
       value: -100
