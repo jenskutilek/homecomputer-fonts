@@ -55,7 +55,7 @@ value = 1;
 },
 {
 name = "Has WWS Names";
-value = 0;
+value = 1;
 },
 {
 name = "meta Table";
@@ -40925,6 +40925,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -40993,6 +40994,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -41061,6 +41063,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -41129,6 +41132,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -41197,6 +41201,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -41265,6 +41270,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -41333,6 +41339,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -41401,6 +41408,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
