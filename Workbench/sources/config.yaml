@@ -3,6 +3,8 @@ sources:
 axisOrder:
   - SCAN
   - BLED
+  - slnt
+  - ELXP
 familyName: Workbench
 buildOTF: false
 # buildTTF: false
@@ -13,7 +15,7 @@ flattenComponents: true
 reverseOutlineDirection: false
 removeOutlineOverlaps: false
 stat:
-  Workbench[BLED,SCAN].ttf:
+  Workbench[BLED,SCAN,slnt,ELXP].ttf:
     - name: Scanlines
       tag: SCAN
       values:
@@ -44,3 +46,17 @@ stat:
           value: 40
         - name: Strong
           value: 100
+    - name: Slant
+      tag: slnt
+      values:
+        - name: Oblique
+          value: -45
+        - name: Roman
+          value: 0
+          flags: 2
+    - name: Element Expansion
+      tag: ELXP
+      values:
+        - name: Normal
+          value: 0
+          flags: 2

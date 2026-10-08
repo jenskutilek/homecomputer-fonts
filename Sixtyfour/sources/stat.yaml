@@ -48,3 +48,17 @@
       value: 100
     - name: Bottom
       value: -100
+- name: Slant
+  tag: slnt
+  values:
+    - name: Oblique
+      value: -45
+    - name: Roman
+      value: 0
+      flags: 2
+- name: Element Expansion
+  tag: ELXP
+  values:
+    - name: Normal
+      value: 0
+      flags: 2
