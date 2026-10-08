@@ -1,0 +1,3616 @@
+{
+.appVersion = "3534";
+.formatVersion = 3;
+axes = (
+{
+name = Scanlines;
+tag = SCAN;
+},
+{
+name = Bleed;
+tag = BLED;
+},
+{
+name = Slant;
+tag = slnt;
+},
+{
+hidden = 1;
+name = "Element Expansion";
+tag = ELXP;
+}
+);
+customParameters = (
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = postscriptIsFixedPitch;
+value = 1;
+},
+{
+name = panose;
+value = (
+2,
+6,
+5,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
+},
+{
+name = "Default Layer Width";
+value = "512";
+},
+{
+name = "Variable Font Origin";
+value = "732E3B19-9B57-4E18-B329-A7AEC5A36DAC";
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+NULL,
+space
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = -53;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = 100;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = -53;
+},
+{
+Axis = Bleed;
+Location = 100;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 100;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = 100;
+},
+{
+Axis = Bleed;
+Location = 100;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+}
+);
+date = "2026-04-01 15:03:13 +0000";
+familyName = Workbench;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+code = "sub A from [A.case];
+sub E from [E.case];
+sub I from [I.case];
+sub N from [N.case];
+sub O from [O.case];
+sub U from [U.case];
+sub Y from [Y.case];
+sub one from [one.dnom onesuperior];
+sub two from [two.dnom twosuperior];
+sub three from [three.dnom threesuperior];
+sub four from [four.dnom foursuperior];";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+";
+disabled = 1;
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+";
+disabled = 1;
+tag = dnom;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+disabled = 1;
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+disabled = 1;
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub A by A.case;
+sub E by E.case;
+sub I by I.case;
+sub N by N.case;
+sub O by O.case;
+sub U by U.case;
+sub Y by Y.case;
+";
+disabled = 1;
+tag = case;
+}
+);
+fontMaster = (
+{
+axesValues = (
+0,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = typoAscender;
+value = 896;
+},
+{
+name = typoDescender;
+value = -128;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 896;
+},
+{
+name = hheaDescender;
+value = -128;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1024;
+},
+{
+name = winDescent;
+value = 256;
+},
+{
+name = underlineThickness;
+value = 128;
+},
+{
+name = underlinePosition;
+value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+}
+);
+guides = (
+{
+pos = (0,64);
+},
+{
+pos = (0,192);
+},
+{
+pos = (0,320);
+},
+{
+pos = (0,448);
+},
+{
+pos = (0,576);
+},
+{
+pos = (0,704);
+},
+{
+pos = (0,832);
+},
+{
+angle = 90;
+pos = (96,-128);
+},
+{
+pos = (0,-64);
+},
+{
+angle = 90;
+pos = (224,-128);
+},
+{
+angle = 90;
+pos = (352,-128);
+},
+{
+angle = 90;
+pos = (416,-128);
+},
+{
+angle = 90;
+pos = (160,-128);
+},
+{
+angle = 90;
+pos = (288,-128);
+},
+{
+angle = 90;
+pos = (32,-128);
+},
+{
+angle = 90;
+pos = (480,-128);
+}
+);
+id = "732E3B19-9B57-4E18-B329-A7AEC5A36DAC";
+metricValues = (
+{
+pos = 896;
+},
+{
+pos = 896;
+},
+{
+pos = 640;
+},
+{
+},
+{
+pos = -128;
+},
+{
+}
+);
+name = Regular;
+visible = 1;
+},
+{
+axesValues = (
+0,
+0,
+-45,
+0
+);
+customParameters = (
+{
+name = typoAscender;
+value = 896;
+},
+{
+name = typoDescender;
+value = -128;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 896;
+},
+{
+name = hheaDescender;
+value = -128;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1024;
+},
+{
+name = winDescent;
+value = 256;
+},
+{
+name = underlineThickness;
+value = 128;
+},
+{
+name = underlinePosition;
+value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = -45;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+}
+);
+guides = (
+{
+pos = (0,64);
+},
+{
+pos = (0,192);
+},
+{
+pos = (0,320);
+},
+{
+pos = (0,448);
+},
+{
+pos = (0,576);
+},
+{
+pos = (0,704);
+},
+{
+pos = (0,832);
+},
+{
+angle = 90;
+pos = (96,-128);
+},
+{
+pos = (0,-64);
+},
+{
+angle = 90;
+pos = (224,-128);
+},
+{
+angle = 90;
+pos = (352,-128);
+},
+{
+angle = 90;
+pos = (416,-128);
+},
+{
+angle = 90;
+pos = (160,-128);
+},
+{
+angle = 90;
+pos = (288,-128);
+},
+{
+angle = 90;
+pos = (32,-128);
+},
+{
+angle = 90;
+pos = (480,-128);
+}
+);
+id = "BD053BE9-32E6-4976-9351-0341A4580EBB";
+metricValues = (
+{
+pos = 896;
+},
+{
+pos = 896;
+},
+{
+pos = 640;
+},
+{
+},
+{
+pos = -128;
+},
+{
+}
+);
+name = Slanted;
+},
+{
+axesValues = (
+0,
+0,
+0,
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 896;
+},
+{
+name = typoDescender;
+value = -128;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 896;
+},
+{
+name = hheaDescender;
+value = -128;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1024;
+},
+{
+name = winDescent;
+value = 256;
+},
+{
+name = underlineThickness;
+value = 128;
+},
+{
+name = underlinePosition;
+value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 100;
+}
+);
+}
+);
+guides = (
+{
+pos = (0,64);
+},
+{
+pos = (0,192);
+},
+{
+pos = (0,320);
+},
+{
+pos = (0,448);
+},
+{
+pos = (0,576);
+},
+{
+pos = (0,704);
+},
+{
+pos = (0,832);
+},
+{
+angle = 90;
+pos = (96,-128);
+},
+{
+pos = (0,-64);
+},
+{
+angle = 90;
+pos = (224,-128);
+},
+{
+angle = 90;
+pos = (352,-128);
+},
+{
+angle = 90;
+pos = (416,-128);
+},
+{
+angle = 90;
+pos = (160,-128);
+},
+{
+angle = 90;
+pos = (288,-128);
+},
+{
+angle = 90;
+pos = (32,-128);
+},
+{
+angle = 90;
+pos = (480,-128);
+}
+);
+id = "485A16E5-743A-4342-9913-79B47C2F5E28";
+metricValues = (
+{
+pos = 896;
+},
+{
+pos = 896;
+},
+{
+pos = 640;
+},
+{
+},
+{
+pos = -128;
+},
+{
+}
+);
+name = Irregular;
+}
+);
+instances = (
+{
+axesValues = (
+-53,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -53;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+2,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "WorkbenchDelicate-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Workbench Delicate Regular";
+}
+);
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Delicate;
+properties = (
+{
+key = postscriptFontName;
+value = "WorkbenchDelicate-Regular";
+}
+);
+},
+{
+axesValues = (
+-45,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -45;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+3,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "WorkbenchSlight-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Workbench Slight Regular";
+}
+);
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Slight;
+properties = (
+{
+key = postscriptFontName;
+value = "WorkbenchSlight-Regular";
+}
+);
+},
+{
+axesValues = (
+-27,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -27;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+4,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "WorkbenchEvenly-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Workbench Evenly Regular";
+}
+);
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Evenly;
+properties = (
+{
+key = postscriptFontName;
+value = "WorkbenchEvenly-Regular";
+}
+);
+},
+{
+axesValues = (
+0,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+5,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "Workbench-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Workbench Regular";
+}
+);
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Close;
+properties = (
+{
+key = postscriptFontName;
+value = "Workbench-Regular";
+}
+);
+},
+{
+axesValues = (
+21,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 21;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+7,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "WorkbenchTouching-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Workbench Touching Regular";
+}
+);
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Touching;
+properties = (
+{
+key = postscriptFontName;
+value = "WorkbenchTouching-Regular";
+}
+);
+},
+{
+axesValues = (
+37,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 37;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+8,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "WorkbenchOverlapping-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Workbench Overlapping Regular";
+}
+);
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Overlapping;
+properties = (
+{
+key = postscriptFontName;
+value = "WorkbenchOverlapping-Regular";
+}
+);
+},
+{
+axesValues = (
+67,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 67;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+9,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "WorkbenchOverexposed-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Workbench Overexposed Regular";
+}
+);
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Overexposed;
+properties = (
+{
+key = postscriptFontName;
+value = "WorkbenchOverexposed-Regular";
+}
+);
+},
+{
+axesValues = (
+100,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 100;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+6,
+10,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "WorkbenchMaximum-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Workbench Maximum Regular";
+}
+);
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Maximum;
+properties = (
+{
+key = postscriptFontName;
+value = "WorkbenchMaximum-Regular";
+}
+);
+},
+{
+axesValues = (
+-53,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Delicate;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate  Delicate";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-45,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Slight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Slight";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-27,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Evenly;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Evenly";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+0,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Close;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Medium Close";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+21,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Touching;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Touching";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+37,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Overlapping;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Overlapping";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+67,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Overexposed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Overexposed";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+100,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Maximum;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Moderate Maximum";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-53,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Delicate;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Delicate";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-45,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Slight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Slight";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-27,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Evenly;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Evenly";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+0,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Close;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Close";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+21,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Touching;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Touching";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+37,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Overlapping;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Overlapping";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+67,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Overexposed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Overexposed";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+100,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = 1;
+};
+name = Maximum;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Workbench Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Workbench Strong Maximum";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+customParameters = (
+{
+name = "Variable Font Origin";
+value = "732E3B19-9B57-4E18-B329-A7AEC5A36DAC";
+}
+);
+name = Regular;
+type = variable;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2021 The Workbench Project Authors (https://github.com/jenskutilek/homecomputer-fonts)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Jens Kutilek";
+}
+);
+},
+{
+key = designerURL;
+value = "https://www.kutilek.de/";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Jens Kutilek";
+}
+);
+},
+{
+key = vendorID;
+value = JENS;
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+gridLength = 64;
+gridSubDivision = 64;
+};
+unitsPerEm = 1024;
+userData = {
+UFO.lib = {
+com.fontlab.v2.tth = {
+stems = {
+X64 = {
+horizontal = 0;
+round = {
+"0" = 1;
+"24" = 2;
+"40" = 3;
+"56" = 4;
+"72" = 5;
+"88" = 6;
+};
+width = 64;
+};
+Y128 = {
+horizontal = 1;
+round = {
+"0" = 1;
+"12" = 2;
+"20" = 3;
+"28" = 4;
+"36" = 5;
+"44" = 6;
+};
+width = 128;
+};
+};
+zones = {
+"b: 0" = {
+position = 3;
+top = 0;
+width = 6;
+};
+"b: 1" = {
+position = -128;
+top = 0;
+width = 3;
+};
+"t: 0" = {
+position = 637;
+top = 1;
+width = 6;
+};
+"t: 1" = {
+position = 896;
+top = 1;
+width = 3;
+};
+};
+};
+};
+UFOFormat = 2;
+"com.hugojourdan.ColorFlow-Report_Data" = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = {
+.notdef = None;
+A = None;
+A.case = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+circumflex = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+degree = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+four = None;
+four.dnom = None;
+foursuperior = None;
+fraction = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+j = None;
+k = None;
+l = None;
+less = None;
+logicalnot = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+one.dnom = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+percent = None;
+period = None;
+periodcentered = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+registered = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+six = None;
+slash = None;
+space = None;
+sterling = None;
+t = None;
+thorn = None;
+three = None;
+three.dnom = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+two = None;
+two.dnom = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+v = None;
+w = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = {
+.notdef = None;
+A = None;
+A.case = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+circumflex = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+degree = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+four = None;
+four.dnom = None;
+foursuperior = None;
+fraction = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+j = None;
+k = None;
+l = None;
+less = None;
+logicalnot = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+one.dnom = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+percent = None;
+period = None;
+periodcentered = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+registered = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+six = None;
+slash = None;
+space = None;
+sterling = None;
+t = None;
+thorn = None;
+three = None;
+three.dnom = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+two = None;
+two.dnom = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+v = None;
+w = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = {
+.notdef = None;
+A = None;
+A.case = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+circumflex = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+degree = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+four = None;
+four.dnom = None;
+foursuperior = None;
+fraction = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+j = None;
+k = None;
+l = None;
+less = None;
+logicalnot = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+one.dnom = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+percent = None;
+period = None;
+periodcentered = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+registered = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+six = None;
+slash = None;
+space = None;
+sterling = None;
+t = None;
+thorn = None;
+three = None;
+three.dnom = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+two = None;
+two.dnom = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+v = None;
+w = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"B1E7A4ED-ED93-4651-9B66-BD3BE066CA0D" = {
+.notdef = None;
+A = None;
+A.case = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+circumflex = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+degree = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+four = None;
+four.dnom = None;
+foursuperior = None;
+fraction = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+j = None;
+k = None;
+l = None;
+less = None;
+logicalnot = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+one.dnom = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+percent = None;
+period = None;
+periodcentered = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+registered = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+six = None;
+slash = None;
+space = None;
+sterling = None;
+t = None;
+thorn = None;
+three = None;
+three.dnom = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+two = None;
+two.dnom = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+v = None;
+w = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = {
+.notdef = None;
+A = None;
+A.case = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+circumflex = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+degree = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+four = None;
+four.dnom = None;
+foursuperior = None;
+fraction = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+j = None;
+k = None;
+l = None;
+less = None;
+logicalnot = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+one.dnom = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+percent = None;
+period = None;
+periodcentered = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+registered = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+six = None;
+slash = None;
+space = None;
+sterling = None;
+t = None;
+thorn = None;
+three = None;
+three.dnom = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+two = None;
+two.dnom = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+v = None;
+w = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = {
+.notdef = None;
+A = None;
+A.case = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+circumflex = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+degree = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+four = None;
+four.dnom = None;
+foursuperior = None;
+fraction = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+j = None;
+k = None;
+l = None;
+less = None;
+logicalnot = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+one.dnom = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+percent = None;
+period = None;
+periodcentered = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+registered = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+six = None;
+slash = None;
+space = None;
+sterling = None;
+t = None;
+thorn = None;
+three = None;
+three.dnom = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+two = None;
+two.dnom = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+v = None;
+w = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+};
+"com.hugojourdan.ColorFlow-currentFont" = "<null>";
+"com.hugojourdan.ColorFlow-export" = "<null>";
+"com.hugojourdan.ColorFlow-master-data" = {
+"164C8123-3F0E-4C99-877D-0E85C432A9CE" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"38088322-78A3-4F4F-B46E-F8355B0BCD96" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"732E3B19-9B57-4E18-B329-A7AEC5A36DAC" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"B1E7A4ED-ED93-4651-9B66-BD3BE066CA0D" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"EDC3ADDC-530C-4ECE-AAC6-732B149A8D4A" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"EF047752-ED93-49D3-A4D1-D66A6AAE90C7" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+"com.hugojourdan.ColorFlow-selectedLayer" = 0;
+"com.hugojourdan.ColorFlow-selectedLayer-data" = "<null>";
+};
+versionMajor = 2;
+versionMinor = 3;
+}

@@ -1,0 +1,5777 @@
+{
+.appVersion = "3534";
+.formatVersion = 3;
+axes = (
+{
+name = Scanlines;
+tag = SCAN;
+},
+{
+name = Bleed;
+tag = BLED;
+},
+{
+name = Slant;
+tag = slnt;
+},
+{
+hidden = 1;
+name = "Element Expansion";
+tag = ELXP;
+}
+);
+classes = (
+{
+code = "upArrow
+leftArrow
+space
+boxHeavyHorizontal
+spadeBlackSuit
+boxHeavyVertical
+uniE000
+uniE001
+uniE002
+uniE003
+uniE004
+uniE005
+boxLightArcDownAndLeft
+boxLightArcUpAndRight
+boxLightArcUpAndLeft
+leftAndLowerOneEighthBlock
+boxLightDiagonalUpperLeftToLowerRight
+boxLightDiagonalUpperRightToLowerLeft
+leftAndUpperOneEighthBlock
+rightAndUpperOneEighthBlock
+blackCircle
+uniE009
+heartBlackSuit
+uniE00A
+boxLightArcDownAndRight
+boxLightDiagonalCross
+whiteCircle
+clubBlackSuit
+uniE00B
+diamondBlackSuit
+boxHeavyVerticalAndHorizontal
+leftHalfMediumShade
+uniE00D
+pi
+upperRightBlackTriangle
+nbspace
+leftBlock
+lowerHalfBlock
+upperOneEighthBlock
+lowerOneEighthBlock
+leftOneEighthBlock
+shadedark
+rightOneEighthBlock
+lowerHalfMediumShade
+upperLeftBlackTriangle
+uniE00F
+boxHeavyVerticalAndRight
+lowerRightBlock
+boxHeavyUpAndRight
+boxHeavyDownAndLeft
+lowerOneQuarterBlock
+boxHeavyDownAndRight
+boxHeavyUpAndHorizontal
+boxHeavyDownAndHorizontal
+boxHeavyVerticalAndLeft
+leftOneQuarterBlock
+leftThreeEighthsBlock
+rightThreeQuartersBlock
+upperOneQuarterBlock
+upperThreeEighthsBlock
+lowerThreeEighthsBlock
+rightAndLowerOneEighthBlock
+lowerLeftBlock
+upperRightBlock
+boxHeavyUpAndLeft
+upperLeftBlock
+upperLeftAndLowerRightBlock
+upperlefttolowerrightFillSquare
+upperrighttolowerleftFillSquare
+checkmark
+rightArrow
+downArrow
+";
+name = rev_gfx_source;
+},
+{
+code = "uniE032
+uniE033
+fullBlock
+uniE053
+spadeWhiteSuit
+uniE054
+uniE055
+uniE056
+uniE057
+uniE058
+uniE059
+uniE05A
+uniE05B
+uniE05C
+uniE05D
+uniE05E
+uniE05F
+uniE060
+uniE061
+uniE062
+inverseBullet
+uniE063
+heartWhiteSuit
+uniE064
+uniE065
+uniE066
+inverseWhiteCircle
+clubWhiteSuit
+uniE067
+diamondWhiteSuit
+uniE068
+uniE069
+uniE06A
+uniE06B
+lowerLeftBlackTriangle
+uniE06C
+rightBlock
+upperHalfBlock
+lowerSevenEighthsBlock
+upperSevenEighthsBlock
+uniE06E
+inverseCheckerBoardFill
+leftSevenEighthsBlock
+uniE070
+lowerRightBlackTriangle
+leftThreeQuartersBlock
+uniE071
+upperLeftAndUpperRightAndLowerLeftBlock
+uniE072
+uniE073
+upperThreeQuartersBlock
+uniE075
+uniE076
+uniE077
+uniE078
+uniE079
+uniE07A
+leftFiveEighthsBlock
+lowerThreeQuartersBlock
+lowerFiveEighthsBlock
+upperFiveEighthsBlock
+uniE07C
+upperLeftAndUpperRightAndLowerRightBlock
+upperLeftAndLowerLeftAndLowerRightBlock
+uniE07D
+upperRightAndLowerLeftAndLowerRightBlock
+upperRightAndLowerLeftBlock
+uniE099
+uniE09A
+uniE09B
+uniE09C
+uniE09D
+";
+name = rev_gfx_target;
+},
+{
+code = "at
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+bracketleft
+sterling
+bracketright
+upArrow
+leftArrow
+space
+exclam
+quotedbl
+numbersign
+dollar
+percent
+ampersand
+quotesingle
+parenleft
+parenright
+asterisk
+plus
+comma
+hyphen
+period
+slash
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+colon
+semicolon
+less
+equal
+greater
+question
+pi
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+rightArrow
+downArrow
+";
+name = rev_alphanum_source;
+},
+{
+code = "uniE014
+uniE015
+uniE016
+uniE017
+uniE018
+uniE019
+uniE01A
+uniE01B
+uniE01C
+uniE01D
+uniE01E
+uniE01F
+uniE020
+uniE021
+uniE022
+uniE023
+uniE024
+uniE025
+uniE026
+uniE027
+uniE028
+uniE029
+uniE02A
+uniE02B
+uniE02C
+uniE02D
+uniE02E
+uniE02F
+uniE030
+uniE031
+uniE032
+uniE033
+fullBlock
+uniE034
+uniE035
+uniE036
+uniE037
+uniE038
+uniE039
+uniE03A
+uniE03B
+uniE03C
+uniE03D
+uniE03E
+uniE03F
+uniE040
+uniE041
+uniE042
+uniE043
+uniE044
+uniE045
+uniE046
+uniE047
+uniE048
+uniE049
+uniE04A
+uniE04B
+uniE04C
+uniE04D
+uniE04E
+uniE04F
+uniE050
+uniE051
+uniE052
+uniE06B
+uniE07F
+uniE080
+uniE081
+uniE082
+uniE083
+uniE084
+uniE085
+uniE086
+uniE087
+uniE088
+uniE089
+uniE08A
+uniE08B
+uniE08C
+uniE08D
+uniE08E
+uniE08F
+uniE090
+uniE091
+uniE092
+uniE093
+uniE094
+uniE095
+uniE096
+uniE097
+uniE098
+uniE09C
+uniE09D
+";
+name = rev_alphanum_target;
+},
+{
+code = "at
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+bracketleft
+sterling
+bracketright
+upArrow
+leftArrow
+space
+exclam
+quotedbl
+numbersign
+dollar
+percent
+ampersand
+quotesingle
+parenleft
+parenright
+asterisk
+plus
+comma
+hyphen
+period
+slash
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+colon
+semicolon
+less
+equal
+greater
+question
+pi
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+rightArrow
+downArrow
+
+upArrow
+leftArrow
+space
+boxHeavyHorizontal
+spadeBlackSuit
+boxHeavyVertical
+uniE000
+uniE001
+uniE002
+uniE003
+uniE004
+uniE005
+boxLightArcDownAndLeft
+boxLightArcUpAndRight
+boxLightArcUpAndLeft
+leftAndLowerOneEighthBlock
+boxLightDiagonalUpperLeftToLowerRight
+boxLightDiagonalUpperRightToLowerLeft
+leftAndUpperOneEighthBlock
+rightAndUpperOneEighthBlock
+blackCircle
+uniE009
+heartBlackSuit
+uniE00A
+boxLightArcDownAndRight
+boxLightDiagonalCross
+whiteCircle
+clubBlackSuit
+uniE00B
+diamondBlackSuit
+boxHeavyVerticalAndHorizontal
+leftHalfMediumShade
+uniE00D
+pi
+upperRightBlackTriangle
+nbspace
+leftBlock
+lowerHalfBlock
+upperOneEighthBlock
+lowerOneEighthBlock
+leftOneEighthBlock
+shadedark
+rightOneEighthBlock
+lowerHalfMediumShade
+upperLeftBlackTriangle
+uniE00F
+boxHeavyVerticalAndRight
+lowerRightBlock
+boxHeavyUpAndRight
+boxHeavyDownAndLeft
+lowerOneQuarterBlock
+boxHeavyDownAndRight
+boxHeavyUpAndHorizontal
+boxHeavyDownAndHorizontal
+boxHeavyVerticalAndLeft
+leftOneQuarterBlock
+leftThreeEighthsBlock
+rightThreeQuartersBlock
+upperOneQuarterBlock
+upperThreeEighthsBlock
+lowerThreeEighthsBlock
+rightAndLowerOneEighthBlock
+lowerLeftBlock
+upperRightBlock
+boxHeavyUpAndLeft
+upperLeftBlock
+upperLeftAndLowerRightBlock
+upperlefttolowerrightFillSquare
+upperrighttolowerleftFillSquare
+checkmark
+rightArrow
+downArrow
+";
+name = rev_all_source;
+},
+{
+code = "uniE014
+uniE015
+uniE016
+uniE017
+uniE018
+uniE019
+uniE01A
+uniE01B
+uniE01C
+uniE01D
+uniE01E
+uniE01F
+uniE020
+uniE021
+uniE022
+uniE023
+uniE024
+uniE025
+uniE026
+uniE027
+uniE028
+uniE029
+uniE02A
+uniE02B
+uniE02C
+uniE02D
+uniE02E
+uniE02F
+uniE030
+uniE031
+uniE032
+uniE033
+fullBlock
+uniE034
+uniE035
+uniE036
+uniE037
+uniE038
+uniE039
+uniE03A
+uniE03B
+uniE03C
+uniE03D
+uniE03E
+uniE03F
+uniE040
+uniE041
+uniE042
+uniE043
+uniE044
+uniE045
+uniE046
+uniE047
+uniE048
+uniE049
+uniE04A
+uniE04B
+uniE04C
+uniE04D
+uniE04E
+uniE04F
+uniE050
+uniE051
+uniE052
+uniE06B
+uniE07F
+uniE080
+uniE081
+uniE082
+uniE083
+uniE084
+uniE085
+uniE086
+uniE087
+uniE088
+uniE089
+uniE08A
+uniE08B
+uniE08C
+uniE08D
+uniE08E
+uniE08F
+uniE090
+uniE091
+uniE092
+uniE093
+uniE094
+uniE095
+uniE096
+uniE097
+uniE098
+uniE09C
+uniE09D
+
+uniE032
+uniE033
+fullBlock
+uniE053
+spadeWhiteSuit
+uniE054
+uniE055
+uniE056
+uniE057
+uniE058
+uniE059
+uniE05A
+uniE05B
+uniE05C
+uniE05D
+uniE05E
+uniE05F
+uniE060
+uniE061
+uniE062
+inverseBullet
+uniE063
+heartWhiteSuit
+uniE064
+uniE065
+uniE066
+inverseWhiteCircle
+clubWhiteSuit
+uniE067
+diamondWhiteSuit
+uniE068
+uniE069
+uniE06A
+uniE06B
+lowerLeftBlackTriangle
+uniE06C
+rightBlock
+upperHalfBlock
+lowerSevenEighthsBlock
+upperSevenEighthsBlock
+uniE06E
+inverseCheckerBoardFill
+leftSevenEighthsBlock
+uniE070
+lowerRightBlackTriangle
+leftThreeQuartersBlock
+uniE071
+upperLeftAndUpperRightAndLowerLeftBlock
+uniE072
+uniE073
+upperThreeQuartersBlock
+uniE075
+uniE076
+uniE077
+uniE078
+uniE079
+uniE07A
+leftFiveEighthsBlock
+lowerThreeQuartersBlock
+lowerFiveEighthsBlock
+upperFiveEighthsBlock
+uniE07C
+upperLeftAndUpperRightAndLowerRightBlock
+upperLeftAndLowerLeftAndLowerRightBlock
+uniE07D
+upperRightAndLowerLeftAndLowerRightBlock
+upperRightAndLowerLeftBlock
+uniE099
+uniE09A
+uniE09B
+uniE09C
+uniE09D
+";
+name = rev_all_target;
+}
+);
+customParameters = (
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = postscriptIsFixedPitch;
+value = 1;
+},
+{
+name = panose;
+value = (
+2,
+11,
+5,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
+},
+{
+name = "Default Layer Width";
+value = "1024";
+},
+{
+name = "Variable Font Origin";
+value = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+NULL,
+space
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = -53;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = 100;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = -53;
+},
+{
+Axis = Bleed;
+Location = 100;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 100;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Scanlines;
+Location = 100;
+},
+{
+Axis = Bleed;
+Location = 100;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+}
+);
+date = "2026-04-01 15:02:45 +0000";
+familyName = Sixtyfour;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+code = "feature salt;
+feature ss01;
+feature ss02;
+feature ss03;
+feature ss04;
+
+sub A from [A.case A.case.2];
+sub E from [E.case];
+sub I from [I.case I.case.2];
+sub N from [N.case];
+sub O from [O.case];
+sub U from [U.case U.case.2];
+sub Y from [Y.case];
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+disabled = 1;
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+";
+disabled = 1;
+tag = sups;
+},
+{
+code = "# C64-style quotes
+sub guillemetright  by quotedbl;
+sub guillemetleft by quotedbl;
+sub quotedblleft by quotedbl;
+sub quotedblright by quotedbl;
+sub quotedblbase by quotedbl;
+  
+sub quoteleft by quotesingle;
+sub quoteright by quotesingle;
+sub quotesinglbase by quotesingle;
+sub guilsinglleft by quotesingle;
+sub guilsinglright by quotesingle;";
+tag = salt;
+},
+{
+code = "featureNames {
+	name \"Dumb quotes\";
+};
+
+# C64-style quotes
+sub guillemetright  by quotedbl;
+sub guillemetleft by quotedbl;
+sub quotedblleft by quotedbl;
+sub quotedblright by quotedbl;
+sub quotedblbase by quotedbl;
+  
+sub quoteleft by quotesingle;
+sub quoteright by quotesingle;
+sub quotesinglbase by quotesingle;
+sub guilsinglleft by quotesingle;
+sub guilsinglright by quotesingle;
+";
+labels = (
+{
+language = dflt;
+value = "Dumb quotes";
+}
+);
+tag = ss01;
+},
+{
+code = "featureNames {
+	name \"Inverted\";
+};
+
+sub @rev_all_source by @rev_all_target;
+";
+labels = (
+{
+language = dflt;
+value = "Invert everything";
+}
+);
+tag = ss02;
+},
+{
+code = " featureNames {
+	name \"Inverted alphanumerics\";
+};
+
+sub @rev_alphanum_source by @rev_alphanum_target;
+";
+labels = (
+{
+language = dflt;
+value = "Invert alphanumerics";
+}
+);
+tag = ss03;
+},
+{
+code = "featureNames {
+	name \"Inverted block graphics\";
+};
+
+sub @rev_gfx_source by @rev_gfx_target;
+";
+labels = (
+{
+language = dflt;
+value = "Invert block graphics";
+}
+);
+tag = ss04;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+disabled = 1;
+tag = frac;
+}
+);
+fontMaster = (
+{
+axesValues = (
+0,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = typoAscender;
+value = 896;
+},
+{
+name = typoDescender;
+value = -128;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 896;
+},
+{
+name = hheaDescender;
+value = -128;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1024;
+},
+{
+name = winDescent;
+value = 256;
+},
+{
+name = underlineThickness;
+value = 128;
+},
+{
+name = underlinePosition;
+value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+}
+);
+guides = (
+{
+pos = (0,384);
+},
+{
+angle = 90;
+pos = (512,0);
+}
+);
+id = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+metricValues = (
+{
+pos = 896;
+},
+{
+pos = 896;
+},
+{
+pos = 640;
+},
+{
+over = -20;
+},
+{
+pos = -128;
+},
+{
+},
+{
+over = 6;
+pos = 893;
+},
+{
+over = 6;
+pos = 765;
+},
+{
+over = 6;
+pos = 637;
+},
+{
+over = -6;
+pos = 3;
+},
+{
+over = -6;
+pos = -125;
+}
+);
+name = Regular;
+stemValues = (
+134,
+262
+);
+},
+{
+axesValues = (
+0,
+0,
+-45,
+0
+);
+customParameters = (
+{
+name = typoAscender;
+value = 896;
+},
+{
+name = typoDescender;
+value = -128;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 896;
+},
+{
+name = hheaDescender;
+value = -128;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1024;
+},
+{
+name = winDescent;
+value = 256;
+},
+{
+name = underlineThickness;
+value = 128;
+},
+{
+name = underlinePosition;
+value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = -45;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+}
+);
+guides = (
+{
+pos = (0,384);
+},
+{
+angle = 90;
+pos = (512,0);
+},
+{
+angle = 45;
+pos = (876,0);
+},
+{
+angle = 45;
+pos = (20,0);
+},
+{
+angle = 45;
+pos = (-108,0);
+},
+{
+angle = 45;
+pos = (1004,0);
+}
+);
+id = "A4EE9581-D91B-41F2-8924-3445CD6179B3";
+metricValues = (
+{
+pos = 896;
+},
+{
+pos = 896;
+},
+{
+pos = 640;
+},
+{
+over = -20;
+},
+{
+pos = -128;
+},
+{
+},
+{
+over = 6;
+pos = 893;
+},
+{
+over = 6;
+pos = 765;
+},
+{
+over = 6;
+pos = 637;
+},
+{
+over = -6;
+pos = 3;
+},
+{
+over = -6;
+pos = -125;
+}
+);
+name = Slanted;
+stemValues = (
+134,
+262
+);
+},
+{
+axesValues = (
+0,
+0,
+0,
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 896;
+},
+{
+name = typoDescender;
+value = -128;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 896;
+},
+{
+name = hheaDescender;
+value = -128;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1024;
+},
+{
+name = winDescent;
+value = 256;
+},
+{
+name = underlineThickness;
+value = 128;
+},
+{
+name = underlinePosition;
+value = -128;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+},
+{
+Axis = Slant;
+Location = 0;
+},
+{
+Axis = "Element Expansion";
+Location = 0;
+}
+);
+}
+);
+guides = (
+{
+pos = (0,384);
+},
+{
+angle = 90;
+pos = (512,0);
+}
+);
+id = "A1DAFEE3-935D-418A-9BF9-692F41702DDF";
+metricValues = (
+{
+pos = 896;
+},
+{
+pos = 896;
+},
+{
+pos = 640;
+},
+{
+over = -20;
+},
+{
+pos = -128;
+},
+{
+},
+{
+over = 6;
+pos = 893;
+},
+{
+over = 6;
+pos = 765;
+},
+{
+over = 6;
+pos = 637;
+},
+{
+over = -6;
+pos = 3;
+},
+{
+over = -6;
+pos = -125;
+}
+);
+name = Irregular;
+stemValues = (
+134,
+262
+);
+}
+);
+instances = (
+{
+axesValues = (
+-53,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -53;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+11,
+2,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "SixtyfourDelicate-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Delicate Regular";
+}
+);
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Delicate;
+properties = (
+{
+key = postscriptFontName;
+value = "SixtyfourDelicate-Regular";
+}
+);
+},
+{
+axesValues = (
+-45,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -45;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+11,
+3,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "SixtyfourSlight-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Slight Regular";
+}
+);
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Slight;
+properties = (
+{
+key = postscriptFontName;
+value = "SixtyfourSlight-Regular";
+}
+);
+},
+{
+axesValues = (
+-27,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = -27;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+11,
+4,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "SixtyfourEvenly-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Evenly Regular";
+}
+);
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Evenly;
+properties = (
+{
+key = postscriptFontName;
+value = "SixtyfourEvenly-Regular";
+}
+);
+},
+{
+axesValues = (
+0,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 0;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+11,
+5,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "Sixtyfour-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Regular";
+}
+);
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Close;
+properties = (
+{
+key = postscriptFontName;
+value = "Sixtyfour-Regular";
+}
+);
+},
+{
+axesValues = (
+21,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 21;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+11,
+7,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "SixtyfourTouching-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Touching Regular";
+}
+);
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Touching;
+properties = (
+{
+key = postscriptFontName;
+value = "SixtyfourTouching-Regular";
+}
+);
+},
+{
+axesValues = (
+37,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 37;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+11,
+8,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "SixtyfourOverlapping-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Overlapping Regular";
+}
+);
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Overlapping;
+properties = (
+{
+key = postscriptFontName;
+value = "SixtyfourOverlapping-Regular";
+}
+);
+},
+{
+axesValues = (
+67,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 67;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+11,
+9,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "SixtyfourOverexposed-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Overexposed Regular";
+}
+);
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Overexposed;
+properties = (
+{
+key = postscriptFontName;
+value = "SixtyfourOverexposed-Regular";
+}
+);
+},
+{
+axesValues = (
+100,
+0,
+0,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Scanlines;
+Location = 100;
+},
+{
+Axis = Bleed;
+Location = 0;
+}
+);
+},
+{
+name = panose;
+value = (
+2,
+11,
+10,
+9,
+7,
+7,
+2,
+4,
+5,
+7
+);
+},
+{
+name = fileName;
+value = "SixtyfourMaximum-Regular";
+},
+{
+name = "Name Table Entry";
+value = "4; Sixtyfour Maximum Regular";
+}
+);
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Maximum;
+properties = (
+{
+key = postscriptFontName;
+value = "SixtyfourMaximum-Regular";
+}
+);
+},
+{
+axesValues = (
+-53,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Delicate;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Delicate";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-45,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Slight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Slight";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-27,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Evenly;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Evenly";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+0,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Close;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Close";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+21,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Touching;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Touching";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+37,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Overlapping;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Overlapping";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+67,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Overexposed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Overexposed";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+100,
+40,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Maximum;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Moderate";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Moderate Maximum ";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-53,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Delicate;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Delicate";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-45,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Slight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Slight";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+-27,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Evenly;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Evenly";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+0,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Close;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Close";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+21,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Touching;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Touching";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+37,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Overlapping;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Overlapping";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+67,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Overexposed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Overexposed";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+axesValues = (
+100,
+100,
+0,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+exports = 0;
+instanceInterpolations = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = 1;
+};
+name = Maximum;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sixtyfour Strong";
+}
+);
+},
+{
+key = WWSFamilyName;
+value = "Sixtyfour Strong Maximum";
+},
+{
+key = WWSSubfamilyName;
+value = Regular;
+}
+);
+},
+{
+customParameters = (
+{
+name = "Variable Font Origin";
+value = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+}
+);
+name = Regular;
+type = variable;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+name = "zone 1";
+},
+{
+name = "zone 2";
+},
+{
+name = "zone 3";
+},
+{
+name = "zone 4";
+},
+{
+name = "zone 5";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Jens Kutilek";
+}
+);
+},
+{
+key = designerURL;
+value = "https://www.kutilek.de/";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Jens Kutilek";
+}
+);
+},
+{
+key = vendorID;
+value = JENS;
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+gridLength = 128;
+gridSubDivision = 128;
+};
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
+unitsPerEm = 1024;
+userData = {
+UFOFormat = 2;
+com.fontlab.v2.tth = {
+stems = {
+"X: 262" = {
+horizontal = 0;
+round = {
+"0" = 1;
+"10" = 3;
+"14" = 4;
+"18" = 5;
+"22" = 6;
+"6" = 2;
+};
+width = 262;
+};
+"Y: 134" = {
+horizontal = 1;
+round = {
+"0" = 1;
+"12" = 2;
+"20" = 3;
+"27" = 4;
+"35" = 5;
+"43" = 6;
+};
+width = 134;
+};
+h00 = {
+horizontal = 1;
+round = {
+"0" = 1;
+"12" = 2;
+"20" = 3;
+"27" = 4;
+"35" = 5;
+"44" = 6;
+};
+width = 128;
+};
+v00 = {
+horizontal = 0;
+round = {
+"0" = 1;
+"10" = 3;
+"14" = 4;
+"18" = 5;
+"22" = 6;
+"6" = 2;
+};
+width = 256;
+};
+};
+};
+"com.hugojourdan.ColorFlow-Report_Data" = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = {
+.notdef = None;
+A = None;
+A.case = None;
+A.case.2 = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+Delta = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+I.case.2 = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Ohm = None;
+Omega = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+U.case.2 = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+approxequal = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+blackCircle = None;
+boxHeavyDownAndHorizontal = None;
+boxHeavyDownAndLeft = None;
+boxHeavyDownAndRight = None;
+boxHeavyHorizontal = None;
+boxHeavyUpAndHorizontal = None;
+boxHeavyUpAndLeft = None;
+boxHeavyUpAndRight = None;
+boxHeavyVertical = None;
+boxHeavyVerticalAndHorizontal = None;
+boxHeavyVerticalAndLeft = None;
+boxHeavyVerticalAndRight = None;
+boxLightArcDownAndLeft = None;
+boxLightArcDownAndRight = None;
+boxLightArcUpAndLeft = None;
+boxLightArcUpAndRight = None;
+boxLightDiagonalCross = None;
+boxLightDiagonalUpperLeftToLowerRight = None;
+boxLightDiagonalUpperRightToLowerLeft = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+checkmark = None;
+circumflex = None;
+clubBlackSuit = None;
+clubWhiteSuit = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+dagger = None;
+daggerdbl = None;
+degree = None;
+diamondBlackSuit = None;
+diamondWhiteSuit = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+dotaccent = None;
+downArrow = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+florin = None;
+four = None;
+foursuperior = None;
+fraction = None;
+fullBlock = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+greaterequal = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+heartBlackSuit = None;
+heartWhiteSuit = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+increment = None;
+infinity = None;
+integral = None;
+inverseBullet = None;
+inverseWhiteCircle = None;
+j = None;
+k = None;
+l = None;
+leftArrow = None;
+leftBlock = None;
+leftFiveEighthsBlock = None;
+leftOneEighthBlock = None;
+leftOneQuarterBlock = None;
+leftSevenEighthsBlock = None;
+leftThreeEighthsBlock = None;
+leftThreeQuartersBlock = None;
+less = None;
+lessequal = None;
+logicalnot = None;
+longs = None;
+lowerFiveEighthsBlock = None;
+lowerHalfBlock = None;
+lowerLeftBlackTriangle = None;
+lowerLeftBlock = None;
+lowerOneEighthBlock = None;
+lowerOneQuarterBlock = None;
+lowerRightBlackTriangle = None;
+lowerRightBlock = None;
+lowerSevenEighthsBlock = None;
+lowerThreeEighthsBlock = None;
+lowerThreeQuartersBlock = None;
+lozenge = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+mu = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+notequal = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+partialdiff = None;
+percent = None;
+period = None;
+periodcentered = None;
+perthousand = None;
+pi = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+product = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+radical = None;
+registered = None;
+rightArrow = None;
+rightBlock = None;
+rightOneEighthBlock = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+shadedark = None;
+six = None;
+slash = None;
+space = None;
+spadeBlackSuit = None;
+spadeWhiteSuit = None;
+sterling = None;
+summation = None;
+t = None;
+thorn = None;
+three = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+trademark = None;
+two = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+uniE000 = None;
+uniE001 = None;
+uniE002 = None;
+uniE003 = None;
+uniE004 = None;
+uniE005 = None;
+uniE006 = None;
+uniE007 = None;
+uniE008 = None;
+uniE009 = None;
+uniE00A = None;
+uniE00B = None;
+uniE00C = None;
+uniE00D = None;
+uniE00E = None;
+uniE00F = None;
+uniE010 = None;
+uniE011 = None;
+uniE012 = None;
+uniE013 = None;
+uniE014 = None;
+uniE015 = None;
+uniE016 = None;
+uniE017 = None;
+uniE018 = None;
+uniE019 = None;
+uniE01A = None;
+uniE01B = None;
+uniE01C = None;
+uniE01D = None;
+uniE01E = None;
+uniE01F = None;
+uniE020 = None;
+uniE021 = None;
+uniE022 = None;
+uniE023 = None;
+uniE024 = None;
+uniE025 = None;
+uniE026 = None;
+uniE027 = None;
+uniE028 = None;
+uniE029 = None;
+uniE02A = None;
+uniE02B = None;
+uniE02C = None;
+uniE02D = None;
+uniE02E = None;
+uniE02F = None;
+uniE030 = None;
+uniE031 = None;
+uniE032 = None;
+uniE033 = None;
+uniE034 = None;
+uniE035 = None;
+uniE036 = None;
+uniE037 = None;
+uniE038 = None;
+uniE039 = None;
+uniE03A = None;
+uniE03B = None;
+uniE03C = None;
+uniE03D = None;
+uniE03E = None;
+uniE03F = None;
+uniE040 = None;
+uniE041 = None;
+uniE042 = None;
+uniE043 = None;
+uniE044 = None;
+uniE045 = None;
+uniE046 = None;
+uniE047 = None;
+uniE048 = None;
+uniE049 = None;
+uniE04A = None;
+uniE04B = None;
+uniE04C = None;
+uniE04D = None;
+uniE04E = None;
+uniE04F = None;
+uniE050 = None;
+uniE051 = None;
+uniE052 = None;
+uniE053 = None;
+uniE054 = None;
+uniE055 = None;
+uniE056 = None;
+uniE057 = None;
+uniE058 = None;
+uniE059 = None;
+uniE05A = None;
+uniE05B = None;
+uniE05C = None;
+uniE05D = None;
+uniE05E = None;
+uniE05F = None;
+uniE060 = None;
+uniE061 = None;
+uniE062 = None;
+uniE063 = None;
+uniE064 = None;
+uniE065 = None;
+uniE066 = None;
+uniE067 = None;
+uniE068 = None;
+uniE069 = None;
+uniE06A = None;
+uniE06B = None;
+uniE06C = None;
+uniE06D = None;
+uniE06E = None;
+uniE06F = None;
+uniE070 = None;
+uniE071 = None;
+uniE072 = None;
+uniE073 = None;
+uniE074 = None;
+uniE075 = None;
+uniE076 = None;
+uniE077 = None;
+uniE078 = None;
+uniE079 = None;
+uniE07A = None;
+uniE07B = None;
+uniE07C = None;
+uniE07D = None;
+uniE07E = None;
+uniE07F = None;
+uniE080 = None;
+uniE081 = None;
+uniE082 = None;
+uniE083 = None;
+uniE084 = None;
+uniE085 = None;
+uniE086 = None;
+uniE087 = None;
+uniE088 = None;
+uniE089 = None;
+uniE08A = None;
+uniE08B = None;
+uniE08C = None;
+uniE08D = None;
+uniE08E = None;
+uniE08F = None;
+uniE090 = None;
+uniE091 = None;
+uniE092 = None;
+uniE093 = None;
+uniE094 = None;
+uniE095 = None;
+uniE096 = None;
+uniE097 = None;
+uniE098 = None;
+uniE099 = None;
+uniE09A = None;
+uniE09B = None;
+uniE09C = None;
+uniE09D = None;
+upArrow = None;
+upperHalfBlock = None;
+upperLeftAndLowerLeftAndLowerRightBlock = None;
+upperLeftAndLowerRightBlock = None;
+upperLeftAndUpperRightAndLowerLeftBlock = None;
+upperLeftAndUpperRightAndLowerRightBlock = None;
+upperLeftBlackTriangle = None;
+upperLeftBlock = None;
+upperOneEighthBlock = None;
+upperRightAndLowerLeftAndLowerRightBlock = None;
+upperRightAndLowerLeftBlock = None;
+upperRightBlackTriangle = None;
+upperRightBlock = None;
+upperlefttolowerrightFillSquare = None;
+upperrighttolowerleftFillSquare = None;
+v = None;
+w = None;
+whiteCircle = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = {
+.notdef = None;
+A = None;
+A.case = None;
+A.case.2 = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+Delta = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+I.case.2 = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Ohm = None;
+Omega = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+U.case.2 = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+approxequal = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+blackCircle = None;
+boxHeavyDownAndHorizontal = None;
+boxHeavyDownAndLeft = None;
+boxHeavyDownAndRight = None;
+boxHeavyHorizontal = None;
+boxHeavyUpAndHorizontal = None;
+boxHeavyUpAndLeft = None;
+boxHeavyUpAndRight = None;
+boxHeavyVertical = None;
+boxHeavyVerticalAndHorizontal = None;
+boxHeavyVerticalAndLeft = None;
+boxHeavyVerticalAndRight = None;
+boxLightArcDownAndLeft = None;
+boxLightArcDownAndRight = None;
+boxLightArcUpAndLeft = None;
+boxLightArcUpAndRight = None;
+boxLightDiagonalCross = None;
+boxLightDiagonalUpperLeftToLowerRight = None;
+boxLightDiagonalUpperRightToLowerLeft = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+checkmark = None;
+circumflex = None;
+clubBlackSuit = None;
+clubWhiteSuit = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+dagger = None;
+daggerdbl = None;
+degree = None;
+diamondBlackSuit = None;
+diamondWhiteSuit = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+dotaccent = None;
+downArrow = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+florin = None;
+four = None;
+foursuperior = None;
+fraction = None;
+fullBlock = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+greaterequal = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+heartBlackSuit = None;
+heartWhiteSuit = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+increment = None;
+infinity = None;
+integral = None;
+inverseBullet = None;
+inverseWhiteCircle = None;
+j = None;
+k = None;
+l = None;
+leftArrow = None;
+leftBlock = None;
+leftFiveEighthsBlock = None;
+leftOneEighthBlock = None;
+leftOneQuarterBlock = None;
+leftSevenEighthsBlock = None;
+leftThreeEighthsBlock = None;
+leftThreeQuartersBlock = None;
+less = None;
+lessequal = None;
+logicalnot = None;
+longs = None;
+lowerFiveEighthsBlock = None;
+lowerHalfBlock = None;
+lowerLeftBlackTriangle = None;
+lowerLeftBlock = None;
+lowerOneEighthBlock = None;
+lowerOneQuarterBlock = None;
+lowerRightBlackTriangle = None;
+lowerRightBlock = None;
+lowerSevenEighthsBlock = None;
+lowerThreeEighthsBlock = None;
+lowerThreeQuartersBlock = None;
+lozenge = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+mu = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+notequal = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+partialdiff = None;
+percent = None;
+period = None;
+periodcentered = None;
+perthousand = None;
+pi = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+product = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+radical = None;
+registered = None;
+rightArrow = None;
+rightBlock = None;
+rightOneEighthBlock = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+shadedark = None;
+six = None;
+slash = None;
+space = None;
+spadeBlackSuit = None;
+spadeWhiteSuit = None;
+sterling = None;
+summation = None;
+t = None;
+thorn = None;
+three = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+trademark = None;
+two = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+uniE000 = None;
+uniE001 = None;
+uniE002 = None;
+uniE003 = None;
+uniE004 = None;
+uniE005 = None;
+uniE006 = None;
+uniE007 = None;
+uniE008 = None;
+uniE009 = None;
+uniE00A = None;
+uniE00B = None;
+uniE00C = None;
+uniE00D = None;
+uniE00E = None;
+uniE00F = None;
+uniE010 = None;
+uniE011 = None;
+uniE012 = None;
+uniE013 = None;
+uniE014 = None;
+uniE015 = None;
+uniE016 = None;
+uniE017 = None;
+uniE018 = None;
+uniE019 = None;
+uniE01A = None;
+uniE01B = None;
+uniE01C = None;
+uniE01D = None;
+uniE01E = None;
+uniE01F = None;
+uniE020 = None;
+uniE021 = None;
+uniE022 = None;
+uniE023 = None;
+uniE024 = None;
+uniE025 = None;
+uniE026 = None;
+uniE027 = None;
+uniE028 = None;
+uniE029 = None;
+uniE02A = None;
+uniE02B = None;
+uniE02C = None;
+uniE02D = None;
+uniE02E = None;
+uniE02F = None;
+uniE030 = None;
+uniE031 = None;
+uniE032 = None;
+uniE033 = None;
+uniE034 = None;
+uniE035 = None;
+uniE036 = None;
+uniE037 = None;
+uniE038 = None;
+uniE039 = None;
+uniE03A = None;
+uniE03B = None;
+uniE03C = None;
+uniE03D = None;
+uniE03E = None;
+uniE03F = None;
+uniE040 = None;
+uniE041 = None;
+uniE042 = None;
+uniE043 = None;
+uniE044 = None;
+uniE045 = None;
+uniE046 = None;
+uniE047 = None;
+uniE048 = None;
+uniE049 = None;
+uniE04A = None;
+uniE04B = None;
+uniE04C = None;
+uniE04D = None;
+uniE04E = None;
+uniE04F = None;
+uniE050 = None;
+uniE051 = None;
+uniE052 = None;
+uniE053 = None;
+uniE054 = None;
+uniE055 = None;
+uniE056 = None;
+uniE057 = None;
+uniE058 = None;
+uniE059 = None;
+uniE05A = None;
+uniE05B = None;
+uniE05C = None;
+uniE05D = None;
+uniE05E = None;
+uniE05F = None;
+uniE060 = None;
+uniE061 = None;
+uniE062 = None;
+uniE063 = None;
+uniE064 = None;
+uniE065 = None;
+uniE066 = None;
+uniE067 = None;
+uniE068 = None;
+uniE069 = None;
+uniE06A = None;
+uniE06B = None;
+uniE06C = None;
+uniE06D = None;
+uniE06E = None;
+uniE06F = None;
+uniE070 = None;
+uniE071 = None;
+uniE072 = None;
+uniE073 = None;
+uniE074 = None;
+uniE075 = None;
+uniE076 = None;
+uniE077 = None;
+uniE078 = None;
+uniE079 = None;
+uniE07A = None;
+uniE07B = None;
+uniE07C = None;
+uniE07D = None;
+uniE07E = None;
+uniE07F = None;
+uniE080 = None;
+uniE081 = None;
+uniE082 = None;
+uniE083 = None;
+uniE084 = None;
+uniE085 = None;
+uniE086 = None;
+uniE087 = None;
+uniE088 = None;
+uniE089 = None;
+uniE08A = None;
+uniE08B = None;
+uniE08C = None;
+uniE08D = None;
+uniE08E = None;
+uniE08F = None;
+uniE090 = None;
+uniE091 = None;
+uniE092 = None;
+uniE093 = None;
+uniE094 = None;
+uniE095 = None;
+uniE096 = None;
+uniE097 = None;
+uniE098 = None;
+uniE099 = None;
+uniE09A = None;
+uniE09B = None;
+uniE09C = None;
+uniE09D = None;
+upArrow = None;
+upperHalfBlock = None;
+upperLeftAndLowerLeftAndLowerRightBlock = None;
+upperLeftAndLowerRightBlock = None;
+upperLeftAndUpperRightAndLowerLeftBlock = None;
+upperLeftAndUpperRightAndLowerRightBlock = None;
+upperLeftBlackTriangle = None;
+upperLeftBlock = None;
+upperOneEighthBlock = None;
+upperRightAndLowerLeftAndLowerRightBlock = None;
+upperRightAndLowerLeftBlock = None;
+upperRightBlackTriangle = None;
+upperRightBlock = None;
+upperlefttolowerrightFillSquare = None;
+upperrighttolowerleftFillSquare = None;
+v = None;
+w = None;
+whiteCircle = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"7756A3D3-DCD8-4F6B-B0F4-B066BDC55327" = {
+.notdef = None;
+A = None;
+A.case = None;
+A.case.2 = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+Delta = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+I.case.2 = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Ohm = None;
+Omega = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+U.case.2 = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+approxequal = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+blackCircle = None;
+boxHeavyDownAndHorizontal = None;
+boxHeavyDownAndLeft = None;
+boxHeavyDownAndRight = None;
+boxHeavyHorizontal = None;
+boxHeavyUpAndHorizontal = None;
+boxHeavyUpAndLeft = None;
+boxHeavyUpAndRight = None;
+boxHeavyVertical = None;
+boxHeavyVerticalAndHorizontal = None;
+boxHeavyVerticalAndLeft = None;
+boxHeavyVerticalAndRight = None;
+boxLightArcDownAndLeft = None;
+boxLightArcDownAndRight = None;
+boxLightArcUpAndLeft = None;
+boxLightArcUpAndRight = None;
+boxLightDiagonalCross = None;
+boxLightDiagonalUpperLeftToLowerRight = None;
+boxLightDiagonalUpperRightToLowerLeft = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+checkmark = None;
+circumflex = None;
+clubBlackSuit = None;
+clubWhiteSuit = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+dagger = None;
+daggerdbl = None;
+degree = None;
+diamondBlackSuit = None;
+diamondWhiteSuit = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+dotaccent = None;
+downArrow = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+florin = None;
+four = None;
+foursuperior = None;
+fraction = None;
+fullBlock = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+greaterequal = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+heartBlackSuit = None;
+heartWhiteSuit = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+increment = None;
+infinity = None;
+integral = None;
+inverseBullet = None;
+inverseWhiteCircle = None;
+j = None;
+k = None;
+l = None;
+leftArrow = None;
+leftBlock = None;
+leftFiveEighthsBlock = None;
+leftOneEighthBlock = None;
+leftOneQuarterBlock = None;
+leftSevenEighthsBlock = None;
+leftThreeEighthsBlock = None;
+leftThreeQuartersBlock = None;
+less = None;
+lessequal = None;
+logicalnot = None;
+longs = None;
+lowerFiveEighthsBlock = None;
+lowerHalfBlock = None;
+lowerLeftBlackTriangle = None;
+lowerLeftBlock = None;
+lowerOneEighthBlock = None;
+lowerOneQuarterBlock = None;
+lowerRightBlackTriangle = None;
+lowerRightBlock = None;
+lowerSevenEighthsBlock = None;
+lowerThreeEighthsBlock = None;
+lowerThreeQuartersBlock = None;
+lozenge = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+mu = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+notequal = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+partialdiff = None;
+percent = None;
+period = None;
+periodcentered = None;
+perthousand = None;
+pi = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+product = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+radical = None;
+registered = None;
+rightArrow = None;
+rightBlock = None;
+rightOneEighthBlock = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+shadedark = None;
+six = None;
+slash = None;
+space = None;
+spadeBlackSuit = None;
+spadeWhiteSuit = None;
+sterling = None;
+summation = None;
+t = None;
+thorn = None;
+three = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+trademark = None;
+two = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+uniE000 = None;
+uniE001 = None;
+uniE002 = None;
+uniE003 = None;
+uniE004 = None;
+uniE005 = None;
+uniE006 = None;
+uniE007 = None;
+uniE008 = None;
+uniE009 = None;
+uniE00A = None;
+uniE00B = None;
+uniE00C = None;
+uniE00D = None;
+uniE00E = None;
+uniE00F = None;
+uniE010 = None;
+uniE011 = None;
+uniE012 = None;
+uniE013 = None;
+uniE014 = None;
+uniE015 = None;
+uniE016 = None;
+uniE017 = None;
+uniE018 = None;
+uniE019 = None;
+uniE01A = None;
+uniE01B = None;
+uniE01C = None;
+uniE01D = None;
+uniE01E = None;
+uniE01F = None;
+uniE020 = None;
+uniE021 = None;
+uniE022 = None;
+uniE023 = None;
+uniE024 = None;
+uniE025 = None;
+uniE026 = None;
+uniE027 = None;
+uniE028 = None;
+uniE029 = None;
+uniE02A = None;
+uniE02B = None;
+uniE02C = None;
+uniE02D = None;
+uniE02E = None;
+uniE02F = None;
+uniE030 = None;
+uniE031 = None;
+uniE032 = None;
+uniE033 = None;
+uniE034 = None;
+uniE035 = None;
+uniE036 = None;
+uniE037 = None;
+uniE038 = None;
+uniE039 = None;
+uniE03A = None;
+uniE03B = None;
+uniE03C = None;
+uniE03D = None;
+uniE03E = None;
+uniE03F = None;
+uniE040 = None;
+uniE041 = None;
+uniE042 = None;
+uniE043 = None;
+uniE044 = None;
+uniE045 = None;
+uniE046 = None;
+uniE047 = None;
+uniE048 = None;
+uniE049 = None;
+uniE04A = None;
+uniE04B = None;
+uniE04C = None;
+uniE04D = None;
+uniE04E = None;
+uniE04F = None;
+uniE050 = None;
+uniE051 = None;
+uniE052 = None;
+uniE053 = None;
+uniE054 = None;
+uniE055 = None;
+uniE056 = None;
+uniE057 = None;
+uniE058 = None;
+uniE059 = None;
+uniE05A = None;
+uniE05B = None;
+uniE05C = None;
+uniE05D = None;
+uniE05E = None;
+uniE05F = None;
+uniE060 = None;
+uniE061 = None;
+uniE062 = None;
+uniE063 = None;
+uniE064 = None;
+uniE065 = None;
+uniE066 = None;
+uniE067 = None;
+uniE068 = None;
+uniE069 = None;
+uniE06A = None;
+uniE06B = None;
+uniE06C = None;
+uniE06D = None;
+uniE06E = None;
+uniE06F = None;
+uniE070 = None;
+uniE071 = None;
+uniE072 = None;
+uniE073 = None;
+uniE074 = None;
+uniE075 = None;
+uniE076 = None;
+uniE077 = None;
+uniE078 = None;
+uniE079 = None;
+uniE07A = None;
+uniE07B = None;
+uniE07C = None;
+uniE07D = None;
+uniE07E = None;
+uniE07F = None;
+uniE080 = None;
+uniE081 = None;
+uniE082 = None;
+uniE083 = None;
+uniE084 = None;
+uniE085 = None;
+uniE086 = None;
+uniE087 = None;
+uniE088 = None;
+uniE089 = None;
+uniE08A = None;
+uniE08B = None;
+uniE08C = None;
+uniE08D = None;
+uniE08E = None;
+uniE08F = None;
+uniE090 = None;
+uniE091 = None;
+uniE092 = None;
+uniE093 = None;
+uniE094 = None;
+uniE095 = None;
+uniE096 = None;
+uniE097 = None;
+uniE098 = None;
+uniE099 = None;
+uniE09A = None;
+uniE09B = None;
+uniE09C = None;
+uniE09D = None;
+upArrow = None;
+upperHalfBlock = None;
+upperLeftAndLowerLeftAndLowerRightBlock = None;
+upperLeftAndLowerRightBlock = None;
+upperLeftAndUpperRightAndLowerLeftBlock = None;
+upperLeftAndUpperRightAndLowerRightBlock = None;
+upperLeftBlackTriangle = None;
+upperLeftBlock = None;
+upperOneEighthBlock = None;
+upperRightAndLowerLeftAndLowerRightBlock = None;
+upperRightAndLowerLeftBlock = None;
+upperRightBlackTriangle = None;
+upperRightBlock = None;
+upperlefttolowerrightFillSquare = None;
+upperrighttolowerleftFillSquare = None;
+v = None;
+w = None;
+whiteCircle = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"93054D9F-9072-4363-B5A9-8BAB03B66C21" = {
+.notdef = None;
+A = None;
+A.case = None;
+A.case.2 = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+Delta = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+I.case.2 = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Ohm = None;
+Omega = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+U.case.2 = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+approxequal = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+blackCircle = None;
+boxHeavyDownAndHorizontal = None;
+boxHeavyDownAndLeft = None;
+boxHeavyDownAndRight = None;
+boxHeavyHorizontal = None;
+boxHeavyUpAndHorizontal = None;
+boxHeavyUpAndLeft = None;
+boxHeavyUpAndRight = None;
+boxHeavyVertical = None;
+boxHeavyVerticalAndHorizontal = None;
+boxHeavyVerticalAndLeft = None;
+boxHeavyVerticalAndRight = None;
+boxLightArcDownAndLeft = None;
+boxLightArcDownAndRight = None;
+boxLightArcUpAndLeft = None;
+boxLightArcUpAndRight = None;
+boxLightDiagonalCross = None;
+boxLightDiagonalUpperLeftToLowerRight = None;
+boxLightDiagonalUpperRightToLowerLeft = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+checkmark = None;
+circumflex = None;
+clubBlackSuit = None;
+clubWhiteSuit = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+dagger = None;
+daggerdbl = None;
+degree = None;
+diamondBlackSuit = None;
+diamondWhiteSuit = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+dotaccent = None;
+downArrow = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+florin = None;
+four = None;
+foursuperior = None;
+fraction = None;
+fullBlock = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+greaterequal = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+heartBlackSuit = None;
+heartWhiteSuit = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+increment = None;
+infinity = None;
+integral = None;
+inverseBullet = None;
+inverseWhiteCircle = None;
+j = None;
+k = None;
+l = None;
+leftArrow = None;
+leftBlock = None;
+leftFiveEighthsBlock = None;
+leftOneEighthBlock = None;
+leftOneQuarterBlock = None;
+leftSevenEighthsBlock = None;
+leftThreeEighthsBlock = None;
+leftThreeQuartersBlock = None;
+less = None;
+lessequal = None;
+logicalnot = None;
+longs = None;
+lowerFiveEighthsBlock = None;
+lowerHalfBlock = None;
+lowerLeftBlackTriangle = None;
+lowerLeftBlock = None;
+lowerOneEighthBlock = None;
+lowerOneQuarterBlock = None;
+lowerRightBlackTriangle = None;
+lowerRightBlock = None;
+lowerSevenEighthsBlock = None;
+lowerThreeEighthsBlock = None;
+lowerThreeQuartersBlock = None;
+lozenge = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+mu = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+notequal = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+partialdiff = None;
+percent = None;
+period = None;
+periodcentered = None;
+perthousand = None;
+pi = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+product = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+radical = None;
+registered = None;
+rightArrow = None;
+rightBlock = None;
+rightOneEighthBlock = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+shadedark = None;
+six = None;
+slash = None;
+space = None;
+spadeBlackSuit = None;
+spadeWhiteSuit = None;
+sterling = None;
+summation = None;
+t = None;
+thorn = None;
+three = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+trademark = None;
+two = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+uniE000 = None;
+uniE001 = None;
+uniE002 = None;
+uniE003 = None;
+uniE004 = None;
+uniE005 = None;
+uniE006 = None;
+uniE007 = None;
+uniE008 = None;
+uniE009 = None;
+uniE00A = None;
+uniE00B = None;
+uniE00C = None;
+uniE00D = None;
+uniE00E = None;
+uniE00F = None;
+uniE010 = None;
+uniE011 = None;
+uniE012 = None;
+uniE013 = None;
+uniE014 = None;
+uniE015 = None;
+uniE016 = None;
+uniE017 = None;
+uniE018 = None;
+uniE019 = None;
+uniE01A = None;
+uniE01B = None;
+uniE01C = None;
+uniE01D = None;
+uniE01E = None;
+uniE01F = None;
+uniE020 = None;
+uniE021 = None;
+uniE022 = None;
+uniE023 = None;
+uniE024 = None;
+uniE025 = None;
+uniE026 = None;
+uniE027 = None;
+uniE028 = None;
+uniE029 = None;
+uniE02A = None;
+uniE02B = None;
+uniE02C = None;
+uniE02D = None;
+uniE02E = None;
+uniE02F = None;
+uniE030 = None;
+uniE031 = None;
+uniE032 = None;
+uniE033 = None;
+uniE034 = None;
+uniE035 = None;
+uniE036 = None;
+uniE037 = None;
+uniE038 = None;
+uniE039 = None;
+uniE03A = None;
+uniE03B = None;
+uniE03C = None;
+uniE03D = None;
+uniE03E = None;
+uniE03F = None;
+uniE040 = None;
+uniE041 = None;
+uniE042 = None;
+uniE043 = None;
+uniE044 = None;
+uniE045 = None;
+uniE046 = None;
+uniE047 = None;
+uniE048 = None;
+uniE049 = None;
+uniE04A = None;
+uniE04B = None;
+uniE04C = None;
+uniE04D = None;
+uniE04E = None;
+uniE04F = None;
+uniE050 = None;
+uniE051 = None;
+uniE052 = None;
+uniE053 = None;
+uniE054 = None;
+uniE055 = None;
+uniE056 = None;
+uniE057 = None;
+uniE058 = None;
+uniE059 = None;
+uniE05A = None;
+uniE05B = None;
+uniE05C = None;
+uniE05D = None;
+uniE05E = None;
+uniE05F = None;
+uniE060 = None;
+uniE061 = None;
+uniE062 = None;
+uniE063 = None;
+uniE064 = None;
+uniE065 = None;
+uniE066 = None;
+uniE067 = None;
+uniE068 = None;
+uniE069 = None;
+uniE06A = None;
+uniE06B = None;
+uniE06C = None;
+uniE06D = None;
+uniE06E = None;
+uniE06F = None;
+uniE070 = None;
+uniE071 = None;
+uniE072 = None;
+uniE073 = None;
+uniE074 = None;
+uniE075 = None;
+uniE076 = None;
+uniE077 = None;
+uniE078 = None;
+uniE079 = None;
+uniE07A = None;
+uniE07B = None;
+uniE07C = None;
+uniE07D = None;
+uniE07E = None;
+uniE07F = None;
+uniE080 = None;
+uniE081 = None;
+uniE082 = None;
+uniE083 = None;
+uniE084 = None;
+uniE085 = None;
+uniE086 = None;
+uniE087 = None;
+uniE088 = None;
+uniE089 = None;
+uniE08A = None;
+uniE08B = None;
+uniE08C = None;
+uniE08D = None;
+uniE08E = None;
+uniE08F = None;
+uniE090 = None;
+uniE091 = None;
+uniE092 = None;
+uniE093 = None;
+uniE094 = None;
+uniE095 = None;
+uniE096 = None;
+uniE097 = None;
+uniE098 = None;
+uniE099 = None;
+uniE09A = None;
+uniE09B = None;
+uniE09C = None;
+uniE09D = None;
+upArrow = None;
+upperHalfBlock = None;
+upperLeftAndLowerLeftAndLowerRightBlock = None;
+upperLeftAndLowerRightBlock = None;
+upperLeftAndUpperRightAndLowerLeftBlock = None;
+upperLeftAndUpperRightAndLowerRightBlock = None;
+upperLeftBlackTriangle = None;
+upperLeftBlock = None;
+upperOneEighthBlock = None;
+upperRightAndLowerLeftAndLowerRightBlock = None;
+upperRightAndLowerLeftBlock = None;
+upperRightBlackTriangle = None;
+upperRightBlock = None;
+upperlefttolowerrightFillSquare = None;
+upperrighttolowerleftFillSquare = None;
+v = None;
+w = None;
+whiteCircle = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"A1CF3A9E-1F49-4701-AF3E-F0E694793914" = {
+.notdef = None;
+A = None;
+A.case = None;
+A.case.2 = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+Delta = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+I.case.2 = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Ohm = None;
+Omega = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+U.case.2 = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+approxequal = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+blackCircle = None;
+boxHeavyDownAndHorizontal = None;
+boxHeavyDownAndLeft = None;
+boxHeavyDownAndRight = None;
+boxHeavyHorizontal = None;
+boxHeavyUpAndHorizontal = None;
+boxHeavyUpAndLeft = None;
+boxHeavyUpAndRight = None;
+boxHeavyVertical = None;
+boxHeavyVerticalAndHorizontal = None;
+boxHeavyVerticalAndLeft = None;
+boxHeavyVerticalAndRight = None;
+boxLightArcDownAndLeft = None;
+boxLightArcDownAndRight = None;
+boxLightArcUpAndLeft = None;
+boxLightArcUpAndRight = None;
+boxLightDiagonalCross = None;
+boxLightDiagonalUpperLeftToLowerRight = None;
+boxLightDiagonalUpperRightToLowerLeft = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+checkmark = None;
+circumflex = None;
+clubBlackSuit = None;
+clubWhiteSuit = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+dagger = None;
+daggerdbl = None;
+degree = None;
+diamondBlackSuit = None;
+diamondWhiteSuit = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+dotaccent = None;
+downArrow = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+florin = None;
+four = None;
+foursuperior = None;
+fraction = None;
+fullBlock = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+greaterequal = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+heartBlackSuit = None;
+heartWhiteSuit = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+increment = None;
+infinity = None;
+integral = None;
+inverseBullet = None;
+inverseWhiteCircle = None;
+j = None;
+k = None;
+l = None;
+leftArrow = None;
+leftBlock = None;
+leftFiveEighthsBlock = None;
+leftOneEighthBlock = None;
+leftOneQuarterBlock = None;
+leftSevenEighthsBlock = None;
+leftThreeEighthsBlock = None;
+leftThreeQuartersBlock = None;
+less = None;
+lessequal = None;
+logicalnot = None;
+longs = None;
+lowerFiveEighthsBlock = None;
+lowerHalfBlock = None;
+lowerLeftBlackTriangle = None;
+lowerLeftBlock = None;
+lowerOneEighthBlock = None;
+lowerOneQuarterBlock = None;
+lowerRightBlackTriangle = None;
+lowerRightBlock = None;
+lowerSevenEighthsBlock = None;
+lowerThreeEighthsBlock = None;
+lowerThreeQuartersBlock = None;
+lozenge = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+mu = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+notequal = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+partialdiff = None;
+percent = None;
+period = None;
+periodcentered = None;
+perthousand = None;
+pi = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+product = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+radical = None;
+registered = None;
+rightArrow = None;
+rightBlock = None;
+rightOneEighthBlock = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+shadedark = None;
+six = None;
+slash = None;
+space = None;
+spadeBlackSuit = None;
+spadeWhiteSuit = None;
+sterling = None;
+summation = None;
+t = None;
+thorn = None;
+three = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+trademark = None;
+two = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+uniE000 = None;
+uniE001 = None;
+uniE002 = None;
+uniE003 = None;
+uniE004 = None;
+uniE005 = None;
+uniE006 = None;
+uniE007 = None;
+uniE008 = None;
+uniE009 = None;
+uniE00A = None;
+uniE00B = None;
+uniE00C = None;
+uniE00D = None;
+uniE00E = None;
+uniE00F = None;
+uniE010 = None;
+uniE011 = None;
+uniE012 = None;
+uniE013 = None;
+uniE014 = None;
+uniE015 = None;
+uniE016 = None;
+uniE017 = None;
+uniE018 = None;
+uniE019 = None;
+uniE01A = None;
+uniE01B = None;
+uniE01C = None;
+uniE01D = None;
+uniE01E = None;
+uniE01F = None;
+uniE020 = None;
+uniE021 = None;
+uniE022 = None;
+uniE023 = None;
+uniE024 = None;
+uniE025 = None;
+uniE026 = None;
+uniE027 = None;
+uniE028 = None;
+uniE029 = None;
+uniE02A = None;
+uniE02B = None;
+uniE02C = None;
+uniE02D = None;
+uniE02E = None;
+uniE02F = None;
+uniE030 = None;
+uniE031 = None;
+uniE032 = None;
+uniE033 = None;
+uniE034 = None;
+uniE035 = None;
+uniE036 = None;
+uniE037 = None;
+uniE038 = None;
+uniE039 = None;
+uniE03A = None;
+uniE03B = None;
+uniE03C = None;
+uniE03D = None;
+uniE03E = None;
+uniE03F = None;
+uniE040 = None;
+uniE041 = None;
+uniE042 = None;
+uniE043 = None;
+uniE044 = None;
+uniE045 = None;
+uniE046 = None;
+uniE047 = None;
+uniE048 = None;
+uniE049 = None;
+uniE04A = None;
+uniE04B = None;
+uniE04C = None;
+uniE04D = None;
+uniE04E = None;
+uniE04F = None;
+uniE050 = None;
+uniE051 = None;
+uniE052 = None;
+uniE053 = None;
+uniE054 = None;
+uniE055 = None;
+uniE056 = None;
+uniE057 = None;
+uniE058 = None;
+uniE059 = None;
+uniE05A = None;
+uniE05B = None;
+uniE05C = None;
+uniE05D = None;
+uniE05E = None;
+uniE05F = None;
+uniE060 = None;
+uniE061 = None;
+uniE062 = None;
+uniE063 = None;
+uniE064 = None;
+uniE065 = None;
+uniE066 = None;
+uniE067 = None;
+uniE068 = None;
+uniE069 = None;
+uniE06A = None;
+uniE06B = None;
+uniE06C = None;
+uniE06D = None;
+uniE06E = None;
+uniE06F = None;
+uniE070 = None;
+uniE071 = None;
+uniE072 = None;
+uniE073 = None;
+uniE074 = None;
+uniE075 = None;
+uniE076 = None;
+uniE077 = None;
+uniE078 = None;
+uniE079 = None;
+uniE07A = None;
+uniE07B = None;
+uniE07C = None;
+uniE07D = None;
+uniE07E = None;
+uniE07F = None;
+uniE080 = None;
+uniE081 = None;
+uniE082 = None;
+uniE083 = None;
+uniE084 = None;
+uniE085 = None;
+uniE086 = None;
+uniE087 = None;
+uniE088 = None;
+uniE089 = None;
+uniE08A = None;
+uniE08B = None;
+uniE08C = None;
+uniE08D = None;
+uniE08E = None;
+uniE08F = None;
+uniE090 = None;
+uniE091 = None;
+uniE092 = None;
+uniE093 = None;
+uniE094 = None;
+uniE095 = None;
+uniE096 = None;
+uniE097 = None;
+uniE098 = None;
+uniE099 = None;
+uniE09A = None;
+uniE09B = None;
+uniE09C = None;
+uniE09D = None;
+upArrow = None;
+upperHalfBlock = None;
+upperLeftAndLowerLeftAndLowerRightBlock = None;
+upperLeftAndLowerRightBlock = None;
+upperLeftAndUpperRightAndLowerLeftBlock = None;
+upperLeftAndUpperRightAndLowerRightBlock = None;
+upperLeftBlackTriangle = None;
+upperLeftBlock = None;
+upperOneEighthBlock = None;
+upperRightAndLowerLeftAndLowerRightBlock = None;
+upperRightAndLowerLeftBlock = None;
+upperRightBlackTriangle = None;
+upperRightBlock = None;
+upperlefttolowerrightFillSquare = None;
+upperrighttolowerleftFillSquare = None;
+v = None;
+w = None;
+whiteCircle = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+"B2CED426-8D3E-4D4E-926E-917DB7E3651C" = {
+.notdef = None;
+A = None;
+A.case = None;
+A.case.2 = None;
+AE = None;
+Aacute = None;
+Acircumflex = None;
+Adieresis = None;
+Agrave = None;
+Aring = None;
+Atilde = None;
+B = None;
+C = None;
+CR = None;
+Ccedilla = None;
+D = None;
+Delta = None;
+E = None;
+E.case = None;
+Eacute = None;
+Ecircumflex = None;
+Edieresis = None;
+Egrave = None;
+Eth = None;
+F = None;
+G = None;
+H = None;
+I = None;
+I.case = None;
+I.case.2 = None;
+Iacute = None;
+Icircumflex = None;
+Idieresis = None;
+Igrave = None;
+J = None;
+K = None;
+L = None;
+M = None;
+N = None;
+N.case = None;
+NULL = None;
+Ntilde = None;
+O = None;
+O.case = None;
+OE = None;
+Oacute = None;
+Ocircumflex = None;
+Odieresis = None;
+Ograve = None;
+Ohm = None;
+Omega = None;
+Oslash = None;
+Otilde = None;
+P = None;
+Q = None;
+R = None;
+S = None;
+T = None;
+Thorn = None;
+U = None;
+U.case = None;
+U.case.2 = None;
+Uacute = None;
+Ucircumflex = None;
+Udieresis = None;
+Ugrave = None;
+V = None;
+W = None;
+X = None;
+Y = None;
+Y.case = None;
+Yacute = None;
+Z = None;
+a = None;
+aacute = None;
+acircumflex = None;
+acute = None;
+adieresis = None;
+ae = None;
+agrave = None;
+ampersand = None;
+approxequal = None;
+aring = None;
+asciicircum = None;
+asciitilde = None;
+asterisk = None;
+at = None;
+atilde = None;
+b = None;
+backslash = None;
+bar = None;
+blackCircle = None;
+boxHeavyDownAndHorizontal = None;
+boxHeavyDownAndLeft = None;
+boxHeavyDownAndRight = None;
+boxHeavyHorizontal = None;
+boxHeavyUpAndHorizontal = None;
+boxHeavyUpAndLeft = None;
+boxHeavyUpAndRight = None;
+boxHeavyVertical = None;
+boxHeavyVerticalAndHorizontal = None;
+boxHeavyVerticalAndLeft = None;
+boxHeavyVerticalAndRight = None;
+boxLightArcDownAndLeft = None;
+boxLightArcDownAndRight = None;
+boxLightArcUpAndLeft = None;
+boxLightArcUpAndRight = None;
+boxLightDiagonalCross = None;
+boxLightDiagonalUpperLeftToLowerRight = None;
+boxLightDiagonalUpperRightToLowerLeft = None;
+braceleft = None;
+braceright = None;
+bracketleft = None;
+bracketright = None;
+brokenbar = None;
+bullet = None;
+c = None;
+ccedilla = None;
+cedilla = None;
+cent = None;
+checkmark = None;
+circumflex = None;
+clubBlackSuit = None;
+clubWhiteSuit = None;
+colon = None;
+comma = None;
+copyright = None;
+currency = None;
+d = None;
+dagger = None;
+daggerdbl = None;
+degree = None;
+diamondBlackSuit = None;
+diamondWhiteSuit = None;
+dieresis = None;
+divide = None;
+divisionslash = None;
+dollar = None;
+dotaccent = None;
+downArrow = None;
+e = None;
+eacute = None;
+ecircumflex = None;
+edieresis = None;
+egrave = None;
+eight = None;
+ellipsis = None;
+emdash = None;
+endash = None;
+equal = None;
+eth = None;
+euro = None;
+exclam = None;
+exclamdown = None;
+f = None;
+five = None;
+florin = None;
+four = None;
+foursuperior = None;
+fraction = None;
+fullBlock = None;
+g = None;
+germandbls = None;
+grave = None;
+greater = None;
+greaterequal = None;
+guillemetleft = None;
+guillemetright = None;
+guilsinglleft = None;
+guilsinglright = None;
+h = None;
+heartBlackSuit = None;
+heartWhiteSuit = None;
+hyphen = None;
+i = None;
+iacute = None;
+icircumflex = None;
+idieresis = None;
+idotless = None;
+igrave = None;
+increment = None;
+infinity = None;
+integral = None;
+inverseBullet = None;
+inverseWhiteCircle = None;
+j = None;
+k = None;
+l = None;
+leftArrow = None;
+leftBlock = None;
+leftFiveEighthsBlock = None;
+leftOneEighthBlock = None;
+leftOneQuarterBlock = None;
+leftSevenEighthsBlock = None;
+leftThreeEighthsBlock = None;
+leftThreeQuartersBlock = None;
+less = None;
+lessequal = None;
+logicalnot = None;
+longs = None;
+lowerFiveEighthsBlock = None;
+lowerHalfBlock = None;
+lowerLeftBlackTriangle = None;
+lowerLeftBlock = None;
+lowerOneEighthBlock = None;
+lowerOneQuarterBlock = None;
+lowerRightBlackTriangle = None;
+lowerRightBlock = None;
+lowerSevenEighthsBlock = None;
+lowerThreeEighthsBlock = None;
+lowerThreeQuartersBlock = None;
+lozenge = None;
+m = None;
+macron = None;
+micro = None;
+minus = None;
+minute = None;
+mu = None;
+multiply = None;
+n = None;
+nbspace = None;
+nine = None;
+notequal = None;
+ntilde = None;
+numbersign = None;
+o = None;
+oacute = None;
+ocircumflex = None;
+odieresis = None;
+oe = None;
+ograve = None;
+one = None;
+onehalf = None;
+onequarter = None;
+onesuperior = None;
+ordfeminine = None;
+ordmasculine = None;
+oslash = None;
+otilde = None;
+p = None;
+paragraph = None;
+parenleft = None;
+parenright = None;
+partialdiff = None;
+percent = None;
+period = None;
+periodcentered = None;
+perthousand = None;
+pi = None;
+pixel.1 = None;
+pixel.2 = None;
+pixel.3 = None;
+pixel.4 = None;
+pixel.5 = None;
+pixel.6 = None;
+pixel.7 = None;
+pixel.8 = None;
+plus = None;
+plusminus = None;
+product = None;
+q = None;
+question = None;
+questiondown = None;
+quotedbl = None;
+quotedblbase = None;
+quotedblleft = None;
+quotedblright = None;
+quoteleft = None;
+quoteright = None;
+quotesinglbase = None;
+quotesingle = None;
+r = None;
+radical = None;
+registered = None;
+rightArrow = None;
+rightBlock = None;
+rightOneEighthBlock = None;
+ring = None;
+s = None;
+second = None;
+section = None;
+semicolon = None;
+seven = None;
+shadedark = None;
+six = None;
+slash = None;
+space = None;
+spadeBlackSuit = None;
+spadeWhiteSuit = None;
+sterling = None;
+summation = None;
+t = None;
+thorn = None;
+three = None;
+threequarters = None;
+threesuperior = None;
+tilde = None;
+trademark = None;
+two = None;
+twosuperior = None;
+u = None;
+uacute = None;
+ucircumflex = None;
+udieresis = None;
+ugrave = None;
+underscore = None;
+uniE000 = None;
+uniE001 = None;
+uniE002 = None;
+uniE003 = None;
+uniE004 = None;
+uniE005 = None;
+uniE006 = None;
+uniE007 = None;
+uniE008 = None;
+uniE009 = None;
+uniE00A = None;
+uniE00B = None;
+uniE00C = None;
+uniE00D = None;
+uniE00E = None;
+uniE00F = None;
+uniE010 = None;
+uniE011 = None;
+uniE012 = None;
+uniE013 = None;
+uniE014 = None;
+uniE015 = None;
+uniE016 = None;
+uniE017 = None;
+uniE018 = None;
+uniE019 = None;
+uniE01A = None;
+uniE01B = None;
+uniE01C = None;
+uniE01D = None;
+uniE01E = None;
+uniE01F = None;
+uniE020 = None;
+uniE021 = None;
+uniE022 = None;
+uniE023 = None;
+uniE024 = None;
+uniE025 = None;
+uniE026 = None;
+uniE027 = None;
+uniE028 = None;
+uniE029 = None;
+uniE02A = None;
+uniE02B = None;
+uniE02C = None;
+uniE02D = None;
+uniE02E = None;
+uniE02F = None;
+uniE030 = None;
+uniE031 = None;
+uniE032 = None;
+uniE033 = None;
+uniE034 = None;
+uniE035 = None;
+uniE036 = None;
+uniE037 = None;
+uniE038 = None;
+uniE039 = None;
+uniE03A = None;
+uniE03B = None;
+uniE03C = None;
+uniE03D = None;
+uniE03E = None;
+uniE03F = None;
+uniE040 = None;
+uniE041 = None;
+uniE042 = None;
+uniE043 = None;
+uniE044 = None;
+uniE045 = None;
+uniE046 = None;
+uniE047 = None;
+uniE048 = None;
+uniE049 = None;
+uniE04A = None;
+uniE04B = None;
+uniE04C = None;
+uniE04D = None;
+uniE04E = None;
+uniE04F = None;
+uniE050 = None;
+uniE051 = None;
+uniE052 = None;
+uniE053 = None;
+uniE054 = None;
+uniE055 = None;
+uniE056 = None;
+uniE057 = None;
+uniE058 = None;
+uniE059 = None;
+uniE05A = None;
+uniE05B = None;
+uniE05C = None;
+uniE05D = None;
+uniE05E = None;
+uniE05F = None;
+uniE060 = None;
+uniE061 = None;
+uniE062 = None;
+uniE063 = None;
+uniE064 = None;
+uniE065 = None;
+uniE066 = None;
+uniE067 = None;
+uniE068 = None;
+uniE069 = None;
+uniE06A = None;
+uniE06B = None;
+uniE06C = None;
+uniE06D = None;
+uniE06E = None;
+uniE06F = None;
+uniE070 = None;
+uniE071 = None;
+uniE072 = None;
+uniE073 = None;
+uniE074 = None;
+uniE075 = None;
+uniE076 = None;
+uniE077 = None;
+uniE078 = None;
+uniE079 = None;
+uniE07A = None;
+uniE07B = None;
+uniE07C = None;
+uniE07D = None;
+uniE07E = None;
+uniE07F = None;
+uniE080 = None;
+uniE081 = None;
+uniE082 = None;
+uniE083 = None;
+uniE084 = None;
+uniE085 = None;
+uniE086 = None;
+uniE087 = None;
+uniE088 = None;
+uniE089 = None;
+uniE08A = None;
+uniE08B = None;
+uniE08C = None;
+uniE08D = None;
+uniE08E = None;
+uniE08F = None;
+uniE090 = None;
+uniE091 = None;
+uniE092 = None;
+uniE093 = None;
+uniE094 = None;
+uniE095 = None;
+uniE096 = None;
+uniE097 = None;
+uniE098 = None;
+uniE099 = None;
+uniE09A = None;
+uniE09B = None;
+uniE09C = None;
+uniE09D = None;
+upArrow = None;
+upperHalfBlock = None;
+upperLeftAndLowerLeftAndLowerRightBlock = None;
+upperLeftAndLowerRightBlock = None;
+upperLeftAndUpperRightAndLowerLeftBlock = None;
+upperLeftAndUpperRightAndLowerRightBlock = None;
+upperLeftBlackTriangle = None;
+upperLeftBlock = None;
+upperOneEighthBlock = None;
+upperRightAndLowerLeftAndLowerRightBlock = None;
+upperRightAndLowerLeftBlock = None;
+upperRightBlackTriangle = None;
+upperRightBlock = None;
+upperlefttolowerrightFillSquare = None;
+upperrighttolowerleftFillSquare = None;
+v = None;
+w = None;
+whiteCircle = None;
+x = None;
+y = None;
+yacute = None;
+ydieresis = None;
+yen = None;
+z = None;
+zero = None;
+};
+};
+"com.hugojourdan.ColorFlow-currentFont" = "<null>";
+"com.hugojourdan.ColorFlow-export" = "<null>";
+"com.hugojourdan.ColorFlow-master-data" = {
+"25C8AE42-141C-4C1D-BAEB-DC5DA73335AB" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"511DE76B-C93C-4D1E-A4F3-1BF977EE06C9" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"7756A3D3-DCD8-4F6B-B0F4-B066BDC55327" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"93054D9F-9072-4363-B5A9-8BAB03B66C21" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"A1CF3A9E-1F49-4701-AF3E-F0E694793914" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+"B2CED426-8D3E-4D4E-926E-917DB7E3651C" = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+"com.hugojourdan.ColorFlow-selectedLayer" = 0;
+"com.hugojourdan.ColorFlow-selectedLayer-data" = "<null>";
+};
+versionMajor = 2;
+versionMinor = 3;
+}

@@ -1,0 +1,34 @@
+{
+color = 6;
+glyphname = boxLightUpAndHorizontal;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "A4EE9581-D91B-41F2-8924-3445CD6179B3";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 600;
+},
+{
+layerId = "A1DAFEE3-935D-418A-9BF9-692F41702DDF";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 1024;
+}
+);
+unicode = 9524;
+}

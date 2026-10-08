@@ -19,7 +19,7 @@ Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped
 
 * Add yourself to the `AUTHORS.txt` and `CONTRIBUTORS.txt` files.
 
-* Update the first line of the OFL.txt (year and project name). Update also the Copyright string in the sources, it has to be the same as the OFL.txt. The `.glyphs` file in this repo gives you required base charset and font info.
+* Update the first line of the OFL.txt (year and project name). Update also the Copyright string in the sources, it has to be the same as the OFL.txt. The `.glyphspackage` file in this repo gives you required base charset and font info.
 
 * Finally, add and commit any files you have modified (i.e. `README.md`, `AUTHORS.txt`, `CONTRIBUTORS.txt`, the font sources, and `sources/config.yaml`) to git, then push to GitHub. Please be aware that Github Actions may take a few minutes to build your font family. It is worthwhile inspecting the progress in the "Actions" tab.
 
@@ -32,8 +32,9 @@ Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped
 * Google Fonts uses Github Releases to manage font families. If you feel your font project has hit a milestone, you must create a new release for it. In order to do this, go to the releases page and hit the "Draft a new release button". You must provide a tag number and title which can only be a decimal number e.g 0.100, 1.000 etc. For the body text, mention what has changed since the last release. Once you are done, hit the "Publish release" button. Here is an example which fulfills the requirements, https://github.com/m4rc1e/test-ufr-family/releases/tag/2.019. For more info regarding Github release, please see the official Github Release [documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). **Please note that Github Actions must be able to build the fonts before you can make a release. Once you have made a release, the fonts and tests assets will be attached to the release automatically. This may take a while since the fonts and tests will be built from scratch so please be patient.**
 
 * Remove this section from the readme. :-)
-----
+---
 
+-
 
 # My Font
 
@@ -65,19 +66,20 @@ Fonts are built automatically by GitHub Actions - take a look in the "Actions" t
 
 If you want to build fonts manually on your own computer:
 
-* `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
+- `make build` will produce font files.
+- `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+- `make proof` will generate HTML proof files.
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://jenskutilek.github.io/homecomputer-fonts.git.
 
 ## Changelog
 
 When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
+[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
 Changelog example:
 
 **26 May 2021. Version 2.13**
+
 - MAJOR Font turned to a variable font.
 - SIGNIFICANT New Stylistic sets added.
 

@@ -1,0 +1,231 @@
+{
+color = 4;
+glyphname = Ccedilla;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+alignment = -1;
+pos = (256,-128);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (384,0);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (256,128);
+ref = pixel.4;
+},
+{
+alignment = -1;
+pos = (128,256);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (640,256);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (128,384);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (128,512);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (128,640);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (640,640);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (256,768);
+ref = pixel.4;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "A4EE9581-D91B-41F2-8924-3445CD6179B3";
+shapes = (
+{
+alignment = -1;
+pos = (128,-128);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (384,0);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (384,128);
+ref = pixel.4;
+},
+{
+alignment = -1;
+pos = (384,256);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (896,256);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (512,384);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (640,512);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (768,640);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (1280,640);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (1024,768);
+ref = pixel.4;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "A1DAFEE3-935D-418A-9BF9-692F41702DDF";
+shapes = (
+{
+alignment = -1;
+pos = (256,-128);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (384,0);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (256,128);
+ref = pixel.4;
+},
+{
+alignment = -1;
+pos = (128,256);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (640,256);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (128,384);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (128,512);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (128,640);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (640,640);
+ref = pixel.2;
+},
+{
+alignment = -1;
+pos = (256,768);
+ref = pixel.4;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+}
+);
+unicode = 199;
+userData = {
+com.typemytype.robofont.mark = (
+0.967,
+0.6,
+1,
+1
+);
+};
+}

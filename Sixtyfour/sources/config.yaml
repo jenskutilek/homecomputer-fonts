@@ -1,5 +1,5 @@
 sources:
-  - Sixtyfour.glyphs
+  - Sixtyfour.glyphspackage
 axisOrder:
   - SCAN
   - BLED
@@ -47,7 +47,7 @@ stat:
 recipeProvider: googlefonts
 recipe:
   ../fonts/variable/SixtyfourConvergence[BLED,SCAN,XELA,YELA].ttf:
-    - source: Sixtyfour.glyphs
+    - source: Sixtyfour.glyphspackage
     - fontmake_args:
         --filter  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
         --keep-overlaps

@@ -1,0 +1,93 @@
+{
+color = 6;
+glyphname = uniE055;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+alignment = -1;
+ref = uniE053;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "A4EE9581-D91B-41F2-8924-3445CD6179B3";
+shapes = (
+{
+alignment = -1;
+ref = uniE053;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+},
+{
+layerId = "A1DAFEE3-935D-418A-9BF9-692F41702DDF";
+shapes = (
+{
+alignment = -1;
+ref = uniE053;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 1024;
+}
+);
+unicode = 57429;
+userData = {
+com.typemytype.robofont.mark = (
+0.6,
+0.986,
+1,
+1
+);
+};
+}
