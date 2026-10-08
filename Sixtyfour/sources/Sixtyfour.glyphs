@@ -1,12 +1,6 @@
 {
-.appVersion = "3402";
+.appVersion = "3531";
 .formatVersion = 3;
-DisplayStrings = (
-"Hþ┓ ",
-z,
-Handgloves,
-"█↓█"
-);
 axes = (
 {
 name = Scanlines;
@@ -772,7 +766,7 @@ space
 );
 }
 );
-date = "2008-09-05 18:17:00 +0000";
+date = "2026-04-01 15:02:45 +0000";
 familyName = Sixtyfour;
 featurePrefixes = (
 {
@@ -136426,7 +136420,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 9619;
+unicode = (9619,129941);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -151792,6 +151786,677 @@ com.typemytype.robofont.mark = (
 };
 },
 {
+color = 6;
+glyphname = boxLightDownAndHorizontal;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyDownAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyDownAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyDownAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyDownAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyDownAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyDownAndHorizontal;
+}
+);
+width = 1024;
+}
+);
+unicode = 9516;
+},
+{
+color = 6;
+glyphname = boxLightDownAndLeft;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyDownAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyDownAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyDownAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyDownAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyDownAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyDownAndLeft;
+}
+);
+width = 1024;
+}
+);
+unicode = 9488;
+},
+{
+color = 6;
+glyphname = boxLightDownAndRight;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyDownAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyDownAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyDownAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyDownAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyDownAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyDownAndRight;
+}
+);
+width = 1024;
+}
+);
+unicode = 9484;
+},
+{
+color = 6;
+glyphname = boxLightHorizontal;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyHorizontal;
+}
+);
+width = 1024;
+}
+);
+unicode = 9472;
+},
+{
+color = 6;
+glyphname = boxLightUpAndHorizontal;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyUpAndHorizontal;
+}
+);
+width = 1024;
+}
+);
+unicode = 9524;
+},
+{
+color = 6;
+glyphname = boxLightUpAndLeft;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyUpAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyUpAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyUpAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyUpAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyUpAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyUpAndLeft;
+}
+);
+width = 1024;
+}
+);
+unicode = 9496;
+},
+{
+color = 6;
+glyphname = boxLightUpAndRight;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyUpAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyUpAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyUpAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyUpAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyUpAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyUpAndRight;
+}
+);
+width = 1024;
+}
+);
+unicode = 9492;
+},
+{
+color = 6;
+glyphname = boxLightVertical;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyVertical;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyVertical;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyVertical;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyVertical;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyVertical;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyVertical;
+}
+);
+width = 1024;
+}
+);
+unicode = 9474;
+},
+{
+color = 6;
+glyphname = boxLightVerticalAndHorizontal;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyVerticalAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyVerticalAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyVerticalAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyVerticalAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyVerticalAndHorizontal;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyVerticalAndHorizontal;
+}
+);
+width = 1024;
+}
+);
+unicode = 9532;
+},
+{
+color = 6;
+glyphname = boxLightVerticalAndLeft;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyVerticalAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyVerticalAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyVerticalAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyVerticalAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyVerticalAndLeft;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyVerticalAndLeft;
+}
+);
+width = 1024;
+}
+);
+unicode = 9508;
+},
+{
+color = 6;
+glyphname = boxLightVerticalAndRight;
+layers = (
+{
+layerId = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
+shapes = (
+{
+ref = boxHeavyVerticalAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "A1CF3A9E-1F49-4701-AF3E-F0E694793914";
+shapes = (
+{
+ref = boxHeavyVerticalAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "511DE76B-C93C-4D1E-A4F3-1BF977EE06C9";
+shapes = (
+{
+ref = boxHeavyVerticalAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "B2CED426-8D3E-4D4E-926E-917DB7E3651C";
+shapes = (
+{
+ref = boxHeavyVerticalAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "7756A3D3-DCD8-4F6B-B0F4-B066BDC55327";
+shapes = (
+{
+ref = boxHeavyVerticalAndRight;
+}
+);
+width = 1024;
+},
+{
+layerId = "93054D9F-9072-4363-B5A9-8BAB03B66C21";
+shapes = (
+{
+ref = boxHeavyVerticalAndRight;
+}
+);
+width = 1024;
+}
+);
+unicode = 9500;
+},
+{
 color = 4;
 glyphname = dieresis;
 layers = (
@@ -156276,7 +156941,7 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-glyphname = uniE006;
+glyphname = leftAndLowerOneEighthBlock;
 layers = (
 {
 background = {
@@ -156742,7 +157407,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57350;
+unicode = (57350,129916);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -156753,7 +157418,7 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-glyphname = uniE007;
+glyphname = leftAndUpperOneEighthBlock;
 layers = (
 {
 background = {
@@ -157219,7 +157884,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57351;
+unicode = (57351,129917);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -157230,7 +157895,7 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-glyphname = uniE008;
+glyphname = rightAndUpperOneEighthBlock;
 layers = (
 {
 background = {
@@ -157703,7 +158368,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57352;
+unicode = (57352,129918);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -158494,7 +159159,7 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-glyphname = uniE00C;
+glyphname = leftHalfMediumShade;
 layers = (
 {
 background = {
@@ -159007,7 +159672,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57356;
+unicode = (57356,129932);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -159211,7 +159876,7 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-glyphname = uniE00E;
+glyphname = lowerHalfMediumShade;
 layers = (
 {
 background = {
@@ -159724,7 +160389,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57358;
+unicode = (57358,129935);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -159996,7 +160661,7 @@ com.typemytype.robofont.mark = (
 },
 {
 color = 6;
-glyphname = uniE010;
+glyphname = rightThreeQuartersBlock;
 layers = (
 {
 background = {
@@ -160244,7 +160909,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57360;
+unicode = (57360,129930);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -160256,7 +160921,7 @@ com.typemytype.robofont.mark = (
 },
 {
 color = 6;
-glyphname = uniE011;
+glyphname = upperOneQuarterBlock;
 layers = (
 {
 background = {
@@ -160504,7 +161169,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57361;
+unicode = (57361,129922);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -160516,7 +161181,7 @@ com.typemytype.robofont.mark = (
 },
 {
 color = 6;
-glyphname = uniE012;
+glyphname = upperThreeEighthsBlock;
 layers = (
 {
 background = {
@@ -160764,7 +161429,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57362;
+unicode = (57362,129923);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -160775,7 +161440,7 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-glyphname = uniE013;
+glyphname = rightAndLowerOneEighthBlock;
 layers = (
 {
 background = {
@@ -161241,7 +161906,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57363;
+unicode = (57363,129919);
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -226214,7 +226879,7 @@ com.typemytype.robofont.mark = (
 },
 {
 color = 6;
-glyphname = uniE06D;
+glyphname = upperSevenEighthsBlock;
 layers = (
 {
 background = {
@@ -226462,7 +227127,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57453;
+unicode = (57453,129926);
 userData = {
 com.typemytype.robofont.mark = (
 0.6,
@@ -226733,7 +227398,7 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-glyphname = uniE06F;
+glyphname = inverseCheckerBoardFill;
 layers = (
 {
 background = {
@@ -227591,7 +228256,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57455;
+unicode = (57455,129942);
 userData = {
 com.typemytype.robofont.mark = (
 0.6,
@@ -230211,7 +230876,7 @@ com.typemytype.robofont.mark = (
 },
 {
 color = 6;
-glyphname = uniE074;
+glyphname = upperThreeQuartersBlock;
 layers = (
 {
 background = {
@@ -230459,7 +231124,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57460;
+unicode = (57460,129925);
 userData = {
 com.typemytype.robofont.mark = (
 0.6,
@@ -233468,7 +234133,7 @@ com.typemytype.robofont.mark = (
 },
 {
 color = 6;
-glyphname = uniE07B;
+glyphname = upperFiveEighthsBlock;
 layers = (
 {
 background = {
@@ -233716,7 +234381,7 @@ com.hugojourdan.ColorFlow = {
 width = 1024;
 }
 );
-unicode = 57467;
+unicode = (57467,129924);
 userData = {
 com.typemytype.robofont.mark = (
 0.6,
@@ -266886,5 +267551,5 @@ zero = None;
 "com.hugojourdan.ColorFlow-selectedLayer-data" = "<null>";
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 3;
 }

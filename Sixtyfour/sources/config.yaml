@@ -14,48 +14,49 @@ reverseOutlineDirection: false
 removeOutlineOverlaps: false
 stat:
   Sixtyfour[BLED,SCAN].ttf:
-  - name: Scanlines
-    tag: SCAN
-    values:
-    - name: Delicate
-      value: -53
-    - name: Slight
-      value: -45
-    - name: Evenly
-      value: -27            
-    - name: Close
-      value: 0
-      # flags: 2
-    - name: Touching
-      value: 21
-    - name: Overlapping
-      value: 37
-    - name: Overexposed
-      value: 67
-    - name: Maximum
-      value: 100
-  - name: Bleed
-    tag: BLED
-    values:
-    - name: Default
-      value: 0
-      flags: 2
-    - name: Moderate
-      value: 40
-    - name: Strong
-      value: 100
+    - name: Scanlines
+      tag: SCAN
+      values:
+        - name: Delicate
+          value: -53
+        - name: Slight
+          value: -45
+        - name: Evenly
+          value: -27
+        - name: Close
+          value: 0
+          # flags: 2
+        - name: Touching
+          value: 21
+        - name: Overlapping
+          value: 37
+        - name: Overexposed
+          value: 67
+        - name: Maximum
+          value: 100
+    - name: Bleed
+      tag: BLED
+      values:
+        - name: Default
+          value: 0
+          flags: 2
+        - name: Moderate
+          value: 40
+        - name: Strong
+          value: 100
 recipeProvider: googlefonts
 recipe:
   ../fonts/variable/SixtyfourConvergence[BLED,SCAN,XELA,YELA].ttf:
-  - source: Sixtyfour.glyphs
-  - fontmake_args: --filter  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
-      --keep-overlaps
-    operation: buildVariable
-  - fixargs: ''
-    operation: fix
-  - operation: paintcompiler
-    args: --add-axis "XELA:-100:0:100:Horizontal Element Alignment" --add-axis "YELA:-100:0:100:Vertical Element Alignment"
-  - operation: rename
-    name: Sixtyfour Convergence
-  - operation: buildStat
-    args: --src stat.yaml
+    - source: Sixtyfour.glyphs
+    - fontmake_args:
+        --filter  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+        --keep-overlaps
+      operation: buildVariable
+    - fixargs: ""
+      operation: fix
+    - operation: paintcompiler
+      args: --add-axis "XELA:-100:0:100:Horizontal Element Alignment" --add-axis "YELA:-100:0:100:Vertical Element Alignment"
+    - operation: rename
+      name: Sixtyfour Convergence
+    - operation: buildStat
+      args: --src stat.yaml
