@@ -1950,6 +1950,7 @@ name = "Variable Font Origin";
 value = "732E3B19-9B57-4E18-B329-A7AEC5A36DAC";
 }
 );
+exports = 0;
 name = Regular;
 type = variable;
 }
