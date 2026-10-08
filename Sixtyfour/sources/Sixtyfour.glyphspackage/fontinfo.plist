@@ -1354,7 +1354,7 @@ Location = 0;
 },
 {
 Axis = "Element Expansion";
-Location = 0;
+Location = 100;
 }
 );
 }
@@ -2575,6 +2575,7 @@ name = "Variable Font Origin";
 value = "25C8AE42-141C-4C1D-BAEB-DC5DA73335AB";
 }
 );
+exports = 0;
 name = Regular;
 type = variable;
 }
