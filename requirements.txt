@@ -33,7 +33,7 @@ blackrenderer[skia]==0.8.2
     #   drawbot-skia
 booleanoperations==0.10.0
     # via ufo2ft
-brotli==1.2.0
+brotli==1.2.1
     # via gftools
 bump2version==1.0.1
     # via bumpfontversion
