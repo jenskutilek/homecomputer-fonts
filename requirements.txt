@@ -41,7 +41,7 @@ bumpfontversion==0.4.1
     # via -r requirements.in
 cattrs==26.2.1
     # via ufolib2
-certifi==2026.7.22
+certifi==2026.10.18
     # via
     #   requests
     #   selenium
